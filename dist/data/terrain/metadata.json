@@ -1,0 +1,790 @@
+{
+  "title": "Relieve regional real de Madrid y entorno — IGN MDT05 remuestreado para portada",
+  "provider": "Instituto Geográfico Nacional / Sistema Cartográfico Nacional",
+  "downloaded_at": "2026-10-27",
+  "source": {
+    "service_url": "https://servicios.idee.es/wcs-inspire/mdt",
+    "coverage_id": "Elevacion4258_5",
+    "get_capabilities_url": "https://servicios.idee.es/wcs-inspire/mdt?service=WCS&request=GetCapabilities&version=2.0.1",
+    "describe_coverage_url": "https://servicios.idee.es/wcs-inspire/mdt?service=WCS&request=DescribeCoverage&version=2.0.1&coverageId=Elevacion4258_5",
+    "get_coverage_url": "https://servicios.idee.es/wcs-inspire/mdt?service=WCS&request=GetCoverage&version=2.0.1&coverageId=Elevacion4258_5&subset=long%28-4.9%2C-2.75%29&subset=lat%2839.65%2C41.45%29&scaleSize=long%281024%29%2Clat%281024%29&format=image%2Ftiff&outputCRS=http%3A%2F%2Fwww.opengis.net%2Fdef%2Fcrs%2FEPSG%2F0%2F4326",
+    "request_parameters": {
+      "service": "WCS",
+      "request": "GetCoverage",
+      "version": "2.0.1",
+      "coverageId": "Elevacion4258_5",
+      "subset": [
+        "long(-4.9,-2.75)",
+        "lat(39.65,41.45)"
+      ],
+      "scaleSize": "long(1024),lat(1024)",
+      "format": "image/tiff",
+      "outputCRS": "http://www.opengis.net/def/crs/EPSG/0/4326"
+    },
+    "service_metadata_url": "https://www.idee.es/csw-inspire-idee/srv/spa/csw?Service=CSW&Request=GetRecordById&Version=2.0.2&outputSchema=http://www.isotc211.org/2005/gmd&elementSetName=full&id=spaignwcs_mdt",
+    "official_catalogue_url": "https://datos.gob.es/es/catalogo/e0dat0002-wcs-de-modelos-digitales-del-terreno-de-espana1",
+    "official_mdt05_product_url": "https://centrodedescargas.cnig.es/CentroDescargas/modelo-digital-terreno-mdt05-primera-cobertura",
+    "original_source_grid_spacing_m": 5,
+    "original_sampling_note": "Coverage identifier names the MDT05 source. This regional output is substantially downsampled and must not be described as a 5 m delivered mesh.",
+    "acquisition_dates": "Not determined for each contributing LiDAR flight; no single acquisition year asserted."
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "CC BY 4.0 scne.es",
+    "service_access_constraints": "CC BY 4.0 scne.es",
+    "required_visible_credit": "Relieve: IGN / SCNE · MDT05 remuestreado · CC BY 4.0 scne.es"
+  },
+  "crs": {
+    "source_coverage": "ETRS89 geographic / EPSG:4258 (coverage identifier)",
+    "delivered_geotiff": "WGS 84 geographic / EPSG:4326, confirmed by GeoTIFF key 2048",
+    "axis_order": "longitude, latitude",
+    "local_reprojection": "None; output EPSG:4326 requested from WCS. No local datum shift applied.",
+    "height_type": "Orthometric terrain elevations in metres, according to the official MDT05 product description.",
+    "vertical_datum_detail": "No more specific vertical CRS/epoch is asserted from this WCS response; the response does not encode a vertical GeoTIFF key."
+  },
+  "grid": {
+    "file": "madrid-1024.f32",
+    "format": "IEEE754 Float32 little-endian, headerless, row-major",
+    "width": 1024,
+    "height": 1024,
+    "bbox": [
+      -4.9,
+      39.64999999999999,
+      -2.7499999999999996,
+      41.449999999999996
+    ],
+    "bbox_order": "west,south,east,north",
+    "pixel_is_area": true,
+    "origin": "north-west outer pixel corner",
+    "west": -4.9,
+    "north": 41.449999999999996,
+    "pixel_size_longitude_degrees": 0.0020996093750000008,
+    "pixel_size_latitude_degrees": 0.0017578125000000013,
+    "row_direction": "north to south",
+    "column_direction": "west to east",
+    "pixel_center_formula": {
+      "longitude": "west + (column + 0.5) * pixel_size_longitude_degrees",
+      "latitude": "north - (row + 0.5) * pixel_size_latitude_degrees"
+    },
+    "sample_index_formula": {
+      "column": "(longitude - west) / pixel_size_longitude_degrees - 0.5",
+      "row": "(north - latitude) / pixel_size_latitude_degrees - 0.5",
+      "byte_offset": "4 * (rowInteger * width + columnInteger)"
+    },
+    "approximate_spacing_m_at_centre": [
+      177.59602423961158,
+      195.67968750000014
+    ],
+    "no_data_value": null,
+    "outside_bbox_policy": "Return null / no sample. Do not extrapolate or wrap to fill areas outside this rectangle.",
+    "min_height_m": 354.0,
+    "max_height_m": 2407.0,
+    "all_cells_valid_in_this_crop": true
+  },
+  "processing": {
+    "server_scaling": "WCS scaleSize=long(1024),lat(1024)",
+    "interpolation": "No interpolationMethod override sent; WCS server default. Exact server resampling kernel not asserted.",
+    "server_geotiff_sample_type": "Signed Int16 (GeoTIFF BitsPerSample=16, SampleFormat=2)",
+    "value_quantisation_in_response_m": 1,
+    "float32_conversion": "Exact cast of the received integer elevation values; no value modification, smoothing, gap filling, clipping or added relief.",
+    "visual_exaggeration_applied_to_data": false,
+    "vertical_scale_factor": 1,
+    "describe_coverage_unit_caveat": "The DescribeCoverage range uom is a generic radiation unit inconsistent with MDT terrain metadata. Heights are interpreted using the official MDT05 product definition, not that malformed unit field."
+  },
+  "validation": {
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "geo_keys_verified": true,
+    "bbox_from_geotiff_tags_verified": true,
+    "all_values_finite": true,
+    "zero_cells": 0,
+    "minus9999_cells": 0,
+    "value_range_plausible_for_region": true,
+    "float32_values_equal_to_wcs_geotiff": true,
+    "independent_survey_validation": false,
+    "all_terrarium_tiles_decode_as_256px_rgba": true,
+    "terrarium_roundtrip_max_error_m": 0.0019531242501216184
+  },
+  "files": [
+    {
+      "file": "madrid-1024.f32",
+      "bytes": 4194304,
+      "sha256": "c9e266f1b93d75806ca533140063918127daea700a1f018d78dc51bf73995d34"
+    },
+    {
+      "file": "madrid-mdt05-regional.tif",
+      "bytes": 2099618,
+      "sha256": "af95aec4cd968b046a8e40ba5a2fa2c160c074bc360e5d08875178064cd4e025"
+    }
+  ],
+  "terrarium_tiles": {
+    "url_template": "data/terrain/tiles/{z}/{x}/{y}.png",
+    "tile_scheme": "XYZ Web Mercator / Slippy map",
+    "tile_size": 256,
+    "encoding": "terrarium",
+    "minzoom": 6,
+    "maxzoom": 10,
+    "bounds": [
+      -4.9,
+      39.64999999999999,
+      -2.7499999999999996,
+      41.449999999999996
+    ],
+    "height_decode": "height_m = red*256 + green + blue/256 - 32768",
+    "resampling": "For each XYZ pixel centre, invert spherical Mercator to longitude/latitude, then bilinearly sample the original 1024x1024 WCS grid using its geographic pixel-centre coordinates.",
+    "outside_bounds_alpha": 255,
+    "partial_tile_edge_padding": "For pixels outside the exact crop bbox, RGB contains the nearest edge height extruded only as technical padding; alpha stays 255 so browser premultiplication cannot erase RGB and create false -32768 m cliffs. These padded values are NOT real terrain coverage. Nodata is declared externally by the exact bounds, not by transparent pixels. Source bounds and camera must remain within the actual crop; sampling outside the bbox must return null.",
+    "inside_half_pixel_border": "The narrow strip between the source pixel edge and its centre uses the nearest source sample, without extending declared coverage.",
+    "tile_count": 80,
+    "total_png_bytes": 7589737,
+    "outside_bbox_pixels_with_technical_edge_padding": 1644067,
+    "maximum_terrarium_encode_error_m": 0.0019531242501216184,
+    "effective_source_sampling": "Approximately 178 x 196 m at regional centre. Tile encoding and zoom levels do not add source resolution.",
+    "visual_exaggeration_applied_to_heights": false,
+    "tiles": [
+      {
+        "z": 6,
+        "x": 31,
+        "y": 23,
+        "bytes": 8774,
+        "inside_bbox_pixels": 2744,
+        "outside_bbox_pixels": 62792
+      },
+      {
+        "z": 6,
+        "x": 31,
+        "y": 24,
+        "bytes": 22336,
+        "inside_bbox_pixels": 7742,
+        "outside_bbox_pixels": 57794
+      },
+      {
+        "z": 7,
+        "x": 62,
+        "y": 47,
+        "bytes": 28910,
+        "inside_bbox_pixels": 10830,
+        "outside_bbox_pixels": 54706
+      },
+      {
+        "z": 7,
+        "x": 62,
+        "y": 48,
+        "bytes": 77065,
+        "inside_bbox_pixels": 30210,
+        "outside_bbox_pixels": 35326
+      },
+      {
+        "z": 7,
+        "x": 63,
+        "y": 47,
+        "bytes": 2099,
+        "inside_bbox_pixels": 342,
+        "outside_bbox_pixels": 65194
+      },
+      {
+        "z": 7,
+        "x": 63,
+        "y": 48,
+        "bytes": 4175,
+        "inside_bbox_pixels": 954,
+        "outside_bbox_pixels": 64582
+      },
+      {
+        "z": 8,
+        "x": 124,
+        "y": 95,
+        "bytes": 32896,
+        "inside_bbox_pixels": 14136,
+        "outside_bbox_pixels": 51400
+      },
+      {
+        "z": 8,
+        "x": 124,
+        "y": 96,
+        "bytes": 79740,
+        "inside_bbox_pixels": 31744,
+        "outside_bbox_pixels": 33792
+      },
+      {
+        "z": 8,
+        "x": 124,
+        "y": 97,
+        "bytes": 20110,
+        "inside_bbox_pixels": 7688,
+        "outside_bbox_pixels": 57848
+      },
+      {
+        "z": 8,
+        "x": 125,
+        "y": 95,
+        "bytes": 73584,
+        "inside_bbox_pixels": 29184,
+        "outside_bbox_pixels": 36352
+      },
+      {
+        "z": 8,
+        "x": 125,
+        "y": 96,
+        "bytes": 155885,
+        "inside_bbox_pixels": 65536,
+        "outside_bbox_pixels": 0
+      },
+      {
+        "z": 8,
+        "x": 125,
+        "y": 97,
+        "bytes": 37095,
+        "inside_bbox_pixels": 15872,
+        "outside_bbox_pixels": 49664
+      },
+      {
+        "z": 8,
+        "x": 126,
+        "y": 95,
+        "bytes": 4828,
+        "inside_bbox_pixels": 1254,
+        "outside_bbox_pixels": 64282
+      },
+      {
+        "z": 8,
+        "x": 126,
+        "y": 96,
+        "bytes": 9233,
+        "inside_bbox_pixels": 2816,
+        "outside_bbox_pixels": 62720
+      },
+      {
+        "z": 8,
+        "x": 126,
+        "y": 97,
+        "bytes": 2872,
+        "inside_bbox_pixels": 682,
+        "outside_bbox_pixels": 64854
+      },
+      {
+        "z": 9,
+        "x": 249,
+        "y": 191,
+        "bytes": 111700,
+        "inside_bbox_pixels": 56544,
+        "outside_bbox_pixels": 8992
+      },
+      {
+        "z": 9,
+        "x": 249,
+        "y": 192,
+        "bytes": 143295,
+        "inside_bbox_pixels": 63488,
+        "outside_bbox_pixels": 2048
+      },
+      {
+        "z": 9,
+        "x": 249,
+        "y": 193,
+        "bytes": 146676,
+        "inside_bbox_pixels": 63488,
+        "outside_bbox_pixels": 2048
+      },
+      {
+        "z": 9,
+        "x": 249,
+        "y": 194,
+        "bytes": 70088,
+        "inside_bbox_pixels": 30504,
+        "outside_bbox_pixels": 35032
+      },
+      {
+        "z": 9,
+        "x": 250,
+        "y": 191,
+        "bytes": 129949,
+        "inside_bbox_pixels": 58368,
+        "outside_bbox_pixels": 7168
+      },
+      {
+        "z": 9,
+        "x": 250,
+        "y": 192,
+        "bytes": 152995,
+        "inside_bbox_pixels": 65536,
+        "outside_bbox_pixels": 0
+      },
+      {
+        "z": 9,
+        "x": 250,
+        "y": 193,
+        "bytes": 139539,
+        "inside_bbox_pixels": 65536,
+        "outside_bbox_pixels": 0
+      },
+      {
+        "z": 9,
+        "x": 250,
+        "y": 194,
+        "bytes": 68750,
+        "inside_bbox_pixels": 31488,
+        "outside_bbox_pixels": 34048
+      },
+      {
+        "z": 9,
+        "x": 251,
+        "y": 191,
+        "bytes": 140601,
+        "inside_bbox_pixels": 58368,
+        "outside_bbox_pixels": 7168
+      },
+      {
+        "z": 9,
+        "x": 251,
+        "y": 192,
+        "bytes": 148986,
+        "inside_bbox_pixels": 65536,
+        "outside_bbox_pixels": 0
+      },
+      {
+        "z": 9,
+        "x": 251,
+        "y": 193,
+        "bytes": 146626,
+        "inside_bbox_pixels": 65536,
+        "outside_bbox_pixels": 0
+      },
+      {
+        "z": 9,
+        "x": 251,
+        "y": 194,
+        "bytes": 66459,
+        "inside_bbox_pixels": 31488,
+        "outside_bbox_pixels": 34048
+      },
+      {
+        "z": 9,
+        "x": 252,
+        "y": 191,
+        "bytes": 14369,
+        "inside_bbox_pixels": 5244,
+        "outside_bbox_pixels": 60292
+      },
+      {
+        "z": 9,
+        "x": 252,
+        "y": 192,
+        "bytes": 15727,
+        "inside_bbox_pixels": 5888,
+        "outside_bbox_pixels": 59648
+      },
+      {
+        "z": 9,
+        "x": 252,
+        "y": 193,
+        "bytes": 15504,
+        "inside_bbox_pixels": 5888,
+        "outside_bbox_pixels": 59648
+      },
+      {
+        "z": 9,
+        "x": 252,
+        "y": 194,
+        "bytes": 7895,
+        "inside_bbox_pixels": 2829,
+        "outside_bbox_pixels": 62707
+      },
+      {
+        "z": 10,
+        "x": 498,
+        "y": 382,
+        "bytes": 82692,
+        "inside_bbox_pixels": 47760,
+        "outside_bbox_pixels": 17776
+      },
+      {
+        "z": 10,
+        "x": 498,
+        "y": 383,
+        "bytes": 105716,
+        "inside_bbox_pixels": 61440,
+        "outside_bbox_pixels": 4096
+      },
+      {
+        "z": 10,
+        "x": 498,
+        "y": 384,
+        "bytes": 112580,
+        "inside_bbox_pixels": 61440,
+        "outside_bbox_pixels": 4096
+      },
+      {
+        "z": 10,
+        "x": 498,
+        "y": 385,
+        "bytes": 130869,
+        "inside_bbox_pixels": 61440,
+        "outside_bbox_pixels": 4096
+      },
+      {
+        "z": 10,
+        "x": 498,
+        "y": 386,
+        "bytes": 140043,
+        "inside_bbox_pixels": 61440,
+        "outside_bbox_pixels": 4096
+      },
+      {
+        "z": 10,
+        "x": 498,
+        "y": 387,
+        "bytes": 125575,
+        "inside_bbox_pixels": 61440,
+        "outside_bbox_pixels": 4096
+      },
+      {
+        "z": 10,
+        "x": 498,
+        "y": 388,
+        "bytes": 122911,
+        "inside_bbox_pixels": 59040,
+        "outside_bbox_pixels": 6496
+      },
+      {
+        "z": 10,
+        "x": 499,
+        "y": 382,
+        "bytes": 80927,
+        "inside_bbox_pixels": 50944,
+        "outside_bbox_pixels": 14592
+      },
+      {
+        "z": 10,
+        "x": 499,
+        "y": 383,
+        "bytes": 117259,
+        "inside_bbox_pixels": 65536,
+        "outside_bbox_pixels": 0
+      },
+      {
+        "z": 10,
+        "x": 499,
+        "y": 384,
+        "bytes": 131299,
+        "inside_bbox_pixels": 65536,
+        "outside_bbox_pixels": 0
+      },
+      {
+        "z": 10,
+        "x": 499,
+        "y": 385,
+        "bytes": 145378,
+        "inside_bbox_pixels": 65536,
+        "outside_bbox_pixels": 0
+      },
+      {
+        "z": 10,
+        "x": 499,
+        "y": 386,
+        "bytes": 144132,
+        "inside_bbox_pixels": 65536,
+        "outside_bbox_pixels": 0
+      },
+      {
+        "z": 10,
+        "x": 499,
+        "y": 387,
+        "bytes": 127863,
+        "inside_bbox_pixels": 65536,
+        "outside_bbox_pixels": 0
+      },
+      {
+        "z": 10,
+        "x": 499,
+        "y": 388,
+        "bytes": 127588,
+        "inside_bbox_pixels": 62976,
+        "outside_bbox_pixels": 2560
+      },
+      {
+        "z": 10,
+        "x": 500,
+        "y": 382,
+        "bytes": 91561,
+        "inside_bbox_pixels": 50944,
+        "outside_bbox_pixels": 14592
+      },
+      {
+        "z": 10,
+        "x": 500,
+        "y": 383,
+        "bytes": 126270,
+        "inside_bbox_pixels": 65536,
+        "outside_bbox_pixels": 0
+      },
+      {
+        "z": 10,
+        "x": 500,
+        "y": 384,
+        "bytes": 148798,
+        "inside_bbox_pixels": 65536,
+        "outside_bbox_pixels": 0
+      },
+      {
+        "z": 10,
+        "x": 500,
+        "y": 385,
+        "bytes": 139271,
+        "inside_bbox_pixels": 65536,
+        "outside_bbox_pixels": 0
+      },
+      {
+        "z": 10,
+        "x": 500,
+        "y": 386,
+        "bytes": 131906,
+        "inside_bbox_pixels": 65536,
+        "outside_bbox_pixels": 0
+      },
+      {
+        "z": 10,
+        "x": 500,
+        "y": 387,
+        "bytes": 125624,
+        "inside_bbox_pixels": 65536,
+        "outside_bbox_pixels": 0
+      },
+      {
+        "z": 10,
+        "x": 500,
+        "y": 388,
+        "bytes": 124906,
+        "inside_bbox_pixels": 62976,
+        "outside_bbox_pixels": 2560
+      },
+      {
+        "z": 10,
+        "x": 501,
+        "y": 382,
+        "bytes": 105727,
+        "inside_bbox_pixels": 50944,
+        "outside_bbox_pixels": 14592
+      },
+      {
+        "z": 10,
+        "x": 501,
+        "y": 383,
+        "bytes": 144941,
+        "inside_bbox_pixels": 65536,
+        "outside_bbox_pixels": 0
+      },
+      {
+        "z": 10,
+        "x": 501,
+        "y": 384,
+        "bytes": 143624,
+        "inside_bbox_pixels": 65536,
+        "outside_bbox_pixels": 0
+      },
+      {
+        "z": 10,
+        "x": 501,
+        "y": 385,
+        "bytes": 131747,
+        "inside_bbox_pixels": 65536,
+        "outside_bbox_pixels": 0
+      },
+      {
+        "z": 10,
+        "x": 501,
+        "y": 386,
+        "bytes": 125319,
+        "inside_bbox_pixels": 65536,
+        "outside_bbox_pixels": 0
+      },
+      {
+        "z": 10,
+        "x": 501,
+        "y": 387,
+        "bytes": 126717,
+        "inside_bbox_pixels": 65536,
+        "outside_bbox_pixels": 0
+      },
+      {
+        "z": 10,
+        "x": 501,
+        "y": 388,
+        "bytes": 121852,
+        "inside_bbox_pixels": 62976,
+        "outside_bbox_pixels": 2560
+      },
+      {
+        "z": 10,
+        "x": 502,
+        "y": 382,
+        "bytes": 108220,
+        "inside_bbox_pixels": 50944,
+        "outside_bbox_pixels": 14592
+      },
+      {
+        "z": 10,
+        "x": 502,
+        "y": 383,
+        "bytes": 154469,
+        "inside_bbox_pixels": 65536,
+        "outside_bbox_pixels": 0
+      },
+      {
+        "z": 10,
+        "x": 502,
+        "y": 384,
+        "bytes": 139966,
+        "inside_bbox_pixels": 65536,
+        "outside_bbox_pixels": 0
+      },
+      {
+        "z": 10,
+        "x": 502,
+        "y": 385,
+        "bytes": 129010,
+        "inside_bbox_pixels": 65536,
+        "outside_bbox_pixels": 0
+      },
+      {
+        "z": 10,
+        "x": 502,
+        "y": 386,
+        "bytes": 135530,
+        "inside_bbox_pixels": 65536,
+        "outside_bbox_pixels": 0
+      },
+      {
+        "z": 10,
+        "x": 502,
+        "y": 387,
+        "bytes": 130395,
+        "inside_bbox_pixels": 65536,
+        "outside_bbox_pixels": 0
+      },
+      {
+        "z": 10,
+        "x": 502,
+        "y": 388,
+        "bytes": 114774,
+        "inside_bbox_pixels": 62976,
+        "outside_bbox_pixels": 2560
+      },
+      {
+        "z": 10,
+        "x": 503,
+        "y": 382,
+        "bytes": 109607,
+        "inside_bbox_pixels": 50944,
+        "outside_bbox_pixels": 14592
+      },
+      {
+        "z": 10,
+        "x": 503,
+        "y": 383,
+        "bytes": 145650,
+        "inside_bbox_pixels": 65536,
+        "outside_bbox_pixels": 0
+      },
+      {
+        "z": 10,
+        "x": 503,
+        "y": 384,
+        "bytes": 138267,
+        "inside_bbox_pixels": 65536,
+        "outside_bbox_pixels": 0
+      },
+      {
+        "z": 10,
+        "x": 503,
+        "y": 385,
+        "bytes": 141591,
+        "inside_bbox_pixels": 65536,
+        "outside_bbox_pixels": 0
+      },
+      {
+        "z": 10,
+        "x": 503,
+        "y": 386,
+        "bytes": 140776,
+        "inside_bbox_pixels": 65536,
+        "outside_bbox_pixels": 0
+      },
+      {
+        "z": 10,
+        "x": 503,
+        "y": 387,
+        "bytes": 132735,
+        "inside_bbox_pixels": 65536,
+        "outside_bbox_pixels": 0
+      },
+      {
+        "z": 10,
+        "x": 503,
+        "y": 388,
+        "bytes": 118069,
+        "inside_bbox_pixels": 62976,
+        "outside_bbox_pixels": 2560
+      },
+      {
+        "z": 10,
+        "x": 504,
+        "y": 382,
+        "bytes": 22168,
+        "inside_bbox_pixels": 9154,
+        "outside_bbox_pixels": 56382
+      },
+      {
+        "z": 10,
+        "x": 504,
+        "y": 383,
+        "bytes": 29165,
+        "inside_bbox_pixels": 11776,
+        "outside_bbox_pixels": 53760
+      },
+      {
+        "z": 10,
+        "x": 504,
+        "y": 384,
+        "bytes": 27840,
+        "inside_bbox_pixels": 11776,
+        "outside_bbox_pixels": 53760
+      },
+      {
+        "z": 10,
+        "x": 504,
+        "y": 385,
+        "bytes": 28478,
+        "inside_bbox_pixels": 11776,
+        "outside_bbox_pixels": 53760
+      },
+      {
+        "z": 10,
+        "x": 504,
+        "y": 386,
+        "bytes": 28444,
+        "inside_bbox_pixels": 11776,
+        "outside_bbox_pixels": 53760
+      },
+      {
+        "z": 10,
+        "x": 504,
+        "y": 387,
+        "bytes": 27040,
+        "inside_bbox_pixels": 11776,
+        "outside_bbox_pixels": 53760
+      },
+      {
+        "z": 10,
+        "x": 504,
+        "y": 388,
+        "bytes": 25687,
+        "inside_bbox_pixels": 11316,
+        "outside_bbox_pixels": 54220
+      }
+    ]
+  }
+}

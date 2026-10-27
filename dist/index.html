@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#101e1b"><meta name="description" content="Descubre la naturaleza de Madrid y sus comunidades vecinas. Un atlas interactivo con relieve 3D, rutas oficiales, fauna y flora.">
+  <title>Dr Nature wiki — Atlas de naturaleza</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" as="image" href="assets/landscape/guadarrama-official-poster.jpg">
+  <link rel="stylesheet" href="assets/vendor/maplibre-gl.css"><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="explorer.css"><link rel="stylesheet" href="album.css"><link rel="stylesheet" href="journey.css">
+  <script src="assets/vendor/lucide.min.js" defer></script><script type="module" src="bootstrap.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido / Skip to content</a>
+  <div id="site-journey">
+    <section class="story-intro" id="intro" aria-labelledby="intro-name">
+      <div class="intro-sticky">
+        <canvas id="intro-terrain" aria-hidden="true"></canvas>
+        <div class="intro-topline"><span data-story-key="atlasLabel">ATLAS DE NATURALEZA</span><span>40.835° N / 3.980° W</span></div>
+        <div class="intro-wordmark"><svg class="intro-mark" viewBox="0 0 48 36" aria-hidden="true"><path d="M2 32 14 13l6 9-7 10H2Zm15 0L33 5l15 27H36l-5-8-5 8h-9Z"/></svg><h1 id="intro-name">Dr Nature<span>wiki</span></h1><p data-story-key="introLine">Relieve. Caminos. Vida natural.</p></div>
+        <a class="intro-scroll" href="#atlas"><span data-story-key="scrollEnter">Desliza para entrar</span><i data-lucide="arrow-down"></i></a>
+        <div class="intro-bottomline"><span>Madrid · Castilla y León · Castilla-La Mancha</span><span data-story-key="independent">Un atlas independiente</span></div>
+      </div>
+    </section>
+    <section class="story-atlas" id="atlas" aria-label="Portada y mapa"><div class="atlas-shell">
+  <header class="header">
+    <button disabled data-init class="brand" data-action="home" aria-label="Dr Nature wiki — Inicio"><span class="brand-symbol"><svg viewBox="0 0 48 36" fill="currentColor" stroke="none" aria-hidden="true"><path d="M2 32 14 13l6 9-7 10H2Zm15 0L33 5l15 27H36l-5-8-5 8h-9Z"/></svg></span><span>Dr Nature<span class="wiki">wiki</span></span></button>
+    <div class="header-search" role="search"><i data-lucide="search"></i><input id="global-search" disabled type="search" autocomplete="off" aria-label="Buscar lugares, rutas o especies" aria-controls="global-results" aria-expanded="false" placeholder="Busca un lugar, montaña, río, especie…"><div class="global-results" id="global-results" hidden></div></div>
+    <nav class="nav" aria-label="Principal"><button disabled data-init class="active" data-nav="explore" data-action="explore" data-i18n="mapNav">Mapa</button><button disabled data-init data-nav="atlas" data-action="atlas" data-i18n="natureNav">Naturaleza</button><button disabled data-init data-nav="relief" data-action="layers" data-i18n="reliefNav">Relieve</button><button disabled data-init data-nav="routes" data-action="routes" data-i18n="routes">Rutas</button></nav>
+    <div class="header-actions"><button disabled data-init class="icon-button menu-toggle" data-action="menu" aria-label="Abrir menú" aria-expanded="false" aria-controls="site-menu"><i data-lucide="menu"></i></button></div>
+    <div id="site-menu" class="site-menu glass" hidden></div>
+  </header>
+  <main id="main" data-map-mode="landscape">
+    <div id="map" hidden aria-label="Mapa interactivo tridimensional de la sierra de Guadarrama"></div>
+    <div id="landscape" role="region" aria-label="Paisaje ilustrado de Guadarrama. Arrastra para recorrer, usa más y menos para acercarte, Inicio para volver.">
+      <div class="landscape-world"><img class="landscape-image" src="assets/landscape/guadarrama-official-poster.jpg" width="1672" height="941" alt="Vista de Madrid renderizada con elevaciones, ortofoto y límites oficiales del IGN" fetchpriority="high" draggable="false">
+
+      </div>
+    </div>
+    <div id="cinematic-cover" aria-label="Portada geográfica tridimensional con datos oficiales IGN"></div>
+    <div class="map-shade"></div>
+    <div class="scene-location"><span>01 /</span><b data-i18n="sceneTitle">Sierra de Guadarrama</b><span data-i18n="sceneRegion">Madrid y su entorno</span></div>
+    <div id="map-error" class="map-error" hidden><i data-lucide="wifi-off"></i><h2 data-i18n="mapUnavailable">No se ha podido cargar el mapa</h2><p data-i18n="mapUnavailableText">Comprueba tu conexión y el soporte WebGL de tu navegador. Las fichas siguen disponibles.</p><button disabled data-init data-action="reload" class="button" data-i18n="retry">Reintentar</button></div>
+    <section class="map-topbar" aria-label="Capas de exploración">
+      <div class="category-switch" id="category-switch"></div>
+      <button disabled data-init class="filters-button" data-action="filters"><i data-lucide="sliders-horizontal"></i><span data-i18n="filters">Filtros</span><span id="active-filters" hidden></span></button>
+    </section>
+    <section class="hero" id="hero">
+      <div class="eyebrow"><span class="live-dot"></span><span data-i18n="eyebrow">TU ATLAS DE NATURALEZA</span></div>
+      <h2 class="hero-title" data-i18n="heroTitle">Hay otro mundo.<br><em>Está aquí cerca.</em></h2>
+      <p class="hero-copy" data-i18n="heroText">Adéntrate en la naturaleza de Madrid y sus comunidades vecinas. Descubre el paisaje y la vida que esconde.</p>
+      <button disabled data-init class="button primary" data-action="explore"><i data-lucide="compass"></i><span data-i18n="start">Empezar a explorar</span><i data-lucide="arrow-up-right"></i></button>
+      <button disabled data-init class="hero-secondary" data-action="real-map" data-i18n="openReal">Abrir el mapa real →</button>
+      <div class="hero-region"><span class="region-line"></span><span data-i18n="regions">Madrid · Castilla y León · Castilla-La Mancha</span></div>
+      <div class="hero-note"><i data-lucide="mouse-pointer-2"></i><span data-i18n="heroHint">El paisaje es el mapa. Arrastra, gira y acércate.</span></div>
+    </section>
+    <aside id="sidebar" class="sidebar glass" hidden aria-label="Buscar y filtrar lugares"></aside>
+    <section id="featured" class="featured">
+      <div class="section-top"><span><i data-lucide="sparkles"></i><span data-i18n="discoverToday">Un lugar para perder la noción del tiempo</span></span><button disabled data-init data-action="explore"><span data-i18n="seeAll">Ver lugares</span><i data-lucide="arrow-right"></i></button></div>
+      <div id="featured-cards" class="featured-cards"></div>
+    </section>
+    <div class="map-tools glass" aria-label="Controles del mapa"><button disabled data-init class="icon-button compass-icon" data-action="home-view" aria-label="Ver Madrid y su entorno" title="Ver Madrid y su entorno"><i data-lucide="navigation"></i></button><button disabled data-init class="icon-button" data-action="layers" aria-label="Relieve y capas" title="Relieve y capas"><i data-lucide="layers"></i></button><button disabled data-init class="icon-button" data-action="terrain" id="terrain-button" aria-label="Acercarse al relieve" title="Acercarse al relieve"><i data-lucide="mountain"></i></button><button disabled data-init class="icon-button" data-action="scene-forest" aria-label="Explorar bosques" title="Explorar bosques"><i data-lucide="tree-pine"></i></button><button disabled data-init class="icon-button" data-action="scene-water" aria-label="Explorar ríos y embalses" title="Explorar ríos y embalses"><i data-lucide="droplets"></i></button></div>
+    <div class="zoom-tools glass" aria-label="Zoom"><button disabled data-init data-action="zoom-in" aria-label="Acercar"><i data-lucide="plus"></i></button><button disabled data-init data-action="zoom-out" aria-label="Alejar"><i data-lucide="minus"></i></button></div>
+    <div id="layers-panel" class="layers-panel glass" hidden></div>
+    <div class="view-switch" aria-label="Vista del territorio"><button disabled data-init data-action="landscape-view" aria-pressed="true"><i data-lucide="mountain"></i><span data-i18n="landscapeView">Paisaje</span></button><button disabled data-init data-action="real-map" aria-pressed="false"><i data-lucide="map"></i><span data-i18n="realMap">Mapa real</span></button><a class="idem-link" href="https://idem.madrid.org/visor/3D/" target="_blank" rel="noopener noreferrer" aria-label="Abrir visor oficial IDEM en otra pestaña">IDEM<i data-lucide="arrow-up-right"></i></a></div>
+    <button disabled data-init class="scene-instruction" data-action="explore"><i data-lucide="mouse"></i><span data-i18n="sceneHint">Entra en el mapa real</span></button>
+    <div class="map-caption"><span class="live-dot"></span><span id="map-status" data-i18n="loadingTerrain">Cargando relieve real…</span><button disabled data-init data-action="about" aria-label="Fuentes y créditos"><i data-lucide="info"></i></button></div>
+    <div class="compass" id="compass"><button disabled data-init data-action="north" aria-label="Orientar al norte"><span>N</span><i data-lucide="navigation-2"></i></button></div>
+    <div class="tour-bar glass" id="tour-bar" hidden><span><i data-lucide="route"></i><span id="tour-title"></span></span><button disabled data-init data-action="stop-tour"><i data-lucide="square"></i><span data-i18n="stop">Detener</span></button></div>
+    <aside class="detail-panel glass" id="detail-panel" hidden aria-label="Ficha del lugar"></aside>
+    <div id="drawing-panel" class="drawing-panel glass" hidden></div>
+  </main>
+    </div></section>
+    <div class="story-content">
+      <section class="story-about story-section" id="descubrir" aria-labelledby="about-story-title">
+        <button disabled data-init class="story-photo wolf-photo" data-action="place" data-id="centro-lobo-iberico" aria-label="Centro del Lobo Ibérico: conocer el lugar y la visita guiada"><img src="assets/photos/centro-lobo-marco.webp" alt="Lobos en semilibertad en el Centro del Lobo Ibérico. Fotografía de Marco." loading="lazy"><span class="photo-caption"><small>FOTOGRAFÍA DE MARCO · ROBLEDO, ZAMORA</small><strong>Centro del Lobo Ibérico</strong><span>Lobos en semilibertad · Ver la visita <i data-lucide="arrow-up-right"></i></span></span></button>
+        <div class="story-copy" data-reveal><span class="story-kicker" data-story-key="aboutKicker">EL TERRITORIO, CON CONTEXTO</span><h2 id="about-story-title" data-story-key="aboutTitle">Empieza por un lugar.</h2><p data-story-key="aboutCopy">Una sierra, un bosque, una laguna. Dr Nature conecta el paisaje con sus rutas, el agua y las especies que forman parte de él.</p><p class="story-secondary" data-story-key="aboutMore">Madrid y sus dos comunidades vecinas, a través de una selección documentada. Cada ficha conserva sus fuentes.</p><div class="story-numbers"><div><strong>53</strong><span data-story-key="naturalPlaces">espacios naturales</span></div><div><strong>55</strong><span data-story-key="documentedTrails">rutas documentadas</span></div><div><strong>65</strong><span data-story-key="species">especies</span></div></div><button disabled data-init class="story-link" data-action="explore"><span data-story-key="seeTerritory">Ver el territorio</span><i data-lucide="arrow-up-right"></i></button></div>
+      </section>
+      <section class="story-method" id="como-funciona" aria-labelledby="method-title">
+        <div class="method-sticky"><div class="method-copy"><span class="story-kicker" data-story-key="methodKicker">CÓMO RECORRER EL ATLAS</span><h2 id="method-title" data-story-key="methodTitle">Del relieve<br>a tu próxima salida.</h2><ol class="method-steps"><li data-step="0" role="button" tabindex="0"><span>01</span><div><h3 data-story-key="step1Title">Mira el terreno</h3><p data-story-key="step1Copy">Gira, inclina y acércate al relieve real. Los límites se dibujan con datos oficiales del IGN.</p></div></li><li data-step="1" role="button" tabindex="0"><span>02</span><div><h3 data-story-key="step2Title">Lee la ruta</h3><p data-story-key="step2Copy">Consulta distancia, desnivel y dificultad publicada. Las rutas con GPX conservan el trazado original.</p></div></li><li data-step="2" role="button" tabindex="0"><span>03</span><div><h3 data-story-key="step3Title">Prepara tu salida</h3><p data-story-key="step3Copy">Guarda lugares en tu cuaderno. Revisa accesos, restricciones y fuentes antes de ir.</p></div></li></ol></div><div class="method-visual"><div class="method-map-frame"><div class="method-map-topline"><span>SIERRA DE GUADARRAMA</span><span>GPX OFICIAL</span></div><div id="story-real-map" aria-label="Demostración del relieve real y un GPX oficial"></div><div class="method-map-caption"><span>Cotos — Zona del Zabala</span><span>4,7 km · +279 m</span></div><div class="method-map-credit">PNOA / IGN · MDT IGN · GPX PNSG</div></div><button disabled data-init class="story-link" data-action="route" data-id="penalara-zabala"><span data-story-key="openThisTrail">Abrir esta ruta en el mapa</span><i data-lucide="arrow-up-right"></i></button></div></div>
+      </section>
+      <section class="story-life story-section" id="vida-natural" aria-labelledby="life-title"><div class="life-heading" data-reveal><span class="story-kicker" data-story-key="lifeKicker">MÁS ALLÁ DEL PAISAJE</span><h2 id="life-title" data-story-key="lifeTitle">También hay que<br>saber mirar.</h2><p data-story-key="lifeCopy">Rasgos, hábitats y el papel de cada especie. Un inventario documentado, sin promesas de avistamiento.</p></div><div class="life-gallery"><button disabled data-init class="life-item life-main" data-action="species" data-id="aguila-imperial" data-reveal><img src="assets/photos/aguila-imperial.jpg" alt="Águila imperial ibérica" loading="lazy"><span><small data-story-key="wildlife">FAUNA</small><strong data-story-key="eagle">Águila imperial ibérica</strong><em>Aquila adalberti</em><i data-lucide="arrow-up-right"></i></span></button><button disabled data-init class="life-item life-secondary" data-action="place" data-id="valle-jerte" data-reveal><img src="assets/photos/cerezos-valle-jerte-marco.webp" alt="Cerezos en flor en el Valle del Jerte, fotografía aportada por Marco" loading="lazy"><span><small data-story-key="plants">FLORA</small><strong data-story-key="oak">Cerezos en flor</strong><em>Valle del Jerte · Cáceres</em><i data-lucide="arrow-up-right"></i></span></button></div><button disabled data-init class="story-link life-atlas-link" data-action="atlas"><span data-story-key="meetSpecies">Abrir el atlas natural</span><i data-lucide="arrow-up-right"></i></button></section>
+      <section class="story-end story-section" aria-labelledby="end-title"><span class="story-kicker" data-story-key="endKicker">TU SIGUIENTE LUGAR</span><h2 id="end-title" data-story-key="endTitle">Elige por dónde empezar.</h2><button disabled data-init class="end-cta" data-action="explore"><span data-story-key="enterMap">Entrar en el mapa</span><i data-lucide="arrow-up-right"></i></button><p data-story-key="endCopy">Puedes explorar sin cuenta. Tu cuaderno se guarda en este navegador.</p><footer class="story-footer"><span>Dr Nature wiki · 2026</span><button disabled data-init data-action="about" data-story-key="sourcesCredits">Fuentes y créditos</button><a href="https://idem.madrid.org/visor/3D/" target="_blank" rel="noopener noreferrer">IDEM ↗</a><a href="#intro" data-story-key="backTop">Volver arriba ↑</a></footer></section>
+    </div>
+  </div>
+  <dialog id="modal" class="modal"><div id="modal-content"></div></dialog>
+  <input type="file" accept=".gpx,application/gpx+xml" id="gpx-input" hidden>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body></html>

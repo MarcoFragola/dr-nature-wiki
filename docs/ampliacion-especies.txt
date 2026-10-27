@@ -1,0 +1,77 @@
+INFORME DE INVESTIGACIÓN · Integrado en dist/data/catalogue.json. Los nombres de archivos de intercambio citados en este informe corresponden a la preparación y ya se retiraron. Fotografías añadidas y acreditadas en dist/data/attribution.json.
+
+AMPLIACIÓN DEL ATLAS DE BIODIVERSIDAD · 27 de octubre de 2026
+
+Archivo para integrar: catalogue-species-extension.json
+
+42 especies nuevas: 11 aves, 7 mamíferos, 4 reptiles, 4 anfibios,
+4 invertebrados, 6 plantas, 4 hongos y 2 líquenes. Con las 23 iniciales,
+el atlas alcanza 65 fichas. Hay 34 referencias nuevas, además de las ya
+incluidas en el catálogo original.
+
+Cada ficha contiene nombres ES/EN, taxón científico, resumen bilingüe,
+hábitats, rasgos orientativos, papel ecológico, consejos de observación,
+ámbito documental, referencias y fecha de consulta. No se ha editado
+el catálogo principal, la interfaz ni los registros de otros agentes.
+
+EVIDENCIA
+Se han consultado los inventarios oficiales de aves, mamíferos,
+anfibios, reptiles e invertebrados, así como vegetación, flora, hongos y
+líquenes del Parque Nacional de la Sierra de Guadarrama. Apoyan la
+presencia en el conjunto del parque y su zona periférica, con distinción
+expresa para las especies citadas solo en esta última. No se han
+deducido avistamientos ni presencia en cada punto del mapa.
+
+Para rasgos y ecología se consultaron 11 fichas de SEO/BirdLife, fichas
+del Museo Nacional de Ciencias Naturales/CSIC, botánica de las
+universidades de Málaga e Illes Balears y una ficha del OAPN/MITECO.
+Las URLs exactas están dentro del JSON, con checked_at=2026-10-27.
+Los textos son síntesis originales; los consejos de observación se
+marcan como elaboración editorial. No se incorporan categorías legales
+actuales ni estados UICN antiguos como si fueran vigentes.
+
+NOMENCLATURA
+La isabelina usa Actias isabellae siguiendo NCBI Taxonomy y su referencia
+filogenética de 2025. Se conservan los sinónimos Graellsia isabellae y
+Saturnia isabellae, junto con una nota de la discrepancia entre catálogos.
+Fuente: https://www.ncbi.nlm.nih.gov/taxonomy/63975
+
+INTEGRACIÓN
+- Fusionar sources y añadir species; no hay IDs ni taxones duplicados.
+- No hay enlaces automáticos lugar-especie: place_species_links está vacío.
+  La evidencia disponible tiene ámbito amplio, no de cada ruta o mirador.
+- Incorporar traducciones reptile: Reptil / Reptile.
+- Los hábitats usan las claves existentes; las nuevas fichas añaden habitats.
+- documented_area mantiene el tipo string de la versión original;
+  documented_area_en facilita mostrar el ámbito traducido en inglés.
+- Las 42 fotografías están pendientes. asset_map.species está vacío para
+  evitar ilustrar un taxón con una imagen de otra especie o sin licencia.
+  No se han creado modelos 3D ni coordenadas de nidos o refugios.
+
+COMPROBACIÓN LOCAL
+Se verificaron 42 IDs únicos, 42 taxones sin duplicados respecto a las
+23 fichas originales, referencias existentes para cada ficha, textos
+ES/EN completos y URL de fuente para todas las fichas. No se anuncian
+descargas masivas de observaciones ni actualización automática.
+
+ACTUALIZACIÓN DE FOTOGRAFÍAS · 27 de octubre de 2026
+Se descargaron e inspeccionaron visualmente 22 fotografías reales de
+las nuevas especies: 8 aves, 4 mamíferos, 4 reptiles, 3 plantas, 1 hongo,
+1 anfibio y 1 mariposa. Ocupan aproximadamente 7,1 MB. Están guardadas
+en web/dist/assets/photos con el identificador de su especie.
+
+Metadatos para integrar: catalogue-species-photos.json, con las claves
+assetMap.species, credits y verification. Los créditos conservan autor,
+licencia CC, URL de licencia, ficha Commons, URL original, descarga,
+descripción y fecha. Se consultó el artículo por taxón científico exacto,
+siguiendo redirecciones; solo se aceptaron medios libres de Commons.
+Se decodificaron los 22 archivos y se revisaron en una hoja de contacto.
+No se ha sobrescrito ningún archivo ni modificado el contenido de las fotos.
+
+Se descartaron las imágenes principales del níscalo y el gallipato porque
+los metadatos recuperados no identificaban al autor. Las 20 especies
+nuevas restantes siguen con fotografías pendientes; no se les asignó
+una fotografía distinta para completar huecos. Wikimedia respondió 429
+durante las primeras consultas individuales: se detuvieron esas peticiones
+y se completó la tarea con dos consultas de metadatos agrupadas y
+descargas espaciadas, sin eludir los límites del servicio.

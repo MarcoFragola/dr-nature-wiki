@@ -1,0 +1,44 @@
+{
+  "package": "maplibre-gl",
+  "version": "6.15.0",
+  "retrieved_at": "2026-10-27",
+  "source": "https://registry.npmjs.org/maplibre-gl/-/maplibre-gl-6.15.0.tgz",
+  "registry_metadata": "https://registry.npmjs.org/maplibre-gl/6.15.0",
+  "release": "https://github.com/maplibre/maplibre-gl-js/releases/tag/v6.15.0",
+  "license": "BSD-3-Clause",
+  "tarball_sha512": "93115eb5bbd41c33956803f50986f6dba31d936421cc83dd76a334c494c50f7e70bbbf0ca5de8d33bf87ebc00b8dce8e6b4900397e4401d30acaf0f6bb7a9f72",
+  "integrity": "sha512-kxFetbvUHDOVaAP1CYb226Mdk2QhzIPddqM0xJTFD35wu78Mpd6NM7+H68ALjc6Oa0kAOX5EAdMKyvD2u3qfcg==",
+  "tarball_integrity_verified": true,
+  "distribution_files": [
+    {
+      "file": "dist/maplibre-gl-shared.mjs",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "dist/maplibre-gl-worker.mjs",
+      "bytes": 518806,
+      "sha256": "1c69066368331aae63967ed24a9affcf962cf55fcc6d8f532a8b040f736dbcfa"
+    },
+    {
+      "file": "dist/maplibre-gl.css",
+      "bytes": 71596,
+      "sha256": "a90798a1953017790e590f7e1bd35ff103a8a4263972cb47290b78adf86f8c20"
+    },
+    {
+      "file": "dist/maplibre-gl.d.ts",
+      "bytes": 746446,
+      "sha256": "46e94606b42b71e19135fa6497d9e2eac27fd5977f1bbfd0d078cd7d3bee2345"
+    },
+    {
+      "file": "dist/maplibre-gl.mjs",
+      "bytes": 1098062,
+      "sha256": "41198b23679a7d8892183408bbef2eabdc74745beb90261f6be0f660b7aeb2fd"
+    }
+  ],
+  "shared_module_note": "Official v6.15.0 package contains empty shared module (0 bytes); main and worker do not import it. Do not generalize first v6 package topology to this release.",
+  "installed": true,
+  "production_files_changed": true,
+  "active_entry": "dist/assets/vendor/maplibre-gl.mjs",
+  "right_drag": "native linear movement for right-button samples only; left cursor = clockwise landscape, right cursor = counterclockwise"
+}

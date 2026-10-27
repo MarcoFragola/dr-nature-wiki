@@ -1,0 +1,230 @@
+{
+  "title": "Límites autonómicos oficiales: Comunidad de Madrid, Castilla y León y Castilla-La Mancha",
+  "provider": "Instituto Geográfico Nacional (IGN)",
+  "dataset": "Divisiones Administrativas de España / Base de Datos de Límites Jurisdiccionales de España (BDLJE)",
+  "downloaded_at": "2026-10-27",
+  "metadata_revision_date": "2026-02-23",
+  "individual_feature_revision_date": null,
+  "source": {
+    "reference_product_url": "https://centrodedescargas.cnig.es/CentroDescargas/limites-municipales-provinciales-autonomicos",
+    "service_url": "https://www.ign.es/wfs-inspire/unidades-administrativas",
+    "get_capabilities_url": "https://www.ign.es/wfs-inspire/unidades-administrativas?service=WFS&request=GetCapabilities&version=2.0.0",
+    "get_feature_url": "https://www.ign.es/wfs-inspire/unidades-administrativas?service=WFS&request=GetFeature&version=2.0.0&typeNames=au%3AAdministrativeUnit&count=3&outputFormat=application%2Fgeo%2Bjson&srsName=EPSG%3A4326&filter=%3Cfes%3AFilter+xmlns%3Afes%3D%22http%3A%2F%2Fwww.opengis.net%2Ffes%2F2.0%22+xmlns%3Aau%3D%22http%3A%2F%2Finspire.ec.europa.eu%2Fschemas%2Fau%2F4.0%22%3E%3Cfes%3AOr%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Eau%3AnationalCode%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3E34130000000%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Eau%3AnationalCode%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3E34070000000%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Eau%3AnationalCode%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3E34080000000%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3C%2Ffes%3AOr%3E%3C%2Ffes%3AFilter%3E",
+    "dataset_metadata_url": "https://www.idee.es/csw-inspire-idee/srv/spa/csw?SERVICE=CSW&VERSION=2.0.2&REQUEST=GetRecordById&outputSchema=http://www.isotc211.org/2005/gmd&ElementSetName=full&ID=spaignLLM",
+    "original_response_sha256": "4e5e2e16033db0061d976c1410827a2b45919ef9b3283eaa89e9402aa14336f8",
+    "original_response_format": "application/geo+json",
+    "feature_type": "au:AdministrativeUnit",
+    "administrative_level": "2ndOrder / Comunidad autónoma",
+    "selection": "Exact nationalCode values 34130000000, 34070000000, 34080000000, then verified against returned official names and hierarchy."
+  },
+  "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "BDLJE CC-BY 4.0 ign.es",
+    "service_access_constraints": "CC BY 4.0 ign.es",
+    "required_visible_credit": "Límites administrativos: IGN · BDLJE · CC BY 4.0 ign.es"
+  },
+  "coordinate_reference_system": {
+    "dataset_original": "ETRS89, EPSG:4258, geographic coordinates for the Spanish mainland; confirmed in the official dataset metadata and WFS default CRS.",
+    "requested_output": "EPSG:4326 / WGS 84",
+    "geojson_coordinate_order": "longitude, latitude, decimal degrees",
+    "local_transformation": "None. GeoJSON in EPSG:4326 was requested directly from the IGN WFS. The service performs its CRS handling; its transformation parameters are not exposed here.",
+    "vertical_coordinates": "None; these are 2D administrative polygons to be draped by the map engine over a separate terrain source."
+  },
+  "geometry_processing": {
+    "simplification": false,
+    "coordinate_rounding": false,
+    "ring_or_polygon_removal": false,
+    "geometry_preserved_exactly_from_ign_response": true,
+    "properties": "Official INSPIRE identifier, national code, name and hierarchy retained; unused nested relational properties omitted."
+  },
+  "resolution_and_limitations": {
+    "reference_scale_denominator": 25000,
+    "source_precision": "Official metadata describes heterogeneous origins, from decimetric to decametric precision; most historic limits are decametric and the general explanatory text cites uncertainty around 40 m.",
+    "display_limit": "A zoomed screen display does not improve the source accuracy. The metadata advises against treating the general geometry as jurisdictional mapping at scales larger than 1:25,000.",
+    "provisional_segments": "The official dataset warns that some source limit sections can be provisional to close administrative polygons. This extraction does not independently classify those sections.",
+    "not_cadastral": "No cadastral parcel, surveyed access point, trail or elevation information is included."
+  },
+  "validation": {
+    "json_parse": true,
+    "feature_count": 3,
+    "administrative_level_and_ids_verified": true,
+    "coordinate_axis_and_regional_bboxes_verified": true,
+    "all_coordinates_finite_and_in_geographic_ranges": true,
+    "polygon_and_multipolygon_structure_verified": true,
+    "all_linear_rings_closed_with_at_least_four_positions": true,
+    "no_zero_signed_area_rings": true,
+    "coordinate_arrays_equal_to_ign_response": true,
+    "independent_full_topology_validation": false,
+    "topology_note": "No geometry repair or simplification was performed. Full self-intersection/overlay validation with an external geometry engine has not been run."
+  },
+  "features": [
+    {
+      "name": "Castilla y León",
+      "nationalCode": "34070000000",
+      "feature_id": "AU_ADMINISTRATIVEUNIT_34070000000",
+      "geometry_type": "MultiPolygon",
+      "polygon_count": 6,
+      "ring_count": 7,
+      "vertex_count": 29559,
+      "bbox": [
+        -7.077068851000001,
+        40.081925931,
+        -1.775371604,
+        43.23820416
+      ]
+    },
+    {
+      "name": "Castilla-La Mancha",
+      "nationalCode": "34080000000",
+      "feature_id": "AU_ADMINISTRATIVEUNIT_34080000000",
+      "geometry_type": "MultiPolygon",
+      "polygon_count": 2,
+      "ring_count": 2,
+      "vertex_count": 30970,
+      "bbox": [
+        -5.4061836880000005,
+        38.021837689,
+        -0.915793253,
+        41.327632215
+      ]
+    },
+    {
+      "name": "Comunidad de Madrid",
+      "nationalCode": "34130000000",
+      "feature_id": "AU_ADMINISTRATIVEUNIT_34130000000",
+      "geometry_type": "MultiPolygon",
+      "polygon_count": 2,
+      "ring_count": 3,
+      "vertex_count": 21212,
+      "bbox": [
+        -4.579076175,
+        39.884719334,
+        -3.052983314,
+        41.165844755
+      ]
+    }
+  ],
+  "files": [
+    {
+      "file": "madrid.geojson",
+      "bytes": 696361,
+      "sha256": "5bb7de91b34656d27540bfb5aab5eae8a0ac945f5010ef280aa278f0371e506b",
+      "feature_count": 1
+    },
+    {
+      "file": "comunidades.geojson",
+      "bytes": 2680760,
+      "sha256": "99bdd56f128d5fa51947a460efb74bf0e4c453398bd551a683aa2d4b2d285538",
+      "feature_count": 3
+    },
+    {
+      "file": "provincias.geojson",
+      "bytes": 2097893,
+      "sha256": "8a3868a360de913fbe7c83cfbc15cc5a2141d99e05c42fb59a2ffc7c4c369a40",
+      "feature_count": 6
+    }
+  ],
+  "provinces": {
+    "file": "provincias.geojson",
+    "source_request_url": "https://www.ign.es/wfs-inspire/unidades-administrativas?service=WFS&request=GetFeature&version=2.0.0&typeNames=au%3AAdministrativeUnit&count=6&outputFormat=application%2Fgeo%2Bjson&srsName=EPSG%3A4326&filter=%3Cfes%3AFilter+xmlns%3Afes%3D%22http%3A%2F%2Fwww.opengis.net%2Ffes%2F2.0%22+xmlns%3Aau%3D%22http%3A%2F%2Finspire.ec.europa.eu%2Fschemas%2Fau%2F4.0%22+xmlns%3Agn%3D%22http%3A%2F%2Finspire.ec.europa.eu%2Fschemas%2Fgn%2F4.0%22+xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfes%3AAnd%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Eau%3AnationalLevel%2F%40xlink%3Ahref%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3Ehttps%3A%2F%2Finspire.ec.europa.eu%2Fcodelist%2FAdministrativeHierarchyLevel%2F3rdOrder%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3AOr%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Eau%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3EMadrid%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Eau%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3ESegovia%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Eau%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3E%C3%81vila%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Eau%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3EGuadalajara%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Eau%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3ECuenca%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Eau%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3EToledo%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3C%2Ffes%3AOr%3E%3C%2Ffes%3AAnd%3E%3C%2Ffes%3AFilter%3E",
+    "selection": "Official name spellings and nationalLevel 3rdOrder were used in the WFS filter. National codes below were read from returned feature attributes, not generated.",
+    "features": [
+      {
+        "name": "Cuenca",
+        "nationalCode": "34081600000",
+        "feature_id": "AU_ADMINISTRATIVEUNIT_34081600000",
+        "geometry_type": "MultiPolygon",
+        "polygon_count": 1,
+        "ring_count": 1,
+        "vertex_count": 7123,
+        "bbox": [
+          -3.170234546,
+          39.226480682,
+          -1.14254654,
+          40.658692371
+        ]
+      },
+      {
+        "name": "Guadalajara",
+        "nationalCode": "34081900000",
+        "feature_id": "AU_ADMINISTRATIVEUNIT_34081900000",
+        "geometry_type": "MultiPolygon",
+        "polygon_count": 2,
+        "ring_count": 2,
+        "vertex_count": 10303,
+        "bbox": [
+          -3.541098185,
+          40.152455694000004,
+          -1.535637879,
+          41.327632215
+        ]
+      },
+      {
+        "name": "Madrid",
+        "nationalCode": "34132800000",
+        "feature_id": "AU_ADMINISTRATIVEUNIT_34132800000",
+        "geometry_type": "MultiPolygon",
+        "polygon_count": 2,
+        "ring_count": 3,
+        "vertex_count": 21212,
+        "bbox": [
+          -4.579076175,
+          39.884719334,
+          -3.052983314,
+          41.165844755
+        ]
+      },
+      {
+        "name": "Segovia",
+        "nationalCode": "34074000000",
+        "feature_id": "AU_ADMINISTRATIVEUNIT_34074000000",
+        "geometry_type": "MultiPolygon",
+        "polygon_count": 1,
+        "ring_count": 1,
+        "vertex_count": 3319,
+        "bbox": [
+          -4.7246528450000005,
+          40.632984784,
+          -3.206929036,
+          41.586082420000004
+        ]
+      },
+      {
+        "name": "Toledo",
+        "nationalCode": "34084500000",
+        "feature_id": "AU_ADMINISTRATIVEUNIT_34084500000",
+        "geometry_type": "MultiPolygon",
+        "polygon_count": 1,
+        "ring_count": 1,
+        "vertex_count": 12450,
+        "bbox": [
+          -5.4061836880000005,
+          39.258416781,
+          -2.908233289,
+          40.318341548
+        ]
+      },
+      {
+        "name": "Ávila",
+        "nationalCode": "34070500000",
+        "feature_id": "AU_ADMINISTRATIVEUNIT_34070500000",
+        "geometry_type": "MultiPolygon",
+        "polygon_count": 1,
+        "ring_count": 1,
+        "vertex_count": 9587,
+        "bbox": [
+          -5.737561939000001,
+          40.081925931,
+          -4.160234294,
+          41.164249717000004
+        ]
+      }
+    ],
+    "original_response_sha256": "31b5467c5c9e0ae0839d4e8610c4cdf1a7175835816321b7d0f6f7d8fb0a8287",
+    "geometry_processing": "Complete coordinate arrays, holes and polygon parts copied without simplification or rounding.",
+    "license": "CC BY 4.0 ign.es",
+    "crs": "EPSG:4326, longitude/latitude requested directly from WFS",
+    "reference_scale_denominator": 25000
+  }
+}

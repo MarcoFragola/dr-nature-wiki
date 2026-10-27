@@ -1,0 +1,338 @@
+{
+  "places": {
+    "pedriza": {
+      "asset_id": "pedriza",
+      "file": "pedriza.jpg"
+    },
+    "penalara": {
+      "asset_id": "penalara",
+      "file": "penalara.jpg"
+    },
+    "fuenfria": {
+      "asset_id": "fuenfria",
+      "file": "fuenfria.jpg"
+    },
+    "navacerrada": {
+      "asset_id": "navacerrada",
+      "file": "navacerrada.jpg"
+    },
+    "valsain": {
+      "asset_id": "valsain",
+      "file": "valsain.jpg"
+    },
+    "paular": {
+      "asset_id": "purgatorio",
+      "file": "purgatorio.jpg"
+    },
+    "barranca": {
+      "asset_id": "barranca",
+      "file": "barranca.jpg"
+    },
+    "montejo": {
+      "asset_id": "montejo",
+      "file": "montejo.jpg"
+    },
+    "rincon": {
+      "asset_id": "rincon",
+      "file": "rincon.jpg"
+    },
+    "tejera": {
+      "asset_id": "tejera",
+      "file": "tejera.jpg"
+    },
+    "rio-dulce": {
+      "asset_id": "riodulce",
+      "file": "riodulce.jpg"
+    },
+    "carcavas": {
+      "asset_id": "carcavas",
+      "file": "carcavas.jpg"
+    },
+    "gredos": {
+      "asset_id": "gredos",
+      "file": "gredos.jpg"
+    },
+    "boadilla": {
+      "asset_id": "boadilla-ortofoto",
+      "file": "boadilla-ortofoto.jpg"
+    },
+    "casa-campo": {
+      "asset_id": "casacampo",
+      "file": "casacampo.jpg"
+    },
+    "santillana": {
+      "asset_id": "santillana",
+      "file": "santillana.jpg"
+    },
+    "atazar": {
+      "asset_id": "atazar",
+      "file": "atazar.jpg"
+    },
+    "ciudad-encantada": {
+      "asset_id": "ciudad-encantada",
+      "file": "ciudad-encantada.jpg"
+    },
+    "daimiel": {
+      "asset_id": "daimiel",
+      "file": "daimiel.jpg"
+    },
+    "dehesa-villa": {
+      "asset_id": "dehesa-villa",
+      "file": "dehesa-villa.jpg"
+    },
+    "duraton": {
+      "asset_id": "duraton",
+      "file": "duraton.jpg"
+    },
+    "el-pardo": {
+      "asset_id": "el-pardo",
+      "file": "el-pardo.jpg"
+    },
+    "fuentona": {
+      "asset_id": "fuentona",
+      "file": "fuentona.jpg"
+    },
+    "nacimiento-cuervo": {
+      "asset_id": "nacimiento-cuervo",
+      "file": "nacimiento-cuervo.jpg"
+    },
+    "neila": {
+      "asset_id": "neila",
+      "file": "neila.jpg"
+    },
+    "pedrezuela": {
+      "asset_id": "pedrezuela",
+      "file": "pedrezuela.jpg"
+    },
+    "picadas": {
+      "asset_id": "picadas",
+      "file": "picadas.jpg"
+    },
+    "puentes-viejas": {
+      "asset_id": "puentes-viejas",
+      "file": "puentes-viejas.jpg"
+    },
+    "riaza": {
+      "asset_id": "riaza",
+      "file": "riaza.jpg"
+    },
+    "rio-lobos": {
+      "asset_id": "rio-lobos",
+      "file": "rio-lobos.jpg"
+    },
+    "riosequillo": {
+      "asset_id": "riosequillo",
+      "file": "riosequillo.jpg"
+    },
+    "ruidera": {
+      "asset_id": "ruidera",
+      "file": "ruidera.jpg"
+    },
+    "san-juan-embalse": {
+      "asset_id": "san-juan-embalse",
+      "file": "san-juan-embalse.jpg"
+    },
+    "sanabria": {
+      "asset_id": "sanabria",
+      "file": "sanabria.jpg"
+    },
+    "valmayor": {
+      "asset_id": "valmayor",
+      "file": "valmayor.jpg"
+    },
+    "centro-lobo-iberico": {
+      "asset_id": "centro-lobo-marco",
+      "file": "centro-lobo-marco.webp"
+    },
+    "valle-jerte": {
+      "asset_id": "cerezos-valle-jerte-marco",
+      "file": "cerezos-valle-jerte-marco.webp"
+    }
+  },
+  "species": {
+    "cabra-montes": {
+      "asset_id": "ibex",
+      "file": "ibex.jpg"
+    },
+    "corzo": {
+      "asset_id": "corzo",
+      "file": "corzo.jpg"
+    },
+    "nutria": {
+      "asset_id": "nutria",
+      "file": "nutria.jpg"
+    },
+    "zorro": {
+      "asset_id": "zorro",
+      "file": "zorro.jpg"
+    },
+    "conejo": {
+      "asset_id": "conejo",
+      "file": "conejo.jpg"
+    },
+    "buitre-negro": {
+      "asset_id": "black-vulture",
+      "file": "black-vulture.jpg"
+    },
+    "buitre-leonado": {
+      "asset_id": "griffon-vulture",
+      "file": "griffon-vulture.jpg"
+    },
+    "aguila-real": {
+      "asset_id": "aguila-real",
+      "file": "aguila-real.jpg"
+    },
+    "martin-pescador": {
+      "asset_id": "martin-pescador",
+      "file": "martin-pescador.jpg"
+    },
+    "salamandra": {
+      "asset_id": "salamander",
+      "file": "salamander.jpg"
+    },
+    "rana-patilarga": {
+      "asset_id": "rana-patilarga",
+      "file": "rana-patilarga.jpg"
+    },
+    "mariposa-apolo": {
+      "asset_id": "mariposa-apolo",
+      "file": "mariposa-apolo.jpg"
+    },
+    "pino-silvestre": {
+      "asset_id": "scots-pine",
+      "file": "scots-pine.jpg"
+    },
+    "roble-melojo": {
+      "asset_id": "roble-melojo",
+      "file": "roble-melojo.jpg"
+    },
+    "encina": {
+      "asset_id": "holm-oak",
+      "file": "holm-oak.jpg"
+    },
+    "enebro-miera": {
+      "asset_id": "enebro-miera",
+      "file": "enebro-miera.jpg"
+    },
+    "piorno": {
+      "asset_id": "piorno",
+      "file": "piorno.jpg"
+    },
+    "acebo": {
+      "asset_id": "acebo",
+      "file": "acebo.jpg"
+    },
+    "haya": {
+      "asset_id": "beech",
+      "file": "beech.jpg"
+    },
+    "jara-pringosa": {
+      "asset_id": "jara-pringosa",
+      "file": "jara-pringosa.jpg"
+    },
+    "amanita-muscaria": {
+      "asset_id": "amanita-muscaria",
+      "file": "amanita-muscaria.jpg"
+    },
+    "boletus-edulis": {
+      "asset_id": "boletus-edulis",
+      "file": "boletus-edulis.jpg"
+    },
+    "liquen-geografico": {
+      "asset_id": "liquen-geografico",
+      "file": "liquen-geografico.jpg"
+    },
+    "aguila-imperial": {
+      "asset_id": "aguila-imperial",
+      "file": "aguila-imperial.jpg"
+    },
+    "milano-real": {
+      "asset_id": "milano-real",
+      "file": "milano-real.jpg"
+    },
+    "halcon-peregrino": {
+      "asset_id": "halcon-peregrino",
+      "file": "halcon-peregrino.jpg"
+    },
+    "mirlo-acuatico": {
+      "asset_id": "mirlo-acuatico",
+      "file": "mirlo-acuatico.jpg"
+    },
+    "abubilla": {
+      "asset_id": "abubilla",
+      "file": "abubilla.jpg"
+    },
+    "arrendajo": {
+      "asset_id": "arrendajo",
+      "file": "arrendajo.jpg"
+    },
+    "herrerillo-comun": {
+      "asset_id": "herrerillo-comun",
+      "file": "herrerillo-comun.jpg"
+    },
+    "anade-azulon": {
+      "asset_id": "anade-azulon",
+      "file": "anade-azulon.jpg"
+    },
+    "ardilla-roja": {
+      "asset_id": "ardilla-roja",
+      "file": "ardilla-roja.jpg"
+    },
+    "tejon": {
+      "asset_id": "tejon",
+      "file": "tejon.jpg"
+    },
+    "jabali": {
+      "asset_id": "jabali",
+      "file": "jabali.jpg"
+    },
+    "erizo-europeo": {
+      "asset_id": "erizo-europeo",
+      "file": "erizo-europeo.jpg"
+    },
+    "lagartija-carpetana": {
+      "asset_id": "lagartija-carpetana",
+      "file": "lagartija-carpetana.jpg"
+    },
+    "lagarto-verdinegro": {
+      "asset_id": "lagarto-verdinegro",
+      "file": "lagarto-verdinegro.jpg"
+    },
+    "culebra-viperina": {
+      "asset_id": "culebra-viperina",
+      "file": "culebra-viperina.jpg"
+    },
+    "galapago-europeo": {
+      "asset_id": "galapago-europeo",
+      "file": "galapago-europeo.jpg"
+    },
+    "tejo": {
+      "asset_id": "tejo",
+      "file": "tejo.jpg"
+    },
+    "enebro-comun": {
+      "asset_id": "enebro-comun",
+      "file": "enebro-comun.jpg"
+    },
+    "armeria-cespitosa": {
+      "asset_id": "armeria-cespitosa",
+      "file": "armeria-cespitosa.jpg"
+    },
+    "boleto-anillado": {
+      "asset_id": "boleto-anillado",
+      "file": "boleto-anillado.jpg"
+    },
+    "triton-jaspeado": {
+      "asset_id": "triton-jaspeado",
+      "file": "triton-jaspeado.jpg"
+    },
+    "isabelina": {
+      "asset_id": "isabelina",
+      "file": "isabelina.jpg"
+    },
+    "lobo-iberico": {
+      "asset_id": "centro-lobo-marco",
+      "file": "centro-lobo-marco.webp"
+    }
+  }
+}

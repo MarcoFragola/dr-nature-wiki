@@ -1,0 +1,796 @@
+{
+  "schema": "dr-nature-species-relations-v1",
+  "generated_at": "2026-10-27",
+  "observations": [],
+  "records": [
+    {
+      "id": "pedriza:encina",
+      "place_id": "pedriza",
+      "species_id": "encina",
+      "relation_type": "regional_distribution",
+      "source_ids": [
+        "pn-vegetacion"
+      ],
+      "geographic_scope": "Sierra de Guadarrama y zona periférica",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "pedriza:enebro-miera",
+      "place_id": "pedriza",
+      "species_id": "enebro-miera",
+      "relation_type": "regional_distribution",
+      "source_ids": [
+        "pn-vegetacion"
+      ],
+      "geographic_scope": "Sierra de Guadarrama y zona periférica",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "pedriza:cabra-montes",
+      "place_id": "pedriza",
+      "species_id": "cabra-montes",
+      "relation_type": "habitat_context",
+      "source_ids": [
+        "pedriza-tolmo",
+        "pn-vegetacion",
+        "pn-fauna-mamiferos",
+        "gredos",
+        "taxon-cabra-montes"
+      ],
+      "geographic_scope": "Sierra de Guadarrama y zona periférica",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "penalara:salamandra",
+      "place_id": "penalara",
+      "species_id": "salamandra",
+      "relation_type": "regional_distribution",
+      "source_ids": [
+        "pn-fauna-anfibios"
+      ],
+      "geographic_scope": "Macizo de Peñalara",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "penalara:rana-patilarga",
+      "place_id": "penalara",
+      "species_id": "rana-patilarga",
+      "relation_type": "regional_distribution",
+      "source_ids": [
+        "pn-fauna-anfibios"
+      ],
+      "geographic_scope": "Sierra de Guadarrama y zona periférica",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "penalara:piorno",
+      "place_id": "penalara",
+      "species_id": "piorno",
+      "relation_type": "habitat_context",
+      "source_ids": [
+        "penalara-zabala",
+        "pn-fauna-anfibios",
+        "pn-vegetacion",
+        "taxon-piorno"
+      ],
+      "geographic_scope": "Sierra de Guadarrama y zona periférica",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "penalara:liquen-geografico",
+      "place_id": "penalara",
+      "species_id": "liquen-geografico",
+      "relation_type": "habitat_context",
+      "source_ids": [
+        "penalara-zabala",
+        "pn-fauna-anfibios",
+        "pn-liquenes",
+        "taxon-liquen-geografico"
+      ],
+      "geographic_scope": "Sierra de Guadarrama y zona periférica",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "fuenfria:pino-silvestre",
+      "place_id": "fuenfria",
+      "species_id": "pino-silvestre",
+      "relation_type": "habitat_context",
+      "source_ids": [
+        "victory",
+        "camino-schmid",
+        "pn-vegetacion",
+        "taxon-pino-silvestre"
+      ],
+      "geographic_scope": "Sierra de Guadarrama y zona periférica",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "fuenfria:roble-melojo",
+      "place_id": "fuenfria",
+      "species_id": "roble-melojo",
+      "relation_type": "habitat_context",
+      "source_ids": [
+        "victory",
+        "camino-schmid",
+        "pn-vegetacion",
+        "taxon-roble-melojo"
+      ],
+      "geographic_scope": "Sierra de Guadarrama y zona periférica",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "navacerrada:pino-silvestre",
+      "place_id": "navacerrada",
+      "species_id": "pino-silvestre",
+      "relation_type": "habitat_context",
+      "source_ids": [
+        "camino-schmid",
+        "pn-vegetacion",
+        "taxon-pino-silvestre"
+      ],
+      "geographic_scope": "Sierra de Guadarrama y zona periférica",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "valsain:pino-silvestre",
+      "place_id": "valsain",
+      "species_id": "pino-silvestre",
+      "relation_type": "habitat_context",
+      "source_ids": [
+        "valsain-azul",
+        "valsain-bosque",
+        "ecosistemas",
+        "pn-vegetacion",
+        "taxon-pino-silvestre"
+      ],
+      "geographic_scope": "Sierra de Guadarrama y zona periférica",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "valsain:roble-melojo",
+      "place_id": "valsain",
+      "species_id": "roble-melojo",
+      "relation_type": "habitat_context",
+      "source_ids": [
+        "valsain-azul",
+        "valsain-bosque",
+        "ecosistemas",
+        "pn-vegetacion",
+        "taxon-roble-melojo"
+      ],
+      "geographic_scope": "Sierra de Guadarrama y zona periférica",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "paular:roble-melojo",
+      "place_id": "paular",
+      "species_id": "roble-melojo",
+      "relation_type": "habitat_context",
+      "source_ids": [
+        "paular",
+        "purgatorio",
+        "pn-vegetacion",
+        "taxon-roble-melojo"
+      ],
+      "geographic_scope": "Sierra de Guadarrama y zona periférica",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "paular:pino-silvestre",
+      "place_id": "paular",
+      "species_id": "pino-silvestre",
+      "relation_type": "habitat_context",
+      "source_ids": [
+        "paular",
+        "purgatorio",
+        "pn-vegetacion",
+        "taxon-pino-silvestre"
+      ],
+      "geographic_scope": "Sierra de Guadarrama y zona periférica",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "barranca:pino-silvestre",
+      "place_id": "barranca",
+      "species_id": "pino-silvestre",
+      "relation_type": "habitat_context",
+      "source_ids": [
+        "barranca",
+        "pn-vegetacion",
+        "taxon-pino-silvestre"
+      ],
+      "geographic_scope": "Sierra de Guadarrama y zona periférica",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "montejo:haya",
+      "place_id": "montejo",
+      "species_id": "haya",
+      "relation_type": "regional_distribution",
+      "source_ids": [
+        "montejo"
+      ],
+      "geographic_scope": "Hayedos de Montejo y Tejera Negra",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "montejo:roble-melojo",
+      "place_id": "montejo",
+      "species_id": "roble-melojo",
+      "relation_type": "habitat_context",
+      "source_ids": [
+        "montejo",
+        "montejo-acceso",
+        "rincon",
+        "pn-vegetacion",
+        "taxon-roble-melojo"
+      ],
+      "geographic_scope": "Sierra de Guadarrama y zona periférica",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "montejo:acebo",
+      "place_id": "montejo",
+      "species_id": "acebo",
+      "relation_type": "habitat_context",
+      "source_ids": [
+        "montejo",
+        "montejo-acceso",
+        "rincon",
+        "pn-vegetacion",
+        "taxon-acebo"
+      ],
+      "geographic_scope": "Sierra de Guadarrama y zona periférica",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "rincon:corzo",
+      "place_id": "rincon",
+      "species_id": "corzo",
+      "relation_type": "regional_distribution",
+      "source_ids": [
+        "rincon"
+      ],
+      "geographic_scope": "Sierra de Guadarrama y zona periférica",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "rincon:nutria",
+      "place_id": "rincon",
+      "species_id": "nutria",
+      "relation_type": "regional_distribution",
+      "source_ids": [
+        "rincon"
+      ],
+      "geographic_scope": "Sierra del Rincón y Barranco del Río Dulce",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "rincon:aguila-real",
+      "place_id": "rincon",
+      "species_id": "aguila-real",
+      "relation_type": "regional_distribution",
+      "source_ids": [
+        "rincon"
+      ],
+      "geographic_scope": "Sierra de Guadarrama y zona periférica",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "rincon:roble-melojo",
+      "place_id": "rincon",
+      "species_id": "roble-melojo",
+      "relation_type": "habitat_context",
+      "source_ids": [
+        "rincon",
+        "pn-vegetacion",
+        "taxon-roble-melojo"
+      ],
+      "geographic_scope": "Sierra de Guadarrama y zona periférica",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "rincon:acebo",
+      "place_id": "rincon",
+      "species_id": "acebo",
+      "relation_type": "habitat_context",
+      "source_ids": [
+        "rincon",
+        "pn-vegetacion",
+        "taxon-acebo"
+      ],
+      "geographic_scope": "Sierra de Guadarrama y zona periférica",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "tejera:haya",
+      "place_id": "tejera",
+      "species_id": "haya",
+      "relation_type": "regional_distribution",
+      "source_ids": [
+        "tejera-turismo"
+      ],
+      "geographic_scope": "Hayedos de Montejo y Tejera Negra",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "tejera:roble-melojo",
+      "place_id": "tejera",
+      "species_id": "roble-melojo",
+      "relation_type": "habitat_context",
+      "source_ids": [
+        "tejera",
+        "tejera-turismo",
+        "pn-vegetacion",
+        "taxon-roble-melojo"
+      ],
+      "geographic_scope": "Sierra de Guadarrama y zona periférica",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "tejera:acebo",
+      "place_id": "tejera",
+      "species_id": "acebo",
+      "relation_type": "habitat_context",
+      "source_ids": [
+        "tejera",
+        "tejera-turismo",
+        "pn-vegetacion",
+        "taxon-acebo"
+      ],
+      "geographic_scope": "Sierra de Guadarrama y zona periférica",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "tejera:pino-silvestre",
+      "place_id": "tejera",
+      "species_id": "pino-silvestre",
+      "relation_type": "habitat_context",
+      "source_ids": [
+        "tejera",
+        "tejera-turismo",
+        "pn-vegetacion",
+        "taxon-pino-silvestre"
+      ],
+      "geographic_scope": "Sierra de Guadarrama y zona periférica",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "rio-dulce:buitre-leonado",
+      "place_id": "rio-dulce",
+      "species_id": "buitre-leonado",
+      "relation_type": "regional_distribution",
+      "source_ids": [
+        "rio-dulce"
+      ],
+      "geographic_scope": "Sierra de Guadarrama y zona periférica",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "rio-dulce:nutria",
+      "place_id": "rio-dulce",
+      "species_id": "nutria",
+      "relation_type": "regional_distribution",
+      "source_ids": [
+        "rio-dulce"
+      ],
+      "geographic_scope": "Sierra del Rincón y Barranco del Río Dulce",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "rio-dulce:martin-pescador",
+      "place_id": "rio-dulce",
+      "species_id": "martin-pescador",
+      "relation_type": "regional_distribution",
+      "source_ids": [
+        "rio-dulce"
+      ],
+      "geographic_scope": "Barranco del Río Dulce",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "rio-dulce:encina",
+      "place_id": "rio-dulce",
+      "species_id": "encina",
+      "relation_type": "habitat_context",
+      "source_ids": [
+        "rio-dulce",
+        "pn-vegetacion",
+        "casa-campo",
+        "boadilla",
+        "taxon-encina"
+      ],
+      "geographic_scope": "Sierra de Guadarrama y zona periférica",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "gredos:cabra-montes",
+      "place_id": "gredos",
+      "species_id": "cabra-montes",
+      "relation_type": "regional_distribution",
+      "source_ids": [
+        "gredos"
+      ],
+      "geographic_scope": "Sierra de Guadarrama y zona periférica",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "gredos:piorno",
+      "place_id": "gredos",
+      "species_id": "piorno",
+      "relation_type": "habitat_context",
+      "source_ids": [
+        "gredos",
+        "gredos-folleto",
+        "pn-vegetacion",
+        "taxon-piorno"
+      ],
+      "geographic_scope": "Sierra de Guadarrama y zona periférica",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "gredos:buitre-leonado",
+      "place_id": "gredos",
+      "species_id": "buitre-leonado",
+      "relation_type": "habitat_context",
+      "source_ids": [
+        "gredos",
+        "gredos-folleto",
+        "pn-fauna-aves",
+        "rio-dulce",
+        "taxon-buitre-leonado"
+      ],
+      "geographic_scope": "Sierra de Guadarrama y zona periférica",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "boadilla:encina",
+      "place_id": "boadilla",
+      "species_id": "encina",
+      "relation_type": "regional_distribution",
+      "source_ids": [
+        "boadilla"
+      ],
+      "geographic_scope": "Sierra de Guadarrama y zona periférica",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "boadilla:conejo",
+      "place_id": "boadilla",
+      "species_id": "conejo",
+      "relation_type": "regional_distribution",
+      "source_ids": [
+        "boadilla"
+      ],
+      "geographic_scope": "Monte de Boadilla",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "boadilla:zorro",
+      "place_id": "boadilla",
+      "species_id": "zorro",
+      "relation_type": "regional_distribution",
+      "source_ids": [
+        "boadilla"
+      ],
+      "geographic_scope": "Monte de Boadilla",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "boadilla:jara-pringosa",
+      "place_id": "boadilla",
+      "species_id": "jara-pringosa",
+      "relation_type": "regional_distribution",
+      "source_ids": [
+        "boadilla"
+      ],
+      "geographic_scope": "Monte de Boadilla",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "casa-campo:encina",
+      "place_id": "casa-campo",
+      "species_id": "encina",
+      "relation_type": "regional_distribution",
+      "source_ids": [
+        "casa-campo"
+      ],
+      "geographic_scope": "Sierra de Guadarrama y zona periférica",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "atazar:buitre-leonado",
+      "place_id": "atazar",
+      "species_id": "buitre-leonado",
+      "relation_type": "habitat_context",
+      "source_ids": [
+        "atazar",
+        "pn-fauna-aves",
+        "rio-dulce",
+        "taxon-buitre-leonado"
+      ],
+      "geographic_scope": "Sierra de Guadarrama y zona periférica",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "atazar:buitre-negro",
+      "place_id": "atazar",
+      "species_id": "buitre-negro",
+      "relation_type": "regional_distribution",
+      "source_ids": [
+        "atazar"
+      ],
+      "geographic_scope": "Sierra de Guadarrama y zona periférica",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "atazar:aguila-real",
+      "place_id": "atazar",
+      "species_id": "aguila-real",
+      "relation_type": "habitat_context",
+      "source_ids": [
+        "atazar",
+        "pn-fauna-aves",
+        "rincon",
+        "taxon-aguila-real"
+      ],
+      "geographic_scope": "Sierra de Guadarrama y zona periférica",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "atazar:encina",
+      "place_id": "atazar",
+      "species_id": "encina",
+      "relation_type": "habitat_context",
+      "source_ids": [
+        "atazar",
+        "pn-vegetacion",
+        "casa-campo",
+        "boadilla",
+        "taxon-encina"
+      ],
+      "geographic_scope": "Sierra de Guadarrama y zona periférica",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "el-pardo:encina",
+      "place_id": "el-pardo",
+      "species_id": "encina",
+      "relation_type": "habitat_context",
+      "source_ids": [
+        "ext-pardo",
+        "pn-vegetacion",
+        "casa-campo",
+        "boadilla",
+        "taxon-encina"
+      ],
+      "geographic_scope": "Sierra de Guadarrama y zona periférica",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "san-juan-embalse:encina",
+      "place_id": "san-juan-embalse",
+      "species_id": "encina",
+      "relation_type": "habitat_context",
+      "source_ids": [
+        "ext-yelmo",
+        "pn-vegetacion",
+        "casa-campo",
+        "boadilla",
+        "taxon-encina"
+      ],
+      "geographic_scope": "Sierra de Guadarrama y zona periférica",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "san-juan-embalse:buitre-negro",
+      "place_id": "san-juan-embalse",
+      "species_id": "buitre-negro",
+      "relation_type": "habitat_context",
+      "source_ids": [
+        "ext-yelmo",
+        "pn-fauna-aves",
+        "atazar",
+        "taxon-buitre-negro"
+      ],
+      "geographic_scope": "Sierra de Guadarrama y zona periférica",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "ruidera:encina",
+      "place_id": "ruidera",
+      "species_id": "encina",
+      "relation_type": "habitat_context",
+      "source_ids": [
+        "ext-ruidera",
+        "pn-vegetacion",
+        "casa-campo",
+        "boadilla",
+        "taxon-encina"
+      ],
+      "geographic_scope": "Sierra de Guadarrama y zona periférica",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "laguna-una:buitre-leonado",
+      "place_id": "laguna-una",
+      "species_id": "buitre-leonado",
+      "relation_type": "habitat_context",
+      "source_ids": [
+        "ext-una",
+        "pn-fauna-aves",
+        "rio-dulce",
+        "taxon-buitre-leonado"
+      ],
+      "geographic_scope": "Sierra de Guadarrama y zona periférica",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "daimiel:nutria",
+      "place_id": "daimiel",
+      "species_id": "nutria",
+      "relation_type": "habitat_context",
+      "source_ids": [
+        "ext-daimiel-pan",
+        "ext-daimiel-laguna",
+        "ext-daimiel-prado",
+        "rincon",
+        "rio-dulce",
+        "taxon-nutria"
+      ],
+      "geographic_scope": "Sierra del Rincón y Barranco del Río Dulce",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "daimiel:martin-pescador",
+      "place_id": "daimiel",
+      "species_id": "martin-pescador",
+      "relation_type": "habitat_context",
+      "source_ids": [
+        "ext-daimiel-pan",
+        "ext-daimiel-laguna",
+        "ext-daimiel-prado",
+        "rio-dulce",
+        "taxon-martin-pescador"
+      ],
+      "geographic_scope": "Barranco del Río Dulce",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "centro-lobo-iberico:lobo-iberico",
+      "place_id": "centro-lobo-iberico",
+      "species_id": "lobo-iberico",
+      "relation_type": "managed_collection",
+      "source_ids": [
+        "centro-lobo-centro",
+        "centro-lobo-visitas"
+      ],
+      "geographic_scope": "Centro del Lobo Ibérico, Robledo (Puebla de Sanabria): ejemplares gestionados en recintos de semilibertad.",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    },
+    {
+      "id": "centro-lobo-iberico:roble-melojo",
+      "place_id": "centro-lobo-iberico",
+      "species_id": "roble-melojo",
+      "relation_type": "habitat_context",
+      "source_ids": [
+        "centro-lobo-centro",
+        "centro-lobo-visitas",
+        "centro-lobo-situacion",
+        "centro-lobo-reservas",
+        "centro-lobo-turismo",
+        "centro-lobo-contacto",
+        "pn-vegetacion",
+        "taxon-roble-melojo"
+      ],
+      "geographic_scope": "Sierra de Guadarrama y zona periférica",
+      "verified_at": "2026-10-27",
+      "observation_id": null,
+      "local_presence_confirmed": false
+    }
+  ],
+  "method": "Existing editorial links classified conservatively. Regional distribution requires a shared official area source and an existing regional distribution status. Other links remain habitat context. Managed animals are separate from wildlife observations.",
+  "limitation": "No point observation or guaranteed local presence is established by these relations. No occurrence coordinates are published."
+}

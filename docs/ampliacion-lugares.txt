@@ -1,0 +1,32 @@
+INFORME DE INVESTIGACIÓN · Integrado en dist/data/catalogue.json. Los nombres de archivos de intercambio citados en este informe corresponden a la preparación y ya se retiraron. Fotografías añadidas y acreditadas en dist/data/attribution.json.
+
+DR NATURE WIKI — AMPLIACIÓN DE LUGARES Y RUTAS
+Consulta documental: 27 de octubre de 2026.
+
+Entrega: catalogue-places-extension.json contiene 36 lugares, 43 fichas de rutas y 35 fuentes oficiales nuevas. No modifica el catálogo original. Incluye nombres y resúmenes ES/EN, traducciones de nombres de rutas, etiquetas de hábitats y dificultades, notas bilingües y relaciones internas.
+
+Cobertura añadida:
+Madrid: humedales de El Campillo, Soto de las Juntas, Soto Bayona, Henares, San Juan y Ontígola; Polvoranca, Bosque Sur, El Pardo y Dehesa de la Villa; embalses de Pinilla, Riosequillo, Puentes Viejas, Pedrezuela, Valmayor, San Juan y Picadas; Laguna del Salmoral.
+Castilla y León: Navafría, Castañar de El Tiemblo, La Fuentona, Hoces del Duratón y Riaza, Río Lobos, Laguna Negra/Urbión, Neila y Sanabria.
+Castilla-La Mancha: Taravilla/Poveda, Ruidera, nacimiento del Cuervo, Ciudad Encantada, Uña, Tablas de Daimiel, Puebla de Beleña, Manjavacas y Barranco del Horcajo.
+
+Evidencia:
+Cada ficha remite mediante sources/source_ids a páginas del gestor o de la administración turística. Las URL y fechas están incluidas en el JSON. Las métricas se incorporan solo cuando la fuente las publica; no se deducen desniveles acumulados a partir de alturas mínimas/máximas. Las coordenadas de los lugares son centros editoriales aproximados, nunca accesos, aparcamientos ni inicios de ruta. Las de Puebla de Beleña y Manjavacas usan los centros publicados por Ramsar. La ficha BOCM añade evidencia cartográfica para San Juan. No se pretende precisión topográfica o una revisión de accesos actuales.
+
+Casos conservados con sus límites:
+- La ficha actual municipal Pinilla–Gargantilla publica 5,57 km y 115 m de ascenso; se usa esa página individual, no los 2,7 km de una antigua página del mismo ayuntamiento.
+- Neila presenta cifras incompatibles entre cabecera (10,14 km, Difícil) y cuerpo (8 km, Media-Alta). Se usa la descripción, y la discrepancia se muestra en metric_note / metric_note_en.
+- Cuervo publica duración «1.40» y Puebla de Beleña «1.50». Se dejan los minutos a null por ambigüedad de formato. La accesibilidad del Cuervo corresponde a las cascadas, no a todo el circuito con escaleras.
+- Las duraciones de intervalos (La Fuentona) permanecen como texto, sin una cifra única inventada.
+- La Vía Verde del Alberche publica variantes de 14 y 35 km y tiempos cuyo modo de actividad no queda claro. Se muestra la opción de 14 km, tiempo null y alcance a confirmar en una nota.
+- El folleto antiguo del Duratón informa de regulación. No se presenta como aviso actual ni se supone que confirma permisos vigentes.
+- Consulta de 27/10/2026: la web municipal de El Castañar anuncia regulación excepcional en otoño tras un incendio. La ficha conserva esa nota y exige consultar las condiciones actuales de la visita. No se ha contratado, reservado ni pagado nada.
+
+Geometría y medios:
+Las 43 rutas tienen geometry_status=not_imported, sin GPX/GeoJSON ni perfil fabricado. La nueva selección no reutiliza fotografías de otros lugares; assetMap está vacío. Falta incorporar fotografías nuevas con licencia verificada y geometrías oficiales descargadas si se amplía esa fase.
+
+Integración:
+Fusionar sources, places y routes por id sin reemplazar cambios ajenos. Añadir routeEnglish, habitatLabels y difficultyEnglish a las tablas de idioma. La UI debe consultar metric_note_en y notes_en cuando el idioma sea inglés. El generador build-places-extension.py es material temporal de preparación y puede retirarse una vez integrada y validada la extensión. La validación original tiene recuentos fijos de 17/12/23 y deberá adaptarse para comprobar integridad del catálogo ampliado sin esos límites antiguos.
+
+Comprobación realizada:
+JSON generado y leído correctamente. No hay IDs duplicados ni colisiones con el catálogo inicial. Todas las relaciones de nuevos lugares a rutas y todas las referencias a fuentes/especies existentes resuelven. No se ha realizado una inspección física de senderos ni verificado avisos en directo.

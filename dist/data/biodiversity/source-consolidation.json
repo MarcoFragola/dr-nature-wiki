@@ -1,0 +1,72 @@
+{
+  "source_rows": 69249,
+  "unique_taxa": 69244,
+  "method": "Consolidate repeated official taxon IDs only when other taxonomy fields agree; preserve alternative vernacular names and authorships.",
+  "records": [
+    {
+      "id": "miteco:lp:3755",
+      "rows": 2,
+      "differing_fields": [
+        "common"
+      ],
+      "common_names": [
+        "Avellana",
+        "Avellano"
+      ],
+      "authorship_variants": [
+        "L."
+      ]
+    },
+    {
+      "id": "miteco:lp:9885",
+      "rows": 2,
+      "differing_fields": [
+        "common"
+      ],
+      "common_names": [
+        "Hierba del riñón",
+        "Mermasangre"
+      ],
+      "authorship_variants": [
+        "L."
+      ]
+    },
+    {
+      "id": "miteco:lp:10013",
+      "rows": 2,
+      "differing_fields": [
+        "common"
+      ],
+      "common_names": [
+        "Ballico",
+        "Vallico"
+      ],
+      "authorship_variants": [
+        "(Host) D.R. Dewey"
+      ]
+    },
+    {
+      "id": "miteco:lp:10852",
+      "rows": 2,
+      "differing_fields": [
+        "common"
+      ],
+      "common_names": [
+        "Lagarto verde",
+        "Lagarto verde occidental"
+      ],
+      "authorship_variants": [
+        "(Daudin, 1802)"
+      ]
+    },
+    {
+      "id": "miteco:lp:257619",
+      "rows": 2,
+      "differing_fields": [
+        "author"
+      ],
+      "common_names": [],
+      "authorship_variants": []
+    }
+  ]
+}

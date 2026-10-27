@@ -1,0 +1,448 @@
+{
+  "schema": "dr-nature-curated-reference-links-v1",
+  "source_id": "miteco-iepnb-lista-patron",
+  "method": "Exact scientific-name equality only; no inferred synonymy or local presence.",
+  "matches": [
+    {
+      "curated_id": "cabra-montes",
+      "reference_ids": [
+        "miteco:lp:12055"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "corzo",
+      "reference_ids": [
+        "miteco:lp:10961"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "nutria",
+      "reference_ids": [
+        "miteco:lp:11637"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "zorro",
+      "reference_ids": [
+        "miteco:lp:12419"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "conejo",
+      "reference_ids": [
+        "miteco:lp:11109"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "buitre-negro",
+      "reference_ids": [
+        "miteco:lp:11768"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "buitre-leonado",
+      "reference_ids": [
+        "miteco:lp:11313"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "aguila-real",
+      "reference_ids": [
+        "miteco:lp:10888"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "martin-pescador",
+      "reference_ids": [
+        "miteco:lp:10794"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "salamandra",
+      "reference_ids": [
+        "miteco:lp:12141"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "rana-patilarga",
+      "reference_ids": [
+        "miteco:lp:11485"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "mariposa-apolo",
+      "reference_ids": [
+        "miteco:lp:10740"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "pino-silvestre",
+      "reference_ids": [
+        "miteco:lp:7126"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "roble-melojo",
+      "reference_ids": [
+        "miteco:lp:7225"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "encina",
+      "reference_ids": [
+        "miteco:lp:7483"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "enebro-miera",
+      "reference_ids": [
+        "miteco:lp:5505"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "piorno",
+      "reference_ids": [
+        "miteco:lp:3941"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "acebo",
+      "reference_ids": [
+        "miteco:lp:5361"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "haya",
+      "reference_ids": [
+        "miteco:lp:4566"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "jara-pringosa",
+      "reference_ids": [
+        "miteco:lp:3618"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "amanita-muscaria",
+      "reference_ids": [
+        "miteco:lp:39728"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "boletus-edulis",
+      "reference_ids": [
+        "miteco:lp:39334"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "liquen-geografico",
+      "reference_ids": [
+        "miteco:lp:41448"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "aguila-imperial",
+      "reference_ids": [
+        "miteco:lp:11014"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "milano-real",
+      "reference_ids": [
+        "miteco:lp:11737"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "halcon-peregrino",
+      "reference_ids": [
+        "miteco:lp:11963"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "mirlo-acuatico",
+      "reference_ids": [
+        "miteco:lp:10894"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "abubilla",
+      "reference_ids": [
+        "miteco:lp:11211"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "arrendajo",
+      "reference_ids": [
+        "miteco:lp:11368"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "herrerillo-comun",
+      "reference_ids": [
+        "miteco:lp:16423"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "carbonero-comun",
+      "reference_ids": [
+        "miteco:lp:11650"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "pico-picapinos",
+      "reference_ids": [
+        "miteco:lp:11649"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "anade-azulon",
+      "reference_ids": [
+        "miteco:lp:12000"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "focha-comun",
+      "reference_ids": [
+        "miteco:lp:10786"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "ardilla-roja",
+      "reference_ids": [
+        "miteco:lp:12414"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "tejon",
+      "reference_ids": [
+        "miteco:lp:11709"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "jabali",
+      "reference_ids": [
+        "miteco:lp:12178"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "erizo-europeo",
+      "reference_ids": [
+        "miteco:lp:11227"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "garduna",
+      "reference_ids": [
+        "miteco:lp:11289"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "liron-careto",
+      "reference_ids": [
+        "miteco:lp:12074"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "raton-campo",
+      "reference_ids": [
+        "miteco:lp:12283"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "lagartija-carpetana",
+      "reference_ids": [
+        "miteco:lp:11123"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "lagarto-verdinegro",
+      "reference_ids": [
+        "miteco:lp:12168"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "culebra-viperina",
+      "reference_ids": [
+        "miteco:lp:11688"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "galapago-europeo",
+      "reference_ids": [
+        "miteco:lp:11903"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "gallipato",
+      "reference_ids": [
+        "miteco:lp:12420"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "sapo-partero",
+      "reference_ids": [
+        "miteco:lp:11878"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "sapo-corredor",
+      "reference_ids": [
+        "miteco:lp:24327"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "triton-jaspeado",
+      "reference_ids": [
+        "miteco:lp:11677"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "arlequin",
+      "reference_ids": [
+        "miteco:lp:32581"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "gran-pavon",
+      "reference_ids": [
+        "miteco:lp:32875"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "quirocefalo",
+      "reference_ids": [
+        "miteco:lp:50662"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "fresno-hoja-estrecha",
+      "reference_ids": [
+        "miteco:lp:4623"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "tejo",
+      "reference_ids": [
+        "miteco:lp:8650"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "enebro-comun",
+      "reference_ids": [
+        "miteco:lp:5499"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "helecho-comun",
+      "reference_ids": [
+        "miteco:lp:7418"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "escobon",
+      "reference_ids": [
+        "miteco:lp:4886"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "armeria-cespitosa",
+      "reference_ids": [
+        "miteco:lp:2451"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "niscalo",
+      "reference_ids": [
+        "miteco:lp:26970"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "boleto-anillado",
+      "reference_ids": [
+        "miteco:lp:42145"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "seta-coliflor",
+      "reference_ids": [
+        "miteco:lp:41066"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "evernia",
+      "reference_ids": [
+        "miteco:lp:37860"
+      ],
+      "match": "exact_scientific_name"
+    },
+    {
+      "curated_id": "lobo-iberico",
+      "reference_ids": [
+        "miteco:lp:11627"
+      ],
+      "match": "exact_scientific_name"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+HISTÓRICO DE LA EDICIÓN INICIAL. Para el estado actual, consultar verificacion.md y el catálogo.
+
+Dr Nature wiki — notas de investigación para integración
+Fecha: 27 octubre 2026
+
+ENTREGABLES
+research_catalogue.json contiene 17 lugares, 12 fichas de rutas, 23 especies y 36 registros de fuente oficial. Es un catálogo inicial, no un censo exhaustivo.
+research_tracks/*.gpx son 8 trazados oficiales descargados; *.geojson son conversiones directas, sin dibujar ni interpolar recorridos. Todos tienen un único segmento original. manifest.json cubre los 7 del Parque Nacional; la senda Carretas está registrada en research_catalogue.json.
+No incorporar los HTML temporales del directorio research_tracks al sitio.
+
+RUTAS CON GEOMETRÍA REAL
+valsain-azul: 2,1 km / 40 min / +80 m / familiar. Sí hay elevaciones en su GPX.
+pedriza-tolmo: 5,8 km / 125 min / +292 m / senderista avanzado. Sin elevaciones GPX.
+penalara-zabala: 4,7 km / 105 min / +279 m / senderista principiante en condiciones normales. Sin elevaciones GPX.
+camino-schmid: 12,1 km / 245 min / +513 m / senderista avanzado. Sin elevaciones GPX.
+valsain-bosque: 1,9 km / 35 min / +56 m / familiar. Sin elevaciones GPX.
+ecosistemas: 0,3 km / 5 min / familiar; ficha oficial describe el sendero como accesible. Sin elevaciones GPX.
+cotos-angostura: 9,4 km / 195 min / +417 m / senderista avanzado. La introducción dice 9,5 km; se usa el cuadro MIDE.
+carretas: 6,29 km / dificultad media / circular. Se descargaron 257 puntos de la Junta de Castilla-La Mancha. La duración oficial aparece como '2.10'; se conserva sin traducir a minutos por ambigüedad.
+
+RUTAS DOCUMENTADAS SIN GEOMETRÍA IMPORTADA
+Victory: 2,2 km son de ida, desde Arroyo de la Navazuela hasta Pradera Navarrulaque; no es el paseo completo desde Cercedilla.
+Purgatorio: VisitMadrid publica una variante circular de 12,2 km y 270 min. No inventar su línea ni confundirla con la variante habitual de ida y vuelta.
+Gredos: 6,4 km de ida en folleto, 12,8 km ida y vuelta calculados. 5 horas de ida y vuelta publicadas. No sumar desnivel a partir de cotas contradictorias.
+Boadilla: 14,8 km / 240 min / moderada. La fuente indica que también es apta para bicicleta.
+
+CONTENIDO Y LICENCIAS
+La web oficial del Parque Nacional tiene licencia general CC BY-NC-SA 4.0 y excepciones (fotografías de portada con derechos reservados). Los datos descriptivos son resúmenes breves. Atribuir al Parque y conservar enlace a su licencia. No afirmar que la totalidad del catálogo o las geometrías tienen licencia comercial libre. Antes de monetizar se deben revisar las licencias propias o sustituir por fuentes compatibles. Los GPX de la Junta CLM no especifican aquí licencia individual: queda pendiente comprobar condiciones de reutilización.
+No se han copiado fotos. No hay modelos 3D licenciados ni validados en este lote (model_3d:null).
+
+SEMÁNTICA PARA LA INTERFAZ
+- Marcadores de lugares: encuadre aproximado; no navegación ni punto de acceso garantizado. Inicios de GPX: origen del track oficial.
+- Especies: presencia regional documentada, no avistamiento actual ni promesa de verla en esa senda. El vínculo lugar/especie puede ser del ecosistema más amplio; mantener la nota.
+- Campos null significan no verificado; nunca convertirlos en 0 o en confirmación.
+- cycling_verified:false en las sendas peatonales significa que no se ha validado para ciclismo; no inventar permiso ni prohibición de esa línea. El parque exige usar únicamente viales autorizados en el PRUG.
+- route_status es publicado, no apertura en vivo. No crear alertas activas o meteorología ficticia.
+- No publicar nidos, madrigueras, poblaciones sensibles o supuestos sitios secretos que estimulen salidas de sendero.
+
+RESTRICCIONES CONFIRMADAS
+Montejo: visitas guiadas con pase; mascotas no permitidas salvo perros de asistencia acreditados; primer kilómetro de la senda del río accesible según Comunidad de Madrid.
+Guadarrama: mascotas atadas; no entrar en ríos salvo zonas específicamente autorizadas, tampoco los perros; caminar por senderos autorizados.
+Tejera Negra: consultar reserva para aparcamiento El Casarejo; distintas páginas oficiales difieren sobre la época. Perros atados. La web turística indica que Carretas no es apta para carritos ni movilidad reducida.
+Cárcavas: bordes frágiles sin protección, laderas arcillosas resbaladizas; no descender al interior. El lugar está en Guadalajara, no Madrid.
+Peñalara/Gredos: nieve y hielo pueden cambiar totalmente la dificultad; no etiquetar simplemente 'fácil para niños' por distancia corta.
+
+FUENTES PRINCIPALES PARA ABRIR/CITAR EN RESPUESTA FINAL
+https://www.parquenacionalsierraguadarrama.es/visita/rutas
+https://www.parquenacionalsierraguadarrama.es/tracks/category/9-sendas
+https://www.parquenacionalsierraguadarrama.es/licencia-creative-commons
+https://www.comunidad.madrid/centros/centro-educacion-ambiental-hayedo-montejo
+https://www.sierradelrincon.org/visitas-hayedo-de-montejo/
+https://medionatural.castillalamancha.es/rap/espacios-naturales-protegidos/enp-parque-natural/parque-natural-sierra-norte-de-guadalajara/rutas/01-senda-ecologica-de-carretas-hayedo-de-tejera-negra
+https://www.comunidad.madrid/actividades/2017/senda-victory
+https://patrimonionatural.org/ficheros/folletolagunagrande.pdf

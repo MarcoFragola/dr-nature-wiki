@@ -1,0 +1,298 @@
+{
+  "schema": "dr-nature-biodiversity-reference-v1",
+  "generated_at": "2026-10-27T18:57:46.779218+00:00",
+  "source": {
+    "id": "miteco-iepnb-lista-patron",
+    "title": "Lista Patrón de las especies silvestres presentes en España",
+    "publisher": "Ministerio para la Transición Ecológica y el Reto Demográfico · IEPNB",
+    "page_url": "https://pro.iepnb.gob.es/recursos/listas-controladas",
+    "api_url": "https://iepnb.gob.es/api/catalogo/v_listapatronespecie",
+    "api_documentation_url": "https://pro.iepnb.gob.es/recursos/servicios-interoperables/api-catalogo",
+    "retrieved_at": "2026-10-27T18:53:22.275140+00:00",
+    "snapshot_date": "2026-10-27",
+    "source_update_date": null,
+    "source_update_date_note": "The API does not supply a dataset-wide last-update timestamp in these responses.",
+    "licence": "CC BY 4.0 (portal default unless a dataset states otherwise)",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+    "licence_evidence_url": "https://pro.iepnb.gob.es/aviso-legal",
+    "attribution": "MITECO / Inventario Español del Patrimonio Natural y de la Biodiversidad, Lista Patrón de las especies silvestres presentes en España; snapshot 2026-10-27. Normalized for Dr Nature wiki."
+  },
+  "total_taxa": 69244,
+  "official_declared_rows": 69249,
+  "consolidated_duplicate_rows": 5,
+  "scope": {
+    "id": "ES",
+    "name": {
+      "es": "España",
+      "en": "Spain"
+    },
+    "definition": {
+      "es": "Referencia taxonómica de ámbito nacional, terrestre y marino. La pertenencia a la Lista Patrón no acredita presencia en Madrid, en una ruta o en un punto concreto.",
+      "en": "National terrestrial and marine taxonomy reference. Membership of the master list does not establish presence in Madrid, on a trail or at an individual location."
+    }
+  },
+  "groups": [
+    {
+      "id": "birds",
+      "label": {
+        "es": "Aves",
+        "en": "Birds"
+      },
+      "count": 1111,
+      "chunks": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "mammals",
+      "label": {
+        "es": "Mamíferos",
+        "en": "Mammals"
+      },
+      "count": 169,
+      "chunks": [
+        2
+      ]
+    },
+    {
+      "id": "reptiles",
+      "label": {
+        "es": "Reptiles",
+        "en": "Reptiles"
+      },
+      "count": 124,
+      "chunks": [
+        3
+      ]
+    },
+    {
+      "id": "amphibians",
+      "label": {
+        "es": "Anfibios",
+        "en": "Amphibians"
+      },
+      "count": 39,
+      "chunks": [
+        4
+      ]
+    },
+    {
+      "id": "fish",
+      "label": {
+        "es": "Peces",
+        "en": "Fish"
+      },
+      "count": 1197,
+      "chunks": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": "invertebrates",
+      "label": {
+        "es": "Invertebrados",
+        "en": "Invertebrates"
+      },
+      "count": 46089,
+      "chunks": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53
+      ]
+    },
+    {
+      "id": "vascular-plants",
+      "label": {
+        "es": "Plantas vasculares",
+        "en": "Vascular plants"
+      },
+      "count": 9959,
+      "chunks": [
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ]
+    },
+    {
+      "id": "bryophytes",
+      "label": {
+        "es": "Briófitos",
+        "en": "Bryophytes"
+      },
+      "count": 1318,
+      "chunks": [
+        64,
+        65
+      ]
+    },
+    {
+      "id": "plants-other",
+      "label": {
+        "es": "Algas y otras plantas",
+        "en": "Algae and other plants"
+      },
+      "count": 1051,
+      "chunks": [
+        66,
+        67
+      ]
+    },
+    {
+      "id": "fungi",
+      "label": {
+        "es": "Hongos y líquenes",
+        "en": "Fungi and lichens"
+      },
+      "count": 6760,
+      "chunks": [
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74
+      ]
+    },
+    {
+      "id": "chromista",
+      "label": {
+        "es": "Cromistas",
+        "en": "Chromists"
+      },
+      "count": 821,
+      "chunks": [
+        75
+      ]
+    },
+    {
+      "id": "protists",
+      "label": {
+        "es": "Protozoos y otros protistas",
+        "en": "Protozoa and other protists"
+      },
+      "count": 364,
+      "chunks": [
+        76
+      ]
+    },
+    {
+      "id": "bacteria",
+      "label": {
+        "es": "Bacterias",
+        "en": "Bacteria"
+      },
+      "count": 241,
+      "chunks": [
+        77
+      ]
+    },
+    {
+      "id": "other",
+      "label": {
+        "es": "Otros taxones",
+        "en": "Other taxa"
+      },
+      "count": 1,
+      "chunks": [
+        78
+      ]
+    }
+  ],
+  "ranks": {
+    "Agregado": 1,
+    "Family": 1,
+    "Form": 25,
+    "Genus": 14,
+    "Group": 2,
+    "Nothospecies": 3,
+    "Species": 64360,
+    "Subspecies": 4683,
+    "Variety": 155
+  },
+  "kingdoms": {
+    "Animalia": 48729,
+    "Bacteria": 241,
+    "Chromista": 821,
+    "Fungi": 6760,
+    "Plantae": 12328,
+    "Protozoa": 364,
+    "Pseudomonadati": 1
+  },
+  "records_with_common_name": 2885,
+  "limitations": {
+    "es": [
+      "Taxones de distintos rangos: no todos los registros equivalen a especies.",
+      "Ámbito España; no se añaden coordenadas, avistamientos ni relaciones locales inferidas.",
+      "Sin fotografías o descripciones añadidas a partir de semejanzas; las fichas curadas se mantienen aparte.",
+      "Los nombres comunes se conservan cuando los facilita la fuente; el API no declara el idioma de cada nombre.",
+      "Los grandes grupos son una ayuda de navegación derivada de la taxonomía oficial, que se conserva íntegra.",
+      "La instantánea no implica sincronización automática con cambios posteriores."
+    ],
+    "en": [
+      "Taxa at several ranks; the record count is not a species count.",
+      "Spain-wide scope; no coordinates, sightings or inferred local associations are added.",
+      "No photographs or descriptions inferred by similarity; curated cards remain separate.",
+      "Common names are preserved when supplied; the API does not declare each name’s language.",
+      "Broad groups help navigation and are derived from, without replacing, official taxonomy.",
+      "This snapshot does not automatically synchronize later changes."
+    ]
+  },
+  "index_file": "data/biodiversity/index.json",
+  "index_bytes": 4628657,
+  "chunk_count": 79,
+  "chunk_bytes": 50398899
+}

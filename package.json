@@ -1,0 +1,12 @@
+{
+  "name": "dr-nature-wiki",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Atlas visual de naturaleza con recorrido de scroll, portada geográfica IGN, mapa 3D, rutas y biodiversidad.",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "check": "node scripts/check.mjs",
+    "database": "node scripts/check.mjs --database"
+  }
+}

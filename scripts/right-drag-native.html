@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es"><meta charset="utf-8"><title>Comprobación de giro · Dr Nature wiki</title>
+<link rel="stylesheet" href="/assets/vendor/maplibre-gl.css">
+<style>body{margin:0;background:#0b1918;color:#eef2ea;font:15px system-ui}main{padding:24px;display:grid;grid-template-columns:1fr 1fr;gap:24px}#map{height:600px}button{padding:12px}td,th{text-align:left;padding:6px;border-bottom:1px solid #354844}.pass{color:#c9e89c}.fail{color:#ff9999}h1{font-size:24px}p{color:#b6c4ba}</style>
+<main><div><h1>Giro del mapa con clic derecho</h1><p>Motor real MapLibre 6.15.0. Arrastre a izquierda: horario. Arrastre a derecha: antihorario.</p><button id="run">Comprobar gestos</button><p id="status">Cargando motor…</p><table><thead><tr><th>Zona y gesto</th><th>Giro de cámara</th><th>Resultado</th></tr></thead><tbody id="results"></tbody></table></div><div id="map"></div></main>
+<script type="module">
+import {Map} from '/assets/vendor/maplibre-gl.mjs';
+import {installRightDrag} from '/right-drag.js';
+const map=new Map({container:'map',center:[0,0],zoom:2,pitch:45,bearing:0,attributionControl:false,
+ style:{version:8,sources:{cross:{type:'geojson',data:{type:'FeatureCollection',features:[
+ {type:'Feature',geometry:{type:'LineString',coordinates:[[-25,0],[25,0]]}},
+ {type:'Feature',geometry:{type:'LineString',coordinates:[[0,-25],[0,25]]}}]}}},layers:[
+ {id:'background',type:'background',paint:{'background-color':'#173b35'}},
+ {id:'cross',type:'line',source:'cross',paint:{'line-color':'#cee99a','line-width':4}}]}});
+const installed=installRightDrag(map), status=document.querySelector('#status'), results=document.querySelector('#results');
+const frame=()=>new Promise(resolve=>requestAnimationFrame(resolve));
+const flush=async()=>{await frame();await frame();await frame();};
+map.once('load',()=>{status.textContent=installed.installed?'Motor listo; adaptación instalada.':'ERROR: adaptación ausente';});
+function mouse(target,type,x,y,button,buttons,ctrlKey=false){target.dispatchEvent(new MouseEvent(type,{bubbles:true,cancelable:true,view:window,clientX:x,clientY:y,button,buttons,ctrlKey}));}
+async function drag({dx,dy=0,y,ctrl=false}){
+ map.stop();map.jumpTo({bearing:0,pitch:45});await flush();
+ const rect=map.getCanvas().getBoundingClientRect(), x=rect.left+rect.width/2, py=rect.top+y;
+ const button=ctrl?0:2,buttons=ctrl?1:2;
+ mouse(map.getCanvas(),'mousedown',x,py,button,buttons,ctrl);
+ for(let i=1;i<=4;i++){mouse(document,'mousemove',x+dx*i/4,py+dy*i/4,button,buttons,ctrl);await flush();}
+ const bearing=map.getBearing(),pitch=map.getPitch(),north=map.project([0,20]),center=map.project([0,0]);
+ const clockwise=north.x>center.x;
+ mouse(document,'mouseup',x+dx,py+dy,button,0,ctrl);map.stop();await flush();
+ return {bearing,pitch,clockwise};
+}
+document.querySelector('#run').onclick=async()=>{
+ results.replaceChildren();let passes=0,all=0;status.textContent='Comprobando eventos nativos…';
+ try{
+ const h=map.getCanvas().clientHeight;
+ for(const [zone,y] of [['Arriba',50],['Centro superior',h/2-30],['Centro inferior',h/2+30],['Abajo',h-50]]){
+  for(const dx of [-60,60]){const r=await drag({dx,y});const ok=Math.sign(r.bearing)===Math.sign(dx)&&r.clockwise===(dx<0)&&Math.abs(r.pitch-45)<.001;show(`${zone} · ${dx<0?'izquierda':'derecha'}`,r,ok);}
+ }
+ for(const dy of [-70,70]){const r=await drag({dx:0,dy,y:h/2});show(`Solo vertical · ${dy<0?'arriba':'abajo'}`,r,Math.abs(r.bearing)<.001&&Math.abs(r.pitch-45)>1);}
+ for(const dx of [-60,60]){const r=await drag({dx,dy:70,y:h/2-35});show(`Cruza centro · ${dx<0?'izquierda':'derecha'}`,r,Math.sign(r.bearing)===Math.sign(dx)&&r.clockwise===(dx<0));}
+ const upper=await drag({dx:60,y:50,ctrl:true}),lower=await drag({dx:60,y:h-50,ctrl:true});
+ show('Ctrl + izquierdo conserva giro circular',lower,upper.bearing*lower.bearing<0&&map.dragRotate.movement==='circular');
+ status.textContent=`${passes}/${all} comprobaciones correctas · eventos sobre el motor real.`;status.dataset.passed=String(passes===all);
+ }catch(error){status.textContent=`ERROR: ${error.message}`;status.dataset.passed='false';}
+ function show(label,r,ok){all++;if(ok)passes++;const row=document.createElement('tr');row.className=ok?'pass':'fail';for(const value of [label,`${r.bearing.toFixed(2)}°`,ok?'Correcto':'FALLO']){const cell=document.createElement('td');cell.textContent=value;row.appendChild(cell);}results.appendChild(row);}
+};
+</script></html>

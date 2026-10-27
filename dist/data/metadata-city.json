@@ -1,0 +1,627 @@
+{
+  "title": "Puntos urbanos de orientación — Madrid y entorno",
+  "provider": "Instituto Geográfico Nacional",
+  "dataset": "Nomenclátor Geográfico Básico de España (NGBE)",
+  "checked_at": "2026-10-27",
+  "source_service": "https://www.ign.es/wfs-inspire/ngbe",
+  "capabilities_url": "https://www.ign.es/wfs-inspire/ngbe?service=WFS&request=GetCapabilities&version=2.0.0",
+  "official_product_url": "https://centrodedescargas.cnig.es/CentroDescargas/buscadorCatalogo.do?codFamilia=NGBES",
+  "official_catalogue_url": "https://datos.gob.es/es/catalogo/e0dat0002-nomenclator-geografico-basico-de-espana1",
+  "license": {
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "NGBE CC-BY 4.0 ign.es",
+    "confirmed_by": "WFS AccessConstraints"
+  },
+  "crs": {
+    "source_service_default": "ETRS89 / EPSG:4258",
+    "requested_output": "EPSG:4326 / WGS84",
+    "coordinate_order": "longitude,latitude",
+    "local_reprojection": false
+  },
+  "selection": {
+    "feature_type": "gn:NamedPlace",
+    "required_named_place_type": "https://inspire.ec.europa.eu/codelist/NamedPlaceTypeValue/populatedPlace",
+    "urban_point_policy": "Only official populatedPlace POINT records selected. administrativeUnit records, polygon centroids, landforms, buildings and other homonyms excluded. Province-capital population records were required for all six capitals.",
+    "regional_selection_bbox": [
+      -5.1,
+      39.4,
+      -1.9,
+      41.4
+    ],
+    "download_scope": "Small exact-name batches; no nationwide dataset downloaded.",
+    "rank_policy": "Editorial display priority only: capital for six province capitals, town for remaining selected settlements. These ranks do not alter official legal city status.",
+    "minZoom_policy": {
+      "capital": 7,
+      "town": 10.5
+    },
+    "unmatched_requested_names": []
+  },
+  "counts": {
+    "total": 38,
+    "capital": 6,
+    "town": 32
+  },
+  "limitations": [
+    "Named place points locate the settlement for map orientation; they are not entrance, parking, postal address or surveyed monument coordinates.",
+    "Point positions are copied from IGN without geometry derivation or centroid calculation. No independent positional survey accuracy is asserted.",
+    "Source version dates are recorded per feature where supplied. The extraction is a dated local snapshot, not a live synchronisation."
+  ],
+  "validation": {
+    "all_six_capitals_verified_as_province_capital_population_points": true,
+    "all_geometries_points": true,
+    "all_selected_records_populated_place": true,
+    "all_coordinates_finite_and_regional": true,
+    "ids_unique": true,
+    "coordinates_unchanged_from_ign": true
+  },
+  "file": {
+    "name": "cities.geojson",
+    "bytes": 24971,
+    "sha256": "33c2951d4a824f2295b5e18c109ed1b33d4c0f89944ded4d394b07ff2c852815"
+  },
+  "features": [
+    {
+      "name": "Madrid",
+      "source_name": "Madrid",
+      "source_feature_id": "ES.IGN.NGBE.2721306",
+      "source_local_type": "Capital de provincia",
+      "coordinates": [
+        -3.68760088,
+        40.40841191
+      ],
+      "capital_point_verified": true,
+      "settlement_point_verified": true
+    },
+    {
+      "name": "Toledo",
+      "source_name": "Toledo",
+      "source_feature_id": "ES.IGN.NGBE.2721299",
+      "source_local_type": "Capital de provincia",
+      "coordinates": [
+        -4.024974933,
+        39.8565219
+      ],
+      "capital_point_verified": true,
+      "settlement_point_verified": true
+    },
+    {
+      "name": "Segovia",
+      "source_name": "Segovia",
+      "source_feature_id": "ES.IGN.NGBE.2721291",
+      "source_local_type": "Capital de provincia",
+      "coordinates": [
+        -4.12524116,
+        40.9498703
+      ],
+      "capital_point_verified": true,
+      "settlement_point_verified": true
+    },
+    {
+      "name": "Ávila",
+      "source_name": "Ávila",
+      "source_feature_id": "ES.IGN.NGBE.2721286",
+      "source_local_type": "Capital de provincia",
+      "coordinates": [
+        -4.69771277,
+        40.65586958
+      ],
+      "capital_point_verified": true,
+      "settlement_point_verified": true
+    },
+    {
+      "name": "Guadalajara",
+      "source_name": "Guadalajara",
+      "source_feature_id": "ES.IGN.NGBE.2721298",
+      "source_local_type": "Capital de provincia",
+      "coordinates": [
+        -3.16210273,
+        40.63435548
+      ],
+      "capital_point_verified": true,
+      "settlement_point_verified": true
+    },
+    {
+      "name": "Cuenca",
+      "source_name": "Cuenca",
+      "source_feature_id": "ES.IGN.NGBE.2721297",
+      "source_local_type": "Capital de provincia",
+      "coordinates": [
+        -2.13152306,
+        40.07653762
+      ],
+      "capital_point_verified": true,
+      "settlement_point_verified": true
+    },
+    {
+      "name": "Cercedilla",
+      "source_name": "Cercedilla",
+      "source_feature_id": "ES.IGN.NGBE.2813034",
+      "source_local_type": "Capital de municipio",
+      "coordinates": [
+        -4.055287611,
+        40.7416083
+      ],
+      "capital_point_verified": false,
+      "settlement_point_verified": true
+    },
+    {
+      "name": "Rascafría",
+      "source_name": "Rascafría",
+      "source_feature_id": "ES.IGN.NGBE.2813111",
+      "source_local_type": "Capital de municipio",
+      "coordinates": [
+        -3.880406282,
+        40.90404891
+      ],
+      "capital_point_verified": false,
+      "settlement_point_verified": true
+    },
+    {
+      "name": "Manzanares el Real",
+      "source_name": "Manzanares el Real",
+      "source_feature_id": "ES.IGN.NGBE.2813076",
+      "source_local_type": "Capital de municipio",
+      "coordinates": [
+        -3.865187,
+        40.72681157
+      ],
+      "capital_point_verified": false,
+      "settlement_point_verified": true
+    },
+    {
+      "name": "Navacerrada",
+      "source_name": "Navacerrada",
+      "source_feature_id": "ES.IGN.NGBE.2813087",
+      "source_local_type": "Capital de municipio",
+      "coordinates": [
+        -4.014591371,
+        40.72896591
+      ],
+      "capital_point_verified": false,
+      "settlement_point_verified": true
+    },
+    {
+      "name": "Guadarrama",
+      "source_name": "Guadarrama",
+      "source_feature_id": "ES.IGN.NGBE.2813064",
+      "source_local_type": "Capital de municipio",
+      "coordinates": [
+        -4.08879044,
+        40.67252357
+      ],
+      "capital_point_verified": false,
+      "settlement_point_verified": true
+    },
+    {
+      "name": "San Lorenzo de El Escorial",
+      "source_name": "San Lorenzo de El Escorial",
+      "source_feature_id": "ES.IGN.NGBE.2813122",
+      "source_local_type": "Capital de municipio",
+      "coordinates": [
+        -4.148963237,
+        40.5914354
+      ],
+      "capital_point_verified": false,
+      "settlement_point_verified": true
+    },
+    {
+      "name": "El Escorial",
+      "source_name": "El Escorial",
+      "source_feature_id": "ES.IGN.NGBE.2813050",
+      "source_local_type": "Capital de municipio",
+      "coordinates": [
+        -4.129576412,
+        40.58510059
+      ],
+      "capital_point_verified": false,
+      "settlement_point_verified": true
+    },
+    {
+      "name": "Buitrago del Lozoya",
+      "source_name": "Buitrago del Lozoya",
+      "source_feature_id": "ES.IGN.NGBE.2813023",
+      "source_local_type": "Capital de municipio",
+      "coordinates": [
+        -3.63645135,
+        40.993572
+      ],
+      "capital_point_verified": false,
+      "settlement_point_verified": true
+    },
+    {
+      "name": "Lozoya",
+      "source_name": "Lozoya",
+      "source_feature_id": "ES.IGN.NGBE.2813072",
+      "source_local_type": "Capital de municipio",
+      "coordinates": [
+        -3.791818898,
+        40.95134133
+      ],
+      "capital_point_verified": false,
+      "settlement_point_verified": true
+    },
+    {
+      "name": "Montejo de la Sierra",
+      "source_name": "Montejo de la Sierra",
+      "source_feature_id": "ES.IGN.NGBE.2813082",
+      "source_local_type": "Capital de municipio",
+      "coordinates": [
+        -3.53002601,
+        41.05958943
+      ],
+      "capital_point_verified": false,
+      "settlement_point_verified": true
+    },
+    {
+      "name": "San Ildefonso",
+      "source_name": "San Ildefonso",
+      "source_feature_id": "ES.IGN.NGBE.2814725",
+      "source_local_type": "Capital de municipio",
+      "coordinates": [
+        -4.005215407,
+        40.90081636
+      ],
+      "capital_point_verified": false,
+      "settlement_point_verified": true
+    },
+    {
+      "name": "Torrelaguna",
+      "source_name": "Torrelaguna",
+      "source_feature_id": "ES.IGN.NGBE.2813140",
+      "source_local_type": "Capital de municipio",
+      "coordinates": [
+        -3.53853988,
+        40.8279008
+      ],
+      "capital_point_verified": false,
+      "settlement_point_verified": true
+    },
+    {
+      "name": "Alcalá de Henares",
+      "source_name": "Alcalá de Henares",
+      "source_feature_id": "ES.IGN.NGBE.2813001",
+      "source_local_type": "Capital de municipio",
+      "coordinates": [
+        -3.364867022,
+        40.48179286
+      ],
+      "capital_point_verified": false,
+      "settlement_point_verified": true
+    },
+    {
+      "name": "Aranjuez",
+      "source_name": "Aranjuez",
+      "source_feature_id": "ES.IGN.NGBE.2813009",
+      "source_local_type": "Capital de municipio",
+      "coordinates": [
+        -3.603524966,
+        40.03219208
+      ],
+      "capital_point_verified": false,
+      "settlement_point_verified": true
+    },
+    {
+      "name": "Chinchón",
+      "source_name": "Chinchón",
+      "source_feature_id": "ES.IGN.NGBE.2813048",
+      "source_local_type": "Capital de municipio",
+      "coordinates": [
+        -3.423102611,
+        40.13994193
+      ],
+      "capital_point_verified": false,
+      "settlement_point_verified": true
+    },
+    {
+      "name": "El Tiemblo",
+      "source_name": "El Tiemblo",
+      "source_feature_id": "ES.IGN.NGBE.2809321",
+      "source_local_type": "Capital de municipio",
+      "coordinates": [
+        -4.50159048,
+        40.41508767
+      ],
+      "capital_point_verified": false,
+      "settlement_point_verified": true
+    },
+    {
+      "name": "Hoyo de Manzanares",
+      "source_name": "Hoyo de Manzanares",
+      "source_feature_id": "ES.IGN.NGBE.2813068",
+      "source_local_type": "Capital de municipio",
+      "coordinates": [
+        -3.907251019,
+        40.62286422
+      ],
+      "capital_point_verified": false,
+      "settlement_point_verified": true
+    },
+    {
+      "name": "Miraflores de la Sierra",
+      "source_name": "Miraflores de la Sierra",
+      "source_feature_id": "ES.IGN.NGBE.2813079",
+      "source_local_type": "Capital de municipio",
+      "coordinates": [
+        -3.766720793,
+        40.8138022
+      ],
+      "capital_point_verified": false,
+      "settlement_point_verified": true
+    },
+    {
+      "name": "Soto del Real",
+      "source_name": "Soto del Real",
+      "source_feature_id": "ES.IGN.NGBE.2813133",
+      "source_local_type": "Capital de municipio",
+      "coordinates": [
+        -3.786895514,
+        40.75317934
+      ],
+      "capital_point_verified": false,
+      "settlement_point_verified": true
+    },
+    {
+      "name": "Colmenar Viejo",
+      "source_name": "Colmenar Viejo",
+      "source_feature_id": "ES.IGN.NGBE.2813041",
+      "source_local_type": "Capital de municipio",
+      "coordinates": [
+        -3.766149541,
+        40.65880805
+      ],
+      "capital_point_verified": false,
+      "settlement_point_verified": true
+    },
+    {
+      "name": "Becerril de la Sierra",
+      "source_name": "Becerril de la Sierra",
+      "source_feature_id": "ES.IGN.NGBE.2813014",
+      "source_local_type": "Capital de municipio",
+      "coordinates": [
+        -3.989401413,
+        40.71626362
+      ],
+      "capital_point_verified": false,
+      "settlement_point_verified": true
+    },
+    {
+      "name": "Los Molinos",
+      "source_name": "Los Molinos",
+      "source_feature_id": "ES.IGN.NGBE.2813081",
+      "source_local_type": "Capital de municipio",
+      "coordinates": [
+        -4.073654968,
+        40.71480945
+      ],
+      "capital_point_verified": false,
+      "settlement_point_verified": true
+    },
+    {
+      "name": "Pinilla del Valle",
+      "source_name": "Pinilla del Valle",
+      "source_feature_id": "ES.IGN.NGBE.2813103",
+      "source_local_type": "Capital de municipio",
+      "coordinates": [
+        -3.818417487,
+        40.92642839
+      ],
+      "capital_point_verified": false,
+      "settlement_point_verified": true
+    },
+    {
+      "name": "Prádena del Rincón",
+      "source_name": "Prádena del Rincón",
+      "source_feature_id": "ES.IGN.NGBE.2813108",
+      "source_local_type": "Capital de municipio",
+      "coordinates": [
+        -3.540870896,
+        41.04380608
+      ],
+      "capital_point_verified": false,
+      "settlement_point_verified": true
+    },
+    {
+      "name": "Puebla de la Sierra",
+      "source_name": "Puebla de la Sierra",
+      "source_feature_id": "ES.IGN.NGBE.2813109",
+      "source_local_type": "Capital de municipio",
+      "coordinates": [
+        -3.4450022,
+        41.01221249
+      ],
+      "capital_point_verified": false,
+      "settlement_point_verified": true
+    },
+    {
+      "name": "Patones",
+      "source_name": "Patones",
+      "source_feature_id": "ES.IGN.NGBE.2813098",
+      "source_local_type": "Capital de municipio",
+      "coordinates": [
+        -3.4850733018,
+        40.8556873944
+      ],
+      "capital_point_verified": false,
+      "settlement_point_verified": true
+    },
+    {
+      "name": "Guadalix de la Sierra",
+      "source_name": "Guadalix de la Sierra",
+      "source_feature_id": "ES.IGN.NGBE.2813063",
+      "source_local_type": "Capital de municipio",
+      "coordinates": [
+        -3.692752779,
+        40.78487273
+      ],
+      "capital_point_verified": false,
+      "settlement_point_verified": true
+    },
+    {
+      "name": "San Agustín del Guadalix",
+      "source_name": "San Agustín del Guadalix",
+      "source_feature_id": "ES.IGN.NGBE.2813120",
+      "source_local_type": "Capital de municipio",
+      "coordinates": [
+        -3.615755214,
+        40.67838206
+      ],
+      "capital_point_verified": false,
+      "settlement_point_verified": true
+    },
+    {
+      "name": "Torrelodones",
+      "source_name": "Torrelodones",
+      "source_feature_id": "ES.IGN.NGBE.2813141",
+      "source_local_type": "Capital de municipio",
+      "coordinates": [
+        -3.929300988,
+        40.5756
+      ],
+      "capital_point_verified": false,
+      "settlement_point_verified": true
+    },
+    {
+      "name": "Boadilla del Monte",
+      "source_name": "Boadilla del Monte",
+      "source_feature_id": "ES.IGN.NGBE.2813018",
+      "source_local_type": "Capital de municipio",
+      "coordinates": [
+        -3.879174285,
+        40.40782161
+      ],
+      "capital_point_verified": false,
+      "settlement_point_verified": true
+    },
+    {
+      "name": "Rivas-Vaciamadrid",
+      "source_name": "Rivas-Vaciamadrid",
+      "source_feature_id": "ES.IGN.NGBE.2849896",
+      "source_local_type": "Entidad singular",
+      "coordinates": [
+        -3.54779332311403,
+        40.3549788204428
+      ],
+      "capital_point_verified": false,
+      "settlement_point_verified": true
+    },
+    {
+      "name": "Lozoyuela",
+      "source_name": "Lozoyuela",
+      "source_feature_id": "ES.IGN.NGBE.2813173",
+      "source_local_type": "Capital de municipio",
+      "coordinates": [
+        -3.617704644,
+        40.92630201
+      ],
+      "capital_point_verified": false,
+      "settlement_point_verified": true
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://www.ign.es/wfs-inspire/ngbe?service=WFS&request=GetFeature&version=2.0.0&typeNames=gn%3ANamedPlace&count=200&outputFormat=application%2Fgeo%2Bjson&srsName=EPSG%3A4326&filter=%3Cfes%3AFilter+xmlns%3Afes%3D%22http%3A%2F%2Fwww.opengis.net%2Ffes%2F2.0%22+xmlns%3Agn%3D%22http%3A%2F%2Finspire.ec.europa.eu%2Fschemas%2Fgn%2F4.0%22+xmlns%3Agml%3D%22http%3A%2F%2Fwww.opengis.net%2Fgml%2F3.2%22+xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfes%3AAnd%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Atype%2F%40xlink%3Ahref%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3Ehttps%3A%2F%2Finspire.ec.europa.eu%2Fcodelist%2FNamedPlaceTypeValue%2FpopulatedPlace%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3ABBOX%3E%3Cfes%3AValueReference%3Egn%3Ageometry%3C%2Ffes%3AValueReference%3E%3Cgml%3AEnvelope+srsName%3D%22http%3A%2F%2Fwww.opengis.net%2Fdef%2Fcrs%2FEPSG%2F0%2F4326%22%3E%3Cgml%3AlowerCorner%3E39.4+-5.1%3C%2Fgml%3AlowerCorner%3E%3Cgml%3AupperCorner%3E41.4+-1.9%3C%2Fgml%3AupperCorner%3E%3C%2Fgml%3AEnvelope%3E%3C%2Ffes%3ABBOX%3E%3Cfes%3AOr%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3EMadrid%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3EToledo%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3ESegovia%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3E%C3%81vila%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3EGuadalajara%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3ECuenca%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3ECercedilla%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3C%2Ffes%3AOr%3E%3C%2Ffes%3AAnd%3E%3C%2Ffes%3AFilter%3E",
+      "names": [
+        "Madrid",
+        "Toledo",
+        "Segovia",
+        "Ávila",
+        "Guadalajara",
+        "Cuenca",
+        "Cercedilla"
+      ],
+      "bytes": 42230,
+      "feature_count": 22,
+      "sha256": "4b9cff5d75d1e93ea522283df0f3088030b6ec82229bd2b96fd0247d48d97009"
+    },
+    {
+      "url": "https://www.ign.es/wfs-inspire/ngbe?service=WFS&request=GetFeature&version=2.0.0&typeNames=gn%3ANamedPlace&count=200&outputFormat=application%2Fgeo%2Bjson&srsName=EPSG%3A4326&filter=%3Cfes%3AFilter+xmlns%3Afes%3D%22http%3A%2F%2Fwww.opengis.net%2Ffes%2F2.0%22+xmlns%3Agn%3D%22http%3A%2F%2Finspire.ec.europa.eu%2Fschemas%2Fgn%2F4.0%22+xmlns%3Agml%3D%22http%3A%2F%2Fwww.opengis.net%2Fgml%2F3.2%22+xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfes%3AAnd%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Atype%2F%40xlink%3Ahref%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3Ehttps%3A%2F%2Finspire.ec.europa.eu%2Fcodelist%2FNamedPlaceTypeValue%2FpopulatedPlace%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3ABBOX%3E%3Cfes%3AValueReference%3Egn%3Ageometry%3C%2Ffes%3AValueReference%3E%3Cgml%3AEnvelope+srsName%3D%22http%3A%2F%2Fwww.opengis.net%2Fdef%2Fcrs%2FEPSG%2F0%2F4326%22%3E%3Cgml%3AlowerCorner%3E39.4+-5.1%3C%2Fgml%3AlowerCorner%3E%3Cgml%3AupperCorner%3E41.4+-1.9%3C%2Fgml%3AupperCorner%3E%3C%2Fgml%3AEnvelope%3E%3C%2Ffes%3ABBOX%3E%3Cfes%3AOr%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3ERascafr%C3%ADa%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3EManzanares+el+Real%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3ENavacerrada%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3EGuadarrama%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3ESan+Lorenzo+de+El+Escorial%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3EEl+Escorial%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3EBuitrago+del+Lozoya%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3C%2Ffes%3AOr%3E%3C%2Ffes%3AAnd%3E%3C%2Ffes%3AFilter%3E",
+      "names": [
+        "Rascafría",
+        "Manzanares el Real",
+        "Navacerrada",
+        "Guadarrama",
+        "San Lorenzo de El Escorial",
+        "El Escorial",
+        "Buitrago del Lozoya"
+      ],
+      "bytes": 26954,
+      "feature_count": 14,
+      "sha256": "aff6b08c943025571f8f2363e55267140d44b1f2184924807d6fe407528a95b2"
+    },
+    {
+      "url": "https://www.ign.es/wfs-inspire/ngbe?service=WFS&request=GetFeature&version=2.0.0&typeNames=gn%3ANamedPlace&count=200&outputFormat=application%2Fgeo%2Bjson&srsName=EPSG%3A4326&filter=%3Cfes%3AFilter+xmlns%3Afes%3D%22http%3A%2F%2Fwww.opengis.net%2Ffes%2F2.0%22+xmlns%3Agn%3D%22http%3A%2F%2Finspire.ec.europa.eu%2Fschemas%2Fgn%2F4.0%22+xmlns%3Agml%3D%22http%3A%2F%2Fwww.opengis.net%2Fgml%2F3.2%22+xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfes%3AAnd%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Atype%2F%40xlink%3Ahref%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3Ehttps%3A%2F%2Finspire.ec.europa.eu%2Fcodelist%2FNamedPlaceTypeValue%2FpopulatedPlace%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3ABBOX%3E%3Cfes%3AValueReference%3Egn%3Ageometry%3C%2Ffes%3AValueReference%3E%3Cgml%3AEnvelope+srsName%3D%22http%3A%2F%2Fwww.opengis.net%2Fdef%2Fcrs%2FEPSG%2F0%2F4326%22%3E%3Cgml%3AlowerCorner%3E39.4+-5.1%3C%2Fgml%3AlowerCorner%3E%3Cgml%3AupperCorner%3E41.4+-1.9%3C%2Fgml%3AupperCorner%3E%3C%2Fgml%3AEnvelope%3E%3C%2Ffes%3ABBOX%3E%3Cfes%3AOr%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3ELozoya%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3EMontejo+de+la+Sierra%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3ESan+Ildefonso%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3ETorrelaguna%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3EAlcal%C3%A1+de+Henares%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3EAranjuez%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3EChinch%C3%B3n%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3C%2Ffes%3AOr%3E%3C%2Ffes%3AAnd%3E%3C%2Ffes%3AFilter%3E",
+      "names": [
+        "Lozoya",
+        "Montejo de la Sierra",
+        "San Ildefonso",
+        "Torrelaguna",
+        "Alcalá de Henares",
+        "Aranjuez",
+        "Chinchón"
+      ],
+      "bytes": 200680,
+      "feature_count": 77,
+      "sha256": "661c46bc6c674fd54e6d4cb19996401bf52e475f9548ff6496e239c5ca71823a"
+    },
+    {
+      "url": "https://www.ign.es/wfs-inspire/ngbe?service=WFS&request=GetFeature&version=2.0.0&typeNames=gn%3ANamedPlace&count=200&outputFormat=application%2Fgeo%2Bjson&srsName=EPSG%3A4326&filter=%3Cfes%3AFilter+xmlns%3Afes%3D%22http%3A%2F%2Fwww.opengis.net%2Ffes%2F2.0%22+xmlns%3Agn%3D%22http%3A%2F%2Finspire.ec.europa.eu%2Fschemas%2Fgn%2F4.0%22+xmlns%3Agml%3D%22http%3A%2F%2Fwww.opengis.net%2Fgml%2F3.2%22+xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfes%3AAnd%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Atype%2F%40xlink%3Ahref%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3Ehttps%3A%2F%2Finspire.ec.europa.eu%2Fcodelist%2FNamedPlaceTypeValue%2FpopulatedPlace%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3ABBOX%3E%3Cfes%3AValueReference%3Egn%3Ageometry%3C%2Ffes%3AValueReference%3E%3Cgml%3AEnvelope+srsName%3D%22http%3A%2F%2Fwww.opengis.net%2Fdef%2Fcrs%2FEPSG%2F0%2F4326%22%3E%3Cgml%3AlowerCorner%3E39.4+-5.1%3C%2Fgml%3AlowerCorner%3E%3Cgml%3AupperCorner%3E41.4+-1.9%3C%2Fgml%3AupperCorner%3E%3C%2Fgml%3AEnvelope%3E%3C%2Ffes%3ABBOX%3E%3Cfes%3AOr%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3EEl+Tiemblo%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3EHoyo+de+Manzanares%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3EMiraflores+de+la+Sierra%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3ESoto+del+Real%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3EColmenar+Viejo%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3EBecerril+de+la+Sierra%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3ELos+Molinos%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3C%2Ffes%3AOr%3E%3C%2Ffes%3AAnd%3E%3C%2Ffes%3AFilter%3E",
+      "names": [
+        "El Tiemblo",
+        "Hoyo de Manzanares",
+        "Miraflores de la Sierra",
+        "Soto del Real",
+        "Colmenar Viejo",
+        "Becerril de la Sierra",
+        "Los Molinos"
+      ],
+      "bytes": 206092,
+      "feature_count": 79,
+      "sha256": "4b1c6f8b87f5c445ba62a68ca476ed0153737d7132e6009785580f4b9b03667b"
+    },
+    {
+      "url": "https://www.ign.es/wfs-inspire/ngbe?service=WFS&request=GetFeature&version=2.0.0&typeNames=gn%3ANamedPlace&count=200&outputFormat=application%2Fgeo%2Bjson&srsName=EPSG%3A4326&filter=%3Cfes%3AFilter+xmlns%3Afes%3D%22http%3A%2F%2Fwww.opengis.net%2Ffes%2F2.0%22+xmlns%3Agn%3D%22http%3A%2F%2Finspire.ec.europa.eu%2Fschemas%2Fgn%2F4.0%22+xmlns%3Agml%3D%22http%3A%2F%2Fwww.opengis.net%2Fgml%2F3.2%22+xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfes%3AAnd%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Atype%2F%40xlink%3Ahref%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3Ehttps%3A%2F%2Finspire.ec.europa.eu%2Fcodelist%2FNamedPlaceTypeValue%2FpopulatedPlace%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3ABBOX%3E%3Cfes%3AValueReference%3Egn%3Ageometry%3C%2Ffes%3AValueReference%3E%3Cgml%3AEnvelope+srsName%3D%22http%3A%2F%2Fwww.opengis.net%2Fdef%2Fcrs%2FEPSG%2F0%2F4326%22%3E%3Cgml%3AlowerCorner%3E39.4+-5.1%3C%2Fgml%3AlowerCorner%3E%3Cgml%3AupperCorner%3E41.4+-1.9%3C%2Fgml%3AupperCorner%3E%3C%2Fgml%3AEnvelope%3E%3C%2Ffes%3ABBOX%3E%3Cfes%3AOr%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3EPinilla+del+Valle%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3EPr%C3%A1dena+del+Rinc%C3%B3n%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3EPuebla+de+la+Sierra%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3EPatones%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3EGuadalix+de+la+Sierra%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3ESan+Agust%C3%ADn+del+Guadalix%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3ETorrelodones%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3C%2Ffes%3AOr%3E%3C%2Ffes%3AAnd%3E%3C%2Ffes%3AFilter%3E",
+      "names": [
+        "Pinilla del Valle",
+        "Prádena del Rincón",
+        "Puebla de la Sierra",
+        "Patones",
+        "Guadalix de la Sierra",
+        "San Agustín del Guadalix",
+        "Torrelodones"
+      ],
+      "bytes": 25075,
+      "feature_count": 13,
+      "sha256": "2fa81c5d16a5be84310a11f6f2edf66d8507ea6e2cb359153eb1ad645c55d459"
+    },
+    {
+      "url": "https://www.ign.es/wfs-inspire/ngbe?service=WFS&request=GetFeature&version=2.0.0&typeNames=gn%3ANamedPlace&count=200&outputFormat=application%2Fgeo%2Bjson&srsName=EPSG%3A4326&filter=%3Cfes%3AFilter+xmlns%3Afes%3D%22http%3A%2F%2Fwww.opengis.net%2Ffes%2F2.0%22+xmlns%3Agn%3D%22http%3A%2F%2Finspire.ec.europa.eu%2Fschemas%2Fgn%2F4.0%22+xmlns%3Agml%3D%22http%3A%2F%2Fwww.opengis.net%2Fgml%2F3.2%22+xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfes%3AAnd%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Atype%2F%40xlink%3Ahref%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3Ehttps%3A%2F%2Finspire.ec.europa.eu%2Fcodelist%2FNamedPlaceTypeValue%2FpopulatedPlace%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3ABBOX%3E%3Cfes%3AValueReference%3Egn%3Ageometry%3C%2Ffes%3AValueReference%3E%3Cgml%3AEnvelope+srsName%3D%22http%3A%2F%2Fwww.opengis.net%2Fdef%2Fcrs%2FEPSG%2F0%2F4326%22%3E%3Cgml%3AlowerCorner%3E39.4+-5.1%3C%2Fgml%3AlowerCorner%3E%3Cgml%3AupperCorner%3E41.4+-1.9%3C%2Fgml%3AupperCorner%3E%3C%2Fgml%3AEnvelope%3E%3C%2Ffes%3ABBOX%3E%3Cfes%3AOr%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3EBoadilla+del+Monte%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3ERivas-Vaciamadrid%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3ELozoyuela%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3ELa+Granja+de+San+Ildefonso%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3EReal+Sitio+de+San+Ildefonso%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3EGranja+de+San+Ildefonso+%28La%29%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3EIldefonso+%28San%29%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3C%2Ffes%3AOr%3E%3C%2Ffes%3AAnd%3E%3C%2Ffes%3AFilter%3E",
+      "names": [
+        "Boadilla del Monte",
+        "Rivas-Vaciamadrid",
+        "Lozoyuela",
+        "La Granja de San Ildefonso",
+        "Real Sitio de San Ildefonso",
+        "Granja de San Ildefonso (La)",
+        "Ildefonso (San)"
+      ],
+      "bytes": 9664,
+      "feature_count": 5,
+      "sha256": "b85fd2801c19776fabd4ae98593508d97714d5b1f6024bf1932114a76e06879e"
+    },
+    {
+      "url": "https://www.ign.es/wfs-inspire/ngbe?service=WFS&request=GetFeature&version=2.0.0&typeNames=gn%3ANamedPlace&count=200&outputFormat=application%2Fgeo%2Bjson&srsName=EPSG%3A4326&filter=%3Cfes%3AFilter+xmlns%3Afes%3D%22http%3A%2F%2Fwww.opengis.net%2Ffes%2F2.0%22+xmlns%3Agn%3D%22http%3A%2F%2Finspire.ec.europa.eu%2Fschemas%2Fgn%2F4.0%22+xmlns%3Agml%3D%22http%3A%2F%2Fwww.opengis.net%2Fgml%2F3.2%22+xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cfes%3AAnd%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Atype%2F%40xlink%3Ahref%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3Ehttps%3A%2F%2Finspire.ec.europa.eu%2Fcodelist%2FNamedPlaceTypeValue%2FpopulatedPlace%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3ABBOX%3E%3Cfes%3AValueReference%3Egn%3Ageometry%3C%2Ffes%3AValueReference%3E%3Cgml%3AEnvelope+srsName%3D%22http%3A%2F%2Fwww.opengis.net%2Fdef%2Fcrs%2FEPSG%2F0%2F4326%22%3E%3Cgml%3AlowerCorner%3E39.4+-5.1%3C%2Fgml%3AlowerCorner%3E%3Cgml%3AupperCorner%3E41.4+-1.9%3C%2Fgml%3AupperCorner%3E%3C%2Fgml%3AEnvelope%3E%3C%2Ffes%3ABBOX%3E%3Cfes%3AOr%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3ESan+Lorenzo+del+Escorial%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3EManzanares+El+Real%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3ERivas+Vaciamadrid%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3EEscorial+%28El%29%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3Cfes%3APropertyIsEqualTo%3E%3Cfes%3AValueReference%3Egn%3Aname%2Fgn%3AGeographicalName%2Fgn%3Aspelling%2Fgn%3ASpellingOfName%2Fgn%3Atext%3C%2Ffes%3AValueReference%3E%3Cfes%3ALiteral%3ETiemblo+%28El%29%3C%2Ffes%3ALiteral%3E%3C%2Ffes%3APropertyIsEqualTo%3E%3C%2Ffes%3AOr%3E%3C%2Ffes%3AAnd%3E%3C%2Ffes%3AFilter%3E",
+      "names": [
+        "San Lorenzo del Escorial",
+        "Manzanares El Real",
+        "Rivas Vaciamadrid",
+        "Escorial (El)",
+        "Tiemblo (El)"
+      ],
+      "bytes": 33,
+      "feature_count": 0,
+      "sha256": "0db75f71efa87dab713b983738ae9b82e26762dffa891ec5e7c3b1013fe68176"
+    }
+  ],
+  "service_response_caveat": "The service emits a FeatureCollection without a features member for an empty result. The empty final alias batch was recorded as zero features; no entity was inferred from it."
+}

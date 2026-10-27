@@ -1,0 +1,36 @@
+{
+  "total_taxa": 69244,
+  "index_bytes": 4628657,
+  "chunks": 79,
+  "chunk_bytes": 50398899,
+  "with_common_names": 2885,
+  "curated_exact_matches": 63,
+  "groups": {
+    "birds": 1111,
+    "mammals": 169,
+    "reptiles": 124,
+    "amphibians": 39,
+    "fish": 1197,
+    "invertebrates": 46089,
+    "vascular-plants": 9959,
+    "bryophytes": 1318,
+    "plants-other": 1051,
+    "fungi": 6760,
+    "chromista": 821,
+    "protists": 364,
+    "bacteria": 241,
+    "other": 1
+  },
+  "ranks": {
+    "Agregado": 1,
+    "Family": 1,
+    "Form": 25,
+    "Genus": 14,
+    "Group": 2,
+    "Nothospecies": 3,
+    "Species": 64360,
+    "Subspecies": 4683,
+    "Variety": 155
+  },
+  "source_pages": 14
+}
