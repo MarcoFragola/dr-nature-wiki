@@ -920,6 +920,743 @@
       "url": "https://turismovalledeljerte.com/que-ver-en-el-valle-del-jerte/naturaleza-activa/rutas-de-senderismo/ruta-de-las-juderias-pr-cc-10",
       "type": "official",
       "checked_at": "2026-10-27"
+    },
+    "atlas-v3-carbonero-comun-1": {
+      "title": "Parus major — SEO/BirdLife",
+      "url": "https://seo.org/ave/carbonero-comun/",
+      "publisher": "SEO/BirdLife",
+      "checked_at": "2026-10-28",
+      "scope_note": "Species account; no precise local sightings inferred.",
+      "type": "species_reference"
+    },
+    "atlas-v3-pico-picapinos-1": {
+      "title": "Dendrocopos major — SEO/BirdLife",
+      "url": "https://seo.org/ave/pico-picapinos/",
+      "publisher": "SEO/BirdLife",
+      "checked_at": "2026-10-28",
+      "scope_note": "Species account; no precise local sightings inferred.",
+      "type": "species_reference"
+    },
+    "atlas-v3-focha-comun-1": {
+      "title": "Fulica atra — SEO/BirdLife",
+      "url": "https://seo.org/ave/focha-comun/",
+      "publisher": "SEO/BirdLife",
+      "checked_at": "2026-10-28",
+      "scope_note": "Species account; no precise local sightings inferred.",
+      "type": "species_reference"
+    },
+    "atlas-v3-garduna-1": {
+      "title": "Martes foina — Museo Nacional de Ciencias Naturales / CSIC — Enciclopedia Virtual de los Vertebrados Españoles",
+      "url": "https://www.vertebradosibericos.org/mamiferos/habitat/marfoiha.html",
+      "publisher": "Museo Nacional de Ciencias Naturales / CSIC — Enciclopedia Virtual de los Vertebrados Españoles",
+      "checked_at": "2026-10-28",
+      "scope_note": "Species account; no precise local sightings inferred.",
+      "type": "species_reference"
+    },
+    "atlas-v3-liron-careto-1": {
+      "title": "Eliomys quercinus — Museo Nacional de Ciencias Naturales / CSIC",
+      "url": "https://www.vertebradosibericos.org/mamiferos/habitat/eliqueha.html",
+      "publisher": "Museo Nacional de Ciencias Naturales / CSIC",
+      "checked_at": "2026-10-28",
+      "scope_note": "Species account; no precise local sightings inferred.",
+      "type": "species_reference"
+    },
+    "atlas-v3-raton-campo-1": {
+      "title": "Apodemus sylvaticus — Museo Nacional de Ciencias Naturales / CSIC",
+      "url": "https://www.vertebradosibericos.org/mamiferos/habitat/aposylha.html",
+      "publisher": "Museo Nacional de Ciencias Naturales / CSIC",
+      "checked_at": "2026-10-28",
+      "scope_note": "Species account; no precise local sightings inferred.",
+      "type": "species_reference"
+    },
+    "atlas-v3-gallipato-1": {
+      "title": "Pleurodeles waltl — Museo Nacional de Ciencias Naturales / CSIC",
+      "url": "https://www.vertebradosibericos.org/anfibios/plewal.html",
+      "publisher": "Museo Nacional de Ciencias Naturales / CSIC",
+      "checked_at": "2026-10-28",
+      "scope_note": "Species account; no precise local sightings inferred.",
+      "type": "species_reference"
+    },
+    "atlas-v3-sapo-partero-1": {
+      "title": "Alytes obstetricans — Museo Nacional de Ciencias Naturales / CSIC",
+      "url": "https://www.vertebradosibericos.org/anfibios/alyobs.html",
+      "publisher": "Museo Nacional de Ciencias Naturales / CSIC",
+      "checked_at": "2026-10-28",
+      "scope_note": "The cited account uses the traditional broad treatment of Alytes obstetricans. No subspecific or recently split taxon is assigned to a point locality.",
+      "type": "species_reference"
+    },
+    "atlas-v3-sapo-corredor-1": {
+      "title": "Epidalea calamita — Museo Nacional de Ciencias Naturales / CSIC",
+      "url": "https://www.vertebradosibericos.org/anfibios/habitat/epicalha.html",
+      "publisher": "Museo Nacional de Ciencias Naturales / CSIC",
+      "checked_at": "2026-10-28",
+      "scope_note": "Species account; no precise local sightings inferred.",
+      "type": "species_reference"
+    },
+    "atlas-v3-arlequin-1": {
+      "title": "Zerynthia rumina — Parque Nacional de la Sierra de Guadarrama",
+      "url": "https://www.parquenacionalsierraguadarrama.es/naturaleza/fauna/122-invertebrados",
+      "publisher": "Parque Nacional de la Sierra de Guadarrama",
+      "checked_at": "2026-10-28",
+      "scope_note": "Species account; no precise local sightings inferred.",
+      "type": "species_reference"
+    },
+    "atlas-v3-gran-pavon-1": {
+      "title": "Saturnia pyri — Parque Nacional de la Sierra de Guadarrama",
+      "url": "https://www.parquenacionalsierraguadarrama.es/naturaleza/fauna/122-invertebrados",
+      "publisher": "Parque Nacional de la Sierra de Guadarrama",
+      "checked_at": "2026-10-28",
+      "scope_note": "Species account; no precise local sightings inferred.",
+      "type": "species_reference"
+    },
+    "atlas-v3-quirocefalo-1": {
+      "title": "Chirocephalus diaphanus — Parque Nacional de la Sierra de Guadarrama",
+      "url": "https://www.parquenacionalsierraguadarrama.es/naturaleza/fauna/122-invertebrados",
+      "publisher": "Parque Nacional de la Sierra de Guadarrama",
+      "checked_at": "2026-10-28",
+      "scope_note": "Species account; no precise local sightings inferred.",
+      "type": "species_reference"
+    },
+    "atlas-v3-fresno-hoja-estrecha-1": {
+      "title": "Fraxinus angustifolia — Área de Botánica, Universitat de les Illes Balears",
+      "url": "https://herbarivirtual.uib.es/es/general/969/especie/fraxinus-angustifolia-vahl",
+      "publisher": "Área de Botánica, Universitat de les Illes Balears",
+      "checked_at": "2026-10-28",
+      "scope_note": "Its provincial checklist covers the western Mediterranean study area; it is not used to infer presence in Madrid.",
+      "type": "species_reference"
+    },
+    "atlas-v3-helecho-comun-1": {
+      "title": "Pteridium aquilinum — Área de Botánica, Universitat de les Illes Balears",
+      "url": "https://herbarivirtual.uib.es/es/general/521/especie/pteridium-aquilinum-l-kuhn",
+      "publisher": "Área de Botánica, Universitat de les Illes Balears",
+      "checked_at": "2026-10-28",
+      "scope_note": "Species account; no precise local sightings inferred.",
+      "type": "species_reference"
+    },
+    "atlas-v3-escobon-1": {
+      "title": "Genista florida — MITECO — Producción de biomasa y fijación de carbono por los matorrales españoles",
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/publicaciones/librobiomasapapel_edu3_tcm30-526111.pdf",
+      "publisher": "MITECO — Producción de biomasa y fijación de carbono por los matorrales españoles",
+      "checked_at": "2026-10-28",
+      "scope_note": "Species account Genista florida, printed page 79; not the adjacent Genista valentina entry.",
+      "type": "species_reference"
+    },
+    "atlas-v3-escobon-2": {
+      "title": "Genista florida — Organismo Autónomo Parques Nacionales / MITECO",
+      "url": "https://www.miteco.gob.es/ca/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/picos-europa/visita-virtual/flora/retama.html",
+      "publisher": "Organismo Autónomo Parques Nacionales / MITECO",
+      "checked_at": "2026-10-28",
+      "scope_note": "Species account; no precise local sightings inferred.",
+      "type": "species_reference"
+    },
+    "atlas-v3-niscalo-1": {
+      "title": "Lactarius deliciosus — MITECO — Inventario Español de los Conocimientos Tradicionales relativos a la Biodiversidad",
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/temas/inventarios-nacionales/iect_lactarius_deliciosus_tcm30-164130.pdf",
+      "publisher": "MITECO — Inventario Español de los Conocimientos Tradicionales relativos a la Biodiversidad",
+      "checked_at": "2026-10-28",
+      "scope_note": "Only the description and habitat sections are used. The inventory also discusses a broader group of related milkcaps; no use or treatment claims are reproduced.",
+      "type": "species_reference"
+    },
+    "atlas-v3-pedo-lobo-1": {
+      "title": "Lycoperdum perlatum — Parque Nacional de la Sierra de Guadarrama",
+      "url": "https://www.parquenacionalsierraguadarrama.es/naturaleza/vegetacion/127-hongos",
+      "publisher": "Parque Nacional de la Sierra de Guadarrama",
+      "checked_at": "2026-10-28",
+      "scope_note": "Regional forest inventory; not a record of a current observation.",
+      "type": "species_reference"
+    },
+    "atlas-v3-pedo-lobo-2": {
+      "title": "Lycoperdum perlatum — Applied and Environmental Microbiology — Mushroom Emergence Detected by Combining Spore Trapping with Molecular Techniques",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5478987/",
+      "publisher": "Applied and Environmental Microbiology — Mushroom Emergence Detected by Combining Spore Trapping with Molecular Techniques",
+      "checked_at": "2026-10-28",
+      "scope_note": "Functional guild table explicitly classifies Lycoperdon perlatum as saprotrophic.",
+      "type": "species_reference"
+    },
+    "atlas-v3-pedo-lobo-3": {
+      "title": "Lycoperdum perlatum — UAR PatriNat (OFB–MNHN–CNRS–IRD), TAXREF, via GBIF",
+      "url": "https://www.gbif.org/dataset/0e61f8fe-7d25-4f81-ada7-d970bbb2c6d6/taxon/40561",
+      "publisher": "UAR PatriNat (OFB–MNHN–CNRS–IRD), TAXREF, via GBIF",
+      "checked_at": "2026-10-28",
+      "scope_note": "Species account; no precise local sightings inferred.",
+      "type": "species_reference"
+    },
+    "atlas-v3-seta-coliflor-1": {
+      "title": "Sparassis crispa — Parque Nacional de la Sierra de Guadarrama",
+      "url": "https://www.parquenacionalsierraguadarrama.es/naturaleza/vegetacion/127-hongos",
+      "publisher": "Parque Nacional de la Sierra de Guadarrama",
+      "checked_at": "2026-10-28",
+      "scope_note": "Regional forest inventory; not a record of a current observation.",
+      "type": "species_reference"
+    },
+    "atlas-v3-evernia-1": {
+      "title": "Evernia prunastri — Parque Nacional de la Sierra de Guadarrama",
+      "url": "https://www.parquenacionalsierraguadarrama.es/naturaleza/vegetacion/126-liquenes",
+      "publisher": "Parque Nacional de la Sierra de Guadarrama",
+      "checked_at": "2026-10-28",
+      "scope_note": "Species account; no precise local sightings inferred.",
+      "type": "species_reference"
+    },
+    "atlas-v3-evernia-2": {
+      "title": "Evernia prunastri — Università degli Studi di Trieste — ITALIC / Dolichens",
+      "url": "https://italic.units.it/dolichens/?num=959&procedure=taxonpage",
+      "publisher": "Università degli Studi di Trieste — ITALIC / Dolichens",
+      "checked_at": "2026-10-28",
+      "scope_note": "Morphology only; Italian distribution is not transferred to Madrid.",
+      "type": "species_reference"
+    },
+    "atlas-v3-pseudevernia-1": {
+      "title": "Pseudevernia furfuracea — Parque Nacional de la Sierra de Guadarrama",
+      "url": "https://www.parquenacionalsierraguadarrama.es/naturaleza/vegetacion/126-liquenes",
+      "publisher": "Parque Nacional de la Sierra de Guadarrama",
+      "checked_at": "2026-10-28",
+      "scope_note": "Species account; no precise local sightings inferred.",
+      "type": "species_reference"
+    },
+    "atlas-v3-pseudevernia-2": {
+      "title": "Pseudevernia furfuracea — Università degli Studi di Trieste — ITALIC / Dolichens",
+      "url": "https://italic.units.it/dolichens/?num=1907&procedure=taxonpage",
+      "publisher": "Università degli Studi di Trieste — ITALIC / Dolichens",
+      "checked_at": "2026-10-28",
+      "scope_note": "The detailed source treats var. furfuracea. Shared broad morphology only; no chemical tests or varietal assignment are proposed.",
+      "type": "species_reference"
+    },
+    "atlas-v3-extra-rana-patilarga-1": {
+      "title": "Rana patilarga — Rana iberica — Identificación",
+      "url": "https://www.vertebradosibericos.org/anfibios/identificacion/ranibeid.html",
+      "publisher": "Museo Nacional de Ciencias Naturales (CSIC)",
+      "checked_at": "2026-10-28",
+      "type": "species_reference",
+      "verified_fields": [
+        "details.identify"
+      ],
+      "scope_note": "These are species accounts and ecological literature, not a new sighting record or confirmation at a mapped point. Keep the existing regional inventory references."
+    },
+    "atlas-v3-extra-rana-patilarga-2": {
+      "title": "Rana patilarga — Rana iberica — Dieta",
+      "url": "https://www.vertebradosibericos.org/anfibios/trofico/ranibetr.html",
+      "publisher": "Museo Nacional de Ciencias Naturales (CSIC)",
+      "checked_at": "2026-10-28",
+      "type": "species_reference",
+      "verified_fields": [
+        "details.ecology"
+      ],
+      "scope_note": "These are species accounts and ecological literature, not a new sighting record or confirmation at a mapped point. Keep the existing regional inventory references."
+    },
+    "atlas-v3-extra-mariposa-apolo-1": {
+      "title": "Invertebrados — Parnassius apollo",
+      "url": "https://www.parquenacionalsierraguadarrama.es/naturaleza/fauna/122-invertebrados",
+      "publisher": "Parque Nacional de la Sierra de Guadarrama",
+      "checked_at": "2026-10-28",
+      "type": "species_reference",
+      "verified_fields": [
+        "details.identify: wing colours and ocelli",
+        "details.ecology: larval host plants"
+      ],
+      "scope_note": "The official park source supports a regional account; it does not document an observation at any particular UI pin. Preserve the existing source and add this reference to the supported fields."
+    },
+    "atlas-v3-extra-pino-silvestre-1": {
+      "title": "Herbari Virtual del Mediterrani Occidental — Pinus sylvestris L.",
+      "url": "https://herbarivirtual.uib.es/es/general/2096/especie/pinus-sylvestris-l-",
+      "publisher": "Universitat de les Illes Balears, Àrea de Botànica",
+      "checked_at": "2026-10-28",
+      "type": "species_reference",
+      "verified_fields": [
+        "details.identify",
+        "habitat: montane forests"
+      ],
+      "scope_note": "Do not infer Madrid presence from the herbarium's Mediterranean provincial coverage. Local distribution must continue to use the existing park and inventory evidence."
+    },
+    "atlas-v3-extra-roble-melojo-1": {
+      "title": "Libro Ceballos — capítulo El rebollo (Quercus pyrenaica)",
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/servicios/banco-datos-naturaleza/libro_ceballos_tcm30-154277.pdf",
+      "publisher": "MITECO, Banco de Datos de la Naturaleza",
+      "checked_at": "2026-10-28",
+      "type": "species_reference",
+      "verified_fields": [
+        "details.identify"
+      ],
+      "scope_note": "A research-project description supports the ecological mechanisms; it is not evidence of a new local occurrence."
+    },
+    "atlas-v3-extra-roble-melojo-2": {
+      "title": "Reproducción de Quercus pyrenaica y gestión del bosque",
+      "url": "https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/programa-investigacion/reproduccion_quercus_pyrenaica.html",
+      "publisher": "MITECO / Organismo Autónomo Parques Nacionales",
+      "checked_at": "2026-10-28",
+      "type": "species_reference",
+      "verified_fields": [
+        "details.ecology"
+      ],
+      "scope_note": "A research-project description supports the ecological mechanisms; it is not evidence of a new local occurrence."
+    },
+    "atlas-v3-extra-encina-1": {
+      "title": "Encina — Quercus ilex",
+      "url": "https://www.miteco.gob.es/ca/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/picos-europa/visita-virtual/flora/encina.html",
+      "publisher": "MITECO / Organismo Autónomo Parques Nacionales",
+      "checked_at": "2026-10-28",
+      "type": "species_reference",
+      "verified_fields": [
+        "details.identify",
+        "habitat: Mediterranean evergreen woodland"
+      ],
+      "scope_note": "No changes to taxonomic rank, local distribution or the existing warning about differing Iberian oak classifications."
+    },
+    "atlas-v3-extra-encina-2": {
+      "title": "Semillas — Fichas de especies Q–R — Quercus ilex subsp. ballota",
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/parques-nacionales-oapn/publicaciones/Semillas%20-%20Fichas%20de%20especies%20Q-R_tcm30-100341.pdf",
+      "publisher": "MITECO / Organismo Autónomo Parques Nacionales",
+      "checked_at": "2026-10-28",
+      "type": "species_reference",
+      "verified_fields": [
+        "details.ecology: animal consumption and dispersal of acorns"
+      ],
+      "scope_note": "No changes to taxonomic rank, local distribution or the existing warning about differing Iberian oak classifications."
+    },
+    "atlas-v3-extra-enebro-miera-1": {
+      "title": "Regiones de procedencia — Juniperus oxycedrus",
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/publicaciones/Publicaci%C3%B3n%20Regiones%20de%20procedencia_tcm30-139346.pdf",
+      "publisher": "MITECO",
+      "checked_at": "2026-10-28",
+      "type": "species_reference",
+      "verified_fields": [
+        "details.identify"
+      ],
+      "scope_note": "Retain regional occurrence references and avoid assigning an infraspecific taxon."
+    },
+    "atlas-v3-extra-enebro-miera-2": {
+      "title": "Semillas — Fichas de especies F–J — Juniperus oxycedrus",
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/parques-nacionales-oapn/publicaciones/Semillas%20-%20Fichas%20de%20especies%20F-J_tcm30-100338.pdf#page=156",
+      "publisher": "MITECO / Organismo Autónomo Parques Nacionales",
+      "checked_at": "2026-10-28",
+      "type": "species_reference",
+      "verified_fields": [
+        "details.ecology: frugivorous animals disperse seeds"
+      ],
+      "scope_note": "Retain regional occurrence references and avoid assigning an infraspecific taxon."
+    },
+    "atlas-v3-extra-piorno-1": {
+      "title": "Herbari Virtual del Mediterrani Occidental — Cytisus oromediterraneus",
+      "url": "https://herbarivirtual.uib.es/es/general/2502/especie/cytisus-oromediterraneus-rivas-mart-et-al-",
+      "publisher": "Universitat de les Illes Balears, Àrea de Botànica",
+      "checked_at": "2026-10-28",
+      "type": "species_reference",
+      "verified_fields": [
+        "details.identify: shrub structure and sparse or short-lived foliage",
+        "habitat: sunny rocky siliceous mountain slopes"
+      ],
+      "scope_note": "The regional leaflet supports the broad vegetation setting. It is not a new precise occurrence record."
+    },
+    "atlas-v3-extra-piorno-2": {
+      "title": "Guía de especies forestales autóctonas — Cytisus oromediterraneus",
+      "url": "https://extremambiente.juntaex.es/files/forestales/2017/GUIA%20DE%20SP%20FORESTALES%20AUTOCTONAS%20PRODUCIDAS%20EN%20VIVEROS%20GESTIONADOS%20DG%20MEDIO%20AMBIENTE.pdf",
+      "publisher": "Junta de Extremadura, Dirección General de Medio Ambiente",
+      "checked_at": "2026-10-28",
+      "type": "species_reference",
+      "verified_fields": [
+        "details.identify: yellow flowers and deciduous leaves"
+      ],
+      "scope_note": "The regional leaflet supports the broad vegetation setting. It is not a new precise occurrence record."
+    },
+    "atlas-v3-extra-piorno-3": {
+      "title": "Parque Nacional de la Sierra de Guadarrama — folleto oficial",
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/pnsierradeguadarrama2015reducido_tcm30-63618.pdf",
+      "publisher": "MITECO / Organismo Autónomo Parques Nacionales",
+      "checked_at": "2026-10-28",
+      "type": "species_reference",
+      "verified_fields": [
+        "details.ecology: mountain scrub above forest"
+      ],
+      "scope_note": "The regional leaflet supports the broad vegetation setting. It is not a new precise occurrence record."
+    },
+    "atlas-v3-extra-acebo-1": {
+      "title": "Sierra de Guadarrama — Calendario natural de invierno — Acebo",
+      "url": "https://www.miteco.gob.es/es/ceneam/recursos/mini-portales-tematicos/guadarrama/guadarrama-calendaria-natural-invierno.html",
+      "publisher": "MITECO / CENEAM",
+      "checked_at": "2026-10-28",
+      "type": "species_reference",
+      "verified_fields": [
+        "details.identify",
+        "details.ecology: winter fruit resource",
+        "habitat"
+      ],
+      "scope_note": "No changes to protection status or precise location information."
+    },
+    "atlas-v3-extra-acebo-2": {
+      "title": "Bases ecológicas de los hábitats — 9380 Bosques de Ilex aquifolium",
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/temas/espacios-protegidos/9380_tcm30-196904.pdf",
+      "publisher": "MITECO",
+      "checked_at": "2026-10-28",
+      "type": "species_reference",
+      "verified_fields": [
+        "details.ecology: bird consumption and dispersal of fruits"
+      ],
+      "scope_note": "No changes to protection status or precise location information."
+    },
+    "atlas-v3-extra-haya-1": {
+      "title": "Guía del Parque Nacional de los Picos de Europa — El haya (Fagus sylvatica)",
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/guia-picos_tcm30-70857.pdf",
+      "publisher": "MITECO / Organismo Autónomo Parques Nacionales",
+      "checked_at": "2026-10-28",
+      "type": "species_reference",
+      "verified_fields": [
+        "details.identify: bark, leaves and autumn colour",
+        "details.ecology"
+      ],
+      "scope_note": "Picos de Europa is the guide's geographic context; use it for shared species characters, not as evidence of Madrid distribution."
+    },
+    "atlas-v3-extra-haya-2": {
+      "title": "Semillas — Fichas de especies F–J — Fagus sylvatica",
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/parques-nacionales-oapn/publicaciones/Semillas%20-%20Fichas%20de%20especies%20F-J_tcm30-100338.pdf#page=1",
+      "publisher": "MITECO / Organismo Autónomo Parques Nacionales",
+      "checked_at": "2026-10-28",
+      "type": "species_reference",
+      "verified_fields": [
+        "details.identify: long pointed buds, smooth bark and oval leaves"
+      ],
+      "scope_note": "Picos de Europa is the guide's geographic context; use it for shared species characters, not as evidence of Madrid distribution."
+    },
+    "atlas-v3-extra-jara-pringosa-1": {
+      "title": "Jara pringosa — Cistus ladanifer",
+      "url": "https://www.miteco.gob.es/va/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/monfrague/visita-virtual/flora/jara-pringosa.html",
+      "publisher": "MITECO / Organismo Autónomo Parques Nacionales",
+      "checked_at": "2026-10-28",
+      "type": "species_reference",
+      "verified_fields": [
+        "details.identify: resinous shrub",
+        "habitat: Mediterranean scrub"
+      ],
+      "scope_note": "Add these references only to the supported clauses. A formerly indexed Monfragüe guide URL returned 404 and is deliberately excluded. No transfer of park distribution to a precise Madrid point."
+    },
+    "atlas-v3-extra-jara-pringosa-2": {
+      "title": "Parque Nacional de Cabañeros — Valores naturales",
+      "url": "https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/cabaneros/valores-naturales.html",
+      "publisher": "MITECO / Organismo Autónomo Parques Nacionales",
+      "checked_at": "2026-10-28",
+      "type": "species_reference",
+      "verified_fields": [
+        "details.ecology: drought adaptation"
+      ],
+      "scope_note": "Add these references only to the supported clauses. A formerly indexed Monfragüe guide URL returned 404 and is deliberately excluded. No transfer of park distribution to a precise Madrid point."
+    },
+    "atlas-v3-extra-amanita-muscaria-1": {
+      "title": "Kew scientists pick their favourite fungus — Fly agaric (Amanita muscaria)",
+      "url": "https://www.kew.org/read-and-watch/kew-scientists-pick-their-favourite-fungus",
+      "publisher": "Royal Botanic Gardens, Kew",
+      "checked_at": "2026-10-28",
+      "type": "species_reference",
+      "verified_fields": [
+        "details.identify: red cap with white spots",
+        "details.ecology"
+      ],
+      "scope_note": "This is an institutional scientist's exact-taxon natural-history account, not a diagnostic key or local occurrence source. No consumption, toxicity-treatment or folklore claims are imported."
+    },
+    "atlas-v3-extra-boletus-edulis-1": {
+      "title": "Guía de gestión de matorrales — ficha Boletus edulis",
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/temas/incendios-forestales/221275_937guiagestionmatorrales_web_tcm30-589399.pdf",
+      "publisher": "MITECO, official document host",
+      "checked_at": "2026-10-28",
+      "type": "species_reference",
+      "verified_fields": [
+        "details.identify",
+        "details.ecology: mycorrhizal association with roots"
+      ],
+      "scope_note": "No North American look-alike account was substituted. No edibility or harvesting advice is imported. Preserve existing local occurrence evidence."
+    },
+    "atlas-v3-extra-liquen-geografico-1": {
+      "title": "Líquenes — Rhizocarpon geographicum",
+      "url": "https://www.parquenacionalsierraguadarrama.es/naturaleza/vegetacion/126-liquenes",
+      "publisher": "Parque Nacional de la Sierra de Guadarrama",
+      "checked_at": "2026-10-28",
+      "type": "species_reference",
+      "verified_fields": [
+        "details.identify: yellow-green rock crust",
+        "details.ecology: slow growth and lichenometry"
+      ],
+      "scope_note": "Keep the current canonical source pending a full species-level diagnostic treatment. The inspected British Lichen Society exact-species page supplied taxonomy and mapping but no substantive identification or ecology text, so it is not included as support for these fields."
+    },
+    "atlas-v3-extra-liquen-geografico-2": {
+      "title": "Rhizocarpon geographicum subsp. geographicum",
+      "url": "https://italic.units.it/index.php?num=2028&procedure=taxonpage",
+      "publisher": "Università degli Studi di Trieste, ITALIC",
+      "checked_at": "2026-10-28",
+      "type": "species_reference",
+      "verified_fields": [
+        "details.identify: yellow-green areoles and black boundary tissue",
+        "details.ecology: lichen symbiosis and rock substrate"
+      ],
+      "scope_note": "Keep the current canonical source pending a full species-level diagnostic treatment. The inspected British Lichen Society exact-species page supplied taxonomy and mapping but no substantive identification or ecology text, so it is not included as support for these fields."
+    },
+    "v3-miteco-isla": {
+      "title": "MITECO — La Isla del Pan",
+      "url": "https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/daimiel/guia-visitante/isla-pan.html",
+      "checked_at": "2026-10-28",
+      "publication_date": null,
+      "type": "official"
+    },
+    "v3-miteco-laguna": {
+      "title": "MITECO — La Laguna Permanente",
+      "url": "https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/daimiel/guia-visitante/laguna-permanente.html",
+      "checked_at": "2026-10-28",
+      "publication_date": null,
+      "type": "official"
+    },
+    "v3-miteco-prado": {
+      "title": "MITECO — La Torre de Prado Ancho",
+      "url": "https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/daimiel/guia-visitante/prado-ancho.html",
+      "checked_at": "2026-10-28",
+      "publication_date": null,
+      "type": "official"
+    },
+    "v3-miteco-accesos": {
+      "title": "MITECO — Accesos",
+      "url": "https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/daimiel/guia-visitante/guia-accesos.html",
+      "checked_at": "2026-10-28",
+      "evidence": "Indica la existencia de un itinerario adaptado, sin delimitar cuál ni certificar los tres GPX completos.",
+      "type": "official"
+    },
+    "v3-cnig-live": {
+      "title": "IGN/CNIG — Tablas de Daimiel, rutas publicadas",
+      "url": "https://parquesnacionales.cnig.es/daimiel",
+      "checked_at": "2026-10-28",
+      "evidence": "La tabla actual conserva2,7km circular/2,5h;1,7km ida y vuelta/1,5h;3,3km ida y vuelta/2,5h.",
+      "type": "official"
+    },
+    "v3-jccm-list": {
+      "title": "JCCM — Tablas de Daimiel, Visita y disfruta",
+      "url": "https://medionatural.castillalamancha.es/rap/espacios-naturales-protegidos/enp-parque-nacional/parque-nacional-tablas-de-daimiel/visita-y-disfruta",
+      "checked_at": "2026-10-28",
+      "evidence": "Clasifica los tres itinerarios para personas con movilidad reducida, pero publica distancias2,5/0,8/1,5km; no vincula la clasificación al checksum ni al alcance de los GPX CNIG.",
+      "type": "official"
+    },
+    "v3-miteco-guide-2014": {
+      "title": "OAPN — Guía de visita, Parque Nacional Las Tablas de Daimiel",
+      "url": "https://www.miteco.gob.es/content/dam/miteco/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/guia-tablas_tcm30-68595.pdf",
+      "checked_at": "2026-10-28",
+      "publication_year": 2014,
+      "isbn": "978-84-8014-862-7",
+      "legal_deposit": "M-23042-2014",
+      "local_file": "daimiel-guia-miteco.pdf",
+      "sha256": "3a6c12730a4f74ee5bd1c63368b8ad29d9531e9b327351f9886158c13640e230",
+      "evidence": "Edición2014 enlazada desde la ficha actual. La p130 afirma adecuación general a edades; no delimita una variante accesible ni certifica la geometría CNIG2024. No usar como confirmación vigente del trazado completo.",
+      "type": "official"
+    },
+    "track-v3-penalara-cumbre": {
+      "title": "IGN / Parques Nacionales — GPX CNIG: Pico Peñalara · cumbre",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/9780417",
+      "track_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110390",
+      "type": "official",
+      "checked_at": "2026-10-28",
+      "license": "CC-BY-4.0",
+      "license_url": "https://www.ign.es/resources/licencia/Condiciones_licenciaUso_IGN.pdf",
+      "attribution": "Rutas Parques Nacionales 2021-2024 CC-BY 4.0 Instituto Geográfico Nacional y Parques Nacionales"
+    },
+    "current-v3-penalara-cumbre": {
+      "title": "Ficha oficial actual — Pico Peñalara · cumbre",
+      "url": "https://www.parquenacionalsierraguadarrama.es/visita/rutas/1306-pnsg-032",
+      "checked_at": "2026-10-28",
+      "type": "official"
+    },
+    "track-v3-fuenfria-camino-agua": {
+      "title": "IGN / Parques Nacionales — GPX CNIG: Camino del Agua · hacia Cercedilla",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/9780491",
+      "track_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110390",
+      "type": "official",
+      "checked_at": "2026-10-28",
+      "license": "CC-BY-4.0",
+      "license_url": "https://www.ign.es/resources/licencia/Condiciones_licenciaUso_IGN.pdf",
+      "attribution": "Rutas Parques Nacionales 2021-2024 CC-BY 4.0 Instituto Geográfico Nacional y Parques Nacionales"
+    },
+    "current-v3-fuenfria-camino-agua": {
+      "title": "Ficha oficial actual — Camino del Agua · hacia Cercedilla",
+      "url": "https://www.parquenacionalsierraguadarrama.es/visita/rutas/1308-pnsg-034",
+      "checked_at": "2026-10-28",
+      "type": "official"
+    },
+    "track-v3-fuenfria-puricelli": {
+      "title": "IGN / Parques Nacionales — GPX CNIG: Senda Puricelli · hacia Cercedilla",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/9780486",
+      "track_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110390",
+      "type": "official",
+      "checked_at": "2026-10-28",
+      "license": "CC-BY-4.0",
+      "license_url": "https://www.ign.es/resources/licencia/Condiciones_licenciaUso_IGN.pdf",
+      "attribution": "Rutas Parques Nacionales 2021-2024 CC-BY 4.0 Instituto Geográfico Nacional y Parques Nacionales"
+    },
+    "current-v3-fuenfria-puricelli": {
+      "title": "Ficha oficial actual — Senda Puricelli · hacia Cercedilla",
+      "url": "https://www.parquenacionalsierraguadarrama.es/visita/rutas/1292-pnsg-018",
+      "checked_at": "2026-10-28",
+      "type": "official"
+    },
+    "track-v3-fuenfria-miradores": {
+      "title": "IGN / Parques Nacionales — GPX CNIG: Los Miradores de la Fuenfría",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/9780386",
+      "track_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110390",
+      "type": "official",
+      "checked_at": "2026-10-28",
+      "license": "CC-BY-4.0",
+      "license_url": "https://www.ign.es/resources/licencia/Condiciones_licenciaUso_IGN.pdf",
+      "attribution": "Rutas Parques Nacionales 2021-2024 CC-BY 4.0 Instituto Geográfico Nacional y Parques Nacionales"
+    },
+    "current-v3-fuenfria-miradores": {
+      "title": "Ficha oficial actual — Los Miradores de la Fuenfría",
+      "url": "https://www.parquenacionalsierraguadarrama.es/visita/rutas/1309-pnsg-035",
+      "checked_at": "2026-10-28",
+      "type": "official"
+    },
+    "track-v3-navafria-chorro-puerto": {
+      "title": "IGN / Parques Nacionales — GPX CNIG: El Chorro al puerto de Navafría · solo ida",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10416012",
+      "track_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110390",
+      "type": "official",
+      "checked_at": "2026-10-28",
+      "license": "CC-BY-4.0",
+      "license_url": "https://www.ign.es/resources/licencia/Condiciones_licenciaUso_IGN.pdf",
+      "attribution": "Rutas Parques Nacionales 2021-2024 CC-BY 4.0 Instituto Geográfico Nacional y Parques Nacionales"
+    },
+    "current-v3-navafria-chorro-puerto": {
+      "title": "Ficha oficial actual — El Chorro al puerto de Navafría · solo ida",
+      "url": "https://www.parquenacionalsierraguadarrama.es/visita/rutas/1278-pnsg-004",
+      "checked_at": "2026-10-28",
+      "type": "official"
+    },
+    "track-v3-barranca-circular-cnig": {
+      "title": "IGN / Parques Nacionales — GPX CNIG: La Barranca · circular CNIG",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10415973",
+      "track_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110390",
+      "type": "official",
+      "checked_at": "2026-10-28",
+      "license": "CC-BY-4.0",
+      "license_url": "https://www.ign.es/resources/licencia/Condiciones_licenciaUso_IGN.pdf",
+      "attribution": "Rutas Parques Nacionales 2021-2024 CC-BY 4.0 Instituto Geográfico Nacional y Parques Nacionales"
+    },
+    "current-v3-barranca-circular-cnig": {
+      "title": "Ficha oficial actual — La Barranca · circular CNIG",
+      "url": "https://www.parquenacionalsierraguadarrama.es/visita/rutas/1294-pnsg-020",
+      "checked_at": "2026-10-28",
+      "type": "official"
+    },
+    "track-v3-paular-ermita-santa-ana": {
+      "title": "IGN / Parques Nacionales — GPX CNIG: Oteruelo · ermita de Santa Ana · Alameda",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10415989",
+      "track_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110390",
+      "type": "official",
+      "checked_at": "2026-10-28",
+      "license": "CC-BY-4.0",
+      "license_url": "https://www.ign.es/resources/licencia/Condiciones_licenciaUso_IGN.pdf",
+      "attribution": "Rutas Parques Nacionales 2021-2024 CC-BY 4.0 Instituto Geográfico Nacional y Parques Nacionales"
+    },
+    "current-v3-paular-ermita-santa-ana": {
+      "title": "Ficha oficial actual — Oteruelo · ermita de Santa Ana · Alameda",
+      "url": "https://www.parquenacionalsierraguadarrama.es/visita/rutas/1302-pnsg-028",
+      "checked_at": "2026-10-28",
+      "type": "official"
+    },
+    "track-v3-navafria-nevero": {
+      "title": "IGN / Parques Nacionales — GPX CNIG: El Nevero · circular del puerto",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10415978",
+      "track_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110390",
+      "type": "official",
+      "checked_at": "2026-10-28",
+      "license": "CC-BY-4.0",
+      "license_url": "https://www.ign.es/resources/licencia/Condiciones_licenciaUso_IGN.pdf",
+      "attribution": "Rutas Parques Nacionales 2021-2024 CC-BY 4.0 Instituto Geográfico Nacional y Parques Nacionales"
+    },
+    "current-v3-navafria-nevero": {
+      "title": "Ficha oficial actual — El Nevero · circular del puerto",
+      "url": "https://www.parquenacionalsierraguadarrama.es/visita/rutas?start=10",
+      "checked_at": "2026-10-28",
+      "type": "official"
+    },
+    "track-v3-navafria-chorro-clasica": {
+      "title": "IGN / Parques Nacionales — GPX CNIG: El Chorro de Navafría · paseo circular",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10415997",
+      "track_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110390",
+      "type": "official",
+      "checked_at": "2026-10-28",
+      "license": "CC-BY-4.0",
+      "license_url": "https://www.ign.es/resources/licencia/Condiciones_licenciaUso_IGN.pdf",
+      "attribution": "Rutas Parques Nacionales 2021-2024 CC-BY 4.0 Instituto Geográfico Nacional y Parques Nacionales"
+    },
+    "current-v3-navafria-chorro-clasica": {
+      "title": "Ficha oficial actual — El Chorro de Navafría · paseo circular",
+      "url": "https://www.parquenacionalsierraguadarrama.es/visita/rutas?start=10",
+      "checked_at": "2026-10-28",
+      "type": "official"
+    },
+    "track-v3-daimiel-prado-ancho": {
+      "title": "IGN / Parques Nacionales — GPX CNIG: Torre de Prado Ancho",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/9780483",
+      "track_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110392",
+      "type": "official",
+      "checked_at": "2026-10-28",
+      "license": "CC-BY-4.0",
+      "license_url": "https://www.ign.es/resources/licencia/Condiciones_licenciaUso_IGN.pdf",
+      "attribution": "Rutas Parques Nacionales 2021-2024 CC-BY 4.0 Instituto Geográfico Nacional y Parques Nacionales"
+    },
+    "current-v3-daimiel-prado-ancho": {
+      "title": "Ficha oficial actual — Torre de Prado Ancho",
+      "url": "https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/daimiel/guia-visitante/itinerarios.html",
+      "checked_at": "2026-10-28",
+      "type": "official"
+    },
+    "track-v3-daimiel-molemocho": {
+      "title": "IGN / Parques Nacionales — GPX CNIG: Molino de Molemocho",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/9780374",
+      "track_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110392",
+      "type": "official",
+      "checked_at": "2026-10-28",
+      "license": "CC-BY-4.0",
+      "license_url": "https://www.ign.es/resources/licencia/Condiciones_licenciaUso_IGN.pdf",
+      "attribution": "Rutas Parques Nacionales 2021-2024 CC-BY 4.0 Instituto Geográfico Nacional y Parques Nacionales"
+    },
+    "current-v3-daimiel-molemocho": {
+      "title": "Ficha oficial actual — Molino de Molemocho",
+      "url": "https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/daimiel/guia-visitante/itinerarios.html",
+      "checked_at": "2026-10-28",
+      "type": "official"
+    },
+    "track-v3-daimiel-isla-pan": {
+      "title": "IGN / Parques Nacionales — GPX CNIG: Sendero de la Isla del Pan",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/9780518",
+      "track_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110392",
+      "type": "official",
+      "checked_at": "2026-10-28",
+      "license": "CC-BY-4.0",
+      "license_url": "https://www.ign.es/resources/licencia/Condiciones_licenciaUso_IGN.pdf",
+      "attribution": "Rutas Parques Nacionales 2021-2024 CC-BY 4.0 Instituto Geográfico Nacional y Parques Nacionales"
+    },
+    "current-v3-daimiel-isla-pan": {
+      "title": "Ficha oficial actual — Sendero de la Isla del Pan",
+      "url": "https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/daimiel/guia-visitante/itinerarios.html",
+      "checked_at": "2026-10-28",
+      "type": "official"
+    },
+    "track-v3-daimiel-laguna-permanente": {
+      "title": "IGN / Parques Nacionales — GPX CNIG: La Laguna Permanente",
+      "url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/9780479",
+      "track_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110392",
+      "type": "official",
+      "checked_at": "2026-10-28",
+      "license": "CC-BY-4.0",
+      "license_url": "https://www.ign.es/resources/licencia/Condiciones_licenciaUso_IGN.pdf",
+      "attribution": "Rutas Parques Nacionales 2021-2024 CC-BY 4.0 Instituto Geográfico Nacional y Parques Nacionales"
+    },
+    "current-v3-daimiel-laguna-permanente": {
+      "title": "Ficha oficial actual — La Laguna Permanente",
+      "url": "https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/daimiel/guia-visitante/itinerarios.html",
+      "checked_at": "2026-10-28",
+      "type": "official"
+    },
+    "track-v3-taravilla-poveda": {
+      "title": "JCCM — GPX: El Salto de Poveda y Laguna de Taravilla",
+      "url": "https://medionatural.castillalamancha.es/rap/espacios-naturales-protegidos/enp-parque-natural/parque-natural-del-alto-tajo/rutas/sendero-10-el-salto-de-poveda-y-la-laguna-de-taravilla",
+      "track_url": "https://medionatural.castillalamancha.es/sites/default/files/kml/rg-pnat-08-salto-de-poveda.gpx",
+      "type": "official",
+      "checked_at": "2026-10-28",
+      "license": "JCCM public-information reuse terms, not an asserted CC license",
+      "license_url": "https://www.castillalamancha.es/avisolegal",
+      "attribution": "Fuente: Junta de Comunidades de Castilla-La Mancha. Consulta:2026-10-28."
     }
   },
   "places": [
@@ -1005,7 +1742,8 @@
       ],
       "route_ids": [
         "penalara-zabala",
-        "cotos-angostura"
+        "cotos-angostura",
+        "penalara-cumbre"
       ],
       "sources": [
         "penalara-zabala",
@@ -1048,7 +1786,10 @@
       ],
       "route_ids": [
         "victory",
-        "camino-schmid"
+        "camino-schmid",
+        "fuenfria-camino-agua",
+        "fuenfria-puricelli",
+        "fuenfria-miradores"
       ],
       "sources": [
         "victory",
@@ -1170,7 +1911,8 @@
         "Arroyo Aguilón"
       ],
       "route_ids": [
-        "purgatorio"
+        "purgatorio",
+        "paular-ermita-santa-ana"
       ],
       "sources": [
         "paular",
@@ -1205,7 +1947,9 @@
       ],
       "species_scope": "documented in the named area or its wider habitat; never guaranteed sightings",
       "water": [],
-      "route_ids": [],
+      "route_ids": [
+        "barranca-circular-cnig"
+      ],
       "sources": [
         "barranca"
       ],
@@ -2313,7 +3057,9 @@
         "Arroyo del Chorro"
       ],
       "route_ids": [
-        "navafria-chorro-puerto"
+        "navafria-chorro-puerto",
+        "navafria-nevero",
+        "navafria-chorro-clasica"
       ],
       "sources": [
         "ext-navafria"
@@ -2867,7 +3613,8 @@
       "route_ids": [
         "daimiel-isla-pan",
         "daimiel-laguna-permanente",
-        "daimiel-prado-ancho"
+        "daimiel-prado-ancho",
+        "daimiel-molemocho"
       ],
       "sources": [
         "ext-daimiel-pan",
@@ -3172,8 +3919,8 @@
       "source_ids": [
         "valsain-azul"
       ],
-      "gpx_path": "research_tracks/valsain-azul.gpx",
-      "geojson_path": "research_tracks/valsain-azul.geojson",
+      "gpx_path": "data/tracks/valsain-azul.gpx",
+      "geojson_path": "data/tracks/valsain-azul.geojson",
       "geometry_status": "official_track",
       "track_url": "https://www.parquenacionalsierraguadarrama.es/normativa/descargas/send/9-sendas/507-pnsg-016-gpx",
       "start_coordinates": [
@@ -3203,8 +3950,8 @@
       "source_ids": [
         "pedriza-tolmo"
       ],
-      "gpx_path": "research_tracks/pedriza-tolmo.gpx",
-      "geojson_path": "research_tracks/pedriza-tolmo.geojson",
+      "gpx_path": "data/tracks/pedriza-tolmo.gpx",
+      "geojson_path": "data/tracks/pedriza-tolmo.geojson",
       "geometry_status": "official_track",
       "track_url": "https://www.parquenacionalsierraguadarrama.es/normativa/descargas/send/9-sendas/561-pnsg-022-gpx",
       "start_coordinates": [
@@ -3234,8 +3981,8 @@
       "source_ids": [
         "penalara-zabala"
       ],
-      "gpx_path": "research_tracks/penalara-zabala.gpx",
-      "geojson_path": "research_tracks/penalara-zabala.geojson",
+      "gpx_path": "data/tracks/penalara-zabala.gpx",
+      "geojson_path": "data/tracks/penalara-zabala.geojson",
       "geometry_status": "official_track",
       "track_url": "https://www.parquenacionalsierraguadarrama.es/normativa/descargas/send/9-sendas/581-pnsg-033-gpx",
       "start_coordinates": [
@@ -3266,8 +4013,8 @@
       "source_ids": [
         "camino-schmid"
       ],
-      "gpx_path": "research_tracks/camino-schmid.gpx",
-      "geojson_path": "research_tracks/camino-schmid.geojson",
+      "gpx_path": "data/tracks/camino-schmid.gpx",
+      "geojson_path": "data/tracks/camino-schmid.geojson",
       "geometry_status": "official_track",
       "track_url": "https://www.parquenacionalsierraguadarrama.es/normativa/descargas/send/9-sendas/514-pnsg-006-gpx",
       "start_coordinates": [
@@ -3297,8 +4044,8 @@
       "source_ids": [
         "valsain-bosque"
       ],
-      "gpx_path": "research_tracks/valsain-bosque.gpx",
-      "geojson_path": "research_tracks/valsain-bosque.geojson",
+      "gpx_path": "data/tracks/valsain-bosque.gpx",
+      "geojson_path": "data/tracks/valsain-bosque.geojson",
       "geometry_status": "official_track",
       "track_url": "https://www.parquenacionalsierraguadarrama.es/normativa/descargas/send/9-sendas/506-pnsg-015-gpx",
       "start_coordinates": [
@@ -3328,8 +4075,8 @@
       "source_ids": [
         "ecosistemas"
       ],
-      "gpx_path": "research_tracks/ecosistemas.gpx",
-      "geojson_path": "research_tracks/ecosistemas.geojson",
+      "gpx_path": "data/tracks/ecosistemas.gpx",
+      "geojson_path": "data/tracks/ecosistemas.geojson",
       "geometry_status": "official_track",
       "track_url": "https://www.parquenacionalsierraguadarrama.es/normativa/descargas/send/9-sendas/502-pnsg-012-gpx",
       "start_coordinates": [
@@ -3360,8 +4107,8 @@
       "source_ids": [
         "cotos-angostura"
       ],
-      "gpx_path": "research_tracks/cotos-angostura.gpx",
-      "geojson_path": "research_tracks/cotos-angostura.geojson",
+      "gpx_path": "data/tracks/cotos-angostura.gpx",
+      "geojson_path": "data/tracks/cotos-angostura.geojson",
       "geometry_status": "official_track",
       "track_url": "https://www.parquenacionalsierraguadarrama.es/normativa/descargas/send/9-sendas/577-pnsg-031-gpx",
       "start_coordinates": [
@@ -3452,8 +4199,8 @@
       "source_ids": [
         "tejera"
       ],
-      "gpx_path": "research_tracks/carretas.gpx",
-      "geojson_path": "research_tracks/carretas.geojson",
+      "gpx_path": "data/tracks/carretas.gpx",
+      "geojson_path": "data/tracks/carretas.geojson",
       "geometry_status": "official_track",
       "track_url": "https://medionatural.castillalamancha.es/sites/default/files/kml/sendacarretas_gpx.gpx",
       "start_coordinates": [
@@ -4048,15 +4795,15 @@
     },
     {
       "id": "navafria-chorro-puerto",
-      "name": "El Chorro al puerto de Navafría",
-      "name_en": "El Chorro to Navafría pass",
+      "name": "El Chorro al puerto de Navafría · solo ida",
+      "name_en": "El Chorro to Navafría pass · one way",
       "place_id": "navafria",
-      "distance_km": 16.4,
-      "duration_minutes": 330,
+      "distance_km": 8.2,
+      "duration_minutes": 165,
       "ascent_m": null,
-      "distance_scope": "entire_described_route",
+      "distance_scope": "one_way_only",
       "difficulty_official": "Senderista avanzado",
-      "shape": "out-and-back",
+      "shape": "linear",
       "family_official": false,
       "wheelchair_verified": null,
       "dogs": {
@@ -4067,15 +4814,81 @@
       "route_status": "published_official_not_live_conditions",
       "source_ids": [
         "ext-navafria",
-        "pn-normas"
+        "pn-normas",
+        "track-v3-navafria-chorro-puerto",
+        "current-v3-navafria-chorro-puerto"
       ],
-      "gpx_path": null,
-      "geojson_path": null,
-      "geometry_status": "not_imported",
-      "track_url": null,
-      "start_coordinates": null,
-      "source_elevations_present": false,
-      "verified_at": "2026-10-27"
+      "gpx_path": "data/tracks/navafria-chorro-puerto.gpx",
+      "geojson_path": "data/tracks/navafria-chorro-puerto.geojson",
+      "geometry_status": "official_track",
+      "track_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110390",
+      "start_coordinates": [
+        -3.8310882369999604,
+        41.02609215400008
+      ],
+      "source_elevations_present": true,
+      "verified_at": "2026-10-28",
+      "previous_edition": {
+        "name": "El Chorro al puerto de Navafría",
+        "distance_km": 16.4,
+        "duration_minutes": 330,
+        "ascent_m": null,
+        "distance_scope": "entire_described_route",
+        "shape": "out-and-back",
+        "difficulty_official": "Senderista avanzado",
+        "family_official": false,
+        "wheelchair_verified": null,
+        "source_ids": [
+          "ext-navafria",
+          "pn-normas"
+        ],
+        "verified_at": "2026-10-27"
+      },
+      "metric_note": "El archivo termina en el puerto: contiene 8,2 km de ida. La ficha actual de 16,4 km describe ida y vuelta. Prevé cómo regresar.",
+      "metric_note_en": "The file ends at the pass and covers 8.2 km one way. The current 16.4 km description includes the return. Plan how to get back.",
+      "access_notes": {
+        "es": [
+          "El archivo termina en el puerto: contiene 8,2 km de ida. La ficha actual de 16,4 km describe ida y vuelta. Prevé cómo regresar."
+        ],
+        "en": [
+          "The file ends at the pass and covers 8.2 km one way. The current 16.4 km description includes the return. Plan how to get back."
+        ]
+      },
+      "access_source_url": "https://www.parquenacionalsierraguadarrama.es/visita/rutas/1278-pnsg-004",
+      "track_provenance": {
+        "source_id": "track-v3-navafria-chorro-puerto",
+        "sha256": "26a7f2894317a944764e371c86aaef3d33362d034f3716a2fa4d44cf1d09582b",
+        "archive_entry": "09-Sierra_de_Guadarrama/9-344-SPN56-AR_El_Chorro_al_Puerto_de_Navafria.gpx",
+        "archive_sha256": "8da887e58d576a2abe5a9fd0a5eb0c040c5c17c179a29ac44bb1dee4e45f02b9",
+        "license": {
+          "status": "CC-BY-4.0",
+          "attribution": "Rutas Parques Nacionales 2021-2024 CC-BY 4.0 Instituto Geográfico Nacional y Parques Nacionales",
+          "license_url": "https://www.ign.es/resources/licencia/Condiciones_licenciaUso_IGN.pdf",
+          "product_detail_url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=10110390",
+          "source_archive_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110390",
+          "modification": "none; GPX extracted byte-for-byte from official ZIP"
+        },
+        "checked_at": "2026-10-28",
+        "metric_edition": {
+          "distance_km": 8.2,
+          "duration_hours_raw": "2.75",
+          "ascent_m": null,
+          "difficulty": "Media",
+          "shape_scope": "Ida",
+          "source_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10416012",
+          "source_version": "CNIG product dated2024-01-16; dataset2021–2024"
+        },
+        "current_metrics": {
+          "distance_km": 16.4,
+          "duration_minutes": 330,
+          "ascent_m": 682,
+          "difficulty": "Senderista avanzado",
+          "scope": "ida y vuelta; GPX CNIG solo ida"
+        },
+        "current_url": "https://www.parquenacionalsierraguadarrama.es/visita/rutas/1278-pnsg-004",
+        "derived_length_km": 8.161,
+        "derived_length_method": "Haversine distance between consecutive source points. Not an official published metric."
+      }
     },
     {
       "id": "tiemblo-castanar",
@@ -4457,10 +5270,10 @@
       "name_en": "Poveda Waterfall and Taravilla Lagoon",
       "place_id": "taravilla",
       "distance_km": 5,
-      "duration_minutes": null,
+      "duration_minutes": 120,
       "ascent_m": null,
       "distance_scope": "entire_described_route",
-      "difficulty_official": "No publicada",
+      "difficulty_official": "Media",
       "shape": "circular",
       "family_official": false,
       "wheelchair_verified": null,
@@ -4471,15 +5284,77 @@
       "cycling_verified": null,
       "route_status": "published_official_not_live_conditions",
       "source_ids": [
-        "ext-taravilla"
+        "ext-taravilla",
+        "track-v3-taravilla-poveda"
       ],
-      "gpx_path": null,
-      "geojson_path": null,
-      "geometry_status": "not_imported",
-      "track_url": null,
-      "start_coordinates": null,
-      "source_elevations_present": false,
-      "verified_at": "2026-10-27"
+      "gpx_path": "data/tracks/taravilla-poveda.gpx",
+      "geojson_path": "data/tracks/taravilla-poveda.geojson",
+      "geometry_status": "official_track",
+      "track_url": "https://medionatural.castillalamancha.es/sites/default/files/kml/rg-pnat-08-salto-de-poveda.gpx",
+      "start_coordinates": [
+        -1.97439,
+        40.65033
+      ],
+      "source_elevations_present": true,
+      "verified_at": "2026-10-28",
+      "previous_edition": {
+        "name": "El Salto de Poveda y Laguna de Taravilla",
+        "distance_km": 5,
+        "duration_minutes": null,
+        "ascent_m": null,
+        "distance_scope": "entire_described_route",
+        "shape": "circular",
+        "difficulty_official": "No publicada",
+        "family_official": false,
+        "wheelchair_verified": null,
+        "source_ids": [
+          "ext-taravilla"
+        ],
+        "verified_at": "2026-10-27"
+      },
+      "metric_note": "La tabla de la Junta publica 5 km y 2 h; otro filtro de la misma ficha indica 3 h o más. El GPX mide aproximadamente 4,85 km por cálculo sobre sus puntos.",
+      "metric_note_en": "The regional authority’s table gives 5 km and 2 h; another filter on the same page says 3 h or more. The GPX measures approximately 4.85 km when calculated from its points.",
+      "access_notes": {
+        "es": [
+          "La Junta exige reserva y tasa de aparcamiento en julio y agosto: consulta el calendario vigente desde su ficha oficial. Advierte de crecidas, pasarelas y pasos sin protección."
+        ],
+        "en": [
+          "The regional authority requires a parking reservation and fee in July and August: check the current calendar through its official page. It warns of flooding, footbridges and unprotected sections."
+        ]
+      },
+      "access_source_url": "https://medionatural.castillalamancha.es/rap/espacios-naturales-protegidos/enp-parque-natural/parque-natural-del-alto-tajo/rutas/sendero-10-el-salto-de-poveda-y-la-laguna-de-taravilla",
+      "track_provenance": {
+        "source_id": "track-v3-taravilla-poveda",
+        "sha256": "23db71e54d6e24d2edd97858d49e995433167d681b051e495a26aec3661214bb",
+        "archive_entry": null,
+        "archive_sha256": null,
+        "license": {
+          "status": "JCCM public-information reuse terms, not an asserted CC license",
+          "license_url": "https://www.castillalamancha.es/avisolegal",
+          "section": "CUARTO.—Reutilización",
+          "conditions": [
+            "Credit Junta de Comunidades de Castilla-La Mancha.",
+            "Preserve the meaning of the source.",
+            "Reference last-publication date where known; currently unknown.",
+            "Respect third-party and other priority rights."
+          ],
+          "attribution": "Fuente: Junta de Comunidades de Castilla-La Mancha. Consulta:2026-10-28.",
+          "modification": "none; source GPX downloaded byte-for-byte"
+        },
+        "checked_at": "2026-10-28",
+        "metric_edition": {
+          "distance_km": 5,
+          "duration_minutes": 120,
+          "ascent_m": null,
+          "difficulty": "Media",
+          "shape_scope": "Circular",
+          "source_url": "https://medionatural.castillalamancha.es/rap/espacios-naturales-protegidos/enp-parque-natural/parque-natural-del-alto-tajo/rutas/sendero-10-el-salto-de-poveda-y-la-laguna-de-taravilla"
+        },
+        "current_metrics": {},
+        "current_url": null,
+        "derived_length_km": 4.854,
+        "derived_length_method": "Haversine distance between consecutive source points. Not an official published metric."
+      }
     },
     {
       "id": "ruidera-pie-enmedio",
@@ -4672,14 +5547,14 @@
       "name": "Sendero de la Isla del Pan",
       "name_en": "Isla del Pan trail",
       "place_id": "daimiel",
-      "distance_km": 2.5,
-      "duration_minutes": 120,
+      "distance_km": 2.7,
+      "duration_minutes": 150,
       "ascent_m": null,
       "distance_scope": "entire_described_route",
       "difficulty_official": "Baja",
       "shape": "circular",
       "family_official": false,
-      "wheelchair_verified": true,
+      "wheelchair_verified": null,
       "dogs": {
         "status": "unknown",
         "source": null
@@ -4687,27 +5562,94 @@
       "cycling_verified": null,
       "route_status": "published_official_not_live_conditions",
       "source_ids": [
-        "ext-daimiel-pan"
+        "ext-daimiel-pan",
+        "track-v3-daimiel-isla-pan",
+        "current-v3-daimiel-isla-pan",
+        "v3-miteco-isla"
       ],
-      "gpx_path": null,
-      "geojson_path": null,
-      "geometry_status": "not_imported",
-      "track_url": null,
-      "start_coordinates": null,
-      "source_elevations_present": false,
-      "verified_at": "2026-10-27"
+      "gpx_path": "data/tracks/daimiel-isla-pan.gpx",
+      "geojson_path": "data/tracks/daimiel-isla-pan.geojson",
+      "geometry_status": "official_track",
+      "track_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110392",
+      "start_coordinates": [
+        -3.697519998999951,
+        39.13798118600005
+      ],
+      "source_elevations_present": true,
+      "verified_at": "2026-10-28",
+      "previous_edition": {
+        "name": "Sendero de la Isla del Pan",
+        "distance_km": 2.5,
+        "duration_minutes": 120,
+        "ascent_m": null,
+        "distance_scope": "entire_described_route",
+        "shape": "circular",
+        "difficulty_official": "Baja",
+        "family_official": false,
+        "wheelchair_verified": true,
+        "source_ids": [
+          "ext-daimiel-pan"
+        ],
+        "verified_at": "2026-10-27"
+      },
+      "metric_note": "El GPX CNIG corresponde a la circular de 2,7 km y 2 h 30 min. MITECO describe una circular de 2 km y 1–1,5 h. No se ha certificado la accesibilidad del archivo completo.",
+      "metric_note_en": "The CNIG GPX describes a 2.7 km circular trail taking 2 h 30 min. MITECO describes a 2 km loop taking 1–1.5 h. Accessibility of the entire file has not been certified.",
+      "access_source_url": "https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/daimiel/guia-visitante/guia-accesos.html",
+      "track_provenance": {
+        "source_id": "track-v3-daimiel-isla-pan",
+        "sha256": "6dad3a8f3bdecab8d88e405d87cafb5413eb315e2276995b9cfc91c6a24c599d",
+        "archive_entry": "014-Tablas_de_Daimiel/14-282-Excursion2-La_Isla_del_Pan_Ruta_Amarilla-Principal.gpx",
+        "archive_sha256": "2e9bc6687a01e9f2df53d5b4ad0884ba4af9eb492a53f859d8c6f55bd6fec55a",
+        "license": {
+          "status": "CC-BY-4.0",
+          "attribution": "Rutas Parques Nacionales 2021-2024 CC-BY 4.0 Instituto Geográfico Nacional y Parques Nacionales",
+          "license_url": "https://www.ign.es/resources/licencia/Condiciones_licenciaUso_IGN.pdf",
+          "product_detail_url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=10110392",
+          "source_archive_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110392",
+          "modification": "none; GPX extracted byte-for-byte from official ZIP"
+        },
+        "checked_at": "2026-10-28",
+        "metric_edition": {
+          "distance_km": 2.7,
+          "duration_hours_raw": "2.5",
+          "ascent_m": null,
+          "difficulty": "Baja",
+          "shape_scope": "Circular",
+          "source_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/9780518",
+          "source_version": "CNIG product dated2024-01-16; dataset2021–2024"
+        },
+        "current_metrics": {
+          "source_id": "miteco-isla",
+          "distance_km": 2.0,
+          "character": "circular",
+          "distance_scope": "whole_described_circular_route",
+          "return_explicitly_included": true,
+          "duration": {
+            "text": "de1 a1,5horas",
+            "min_minutes": 60,
+            "max_minutes": 90,
+            "explicit_duration_scope": "recorrido circular descrito"
+          },
+          "full_itinerary_wheelchair_statement": null,
+          "family_statement": null,
+          "absence_note": "La ficha no afirma accesibilidad integral ni etiqueta familiar; la omisión no implica que sea inaccesible o inadecuada para familias."
+        },
+        "current_url": "https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/daimiel/guia-visitante/isla-pan.html",
+        "derived_length_km": 2.686,
+        "derived_length_method": "Haversine distance between consecutive source points. Not an official published metric."
+      }
     },
     {
       "id": "daimiel-laguna-permanente",
       "name": "La Laguna Permanente",
       "name_en": "Permanent Lagoon trail",
       "place_id": "daimiel",
-      "distance_km": 0.8,
-      "duration_minutes": null,
+      "distance_km": 1.7,
+      "duration_minutes": 90,
       "ascent_m": null,
-      "distance_scope": "one_way_published",
-      "difficulty_official": "No publicada",
-      "shape": "linear",
+      "distance_scope": "entire_described_route",
+      "difficulty_official": "Baja",
+      "shape": "out-and-back",
       "family_official": false,
       "wheelchair_verified": null,
       "dogs": {
@@ -4717,29 +5659,94 @@
       "cycling_verified": null,
       "route_status": "published_official_not_live_conditions",
       "source_ids": [
-        "ext-daimiel-laguna"
+        "ext-daimiel-laguna",
+        "track-v3-daimiel-laguna-permanente",
+        "current-v3-daimiel-laguna-permanente",
+        "v3-miteco-laguna"
       ],
-      "gpx_path": null,
-      "geojson_path": null,
-      "geometry_status": "not_imported",
-      "track_url": null,
-      "start_coordinates": null,
-      "source_elevations_present": false,
-      "verified_at": "2026-10-27",
-      "metric_note": "La fuente publica algo más de una hora, sin cifra exacta. La longitud lineal publicada no incluye automáticamente el regreso.",
-      "metric_note_en": "The source gives just over an hour without an exact value. The published linear length does not automatically include the return."
+      "gpx_path": "data/tracks/daimiel-laguna-permanente.gpx",
+      "geojson_path": "data/tracks/daimiel-laguna-permanente.geojson",
+      "geometry_status": "official_track",
+      "track_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110392",
+      "start_coordinates": [
+        -3.697519998999951,
+        39.13798118600005
+      ],
+      "source_elevations_present": true,
+      "verified_at": "2026-10-28",
+      "metric_note": "El GPX CNIG incluye ida y vuelta: 1,7 km y 1 h 30 min. MITECO publica 0,8 km lineales y algo más de 1 h sin aclarar si sus cifras incluyen el regreso.",
+      "metric_note_en": "The CNIG GPX includes the return: 1.7 km and 1 h 30 min. MITECO gives 0.8 km linear and just over 1 h without specifying whether its figures include the return.",
+      "previous_edition": {
+        "name": "La Laguna Permanente",
+        "distance_km": 0.8,
+        "duration_minutes": null,
+        "ascent_m": null,
+        "distance_scope": "one_way_published",
+        "shape": "linear",
+        "difficulty_official": "No publicada",
+        "family_official": false,
+        "wheelchair_verified": null,
+        "source_ids": [
+          "ext-daimiel-laguna"
+        ],
+        "verified_at": "2026-10-27"
+      },
+      "access_source_url": "https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/daimiel/guia-visitante/guia-accesos.html",
+      "track_provenance": {
+        "source_id": "track-v3-daimiel-laguna-permanente",
+        "sha256": "2cd15ffb4e52cc6b25ac0eb3f0cd387f7dddac931e2fa7f9f46ebba386796bd8",
+        "archive_entry": "014-Tablas_de_Daimiel/14-283-Excursion1-La_Laguna_Permanente_Ruta_Roja.gpx",
+        "archive_sha256": "2e9bc6687a01e9f2df53d5b4ad0884ba4af9eb492a53f859d8c6f55bd6fec55a",
+        "license": {
+          "status": "CC-BY-4.0",
+          "attribution": "Rutas Parques Nacionales 2021-2024 CC-BY 4.0 Instituto Geográfico Nacional y Parques Nacionales",
+          "license_url": "https://www.ign.es/resources/licencia/Condiciones_licenciaUso_IGN.pdf",
+          "product_detail_url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=10110392",
+          "source_archive_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110392",
+          "modification": "none; GPX extracted byte-for-byte from official ZIP"
+        },
+        "checked_at": "2026-10-28",
+        "metric_edition": {
+          "distance_km": 1.7,
+          "duration_hours_raw": "1.5",
+          "ascent_m": null,
+          "difficulty": "Baja",
+          "shape_scope": "Ida y vuelta",
+          "source_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/9780479",
+          "source_version": "CNIG product dated2024-01-16; dataset2021–2024"
+        },
+        "current_metrics": {
+          "source_id": "miteco-laguna",
+          "distance_km": 0.8,
+          "character": "lineal",
+          "distance_scope": "lineal_published_return_not_explicit",
+          "return_explicitly_included": null,
+          "duration": {
+            "text": "algo más de una hora",
+            "min_exclusive_minutes": 60,
+            "max_minutes": null,
+            "explicit_duration_scope": null
+          },
+          "full_itinerary_wheelchair_statement": null,
+          "family_statement": null,
+          "absence_note": "La ficha no afirma accesibilidad integral ni etiqueta familiar; la omisión no implica que sea inaccesible o inadecuada para familias."
+        },
+        "current_url": "https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/daimiel/guia-visitante/laguna-permanente.html",
+        "derived_length_km": 1.741,
+        "derived_length_method": "Haversine distance between consecutive source points. Not an official published metric."
+      }
     },
     {
       "id": "daimiel-prado-ancho",
       "name": "Torre de Prado Ancho",
       "name_en": "Prado Ancho Tower trail",
       "place_id": "daimiel",
-      "distance_km": 1.5,
-      "duration_minutes": 120,
+      "distance_km": 3.3,
+      "duration_minutes": 150,
       "ascent_m": null,
-      "distance_scope": "one_way_published",
-      "difficulty_official": "No publicada",
-      "shape": "linear",
+      "distance_scope": "entire_described_route",
+      "difficulty_official": "Baja",
+      "shape": "out-and-back",
       "family_official": false,
       "wheelchair_verified": null,
       "dogs": {
@@ -4749,15 +5756,81 @@
       "cycling_verified": null,
       "route_status": "published_official_not_live_conditions",
       "source_ids": [
-        "ext-daimiel-prado"
+        "ext-daimiel-prado",
+        "track-v3-daimiel-prado-ancho",
+        "current-v3-daimiel-prado-ancho",
+        "v3-miteco-prado"
       ],
-      "gpx_path": null,
-      "geojson_path": null,
-      "geometry_status": "not_imported",
-      "track_url": null,
-      "start_coordinates": null,
-      "source_elevations_present": false,
-      "verified_at": "2026-10-27"
+      "gpx_path": "data/tracks/daimiel-prado-ancho.gpx",
+      "geojson_path": "data/tracks/daimiel-prado-ancho.geojson",
+      "geometry_status": "official_track",
+      "track_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110392",
+      "start_coordinates": [
+        -3.696992062999925,
+        39.13806724600005
+      ],
+      "source_elevations_present": true,
+      "verified_at": "2026-10-28",
+      "previous_edition": {
+        "name": "Torre de Prado Ancho",
+        "distance_km": 1.5,
+        "duration_minutes": 120,
+        "ascent_m": null,
+        "distance_scope": "one_way_published",
+        "shape": "linear",
+        "difficulty_official": "No publicada",
+        "family_official": false,
+        "wheelchair_verified": null,
+        "source_ids": [
+          "ext-daimiel-prado"
+        ],
+        "verified_at": "2026-10-27"
+      },
+      "metric_note": "El GPX CNIG incluye ida y vuelta: 3,3 km y 2 h 30 min. MITECO publica 1,5 km lineales y unas 2 h sin aclarar si sus cifras incluyen el regreso.",
+      "metric_note_en": "The CNIG GPX includes the return: 3.3 km and 2 h 30 min. MITECO gives 1.5 km linear and about 2 h without specifying whether its figures include the return.",
+      "access_source_url": "https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/daimiel/guia-visitante/guia-accesos.html",
+      "track_provenance": {
+        "source_id": "track-v3-daimiel-prado-ancho",
+        "sha256": "450259257dbd3b821331175e0b01ab1d3ea40d78175b2ddc4bc774cd7d4a86dc",
+        "archive_entry": "014-Tablas_de_Daimiel/14-280-Excursion3-Torre_de_Prado_Ancho_Ruta_Azul.gpx",
+        "archive_sha256": "2e9bc6687a01e9f2df53d5b4ad0884ba4af9eb492a53f859d8c6f55bd6fec55a",
+        "license": {
+          "status": "CC-BY-4.0",
+          "attribution": "Rutas Parques Nacionales 2021-2024 CC-BY 4.0 Instituto Geográfico Nacional y Parques Nacionales",
+          "license_url": "https://www.ign.es/resources/licencia/Condiciones_licenciaUso_IGN.pdf",
+          "product_detail_url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=10110392",
+          "source_archive_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110392",
+          "modification": "none; GPX extracted byte-for-byte from official ZIP"
+        },
+        "checked_at": "2026-10-28",
+        "metric_edition": {
+          "distance_km": 3.3,
+          "duration_hours_raw": "2.5",
+          "ascent_m": null,
+          "difficulty": "Baja",
+          "shape_scope": "Ida y vuelta",
+          "source_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/9780483",
+          "source_version": "CNIG product dated2024-01-16; dataset2021–2024"
+        },
+        "current_metrics": {
+          "source_id": "miteco-prado",
+          "distance_km": 1.5,
+          "character": "lineal",
+          "distance_scope": "lineal_published_return_not_explicit",
+          "return_explicitly_included": null,
+          "duration": {
+            "text": "aproximadamente dos horas",
+            "approx_minutes": 120,
+            "explicit_duration_scope": null
+          },
+          "full_itinerary_wheelchair_statement": null,
+          "family_statement": null,
+          "absence_note": "La ficha no afirma accesibilidad integral ni etiqueta familiar; la omisión no implica que sea inaccesible o inadecuada para familias."
+        },
+        "current_url": "https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/daimiel/guia-visitante/prado-ancho.html",
+        "derived_length_km": 3.332,
+        "derived_length_method": "Haversine distance between consecutive source points. Not an official published metric."
+      }
     },
     {
       "id": "belena-lagunas",
@@ -4939,6 +6012,709 @@
       "metric_note_en": "The Mancomunidad publishes 7 km, 2 h 15 min and 265 m of ascent and descent. The trail crosses cherry orchards and oak woods; it is not identified as the personal photograph’s location. A GPX is linked by the source but has not been added to this catalogue.",
       "photo_location_relationship": "nearby_regional_suggestion_only_not_the_photo_site",
       "verified_at": "2026-10-27"
+    },
+    {
+      "id": "penalara-cumbre",
+      "place_id": "penalara",
+      "source_ids": [
+        "track-v3-penalara-cumbre",
+        "current-v3-penalara-cumbre"
+      ],
+      "dogs": {
+        "status": "unknown",
+        "source": null
+      },
+      "cycling_verified": null,
+      "name": "Pico Peñalara · cumbre",
+      "name_en": "Peñalara summit",
+      "distance_km": 10.6,
+      "duration_minutes": 300,
+      "ascent_m": null,
+      "distance_scope": "entire_described_route",
+      "shape": "out-and-back",
+      "difficulty_official": "Senderista avanzado",
+      "family_official": false,
+      "wheelchair_verified": null,
+      "geometry_status": "official_track",
+      "route_status": "published_official_not_live_conditions",
+      "verified_at": "2026-10-28",
+      "metric_note": "Datos de esta edición CNIG: 10,6 km y 5 h. La ficha actual del parque publica 10,2 km y 3 h 50 min.",
+      "metric_note_en": "This CNIG edition gives 10.6 km and 5 h. The park’s current page gives 10.2 km and 3 h 50 min.",
+      "access_notes": {
+        "es": [
+          "Cumbre de alta montaña. Infórmate de los cupos de acceso al macizo; con nieve o hielo hacen falta formación y material específicos."
+        ],
+        "en": [
+          "A high-mountain summit. Check the massif’s access quotas; snow and ice require suitable training and equipment."
+        ]
+      },
+      "access_source_url": "https://www.parquenacionalsierraguadarrama.es/visita/rutas/1306-pnsg-032",
+      "gpx_path": "data/tracks/penalara-cumbre.gpx",
+      "geojson_path": "data/tracks/penalara-cumbre.geojson",
+      "track_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110390",
+      "start_coordinates": [
+        -3.962456599999939,
+        40.82345141500008
+      ],
+      "source_elevations_present": true,
+      "track_provenance": {
+        "source_id": "track-v3-penalara-cumbre",
+        "sha256": "e81523c3c43f84f816c1a0682db1d90626f3fc0ed3c7fd40b99699c98a462f20",
+        "archive_entry": "09-Sierra_de_Guadarrama/9-205-SPN41-Pico_Penalara.gpx",
+        "archive_sha256": "8da887e58d576a2abe5a9fd0a5eb0c040c5c17c179a29ac44bb1dee4e45f02b9",
+        "license": {
+          "status": "CC-BY-4.0",
+          "attribution": "Rutas Parques Nacionales 2021-2024 CC-BY 4.0 Instituto Geográfico Nacional y Parques Nacionales",
+          "license_url": "https://www.ign.es/resources/licencia/Condiciones_licenciaUso_IGN.pdf",
+          "product_detail_url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=10110390",
+          "source_archive_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110390",
+          "modification": "none; GPX extracted byte-for-byte from official ZIP"
+        },
+        "checked_at": "2026-10-28",
+        "metric_edition": {
+          "distance_km": 10.6,
+          "duration_hours_raw": "5",
+          "ascent_m": null,
+          "difficulty": "Alta",
+          "shape_scope": "Ida y vuelta",
+          "source_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/9780417",
+          "source_version": "CNIG product dated2024-01-16; dataset2021–2024"
+        },
+        "current_metrics": {
+          "distance_km": 10.2,
+          "duration_minutes": 230,
+          "ascent_m_table": 621,
+          "ascent_m_text": 610,
+          "difficulty": "Senderista avanzado"
+        },
+        "current_url": "https://www.parquenacionalsierraguadarrama.es/visita/rutas/1306-pnsg-032",
+        "derived_length_km": 10.548,
+        "derived_length_method": "Haversine distance between consecutive source points. Not an official published metric."
+      }
+    },
+    {
+      "id": "fuenfria-camino-agua",
+      "place_id": "fuenfria",
+      "source_ids": [
+        "track-v3-fuenfria-camino-agua",
+        "current-v3-fuenfria-camino-agua"
+      ],
+      "dogs": {
+        "status": "unknown",
+        "source": null
+      },
+      "cycling_verified": null,
+      "name": "Camino del Agua · hacia Cercedilla",
+      "name_en": "Camino del Agua · towards Cercedilla",
+      "distance_km": 5.9,
+      "duration_minutes": 90,
+      "ascent_m": null,
+      "distance_scope": "one_way_only",
+      "shape": "linear",
+      "difficulty_official": "Senderista principiante",
+      "family_official": false,
+      "wheelchair_verified": null,
+      "geometry_status": "official_track",
+      "route_status": "published_official_not_live_conditions",
+      "verified_at": "2026-10-28",
+      "metric_note": "Datos del GPX CNIG, solo ida: 5,9 km y 1 h 30 min. La ficha actual publica 1 h 50 min en sentido contrario; su desnivel no se aplica a este archivo.",
+      "metric_note_en": "CNIG one-way edition: 5.9 km and 1 h 30 min. The current page gives 1 h 50 min in the opposite direction; its ascent does not apply to this file.",
+      "access_notes": {
+        "es": [
+          "El GPX va del centro de visitantes a Cercedilla. La ficha actual del parque describe el sentido contrario. No incluye el regreso."
+        ],
+        "en": [
+          "The GPX runs from the visitor centre to Cercedilla. The park’s current description uses the opposite direction. The return is not included."
+        ]
+      },
+      "access_source_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/9780491",
+      "gpx_path": "data/tracks/fuenfria-camino-agua.gpx",
+      "geojson_path": "data/tracks/fuenfria-camino-agua.geojson",
+      "track_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110390",
+      "start_coordinates": [
+        -4.070820858999923,
+        40.75744288900006
+      ],
+      "source_elevations_present": true,
+      "track_provenance": {
+        "source_id": "track-v3-fuenfria-camino-agua",
+        "sha256": "5c6bffb5ebffc2a182f3268fce44ee0be0d26f6ead9c9761ab8ca03be9b02b46",
+        "archive_entry": "09-Sierra_de_Guadarrama/9-295-SPN8-Camino_del_Agua.gpx",
+        "archive_sha256": "8da887e58d576a2abe5a9fd0a5eb0c040c5c17c179a29ac44bb1dee4e45f02b9",
+        "license": {
+          "status": "CC-BY-4.0",
+          "attribution": "Rutas Parques Nacionales 2021-2024 CC-BY 4.0 Instituto Geográfico Nacional y Parques Nacionales",
+          "license_url": "https://www.ign.es/resources/licencia/Condiciones_licenciaUso_IGN.pdf",
+          "product_detail_url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=10110390",
+          "source_archive_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110390",
+          "modification": "none; GPX extracted byte-for-byte from official ZIP"
+        },
+        "checked_at": "2026-10-28",
+        "metric_edition": {
+          "distance_km": 5.9,
+          "duration_hours_raw": "1.5",
+          "ascent_m": null,
+          "difficulty": "Baja",
+          "shape_scope": "Ida",
+          "source_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/9780491",
+          "source_version": "CNIG product dated2024-01-16; dataset2021–2024"
+        },
+        "current_metrics": {
+          "distance_km": 5.9,
+          "duration_minutes": 110,
+          "ascent_m": 258,
+          "descent_m": 130,
+          "difficulty": "Senderista principiante",
+          "scope": "sentido Cercedilla → centro de visitantes, inverso al archivo CNIG"
+        },
+        "current_url": "https://www.parquenacionalsierraguadarrama.es/visita/rutas/1308-pnsg-034",
+        "derived_length_km": 5.859,
+        "derived_length_method": "Haversine distance between consecutive source points. Not an official published metric."
+      }
+    },
+    {
+      "id": "fuenfria-puricelli",
+      "place_id": "fuenfria",
+      "source_ids": [
+        "track-v3-fuenfria-puricelli",
+        "current-v3-fuenfria-puricelli"
+      ],
+      "dogs": {
+        "status": "unknown",
+        "source": null
+      },
+      "cycling_verified": null,
+      "name": "Senda Puricelli · hacia Cercedilla",
+      "name_en": "Puricelli trail · towards Cercedilla",
+      "distance_km": 4.2,
+      "duration_minutes": 90,
+      "ascent_m": null,
+      "distance_scope": "one_way_only",
+      "shape": "linear",
+      "difficulty_official": "Senderista principiante",
+      "family_official": false,
+      "wheelchair_verified": null,
+      "geometry_status": "official_track",
+      "route_status": "published_official_not_live_conditions",
+      "verified_at": "2026-10-28",
+      "metric_note": "Datos del GPX CNIG, solo ida: 4,2 km y 1 h 30 min. La ficha actual publica 1 h 10 min en sentido contrario.",
+      "metric_note_en": "CNIG one-way edition: 4.2 km and 1 h 30 min. The current page gives 1 h 10 min in the opposite direction.",
+      "access_notes": {
+        "es": [
+          "El GPX va del centro de visitantes a la estación de Cercedilla. La ficha actual describe el sentido contrario. No incluye el regreso."
+        ],
+        "en": [
+          "The GPX runs from the visitor centre to Cercedilla station. The current description uses the opposite direction. The return is not included."
+        ]
+      },
+      "access_source_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/9780486",
+      "gpx_path": "data/tracks/fuenfria-puricelli.gpx",
+      "geojson_path": "data/tracks/fuenfria-puricelli.geojson",
+      "track_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110390",
+      "start_coordinates": [
+        -4.070942011999932,
+        40.757597168000075
+      ],
+      "source_elevations_present": true,
+      "track_provenance": {
+        "source_id": "track-v3-fuenfria-puricelli",
+        "sha256": "330943bb64a0aed376439157e1ea279c102b225fd9ee623f99d4033bdfd711cb",
+        "archive_entry": "09-Sierra_de_Guadarrama/9-296-SPN4-Senda_Puricelli.gpx",
+        "archive_sha256": "8da887e58d576a2abe5a9fd0a5eb0c040c5c17c179a29ac44bb1dee4e45f02b9",
+        "license": {
+          "status": "CC-BY-4.0",
+          "attribution": "Rutas Parques Nacionales 2021-2024 CC-BY 4.0 Instituto Geográfico Nacional y Parques Nacionales",
+          "license_url": "https://www.ign.es/resources/licencia/Condiciones_licenciaUso_IGN.pdf",
+          "product_detail_url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=10110390",
+          "source_archive_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110390",
+          "modification": "none; GPX extracted byte-for-byte from official ZIP"
+        },
+        "checked_at": "2026-10-28",
+        "metric_edition": {
+          "distance_km": 4.2,
+          "duration_hours_raw": "1.5",
+          "ascent_m": null,
+          "difficulty": "Baja",
+          "shape_scope": "Ida",
+          "source_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/9780486",
+          "source_version": "CNIG product dated2024-01-16; dataset2021–2024"
+        },
+        "current_metrics": {
+          "distance_km": 4.2,
+          "duration_minutes": 70,
+          "ascent_m": 219,
+          "descent_m": 89,
+          "difficulty": "Senderista principiante",
+          "scope": "sentido Cercedilla → centro de visitantes, inverso al archivo CNIG"
+        },
+        "current_url": "https://www.parquenacionalsierraguadarrama.es/visita/rutas/1292-pnsg-018",
+        "derived_length_km": 4.193,
+        "derived_length_method": "Haversine distance between consecutive source points. Not an official published metric."
+      }
+    },
+    {
+      "id": "fuenfria-miradores",
+      "place_id": "fuenfria",
+      "source_ids": [
+        "track-v3-fuenfria-miradores",
+        "current-v3-fuenfria-miradores"
+      ],
+      "dogs": {
+        "status": "unknown",
+        "source": null
+      },
+      "cycling_verified": null,
+      "name": "Los Miradores de la Fuenfría",
+      "name_en": "Fuenfría viewpoints",
+      "distance_km": 9.2,
+      "duration_minutes": 180,
+      "ascent_m": null,
+      "distance_scope": "entire_described_route",
+      "shape": "circular",
+      "difficulty_official": "Senderista avanzado",
+      "family_official": false,
+      "wheelchair_verified": null,
+      "geometry_status": "official_track",
+      "route_status": "published_official_not_live_conditions",
+      "verified_at": "2026-10-28",
+      "metric_note": "Edición CNIG: 9,2 km y 3 h. Ficha actual: 9,3 km y 3 h 10 min. Se conserva la dificultad actual: senderista avanzado.",
+      "metric_note_en": "CNIG edition: 9.2 km and 3 h. Current page: 9.3 km and 3 h 10 min. The current advanced-hiker rating is retained.",
+      "access_notes": {
+        "es": [
+          "El parque clasifica actualmente esta ruta como senderista avanzado. Consulta el acceso a Majavilán y las condiciones de montaña."
+        ],
+        "en": [
+          "The park currently rates this trail for advanced hikers. Check access to Majavilán and mountain conditions."
+        ]
+      },
+      "access_source_url": "https://www.parquenacionalsierraguadarrama.es/visita/rutas/1309-pnsg-035",
+      "gpx_path": "data/tracks/fuenfria-miradores.gpx",
+      "geojson_path": "data/tracks/fuenfria-miradores.geojson",
+      "track_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110390",
+      "start_coordinates": [
+        -4.069104867999954,
+        40.76777424200009
+      ],
+      "source_elevations_present": true,
+      "track_provenance": {
+        "source_id": "track-v3-fuenfria-miradores",
+        "sha256": "8d38ca9347bed3b38d47a9b9092a6f4bebe8da2b8e7b7c835fa81ac45d0a02be",
+        "archive_entry": "09-Sierra_de_Guadarrama/9-310-SPN7-Los_Miradores.gpx",
+        "archive_sha256": "8da887e58d576a2abe5a9fd0a5eb0c040c5c17c179a29ac44bb1dee4e45f02b9",
+        "license": {
+          "status": "CC-BY-4.0",
+          "attribution": "Rutas Parques Nacionales 2021-2024 CC-BY 4.0 Instituto Geográfico Nacional y Parques Nacionales",
+          "license_url": "https://www.ign.es/resources/licencia/Condiciones_licenciaUso_IGN.pdf",
+          "product_detail_url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=10110390",
+          "source_archive_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110390",
+          "modification": "none; GPX extracted byte-for-byte from official ZIP"
+        },
+        "checked_at": "2026-10-28",
+        "metric_edition": {
+          "distance_km": 9.2,
+          "duration_hours_raw": "3",
+          "ascent_m": null,
+          "difficulty": "Media",
+          "shape_scope": "Circular",
+          "source_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/9780386",
+          "source_version": "CNIG product dated2024-01-16; dataset2021–2024"
+        },
+        "current_metrics": {
+          "distance_km": 9.3,
+          "duration_minutes": 190,
+          "ascent_m": 418,
+          "difficulty": "Senderista avanzado"
+        },
+        "current_url": "https://www.parquenacionalsierraguadarrama.es/visita/rutas/1309-pnsg-035",
+        "derived_length_km": 9.189,
+        "derived_length_method": "Haversine distance between consecutive source points. Not an official published metric."
+      }
+    },
+    {
+      "id": "barranca-circular-cnig",
+      "place_id": "barranca",
+      "source_ids": [
+        "track-v3-barranca-circular-cnig",
+        "current-v3-barranca-circular-cnig"
+      ],
+      "dogs": {
+        "status": "unknown",
+        "source": null
+      },
+      "cycling_verified": null,
+      "name": "La Barranca · circular CNIG",
+      "name_en": "La Barranca · CNIG circular trail",
+      "distance_km": 9.9,
+      "duration_minutes": 210,
+      "ascent_m": null,
+      "distance_scope": "entire_described_route",
+      "shape": "circular",
+      "difficulty_official": "Senderista avanzado",
+      "family_official": false,
+      "wheelchair_verified": null,
+      "geometry_status": "official_track",
+      "route_status": "published_official_not_live_conditions",
+      "verified_at": "2026-10-28",
+      "metric_note": "La distancia y el tiempo corresponden a la edición CNIG: 9,9 km y 3 h 30 min. La ficha actual describe una variante de 10,3 km.",
+      "metric_note_en": "Distance and time describe the CNIG edition: 9.9 km and 3 h 30 min. The current page describes a 10.3 km variant.",
+      "access_notes": {
+        "es": [
+          "Esta es la variante CNIG de 9,9 km; la ficha actual describe 10,3 km y nivel avanzado. El aparcamiento está sujeto a aforo."
+        ],
+        "en": [
+          "This is the 9.9 km CNIG variant; the current description gives 10.3 km and an advanced level. Car-park capacity is limited."
+        ]
+      },
+      "access_source_url": "https://www.parquenacionalsierraguadarrama.es/visita/rutas/1294-pnsg-020",
+      "gpx_path": "data/tracks/barranca-circular-cnig.gpx",
+      "geojson_path": "data/tracks/barranca-circular-cnig.geojson",
+      "track_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110390",
+      "start_coordinates": [
+        -3.993298374999938,
+        40.75276664100005
+      ],
+      "source_elevations_present": true,
+      "track_provenance": {
+        "source_id": "track-v3-barranca-circular-cnig",
+        "sha256": "ce9946410481b1a79252095a1362de4c54c656175a44fbd96f48abaf48dc18c8",
+        "archive_entry": "09-Sierra_de_Guadarrama/9-364-SPN11-La_Barranca_Circular.gpx",
+        "archive_sha256": "8da887e58d576a2abe5a9fd0a5eb0c040c5c17c179a29ac44bb1dee4e45f02b9",
+        "license": {
+          "status": "CC-BY-4.0",
+          "attribution": "Rutas Parques Nacionales 2021-2024 CC-BY 4.0 Instituto Geográfico Nacional y Parques Nacionales",
+          "license_url": "https://www.ign.es/resources/licencia/Condiciones_licenciaUso_IGN.pdf",
+          "product_detail_url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=10110390",
+          "source_archive_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110390",
+          "modification": "none; GPX extracted byte-for-byte from official ZIP"
+        },
+        "checked_at": "2026-10-28",
+        "metric_edition": {
+          "distance_km": 9.9,
+          "duration_hours_raw": "3.5",
+          "ascent_m": null,
+          "difficulty": "Media",
+          "shape_scope": "Circular",
+          "source_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10415973",
+          "source_version": "CNIG product dated2024-01-16; dataset2021–2024"
+        },
+        "current_metrics": {
+          "distance_km": 10.3,
+          "duration_minutes": 210,
+          "ascent_m": 429,
+          "difficulty": "Senderista avanzado",
+          "scope": "ficha actual; no sustituye métricas del GPX CNIG de9,9km"
+        },
+        "current_url": "https://www.parquenacionalsierraguadarrama.es/visita/rutas/1294-pnsg-020",
+        "derived_length_km": 9.876,
+        "derived_length_method": "Haversine distance between consecutive source points. Not an official published metric."
+      }
+    },
+    {
+      "id": "paular-ermita-santa-ana",
+      "place_id": "paular",
+      "source_ids": [
+        "track-v3-paular-ermita-santa-ana",
+        "current-v3-paular-ermita-santa-ana"
+      ],
+      "dogs": {
+        "status": "unknown",
+        "source": null
+      },
+      "cycling_verified": null,
+      "name": "Oteruelo · ermita de Santa Ana · Alameda",
+      "name_en": "Oteruelo · Santa Ana chapel · Alameda",
+      "distance_km": 7.6,
+      "duration_minutes": 120,
+      "ascent_m": null,
+      "distance_scope": "entire_described_route",
+      "shape": "circular",
+      "difficulty_official": "Senderista principiante",
+      "family_official": false,
+      "wheelchair_verified": null,
+      "geometry_status": "official_track",
+      "route_status": "published_official_not_live_conditions",
+      "verified_at": "2026-10-28",
+      "metric_note": "Edición CNIG: 7,6 km y 2 h. La ficha actual publica la misma distancia y 1 h 45 min.",
+      "metric_note_en": "CNIG edition: 7.6 km and 2 h. The current page gives the same distance and 1 h 45 min.",
+      "access_notes": {
+        "es": [
+          "Comienza en Oteruelo del Valle, no en el monasterio de El Paular. Consulta los accesos en la ficha del parque."
+        ],
+        "en": [
+          "Starts in Oteruelo del Valle, not at El Paular monastery. Check the park’s access information."
+        ]
+      },
+      "access_source_url": "https://www.parquenacionalsierraguadarrama.es/visita/rutas/1302-pnsg-028",
+      "gpx_path": "data/tracks/paular-ermita-santa-ana.gpx",
+      "geojson_path": "data/tracks/paular-ermita-santa-ana.geojson",
+      "track_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110390",
+      "start_coordinates": [
+        -3.853473742999938,
+        40.91408526300006
+      ],
+      "source_elevations_present": true,
+      "track_provenance": {
+        "source_id": "track-v3-paular-ermita-santa-ana",
+        "sha256": "c04126d3fa8ab92d5a05e748b08bc79da7fd6bf3334193dd762293cfee89ed1e",
+        "archive_entry": "09-Sierra_de_Guadarrama/9-369-SPN45-Oteruelo-Ermita_de_Santa_Ana-Alameda_del_Valle-Oteruelo.gpx",
+        "archive_sha256": "8da887e58d576a2abe5a9fd0a5eb0c040c5c17c179a29ac44bb1dee4e45f02b9",
+        "license": {
+          "status": "CC-BY-4.0",
+          "attribution": "Rutas Parques Nacionales 2021-2024 CC-BY 4.0 Instituto Geográfico Nacional y Parques Nacionales",
+          "license_url": "https://www.ign.es/resources/licencia/Condiciones_licenciaUso_IGN.pdf",
+          "product_detail_url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=10110390",
+          "source_archive_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110390",
+          "modification": "none; GPX extracted byte-for-byte from official ZIP"
+        },
+        "checked_at": "2026-10-28",
+        "metric_edition": {
+          "distance_km": 7.6,
+          "duration_hours_raw": "2",
+          "ascent_m": null,
+          "difficulty": "Baja",
+          "shape_scope": "Circular",
+          "source_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10415989",
+          "source_version": "CNIG product dated2024-01-16; dataset2021–2024"
+        },
+        "current_metrics": {
+          "distance_km": 7.6,
+          "duration_minutes": 105,
+          "ascent_m": 105,
+          "difficulty": "Senderista principiante"
+        },
+        "current_url": "https://www.parquenacionalsierraguadarrama.es/visita/rutas/1302-pnsg-028",
+        "derived_length_km": 7.64,
+        "derived_length_method": "Haversine distance between consecutive source points. Not an official published metric."
+      }
+    },
+    {
+      "id": "navafria-nevero",
+      "place_id": "navafria",
+      "source_ids": [
+        "track-v3-navafria-nevero",
+        "current-v3-navafria-nevero"
+      ],
+      "dogs": {
+        "status": "unknown",
+        "source": null
+      },
+      "cycling_verified": null,
+      "name": "El Nevero · circular del puerto",
+      "name_en": "El Nevero · circular trail from the pass",
+      "distance_km": 10.4,
+      "duration_minutes": 180,
+      "ascent_m": null,
+      "distance_scope": "entire_described_route",
+      "shape": "circular",
+      "difficulty_official": "Senderista avanzado",
+      "family_official": false,
+      "wheelchair_verified": null,
+      "geometry_status": "official_track",
+      "route_status": "published_official_not_live_conditions",
+      "verified_at": "2026-10-28",
+      "metric_note": "Edición CNIG: 10,4 km y 3 h. La ficha actual publica 10,5 km y 3 h 40 min, con dificultad avanzada.",
+      "metric_note_en": "CNIG edition: 10.4 km and 3 h. The current page gives 10.5 km and 3 h 40 min, rated advanced.",
+      "access_notes": {
+        "es": [
+          "Recorrido de montaña, clasificado actualmente para senderistas avanzados. Revisa la previsión y las condiciones del puerto."
+        ],
+        "en": [
+          "A mountain trail currently rated for advanced hikers. Check the forecast and conditions at the pass."
+        ]
+      },
+      "access_source_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10415978",
+      "gpx_path": "data/tracks/navafria-nevero.gpx",
+      "geojson_path": "data/tracks/navafria-nevero.geojson",
+      "track_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110390",
+      "start_coordinates": [
+        -3.81425392299991,
+        40.986969729000066
+      ],
+      "source_elevations_present": true,
+      "track_provenance": {
+        "source_id": "track-v3-navafria-nevero",
+        "sha256": "a5e73237a970004da7ce766034db07cba8acdf6ff9aa914b2dedee009db65b75",
+        "archive_entry": "09-Sierra_de_Guadarrama/9-375-SPN57-Puerto_de_Navafria_al_Nevero.gpx",
+        "archive_sha256": "8da887e58d576a2abe5a9fd0a5eb0c040c5c17c179a29ac44bb1dee4e45f02b9",
+        "license": {
+          "status": "CC-BY-4.0",
+          "attribution": "Rutas Parques Nacionales 2021-2024 CC-BY 4.0 Instituto Geográfico Nacional y Parques Nacionales",
+          "license_url": "https://www.ign.es/resources/licencia/Condiciones_licenciaUso_IGN.pdf",
+          "product_detail_url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=10110390",
+          "source_archive_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110390",
+          "modification": "none; GPX extracted byte-for-byte from official ZIP"
+        },
+        "checked_at": "2026-10-28",
+        "metric_edition": {
+          "distance_km": 10.4,
+          "duration_hours_raw": "3",
+          "ascent_m": null,
+          "difficulty": "Media",
+          "shape_scope": "Circular",
+          "source_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10415978",
+          "source_version": "CNIG product dated2024-01-16; dataset2021–2024"
+        },
+        "current_metrics": {
+          "distance_km": 10.5,
+          "duration_minutes": 220,
+          "difficulty": "Senderista avanzado",
+          "source_url": "https://www.parquenacionalsierraguadarrama.es/visita/rutas?start=10"
+        },
+        "current_url": "https://www.parquenacionalsierraguadarrama.es/visita/rutas?start=10",
+        "derived_length_km": 10.357,
+        "derived_length_method": "Haversine distance between consecutive source points. Not an official published metric."
+      }
+    },
+    {
+      "id": "navafria-chorro-clasica",
+      "place_id": "navafria",
+      "source_ids": [
+        "track-v3-navafria-chorro-clasica",
+        "current-v3-navafria-chorro-clasica"
+      ],
+      "dogs": {
+        "status": "unknown",
+        "source": null
+      },
+      "cycling_verified": null,
+      "name": "El Chorro de Navafría · paseo circular",
+      "name_en": "El Chorro de Navafría · circular walk",
+      "distance_km": 1.5,
+      "duration_minutes": 45,
+      "ascent_m": null,
+      "distance_scope": "entire_described_route",
+      "shape": "circular",
+      "difficulty_official": "Familiar",
+      "family_official": true,
+      "wheelchair_verified": null,
+      "geometry_status": "official_track",
+      "route_status": "published_official_not_live_conditions",
+      "verified_at": "2026-10-28",
+      "metric_note": "Edición CNIG: 1,5 km y 45 min. La ficha actual del parque estima 35 min.",
+      "metric_note_en": "CNIG edition: 1.5 km and 45 min. The current park page estimates 35 min.",
+      "access_notes": {
+        "es": [
+          "El parque publica una variante familiar de 1,5 km. El estado del firme y del acceso puede cambiar con el tiempo."
+        ],
+        "en": [
+          "The park publishes a 1.5 km family itinerary. Trail and access conditions can change."
+        ]
+      },
+      "access_source_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10415997",
+      "gpx_path": "data/tracks/navafria-chorro-clasica.gpx",
+      "geojson_path": "data/tracks/navafria-chorro-clasica.geojson",
+      "track_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110390",
+      "start_coordinates": [
+        -3.8310882369999604,
+        41.02609215400008
+      ],
+      "source_elevations_present": true,
+      "track_provenance": {
+        "source_id": "track-v3-navafria-chorro-clasica",
+        "sha256": "7eba6c81c07d8a6e35cd1870815301560b73bf3be6d6430fbb3bef209dc5dc70",
+        "archive_entry": "09-Sierra_de_Guadarrama/9-382-SPN55-Senda_del_Chorro_Clasica.gpx",
+        "archive_sha256": "8da887e58d576a2abe5a9fd0a5eb0c040c5c17c179a29ac44bb1dee4e45f02b9",
+        "license": {
+          "status": "CC-BY-4.0",
+          "attribution": "Rutas Parques Nacionales 2021-2024 CC-BY 4.0 Instituto Geográfico Nacional y Parques Nacionales",
+          "license_url": "https://www.ign.es/resources/licencia/Condiciones_licenciaUso_IGN.pdf",
+          "product_detail_url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=10110390",
+          "source_archive_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110390",
+          "modification": "none; GPX extracted byte-for-byte from official ZIP"
+        },
+        "checked_at": "2026-10-28",
+        "metric_edition": {
+          "distance_km": 1.5,
+          "duration_hours_raw": "0.75",
+          "ascent_m": null,
+          "difficulty": "Baja",
+          "shape_scope": "Circular",
+          "source_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10415997",
+          "source_version": "CNIG product dated2024-01-16; dataset2021–2024"
+        },
+        "current_metrics": {
+          "distance_km": 1.5,
+          "duration_minutes": 35,
+          "difficulty": "Familiar",
+          "source_url": "https://www.parquenacionalsierraguadarrama.es/visita/rutas?start=10"
+        },
+        "current_url": "https://www.parquenacionalsierraguadarrama.es/visita/rutas?start=10",
+        "derived_length_km": 1.481,
+        "derived_length_method": "Haversine distance between consecutive source points. Not an official published metric."
+      }
+    },
+    {
+      "id": "daimiel-molemocho",
+      "place_id": "daimiel",
+      "source_ids": [
+        "track-v3-daimiel-molemocho",
+        "current-v3-daimiel-molemocho"
+      ],
+      "dogs": {
+        "status": "unknown",
+        "source": null
+      },
+      "cycling_verified": null,
+      "name": "Molino de Molemocho",
+      "name_en": "Molemocho watermill",
+      "distance_km": 1.2,
+      "duration_minutes": 90,
+      "ascent_m": null,
+      "distance_scope": "entire_described_route",
+      "shape": "out-and-back",
+      "difficulty_official": "Baja",
+      "family_official": false,
+      "wheelchair_verified": null,
+      "geometry_status": "official_track",
+      "route_status": "published_official_not_live_conditions",
+      "verified_at": "2026-10-28",
+      "metric_note": "",
+      "metric_note_en": "",
+      "access_notes": {
+        "es": [
+          "Inicio en el entorno del Molino de Molemocho. No se ha certificado la accesibilidad de todo el trazado GPX."
+        ],
+        "en": [
+          "Starts near Molemocho watermill. Accessibility of the entire GPX has not been certified."
+        ]
+      },
+      "access_source_url": "https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/daimiel/guia-visitante/guia-accesos.html",
+      "gpx_path": "data/tracks/daimiel-molemocho.gpx",
+      "geojson_path": "data/tracks/daimiel-molemocho.geojson",
+      "track_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110392",
+      "start_coordinates": [
+        -3.6920639389999224,
+        39.132144838000045
+      ],
+      "source_elevations_present": true,
+      "track_provenance": {
+        "source_id": "track-v3-daimiel-molemocho",
+        "sha256": "c1ae3d92e548549a26091384d2a199508245618af22079424f6c27562eb68c3e",
+        "archive_entry": "014-Tablas_de_Daimiel/14-281-Excursion4-Molino_de_Molemocho_Ruta_Magenta.gpx",
+        "archive_sha256": "2e9bc6687a01e9f2df53d5b4ad0884ba4af9eb492a53f859d8c6f55bd6fec55a",
+        "license": {
+          "status": "CC-BY-4.0",
+          "attribution": "Rutas Parques Nacionales 2021-2024 CC-BY 4.0 Instituto Geográfico Nacional y Parques Nacionales",
+          "license_url": "https://www.ign.es/resources/licencia/Condiciones_licenciaUso_IGN.pdf",
+          "product_detail_url": "https://centrodedescargas.cnig.es/CentroDescargas/detalleArchivo?sec=10110392",
+          "source_archive_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110392",
+          "modification": "none; GPX extracted byte-for-byte from official ZIP"
+        },
+        "checked_at": "2026-10-28",
+        "metric_edition": {
+          "distance_km": 1.2,
+          "duration_hours_raw": "1.5",
+          "ascent_m": null,
+          "difficulty": "Baja",
+          "shape_scope": "Ida y vuelta",
+          "source_url": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/9780374",
+          "source_version": "CNIG product dated2024-01-16; dataset2021–2024"
+        },
+        "current_metrics": {},
+        "current_url": "https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/daimiel/guia-visitante/itinerarios.html",
+        "derived_length_km": 1.162,
+        "derived_length_method": "Haversine distance between consecutive source points. Not an official published metric."
+      }
     }
   ],
   "species": [
@@ -4977,12 +6753,17 @@
           "en": "Watch through binoculars from the trail; keep your distance and never offer food."
         },
         "source": {
+          "url": "https://www.vertebradosibericos.org/mamiferos/cappyr.html",
+          "publisher": "Museo Nacional de Ciencias Naturales / CSIC — Enciclopedia Virtual de los Vertebrados Españoles",
+          "checked_at": "2026-10-28"
+        },
+        "identification_scope": "orientative_not_diagnostic",
+        "look_is_editorial_guidance": true,
+        "previous_source": {
           "url": "https://en.wikipedia.org/wiki/Iberian_ibex",
           "publisher": "Wikipedia contributors",
           "checked_at": "2026-10-27"
-        },
-        "identification_scope": "orientative_not_diagnostic",
-        "look_is_editorial_guidance": true
+        }
       }
     },
     {
@@ -5020,12 +6801,17 @@
           "en": "Stay still if one appears and keep its escape route clear. Never approach a hidden fawn."
         },
         "source": {
+          "url": "https://www.vertebradosibericos.org/mamiferos/capcap.html",
+          "publisher": "Museo Nacional de Ciencias Naturales / CSIC — Enciclopedia Virtual de los Vertebrados Españoles",
+          "checked_at": "2026-10-28"
+        },
+        "identification_scope": "orientative_not_diagnostic",
+        "look_is_editorial_guidance": true,
+        "previous_source": {
           "url": "https://en.wikipedia.org/wiki/Roe_deer",
           "publisher": "Wikipedia contributors",
           "checked_at": "2026-10-27"
-        },
-        "identification_scope": "orientative_not_diagnostic",
-        "look_is_editorial_guidance": true
+        }
       }
     },
     {
@@ -5063,12 +6849,17 @@
           "en": "Watch quietly from authorised paths; do not investigate resting places or handle signs left along the bank."
         },
         "source": {
+          "url": "https://www.vertebradosibericos.org/mamiferos/lutlut.html",
+          "publisher": "Museo Nacional de Ciencias Naturales / CSIC — Enciclopedia Virtual de los Vertebrados Españoles",
+          "checked_at": "2026-10-28"
+        },
+        "identification_scope": "orientative_not_diagnostic",
+        "look_is_editorial_guidance": true,
+        "previous_source": {
           "url": "https://en.wikipedia.org/wiki/Eurasian_otter",
           "publisher": "Wikipedia contributors",
           "checked_at": "2026-10-27"
-        },
-        "identification_scope": "orientative_not_diagnostic",
-        "look_is_editorial_guidance": true
+        }
       }
     },
     {
@@ -5105,12 +6896,17 @@
           "en": "Look for tracks from the path; never bait it with food or approach a den."
         },
         "source": {
+          "url": "https://www.vertebradosibericos.org/mamiferos/vulvul.html",
+          "publisher": "Museo Nacional de Ciencias Naturales / CSIC — Enciclopedia Virtual de los Vertebrados Españoles",
+          "checked_at": "2026-10-28"
+        },
+        "identification_scope": "orientative_not_diagnostic",
+        "look_is_editorial_guidance": true,
+        "previous_source": {
           "url": "https://en.wikipedia.org/wiki/Red_fox",
           "publisher": "Wikipedia contributors",
           "checked_at": "2026-10-27"
-        },
-        "identification_scope": "orientative_not_diagnostic",
-        "look_is_editorial_guidance": true
+        }
       }
     },
     {
@@ -5147,12 +6943,17 @@
           "en": "Watch woodland edges from a distance; never insert objects into burrows or block their entrances."
         },
         "source": {
+          "url": "https://www.vertebradosibericos.org/mamiferos/orycun.html",
+          "publisher": "Museo Nacional de Ciencias Naturales / CSIC — Enciclopedia Virtual de los Vertebrados Españoles",
+          "checked_at": "2026-10-28"
+        },
+        "identification_scope": "orientative_not_diagnostic",
+        "look_is_editorial_guidance": true,
+        "previous_source": {
           "url": "https://en.wikipedia.org/wiki/European_rabbit",
           "publisher": "Wikipedia contributors",
           "checked_at": "2026-10-27"
-        },
-        "identification_scope": "orientative_not_diagnostic",
-        "look_is_editorial_guidance": true
+        }
       }
     },
     {
@@ -5360,12 +7161,17 @@
           "en": "Photograph without touching or moving it. Avoid trampling wet margins and never transfer water between ponds."
         },
         "source": {
+          "url": "https://www.vertebradosibericos.org/anfibios/salsal.html",
+          "publisher": "Museo Nacional de Ciencias Naturales / CSIC",
+          "checked_at": "2026-10-28"
+        },
+        "identification_scope": "orientative_not_diagnostic",
+        "look_is_editorial_guidance": true,
+        "previous_source": {
           "url": "https://en.wikipedia.org/wiki/Fire_salamander",
           "publisher": "Wikipedia contributors",
           "checked_at": "2026-10-27"
-        },
-        "identification_scope": "orientative_not_diagnostic",
-        "look_is_editorial_guidance": true
+        }
       }
     },
     {
@@ -5383,7 +7189,9 @@
       "documented_area": "Sierra de Guadarrama y zona periférica",
       "sources": [
         "pn-fauna-anfibios",
-        "taxon-rana-patilarga"
+        "taxon-rana-patilarga",
+        "atlas-v3-extra-rana-patilarga-1",
+        "atlas-v3-extra-rana-patilarga-2"
       ],
       "observation_status": "regional_documented_presence_not_live_sighting",
       "location_policy": "No se proporcionan nidos, madrigueras ni localizaciones sensibles.",
@@ -5407,7 +7215,34 @@
           "checked_at": "2026-10-27"
         },
         "identification_scope": "orientative_not_diagnostic",
-        "look_is_editorial_guidance": true
+        "look_is_editorial_guidance": true,
+        "references": [
+          {
+            "url": "https://www.vertebradosibericos.org/anfibios/identificacion/ranibeid.html",
+            "publisher": "Museo Nacional de Ciencias Naturales (CSIC)",
+            "title": "Rana patilarga — Rana iberica — Identificación",
+            "checked_at": "2026-10-28",
+            "verified_fields": [
+              "details.identify"
+            ],
+            "evidence": "The exact-taxon account describes a small brown frog with long hind limbs and dorsolateral folds.",
+            "verification_method": "Primary account content returned in web search; direct access to some sections was intermittent."
+          },
+          {
+            "url": "https://www.vertebradosibericos.org/anfibios/trofico/ranibetr.html",
+            "publisher": "Museo Nacional de Ciencias Naturales (CSIC)",
+            "title": "Rana patilarga — Rana iberica — Dieta",
+            "author": "Alfredo Salvador",
+            "version_date": "2015-11-30",
+            "checked_at": "2026-10-28",
+            "verified_fields": [
+              "details.ecology"
+            ],
+            "evidence": "The account reports adult consumption of aquatic and terrestrial invertebrates, with Diptera, Coleoptera and spiders prominent in cited Sistema Central studies.",
+            "verification_method": "Opened primary account and read its diet section."
+          }
+        ],
+        "reference_scope_note": "These are species accounts and ecological literature, not a new sighting record or confirmation at a mapped point. Keep the existing regional inventory references."
       }
     },
     {
@@ -5425,7 +7260,8 @@
       "documented_area": "Sierra de Guadarrama y zona periférica",
       "sources": [
         "pn-fauna-invertebrados",
-        "taxon-mariposa-apolo"
+        "taxon-mariposa-apolo",
+        "atlas-v3-extra-mariposa-apolo-1"
       ],
       "observation_status": "regional_documented_presence_not_live_sighting",
       "location_policy": "No se proporcionan nidos, madrigueras ni localizaciones sensibles.",
@@ -5449,7 +7285,22 @@
           "checked_at": "2026-10-27"
         },
         "identification_scope": "orientative_not_diagnostic",
-        "look_is_editorial_guidance": true
+        "look_is_editorial_guidance": true,
+        "references": [
+          {
+            "url": "https://www.parquenacionalsierraguadarrama.es/naturaleza/fauna/122-invertebrados",
+            "publisher": "Parque Nacional de la Sierra de Guadarrama",
+            "title": "Invertebrados — Parnassius apollo",
+            "checked_at": "2026-10-28",
+            "verified_fields": [
+              "details.identify: wing colours and ocelli",
+              "details.ecology: larval host plants"
+            ],
+            "evidence": "The park account names the exact species, describes its pale wings with dark marks and reddish ocelli, and identifies Sedum among its larval host plants.",
+            "verification_method": "Opened and read the official park account."
+          }
+        ],
+        "reference_scope_note": "The official park source supports a regional account; it does not document an observation at any particular UI pin. Preserve the existing source and add this reference to the supported fields."
       }
     },
     {
@@ -5467,7 +7318,8 @@
       "documented_area": "Sierra de Guadarrama y zona periférica",
       "sources": [
         "pn-vegetacion",
-        "taxon-pino-silvestre"
+        "taxon-pino-silvestre",
+        "atlas-v3-extra-pino-silvestre-1"
       ],
       "observation_status": "regional_documented_presence_not_live_sighting",
       "location_policy": "No se proporcionan nidos, madrigueras ni localizaciones sensibles.",
@@ -5491,7 +7343,22 @@
           "checked_at": "2026-10-27"
         },
         "identification_scope": "orientative_not_diagnostic",
-        "look_is_editorial_guidance": true
+        "look_is_editorial_guidance": true,
+        "references": [
+          {
+            "url": "https://herbarivirtual.uib.es/es/general/2096/especie/pinus-sylvestris-l-",
+            "publisher": "Universitat de les Illes Balears, Àrea de Botànica",
+            "title": "Herbari Virtual del Mediterrani Occidental — Pinus sylvestris L.",
+            "checked_at": "2026-10-28",
+            "verified_fields": [
+              "details.identify",
+              "habitat: montane forests"
+            ],
+            "evidence": "The exact-species botanical account describes orange or ochre bark, short blue-green needles and montane woodland habitat.",
+            "verification_method": "Opened and read the university species page."
+          }
+        ],
+        "reference_scope_note": "Do not infer Madrid presence from the herbarium's Mediterranean provincial coverage. Local distribution must continue to use the existing park and inventory evidence."
       }
     },
     {
@@ -5509,7 +7376,9 @@
       "documented_area": "Sierra de Guadarrama y zona periférica",
       "sources": [
         "pn-vegetacion",
-        "taxon-roble-melojo"
+        "taxon-roble-melojo",
+        "atlas-v3-extra-roble-melojo-1",
+        "atlas-v3-extra-roble-melojo-2"
       ],
       "observation_status": "regional_documented_presence_not_live_sighting",
       "location_policy": "No se proporcionan nidos, madrigueras ni localizaciones sensibles.",
@@ -5533,7 +7402,33 @@
           "checked_at": "2026-10-27"
         },
         "identification_scope": "orientative_not_diagnostic",
-        "look_is_editorial_guidance": true
+        "look_is_editorial_guidance": true,
+        "references": [
+          {
+            "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/servicios/banco-datos-naturaleza/libro_ceballos_tcm30-154277.pdf",
+            "publisher": "MITECO, Banco de Datos de la Naturaleza",
+            "title": "Libro Ceballos — capítulo El rebollo (Quercus pyrenaica)",
+            "checked_at": "2026-10-28",
+            "verified_fields": [
+              "details.identify"
+            ],
+            "evidence": "The exact-species chapter describes deeply lobed, hairy and marcescent leaves and strong vegetative resprouting.",
+            "verification_method": "Species chapter text returned from the officially hosted PDF in web search.",
+            "scope_limits": "Historical botanical treatment used only for morphology; do not reuse historical distribution or conservation statements as current evidence."
+          },
+          {
+            "url": "https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/programa-investigacion/reproduccion_quercus_pyrenaica.html",
+            "publisher": "MITECO / Organismo Autónomo Parques Nacionales",
+            "title": "Reproducción de Quercus pyrenaica y gestión del bosque",
+            "checked_at": "2026-10-28",
+            "verified_fields": [
+              "details.ecology"
+            ],
+            "evidence": "The official research project describes sexual and vegetative regeneration and the roles of animals consuming and dispersing acorns.",
+            "verification_method": "Opened and read the official research-project page."
+          }
+        ],
+        "reference_scope_note": "A research-project description supports the ecological mechanisms; it is not evidence of a new local occurrence."
       }
     },
     {
@@ -5553,7 +7448,9 @@
         "pn-vegetacion",
         "casa-campo",
         "boadilla",
-        "taxon-encina"
+        "taxon-encina",
+        "atlas-v3-extra-encina-1",
+        "atlas-v3-extra-encina-2"
       ],
       "observation_status": "regional_documented_presence_not_live_sighting",
       "location_policy": "No se proporcionan nidos, madrigueras ni localizaciones sensibles.",
@@ -5577,7 +7474,34 @@
           "checked_at": "2026-10-27"
         },
         "identification_scope": "orientative_not_diagnostic",
-        "look_is_editorial_guidance": true
+        "look_is_editorial_guidance": true,
+        "references": [
+          {
+            "url": "https://www.miteco.gob.es/ca/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/picos-europa/visita-virtual/flora/encina.html",
+            "publisher": "MITECO / Organismo Autónomo Parques Nacionales",
+            "title": "Encina — Quercus ilex",
+            "checked_at": "2026-10-28",
+            "verified_fields": [
+              "details.identify",
+              "habitat: Mediterranean evergreen woodland"
+            ],
+            "evidence": "The exact-species official page describes evergreen leaves with a pale hairy underside, variable leaf margins and acorns.",
+            "verification_method": "Opened and read the official species page; content is Spanish despite the /ca/ URL prefix."
+          },
+          {
+            "url": "https://www.miteco.gob.es/content/dam/miteco/es/parques-nacionales-oapn/publicaciones/Semillas%20-%20Fichas%20de%20especies%20Q-R_tcm30-100341.pdf",
+            "publisher": "MITECO / Organismo Autónomo Parques Nacionales",
+            "title": "Semillas — Fichas de especies Q–R — Quercus ilex subsp. ballota",
+            "checked_at": "2026-10-28",
+            "verified_fields": [
+              "details.ecology: animal consumption and dispersal of acorns"
+            ],
+            "evidence": "The seed account documents consumption of acorns by rodents and dispersal by jays.",
+            "verification_method": "Exact-taxon chapter text returned from the officially hosted PDF in web search.",
+            "scope_limits": "The chapter treats subsp. ballota. It supports the stated acorn–animal interaction, but does not justify changing the catalogue's broader Quercus ilex identification or assigning a subspecies to a local observation."
+          }
+        ],
+        "reference_scope_note": "No changes to taxonomic rank, local distribution or the existing warning about differing Iberian oak classifications."
       }
     },
     {
@@ -5595,7 +7519,9 @@
       "documented_area": "Sierra de Guadarrama y zona periférica",
       "sources": [
         "pn-vegetacion",
-        "taxon-enebro-miera"
+        "taxon-enebro-miera",
+        "atlas-v3-extra-enebro-miera-1",
+        "atlas-v3-extra-enebro-miera-2"
       ],
       "observation_status": "regional_documented_presence_not_live_sighting",
       "location_policy": "No se proporcionan nidos, madrigueras ni localizaciones sensibles.",
@@ -5619,7 +7545,33 @@
           "checked_at": "2026-10-27"
         },
         "identification_scope": "orientative_not_diagnostic",
-        "look_is_editorial_guidance": true
+        "look_is_editorial_guidance": true,
+        "references": [
+          {
+            "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/publicaciones/Publicaci%C3%B3n%20Regiones%20de%20procedencia_tcm30-139346.pdf",
+            "publisher": "MITECO",
+            "title": "Regiones de procedencia — Juniperus oxycedrus",
+            "checked_at": "2026-10-28",
+            "verified_fields": [
+              "details.identify"
+            ],
+            "evidence": "The species treatment describes sharp evergreen leaves in whorls of three, two pale stomatal bands and reddish fleshy seed cones.",
+            "verification_method": "Exact-species passage returned from the officially hosted PDF in web search."
+          },
+          {
+            "url": "https://www.miteco.gob.es/content/dam/miteco/es/parques-nacionales-oapn/publicaciones/Semillas%20-%20Fichas%20de%20especies%20F-J_tcm30-100338.pdf#page=156",
+            "publisher": "MITECO / Organismo Autónomo Parques Nacionales",
+            "title": "Semillas — Fichas de especies F–J — Juniperus oxycedrus",
+            "checked_at": "2026-10-28",
+            "verified_fields": [
+              "details.ecology: frugivorous animals disperse seeds"
+            ],
+            "evidence": "The exact-species chapter documents seed dispersal through consumption of the fleshy cones by birds and mammals, with cited ecological studies.",
+            "verification_method": "Opened the official PDF; confirmed the dispersal passage through its indexed chapter text because parts of the PDF text extraction are garbled.",
+            "scope_limits": "The chapter discusses several infraspecific treatments. Do not infer a local subspecies from this broad account."
+          }
+        ],
+        "reference_scope_note": "Retain regional occurrence references and avoid assigning an infraspecific taxon."
       }
     },
     {
@@ -5637,7 +7589,10 @@
       "documented_area": "Sierra de Guadarrama y zona periférica",
       "sources": [
         "pn-vegetacion",
-        "taxon-piorno"
+        "taxon-piorno",
+        "atlas-v3-extra-piorno-1",
+        "atlas-v3-extra-piorno-2",
+        "atlas-v3-extra-piorno-3"
       ],
       "observation_status": "regional_documented_presence_not_live_sighting",
       "location_policy": "No se proporcionan nidos, madrigueras ni localizaciones sensibles.",
@@ -5661,7 +7616,45 @@
           "checked_at": "2026-10-27"
         },
         "identification_scope": "orientative_not_diagnostic",
-        "look_is_editorial_guidance": true
+        "look_is_editorial_guidance": true,
+        "references": [
+          {
+            "url": "https://herbarivirtual.uib.es/es/general/2502/especie/cytisus-oromediterraneus-rivas-mart-et-al-",
+            "publisher": "Universitat de les Illes Balears, Àrea de Botànica",
+            "title": "Herbari Virtual del Mediterrani Occidental — Cytisus oromediterraneus",
+            "checked_at": "2026-10-28",
+            "verified_fields": [
+              "details.identify: shrub structure and sparse or short-lived foliage",
+              "habitat: sunny rocky siliceous mountain slopes"
+            ],
+            "evidence": "The exact-species account describes a densely branched genistoid shrub with ribbed branches and little persistent foliage, associated with siliceous mountain slopes.",
+            "verification_method": "Opened and read the university species page."
+          },
+          {
+            "url": "https://extremambiente.juntaex.es/files/forestales/2017/GUIA%20DE%20SP%20FORESTALES%20AUTOCTONAS%20PRODUCIDAS%20EN%20VIVEROS%20GESTIONADOS%20DG%20MEDIO%20AMBIENTE.pdf",
+            "publisher": "Junta de Extremadura, Dirección General de Medio Ambiente",
+            "title": "Guía de especies forestales autóctonas — Cytisus oromediterraneus",
+            "checked_at": "2026-10-28",
+            "verified_fields": [
+              "details.identify: yellow flowers and deciduous leaves"
+            ],
+            "evidence": "The exact-taxon guide account supplies the yellow-flower and deciduous-leaf characters.",
+            "verification_method": "Species account text returned from the officially hosted PDF in web search.",
+            "scope_limits": "Use botanical characters only; do not transfer nursery practices or Extremadura occurrence to Madrid."
+          },
+          {
+            "url": "https://www.miteco.gob.es/content/dam/miteco/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/pnsierradeguadarrama2015reducido_tcm30-63618.pdf",
+            "publisher": "MITECO / Organismo Autónomo Parques Nacionales",
+            "title": "Parque Nacional de la Sierra de Guadarrama — folleto oficial",
+            "checked_at": "2026-10-28",
+            "verified_fields": [
+              "details.ecology: mountain scrub above forest"
+            ],
+            "evidence": "The park leaflet identifies Cytisus oromediterraneus as a dominant shrub above the mountain forest.",
+            "verification_method": "Relevant named-taxon passage returned from the officially hosted leaflet in web search."
+          }
+        ],
+        "reference_scope_note": "The regional leaflet supports the broad vegetation setting. It is not a new precise occurrence record."
       }
     },
     {
@@ -5679,7 +7672,9 @@
       "documented_area": "Sierra de Guadarrama y zona periférica",
       "sources": [
         "pn-vegetacion",
-        "taxon-acebo"
+        "taxon-acebo",
+        "atlas-v3-extra-acebo-1",
+        "atlas-v3-extra-acebo-2"
       ],
       "observation_status": "regional_documented_presence_not_live_sighting",
       "location_policy": "No se proporcionan nidos, madrigueras ni localizaciones sensibles.",
@@ -5703,7 +7698,34 @@
           "checked_at": "2026-10-27"
         },
         "identification_scope": "orientative_not_diagnostic",
-        "look_is_editorial_guidance": true
+        "look_is_editorial_guidance": true,
+        "references": [
+          {
+            "url": "https://www.miteco.gob.es/es/ceneam/recursos/mini-portales-tematicos/guadarrama/guadarrama-calendaria-natural-invierno.html",
+            "publisher": "MITECO / CENEAM",
+            "title": "Sierra de Guadarrama — Calendario natural de invierno — Acebo",
+            "checked_at": "2026-10-28",
+            "verified_fields": [
+              "details.identify",
+              "details.ecology: winter fruit resource",
+              "habitat"
+            ],
+            "evidence": "The exact-taxon section describes glossy often spiny leaves, red fruits on female plants, shaded cool woodland habitat and fruits available as an animal food resource in the colder season.",
+            "verification_method": "Opened and read the official natural-history page."
+          },
+          {
+            "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/temas/espacios-protegidos/9380_tcm30-196904.pdf",
+            "publisher": "MITECO",
+            "title": "Bases ecológicas de los hábitats — 9380 Bosques de Ilex aquifolium",
+            "checked_at": "2026-10-28",
+            "verified_fields": [
+              "details.ecology: bird consumption and dispersal of fruits"
+            ],
+            "evidence": "The technical habitat account describes birds, including thrushes, as consumers and dispersers of holly fruits.",
+            "verification_method": "Relevant exact-species ecological passage returned from the official PDF in web search."
+          }
+        ],
+        "reference_scope_note": "No changes to protection status or precise location information."
       }
     },
     {
@@ -5722,7 +7744,9 @@
       "sources": [
         "montejo",
         "tejera-turismo",
-        "taxon-haya"
+        "taxon-haya",
+        "atlas-v3-extra-haya-1",
+        "atlas-v3-extra-haya-2"
       ],
       "observation_status": "regional_documented_presence_not_live_sighting",
       "location_policy": "No se proporcionan nidos, madrigueras ni localizaciones sensibles.",
@@ -5746,7 +7770,33 @@
           "checked_at": "2026-10-27"
         },
         "identification_scope": "orientative_not_diagnostic",
-        "look_is_editorial_guidance": true
+        "look_is_editorial_guidance": true,
+        "references": [
+          {
+            "url": "https://www.miteco.gob.es/content/dam/miteco/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/guia-picos_tcm30-70857.pdf",
+            "publisher": "MITECO / Organismo Autónomo Parques Nacionales",
+            "title": "Guía del Parque Nacional de los Picos de Europa — El haya (Fagus sylvatica)",
+            "checked_at": "2026-10-28",
+            "verified_fields": [
+              "details.identify: bark, leaves and autumn colour",
+              "details.ecology"
+            ],
+            "evidence": "The exact-species section describes smooth grey bark, oval leaves, autumn leaf colour and beech nuts as food for wild animals.",
+            "verification_method": "Opened the official 289-page PDF and verified the indexed exact-species passage."
+          },
+          {
+            "url": "https://www.miteco.gob.es/content/dam/miteco/es/parques-nacionales-oapn/publicaciones/Semillas%20-%20Fichas%20de%20especies%20F-J_tcm30-100338.pdf#page=1",
+            "publisher": "MITECO / Organismo Autónomo Parques Nacionales",
+            "title": "Semillas — Fichas de especies F–J — Fagus sylvatica",
+            "checked_at": "2026-10-28",
+            "verified_fields": [
+              "details.identify: long pointed buds, smooth bark and oval leaves"
+            ],
+            "evidence": "The species chapter at the start of the F–J volume describes the distinctive elongated pointed buds together with the bark and leaf characters.",
+            "verification_method": "Opened the official PDF and inspected its exact-species chapter."
+          }
+        ],
+        "reference_scope_note": "Picos de Europa is the guide's geographic context; use it for shared species characters, not as evidence of Madrid distribution."
       }
     },
     {
@@ -5764,7 +7814,9 @@
       "documented_area": "Monte de Boadilla",
       "sources": [
         "boadilla",
-        "taxon-jara-pringosa"
+        "taxon-jara-pringosa",
+        "atlas-v3-extra-jara-pringosa-1",
+        "atlas-v3-extra-jara-pringosa-2"
       ],
       "observation_status": "regional_documented_presence_not_live_sighting",
       "location_policy": "No se proporcionan nidos, madrigueras ni localizaciones sensibles.",
@@ -5788,7 +7840,33 @@
           "checked_at": "2026-10-27"
         },
         "identification_scope": "orientative_not_diagnostic",
-        "look_is_editorial_guidance": true
+        "look_is_editorial_guidance": true,
+        "references": [
+          {
+            "url": "https://www.miteco.gob.es/va/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/monfrague/visita-virtual/flora/jara-pringosa.html",
+            "publisher": "MITECO / Organismo Autónomo Parques Nacionales",
+            "title": "Jara pringosa — Cistus ladanifer",
+            "checked_at": "2026-10-28",
+            "verified_fields": [
+              "details.identify: resinous shrub",
+              "habitat: Mediterranean scrub"
+            ],
+            "evidence": "The exact-species official account describes its adhesive leaf resin and its place in scrub vegetation.",
+            "verification_method": "Opened and read the official species page; content is Spanish despite the /va/ URL prefix."
+          },
+          {
+            "url": "https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/cabaneros/valores-naturales.html",
+            "publisher": "MITECO / Organismo Autónomo Parques Nacionales",
+            "title": "Parque Nacional de Cabañeros — Valores naturales",
+            "checked_at": "2026-10-28",
+            "verified_fields": [
+              "details.ecology: drought adaptation"
+            ],
+            "evidence": "The official vegetation account names Cistus ladanifer and explains resin as protection against dehydration.",
+            "verification_method": "Relevant named-taxon passage returned from the official park page in web search."
+          }
+        ],
+        "reference_scope_note": "Add these references only to the supported clauses. A formerly indexed Monfragüe guide URL returned 404 and is deliberately excluded. No transfer of park distribution to a precise Madrid point."
       }
     },
     {
@@ -5806,7 +7884,8 @@
       "documented_area": "Sierra de Guadarrama y zona periférica",
       "sources": [
         "pn-hongos",
-        "taxon-amanita-muscaria"
+        "taxon-amanita-muscaria",
+        "atlas-v3-extra-amanita-muscaria-1"
       ],
       "observation_status": "regional_documented_presence_not_live_sighting",
       "location_policy": "No se proporcionan nidos, madrigueras ni localizaciones sensibles.",
@@ -5830,7 +7909,24 @@
           "checked_at": "2026-10-27"
         },
         "identification_scope": "orientative_not_diagnostic",
-        "look_is_editorial_guidance": true
+        "look_is_editorial_guidance": true,
+        "references": [
+          {
+            "url": "https://www.kew.org/read-and-watch/kew-scientists-pick-their-favourite-fungus",
+            "publisher": "Royal Botanic Gardens, Kew",
+            "title": "Kew scientists pick their favourite fungus — Fly agaric (Amanita muscaria)",
+            "author": "Katie Avis-Riordan; species contribution by Lee Davies, Fungarium Collections Curator",
+            "published_at": "2019-08-07",
+            "checked_at": "2026-10-28",
+            "verified_fields": [
+              "details.identify: red cap with white spots",
+              "details.ecology"
+            ],
+            "evidence": "Kew's exact-species section describes the red-and-white cap and explains the mutualistic root association exchanging fungal-acquired nutrients and water for plant photosynthates.",
+            "verification_method": "Opened and read Kew's article and the Fly agaric section."
+          }
+        ],
+        "reference_scope_note": "This is an institutional scientist's exact-taxon natural-history account, not a diagnostic key or local occurrence source. No consumption, toxicity-treatment or folklore claims are imported."
       }
     },
     {
@@ -5848,7 +7944,8 @@
       "documented_area": "Sierra de Guadarrama y zona periférica",
       "sources": [
         "pn-hongos",
-        "taxon-boletus-edulis"
+        "taxon-boletus-edulis",
+        "atlas-v3-extra-boletus-edulis-1"
       ],
       "observation_status": "regional_documented_presence_not_live_sighting",
       "location_policy": "No se proporcionan nidos, madrigueras ni localizaciones sensibles.",
@@ -5872,7 +7969,24 @@
           "checked_at": "2026-10-27"
         },
         "identification_scope": "orientative_not_diagnostic",
-        "look_is_editorial_guidance": true
+        "look_is_editorial_guidance": true,
+        "references": [
+          {
+            "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/temas/incendios-forestales/221275_937guiagestionmatorrales_web_tcm30-589399.pdf",
+            "publisher": "MITECO, official document host",
+            "title": "Guía de gestión de matorrales — ficha Boletus edulis",
+            "locator": "Printed page 62, exact-species heading Boletus edulis",
+            "checked_at": "2026-10-28",
+            "verified_fields": [
+              "details.identify",
+              "details.ecology: mycorrhizal association with roots"
+            ],
+            "evidence": "The exact-species account describes the brown cap, stout stem, fine upper-stem reticulum and pore surface, and states that the species forms mycorrhizal associations with several trees and shrubs.",
+            "verification_method": "The full exact-species account was returned from the official PDF in web search. Direct opening exceeded the web tool's 10 MB document limit (document size 11,696,171 bytes); this was not an origin 404.",
+            "scope_limits": "The title here is a descriptive document/chapter label, not a claimed full bibliographic transcription. Host attribution does not assert authorship by a named ministry staff member."
+          }
+        ],
+        "reference_scope_note": "No North American look-alike account was substituted. No edibility or harvesting advice is imported. Preserve existing local occurrence evidence."
       }
     },
     {
@@ -5890,7 +8004,9 @@
       "documented_area": "Sierra de Guadarrama y zona periférica",
       "sources": [
         "pn-liquenes",
-        "taxon-liquen-geografico"
+        "taxon-liquen-geografico",
+        "atlas-v3-extra-liquen-geografico-1",
+        "atlas-v3-extra-liquen-geografico-2"
       ],
       "observation_status": "regional_documented_presence_not_live_sighting",
       "location_policy": "No se proporcionan nidos, madrigueras ni localizaciones sensibles.",
@@ -5914,7 +8030,36 @@
           "checked_at": "2026-10-27"
         },
         "identification_scope": "orientative_not_diagnostic",
-        "look_is_editorial_guidance": true
+        "look_is_editorial_guidance": true,
+        "references": [
+          {
+            "url": "https://www.parquenacionalsierraguadarrama.es/naturaleza/vegetacion/126-liquenes",
+            "publisher": "Parque Nacional de la Sierra de Guadarrama",
+            "title": "Líquenes — Rhizocarpon geographicum",
+            "checked_at": "2026-10-28",
+            "verified_fields": [
+              "details.identify: yellow-green rock crust",
+              "details.ecology: slow growth and lichenometry"
+            ],
+            "evidence": "The official park account names the geographic lichen, describes its rock-encrusting appearance and relates slow growth to lichenometry.",
+            "verification_method": "Opened and read the official park account.",
+            "scope_limits": "Some park text uses the spelling geograficum. Retain the accepted catalogue spelling geographicum rather than importing that typographic variant."
+          },
+          {
+            "url": "https://italic.units.it/index.php?num=2028&procedure=taxonpage",
+            "publisher": "Università degli Studi di Trieste, ITALIC",
+            "title": "Rhizocarpon geographicum subsp. geographicum",
+            "checked_at": "2026-10-28",
+            "verified_fields": [
+              "details.identify: yellow-green areoles and black boundary tissue",
+              "details.ecology: lichen symbiosis and rock substrate"
+            ],
+            "evidence": "The academic account describes a yellow-green crust, dark prothallus and a green-algal photobiont on siliceous rock.",
+            "verification_method": "Exact taxon-page content returned from the university database in web search.",
+            "scope_limits": "This account is explicitly subspecific and Italian in coverage. Use only the shared general characters, do not assign a subspecies, transfer its distribution to Spain, or present its account as a complete species-level diagnosis. The account itself notes unresolved delimitation and need for revision."
+          }
+        ],
+        "reference_scope_note": "Keep the current canonical source pending a full species-level diagnostic treatment. The inspected British Lichen Society exact-species page supplied taxonomy and mapping but no substantive identification or ecology text, so it is not included as support for these fields."
       }
     },
     {
@@ -6274,7 +8419,8 @@
       "documented_area_en": "Sierra de Guadarrama and its peripheral protection zone; protected-area inventory.",
       "sources": [
         "pn-fauna-aves",
-        "taxon-extra-carbonero-comun"
+        "taxon-extra-carbonero-comun",
+        "atlas-v3-carbonero-comun-1"
       ],
       "checked_at": "2026-10-27",
       "observation_status": "regional_documented_presence_not_live_sighting",
@@ -6299,7 +8445,23 @@
           "checked_at": "2026-10-27"
         },
         "identification_scope": "orientative_not_diagnostic",
-        "look_is_editorial_guidance": true
+        "look_is_editorial_guidance": true,
+        "habitat": {
+          "es": "Bosques, huertos y parques con árboles; puede ocupar arbolado disperso y no necesita masas forestales extensas.",
+          "en": "Woodland, orchards and tree-filled parks; scattered trees can suffice, without extensive forest."
+        },
+        "references": [
+          {
+            "url": "https://seo.org/ave/carbonero-comun/",
+            "publisher": "SEO/BirdLife",
+            "checked_at": "2026-10-28",
+            "fields": [
+              "identify",
+              "habitat",
+              "ecology"
+            ]
+          }
+        ]
       }
     },
     {
@@ -6322,7 +8484,8 @@
       "documented_area_en": "Sierra de Guadarrama and its peripheral protection zone; protected-area inventory.",
       "sources": [
         "pn-fauna-aves",
-        "taxon-extra-pico-picapinos"
+        "taxon-extra-pico-picapinos",
+        "atlas-v3-pico-picapinos-1"
       ],
       "checked_at": "2026-10-27",
       "observation_status": "regional_documented_presence_not_live_sighting",
@@ -6347,7 +8510,23 @@
           "checked_at": "2026-10-27"
         },
         "identification_scope": "orientative_not_diagnostic",
-        "look_is_editorial_guidance": true
+        "look_is_editorial_guidance": true,
+        "habitat": {
+          "es": "Formaciones forestales maduras, abiertas o densas. Los bosques de coníferas figuran entre sus ambientes preferidos.",
+          "en": "Mature woodland, whether open or dense. Conifer forests are among its preferred habitats."
+        },
+        "references": [
+          {
+            "url": "https://seo.org/ave/pico-picapinos/",
+            "publisher": "SEO/BirdLife",
+            "checked_at": "2026-10-28",
+            "fields": [
+              "identify",
+              "habitat",
+              "ecology"
+            ]
+          }
+        ]
       }
     },
     {
@@ -6421,7 +8600,8 @@
       "documented_area_en": "Peripheral protection zone of Sierra de Guadarrama; the park’s regional inventory.",
       "sources": [
         "pn-fauna-aves",
-        "taxon-extra-focha-comun"
+        "taxon-extra-focha-comun",
+        "atlas-v3-focha-comun-1"
       ],
       "checked_at": "2026-10-27",
       "observation_status": "regional_documented_presence_not_live_sighting",
@@ -6446,7 +8626,23 @@
           "checked_at": "2026-10-27"
         },
         "identification_scope": "orientative_not_diagnostic",
-        "look_is_editorial_guidance": true
+        "look_is_editorial_guidance": true,
+        "habitat": {
+          "es": "Lagunas, embalses y ríos tranquilos con vegetación acuática. La cobertura de las orillas y las plantas sumergidas son relevantes.",
+          "en": "Lakes, reservoirs and slow rivers with aquatic vegetation. Marginal cover and submerged plants are important."
+        },
+        "references": [
+          {
+            "url": "https://seo.org/ave/focha-comun/",
+            "publisher": "SEO/BirdLife",
+            "checked_at": "2026-10-28",
+            "fields": [
+              "identify",
+              "habitat",
+              "ecology"
+            ]
+          }
+        ]
       }
     },
     {
@@ -6664,7 +8860,8 @@
       "documented_area_en": "Sierra de Guadarrama and its peripheral protection zone; protected-area inventory.",
       "sources": [
         "pn-fauna-mamiferos",
-        "taxon-extra-garduna"
+        "taxon-extra-garduna",
+        "atlas-v3-garduna-1"
       ],
       "checked_at": "2026-10-27",
       "observation_status": "regional_documented_presence_not_live_sighting",
@@ -6689,7 +8886,21 @@
           "checked_at": "2026-10-27"
         },
         "identification_scope": "orientative_not_diagnostic",
-        "look_is_editorial_guidance": true
+        "look_is_editorial_guidance": true,
+        "habitat": {
+          "es": "Mosaicos forestales, roquedos y entornos rurales. En las montañas del centro ibérico utiliza pinares, encinares y vegetación ribereña.",
+          "en": "Woodland mosaics, rocky ground and rural landscapes. In central Iberian mountains it uses pinewoods, holm-oak woods and riparian vegetation."
+        },
+        "references": [
+          {
+            "url": "https://www.vertebradosibericos.org/mamiferos/habitat/marfoiha.html",
+            "publisher": "Museo Nacional de Ciencias Naturales / CSIC — Enciclopedia Virtual de los Vertebrados Españoles",
+            "checked_at": "2026-10-28",
+            "fields": [
+              "habitat"
+            ]
+          }
+        ]
       }
     },
     {
@@ -6713,7 +8924,8 @@
       "documented_area_en": "Sierra de Guadarrama and its peripheral protection zone; protected-area inventory.",
       "sources": [
         "pn-fauna-mamiferos",
-        "taxon-extra-liron-careto"
+        "taxon-extra-liron-careto",
+        "atlas-v3-liron-careto-1"
       ],
       "checked_at": "2026-10-27",
       "observation_status": "regional_documented_presence_not_live_sighting",
@@ -6738,7 +8950,21 @@
           "checked_at": "2026-10-27"
         },
         "identification_scope": "orientative_not_diagnostic",
-        "look_is_editorial_guidance": true
+        "look_is_editorial_guidance": true,
+        "habitat": {
+          "es": "Bosques variados, matorrales y terrenos rocosos, incluidos paisajes rurales con muros de piedra. Su distribución local puede ser irregular.",
+          "en": "Varied woodland, scrub and rocky ground, including rural landscapes with stone walls. Local distribution can be patchy."
+        },
+        "references": [
+          {
+            "url": "https://www.vertebradosibericos.org/mamiferos/habitat/eliqueha.html",
+            "publisher": "Museo Nacional de Ciencias Naturales / CSIC",
+            "checked_at": "2026-10-28",
+            "fields": [
+              "habitat"
+            ]
+          }
+        ]
       }
     },
     {
@@ -6762,7 +8988,8 @@
       "documented_area_en": "Sierra de Guadarrama and its peripheral protection zone; protected-area inventory.",
       "sources": [
         "pn-fauna-mamiferos",
-        "taxon-extra-raton-campo"
+        "taxon-extra-raton-campo",
+        "atlas-v3-raton-campo-1"
       ],
       "checked_at": "2026-10-27",
       "observation_status": "regional_documented_presence_not_live_sighting",
@@ -6774,8 +9001,8 @@
           "en": "Large eyes and ears, a brown back and long tail; other mice can look similar."
         },
         "ecology": {
-          "es": "Consume semillas e invertebrados y es presa de rapaces y otros carnívoros.",
-          "en": "It eats seeds and invertebrates and is prey for raptors and other carnivores."
+          "es": "Consume semillas e invertebrados. También dispersa semillas y constituye una presa frecuente de rapaces y mamíferos carnívoros.",
+          "en": "It eats seeds and invertebrates. It also disperses seeds and is frequent prey for raptors and carnivorous mammals."
         },
         "look": {
           "es": "Deja libre su retirada. No alimentes animales ni te acerques a crías, madrigueras o refugios.",
@@ -6787,7 +9014,22 @@
           "checked_at": "2026-10-27"
         },
         "identification_scope": "orientative_not_diagnostic",
-        "look_is_editorial_guidance": true
+        "look_is_editorial_guidance": true,
+        "habitat": {
+          "es": "Especie generalista de bosques, matorrales, pastizales y cultivos. Los bordes con cobertura vegetal aportan alimento y refugio.",
+          "en": "A generalist of woodland, scrub, grassland and farmland. Vegetated edges provide food and shelter."
+        },
+        "references": [
+          {
+            "url": "https://www.vertebradosibericos.org/mamiferos/habitat/aposylha.html",
+            "publisher": "Museo Nacional de Ciencias Naturales / CSIC",
+            "checked_at": "2026-10-28",
+            "fields": [
+              "habitat",
+              "ecology"
+            ]
+          }
+        ]
       }
     },
     {
@@ -7005,7 +9247,8 @@
       "documented_area_en": "Peripheral protection zone of Sierra de Guadarrama; the park’s regional inventory.",
       "sources": [
         "pn-fauna-anfibios",
-        "taxon-extra-gallipato"
+        "taxon-extra-gallipato",
+        "atlas-v3-gallipato-1"
       ],
       "checked_at": "2026-10-27",
       "observation_status": "regional_documented_presence_not_live_sighting",
@@ -7030,7 +9273,23 @@
           "checked_at": "2026-10-27"
         },
         "identification_scope": "orientative_not_diagnostic",
-        "look_is_editorial_guidance": true
+        "look_is_editorial_guidance": true,
+        "habitat": {
+          "es": "Aguas quietas o de poca corriente, naturales o artificiales. Alterna fases acuáticas y terrestres cuya duración varía entre poblaciones.",
+          "en": "Still or slow-flowing water, both natural and artificial. Aquatic and terrestrial phases vary in duration between populations."
+        },
+        "references": [
+          {
+            "url": "https://www.vertebradosibericos.org/anfibios/plewal.html",
+            "publisher": "Museo Nacional de Ciencias Naturales / CSIC",
+            "checked_at": "2026-10-28",
+            "fields": [
+              "identify",
+              "habitat",
+              "ecology"
+            ]
+          }
+        ]
       }
     },
     {
@@ -7054,7 +9313,8 @@
       "documented_area_en": "Sierra de Guadarrama and its peripheral protection zone; protected-area inventory.",
       "sources": [
         "pn-fauna-anfibios",
-        "taxon-extra-sapo-partero"
+        "taxon-extra-sapo-partero",
+        "atlas-v3-sapo-partero-1"
       ],
       "checked_at": "2026-10-27",
       "observation_status": "regional_documented_presence_not_live_sighting",
@@ -7079,7 +9339,24 @@
           "checked_at": "2026-10-27"
         },
         "identification_scope": "orientative_not_diagnostic",
-        "look_is_editorial_guidance": true
+        "look_is_editorial_guidance": true,
+        "habitat": {
+          "es": "Paisajes de montaña, bosques, prados y medios agrícolas, con agua disponible para el desarrollo de las larvas.",
+          "en": "Mountain landscapes, woodland, meadows and farmland, with water available for larval development."
+        },
+        "references": [
+          {
+            "url": "https://www.vertebradosibericos.org/anfibios/alyobs.html",
+            "publisher": "Museo Nacional de Ciencias Naturales / CSIC",
+            "checked_at": "2026-10-28",
+            "fields": [
+              "identify",
+              "habitat",
+              "ecology"
+            ],
+            "scope_note": "The cited account uses the traditional broad treatment of Alytes obstetricans. No subspecific or recently split taxon is assigned to a point locality."
+          }
+        ]
       }
     },
     {
@@ -7103,7 +9380,8 @@
       "documented_area_en": "Sierra de Guadarrama and its peripheral protection zone; protected-area inventory.",
       "sources": [
         "pn-fauna-anfibios",
-        "taxon-extra-sapo-corredor"
+        "taxon-extra-sapo-corredor",
+        "atlas-v3-sapo-corredor-1"
       ],
       "checked_at": "2026-10-27",
       "observation_status": "regional_documented_presence_not_live_sighting",
@@ -7128,7 +9406,21 @@
           "checked_at": "2026-10-27"
         },
         "identification_scope": "orientative_not_diagnostic",
-        "look_is_editorial_guidance": true
+        "look_is_editorial_guidance": true,
+        "habitat": {
+          "es": "Prefiere áreas abiertas y soleadas, a menudo con suelos blandos. Se reproduce en aguas someras que pueden ser temporales.",
+          "en": "It favours open, sunny ground, often with soft soils. Breeding waters are shallow and may be temporary."
+        },
+        "references": [
+          {
+            "url": "https://www.vertebradosibericos.org/anfibios/habitat/epicalha.html",
+            "publisher": "Museo Nacional de Ciencias Naturales / CSIC",
+            "checked_at": "2026-10-28",
+            "fields": [
+              "habitat"
+            ]
+          }
+        ]
       }
     },
     {
@@ -7253,7 +9545,8 @@
       "documented_area": "Sierra de Guadarrama y zona periférica de protección; inventario del espacio protegido.",
       "documented_area_en": "Sierra de Guadarrama and its peripheral protection zone; protected-area inventory.",
       "sources": [
-        "pn-fauna-invertebrados"
+        "pn-fauna-invertebrados",
+        "atlas-v3-arlequin-1"
       ],
       "checked_at": "2026-10-27",
       "observation_status": "regional_documented_presence_not_live_sighting",
@@ -7278,7 +9571,24 @@
           "checked_at": "2026-10-27"
         },
         "identification_scope": "orientative_not_diagnostic",
-        "look_is_editorial_guidance": true
+        "look_is_editorial_guidance": true,
+        "habitat": {
+          "es": "Bordes serranos y robledales con aristoloquias, plantas de las que dependen sus orugas.",
+          "en": "Foothill edges and oak woods containing the birthworts on which its caterpillars depend."
+        },
+        "references": [
+          {
+            "url": "https://www.parquenacionalsierraguadarrama.es/naturaleza/fauna/122-invertebrados",
+            "publisher": "Parque Nacional de la Sierra de Guadarrama",
+            "checked_at": "2026-10-28",
+            "fields": [
+              "identify",
+              "habitat",
+              "ecology",
+              "documented_presence"
+            ]
+          }
+        ]
       }
     },
     {
@@ -7300,7 +9610,8 @@
       "documented_area": "Sierra de Guadarrama y zona periférica de protección; inventario del espacio protegido.",
       "documented_area_en": "Sierra de Guadarrama and its peripheral protection zone; protected-area inventory.",
       "sources": [
-        "pn-fauna-invertebrados"
+        "pn-fauna-invertebrados",
+        "atlas-v3-gran-pavon-1"
       ],
       "checked_at": "2026-10-27",
       "observation_status": "regional_documented_presence_not_live_sighting",
@@ -7308,8 +9619,8 @@
       "model_3d": null,
       "details": {
         "identify": {
-          "es": "Cuatro grandes ocelos sobre alas pardas y grisáceas.",
-          "en": "Four large eyespots on brown-grey wings."
+          "es": "Alas pardas o grises con cuatro ocelos y líneas onduladas; es una mariposa nocturna de gran tamaño.",
+          "en": "Brown or grey wings with four eyespots and wavy lines; this is a large moth."
         },
         "ecology": {
           "es": "Forma parte de las redes alimentarias del arbolado.",
@@ -7325,7 +9636,24 @@
           "checked_at": "2026-10-27"
         },
         "identification_scope": "orientative_not_diagnostic",
-        "look_is_editorial_guidance": true
+        "look_is_editorial_guidance": true,
+        "habitat": {
+          "es": "La presencia serrana está documentada por el inventario del parque; no implica observaciones recientes.",
+          "en": "The park inventory documents its presence in the mountain range; this does not imply recent sightings."
+        },
+        "references": [
+          {
+            "url": "https://www.parquenacionalsierraguadarrama.es/naturaleza/fauna/122-invertebrados",
+            "publisher": "Parque Nacional de la Sierra de Guadarrama",
+            "checked_at": "2026-10-28",
+            "fields": [
+              "identify",
+              "habitat",
+              "ecology",
+              "documented_presence"
+            ]
+          }
+        ]
       }
     },
     {
@@ -7347,7 +9675,8 @@
       "documented_area": "Sierra de Guadarrama y zona periférica de protección; inventario del espacio protegido.",
       "documented_area_en": "Sierra de Guadarrama and its peripheral protection zone; protected-area inventory.",
       "sources": [
-        "pn-fauna-invertebrados"
+        "pn-fauna-invertebrados",
+        "atlas-v3-quirocefalo-1"
       ],
       "checked_at": "2026-10-27",
       "observation_status": "regional_documented_presence_not_live_sighting",
@@ -7372,7 +9701,24 @@
           "checked_at": "2026-10-27"
         },
         "identification_scope": "orientative_not_diagnostic",
-        "look_is_editorial_guidance": true
+        "look_is_editorial_guidance": true,
+        "habitat": {
+          "es": "Humedales temporales de montaña; sus huevos resistentes atraviesan un periodo seco antes de eclosionar.",
+          "en": "Temporary mountain wetlands; its resistant eggs pass through a dry period before hatching."
+        },
+        "references": [
+          {
+            "url": "https://www.parquenacionalsierraguadarrama.es/naturaleza/fauna/122-invertebrados",
+            "publisher": "Parque Nacional de la Sierra de Guadarrama",
+            "checked_at": "2026-10-28",
+            "fields": [
+              "identify",
+              "habitat",
+              "ecology",
+              "documented_presence"
+            ]
+          }
+        ]
       }
     },
     {
@@ -7395,7 +9741,8 @@
       "documented_area_en": "Sierra de Guadarrama and its peripheral protection zone; protected-area inventory.",
       "sources": [
         "pn-vegetacion",
-        "taxon-extra-fresno-hoja-estrecha"
+        "taxon-extra-fresno-hoja-estrecha",
+        "atlas-v3-fresno-hoja-estrecha-1"
       ],
       "checked_at": "2026-10-27",
       "observation_status": "regional_documented_presence_not_live_sighting",
@@ -7420,7 +9767,23 @@
           "checked_at": "2026-10-27"
         },
         "identification_scope": "orientative_not_diagnostic",
-        "look_is_editorial_guidance": true
+        "look_is_editorial_guidance": true,
+        "habitat": {
+          "es": "Riberas, márgenes de torrentes y fondos de valle frescos, donde el agua del suelo permanece próxima a la superficie.",
+          "en": "Riverbanks, stream margins and cool valley bottoms where groundwater remains near the surface."
+        },
+        "references": [
+          {
+            "url": "https://herbarivirtual.uib.es/es/general/969/especie/fraxinus-angustifolia-vahl",
+            "publisher": "Área de Botánica, Universitat de les Illes Balears",
+            "checked_at": "2026-10-28",
+            "fields": [
+              "identify",
+              "habitat"
+            ],
+            "scope_note": "Its provincial checklist covers the western Mediterranean study area; it is not used to infer presence in Madrid."
+          }
+        ]
       }
     },
     {
@@ -7539,7 +9902,8 @@
       "documented_area": "Sierra de Guadarrama y zona periférica de protección; inventario del espacio protegido.",
       "documented_area_en": "Sierra de Guadarrama and its peripheral protection zone; protected-area inventory.",
       "sources": [
-        "pn-vegetacion"
+        "pn-vegetacion",
+        "atlas-v3-helecho-comun-1"
       ],
       "checked_at": "2026-10-27",
       "observation_status": "regional_documented_presence_not_live_sighting",
@@ -7564,7 +9928,22 @@
           "checked_at": "2026-10-27"
         },
         "identification_scope": "orientative_not_diagnostic",
-        "look_is_editorial_guidance": true
+        "look_is_editorial_guidance": true,
+        "habitat": {
+          "es": "Zonas frescas de bosques, zarzales y márgenes de torrentes; sus rizomas subterráneos permiten formar manchas extensas.",
+          "en": "Cool woodland, bramble thickets and stream margins; underground rhizomes allow it to form extensive patches."
+        },
+        "references": [
+          {
+            "url": "https://herbarivirtual.uib.es/es/general/521/especie/pteridium-aquilinum-l-kuhn",
+            "publisher": "Área de Botánica, Universitat de les Illes Balears",
+            "checked_at": "2026-10-28",
+            "fields": [
+              "identify",
+              "habitat"
+            ]
+          }
+        ]
       }
     },
     {
@@ -7587,7 +9966,9 @@
       "documented_area_en": "Sierra de Guadarrama and its peripheral protection zone; protected-area inventory.",
       "sources": [
         "pn-vegetacion",
-        "taxon-extra-escobon"
+        "taxon-extra-escobon",
+        "atlas-v3-escobon-1",
+        "atlas-v3-escobon-2"
       ],
       "checked_at": "2026-10-27",
       "observation_status": "regional_documented_presence_not_live_sighting",
@@ -7612,7 +9993,31 @@
           "checked_at": "2026-10-27"
         },
         "identification_scope": "orientative_not_diagnostic",
-        "look_is_editorial_guidance": true
+        "look_is_editorial_guidance": true,
+        "habitat": {
+          "es": "Claros y matorrales de ambientes montanos frescos, ligados a pinares y robledales; puede formar rodales densos.",
+          "en": "Clearings and scrub in cool mountain environments associated with pine and oak woods; it can form dense stands."
+        },
+        "references": [
+          {
+            "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/publicaciones/librobiomasapapel_edu3_tcm30-526111.pdf",
+            "publisher": "MITECO — Producción de biomasa y fijación de carbono por los matorrales españoles",
+            "checked_at": "2026-10-28",
+            "fields": [
+              "identify",
+              "habitat"
+            ],
+            "scope_note": "Species account Genista florida, printed page 79; not the adjacent Genista valentina entry."
+          },
+          {
+            "url": "https://www.miteco.gob.es/ca/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales/picos-europa/visita-virtual/flora/retama.html",
+            "publisher": "Organismo Autónomo Parques Nacionales / MITECO",
+            "checked_at": "2026-10-28",
+            "fields": [
+              "ecology"
+            ]
+          }
+        ]
       }
     },
     {
@@ -7681,7 +10086,8 @@
       "documented_area": "Sierra de Guadarrama y zona periférica de protección; inventario del espacio protegido.",
       "documented_area_en": "Sierra de Guadarrama and its peripheral protection zone; protected-area inventory.",
       "sources": [
-        "pn-hongos"
+        "pn-hongos",
+        "atlas-v3-niscalo-1"
       ],
       "checked_at": "2026-10-27",
       "observation_status": "regional_documented_presence_not_live_sighting",
@@ -7689,8 +10095,8 @@
       "model_3d": null,
       "details": {
         "identify": {
-          "es": "Sombrero anaranjado y láminas bajo el sombrero.",
-          "en": "An orange cap with gills beneath."
+          "es": "Sombrero anaranjado con zonas concéntricas y láminas densas. Estos rasgos visuales orientan, sin confirmar por sí solos la especie.",
+          "en": "An orange cap with concentric zones and crowded gills. These visual clues alone do not confirm the species."
         },
         "ecology": {
           "es": "Forma micorrizas con pinos.",
@@ -7706,7 +10112,24 @@
           "checked_at": "2026-10-27"
         },
         "identification_scope": "orientative_not_diagnostic",
-        "look_is_editorial_guidance": true
+        "look_is_editorial_guidance": true,
+        "habitat": {
+          "es": "Pinares: el micelio forma asociaciones micorrícicas con las raíces de los pinos. La fructificación es principalmente otoñal.",
+          "en": "Pinewoods: its mycelium forms mycorrhizal associations with pine roots. Fruiting is mainly in autumn."
+        },
+        "references": [
+          {
+            "url": "https://www.miteco.gob.es/content/dam/miteco/es/biodiversidad/temas/inventarios-nacionales/iect_lactarius_deliciosus_tcm30-164130.pdf",
+            "publisher": "MITECO — Inventario Español de los Conocimientos Tradicionales relativos a la Biodiversidad",
+            "checked_at": "2026-10-28",
+            "fields": [
+              "identify",
+              "habitat",
+              "ecology"
+            ],
+            "scope_note": "Only the description and habitat sections are used. The inventory also discusses a broader group of related milkcaps; no use or treatment claims are reproduced."
+          }
+        ]
       }
     },
     {
@@ -7761,7 +10184,7 @@
         "es": "Pedo de lobo perlado",
         "en": "Common puffball"
       },
-      "scientific_name": "Lycoperdum perlatum",
+      "scientific_name": "Lycoperdon perlatum",
       "group": "fungus",
       "summary": {
         "es": "Hongo de suelos forestales.",
@@ -7774,7 +10197,10 @@
       "documented_area": "Sierra de Guadarrama y zona periférica de protección; inventario del espacio protegido.",
       "documented_area_en": "Sierra de Guadarrama and its peripheral protection zone; protected-area inventory.",
       "sources": [
-        "pn-hongos"
+        "pn-hongos",
+        "atlas-v3-pedo-lobo-1",
+        "atlas-v3-pedo-lobo-2",
+        "atlas-v3-pedo-lobo-3"
       ],
       "checked_at": "2026-10-27",
       "observation_status": "regional_documented_presence_not_live_sighting",
@@ -7786,8 +10212,8 @@
           "en": "A rounded fruiting body with small surface projections."
         },
         "ecology": {
-          "es": "Participa en la descomposición de materia orgánica.",
-          "en": "It contributes to organic-matter decomposition."
+          "es": "Hongo saprótrofo: obtiene recursos de materia orgánica en descomposición y participa en el reciclaje de nutrientes.",
+          "en": "A saprotrophic fungus: it obtains resources from decaying organic matter and contributes to nutrient recycling."
         },
         "look": {
           "es": "Observa sin recolectar ni alterar el sustrato. Esta ficha no permite identificar ejemplares para consumirlos.",
@@ -7799,8 +10225,67 @@
           "checked_at": "2026-10-27"
         },
         "identification_scope": "orientative_not_diagnostic",
-        "look_is_editorial_guidance": true
-      }
+        "look_is_editorial_guidance": true,
+        "habitat": {
+          "es": "El inventario del parque lo incluye entre los hongos de los pinares serranos. La referencia acredita el contexto forestal, sin localizar ejemplares.",
+          "en": "The park inventory includes it among fungi of mountain pinewoods. This establishes forest context without locating specimens."
+        },
+        "references": [
+          {
+            "url": "https://www.parquenacionalsierraguadarrama.es/naturaleza/vegetacion/127-hongos",
+            "publisher": "Parque Nacional de la Sierra de Guadarrama",
+            "checked_at": "2026-10-28",
+            "fields": [
+              "habitat",
+              "documented_presence"
+            ],
+            "scope_note": "Regional forest inventory; not a record of a current observation."
+          },
+          {
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5478987/",
+            "publisher": "Applied and Environmental Microbiology — Mushroom Emergence Detected by Combining Spore Trapping with Molecular Techniques",
+            "checked_at": "2026-10-28",
+            "fields": [
+              "ecology"
+            ],
+            "scope_note": "Functional guild table explicitly classifies Lycoperdon perlatum as saprotrophic."
+          },
+          {
+            "url": "https://www.gbif.org/dataset/0e61f8fe-7d25-4f81-ada7-d970bbb2c6d6/taxon/40561",
+            "publisher": "UAR PatriNat (OFB–MNHN–CNRS–IRD), TAXREF, via GBIF",
+            "checked_at": "2026-10-28",
+            "fields": [
+              "scientific_name"
+            ]
+          }
+        ]
+      },
+      "editorial_corrections": [
+        {
+          "path": "scientific_name",
+          "expected": "Lycoperdum perlatum",
+          "value": "Lycoperdon perlatum",
+          "reason": "Genus misspelling. Preserve the stable record id.",
+          "evidence": [
+            {
+              "title": "Lycoperdum perlatum — UAR PatriNat (OFB–MNHN–CNRS–IRD), TAXREF, via GBIF",
+              "url": "https://www.gbif.org/dataset/0e61f8fe-7d25-4f81-ada7-d970bbb2c6d6/taxon/40561",
+              "publisher": "UAR PatriNat (OFB–MNHN–CNRS–IRD), TAXREF, via GBIF",
+              "checked_at": "2026-10-28",
+              "scope_note": "Species account; no precise local sightings inferred."
+            },
+            {
+              "url": "https://www.miteco.gob.es/content/dam/miteco/es/parques-nacionales-oapn/boletin/catalogoactualizadodelosmacromicetesenelparquenacionalmaritimo-terrestre_tcm30-69670.pdf",
+              "publisher": "Revista Catalana de Micologia 37 (2016), MITECO-hosted",
+              "checked_at": "2026-10-28",
+              "fields": [
+                "scientific_name"
+              ],
+              "scope_note": "The species is printed as Lycoperdon perlatum on page 51. This citation supports spelling, not Guadarrama distribution."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "seta-coliflor",
@@ -7820,7 +10305,8 @@
       "documented_area": "Sierra de Guadarrama y zona periférica de protección; inventario del espacio protegido.",
       "documented_area_en": "Sierra de Guadarrama and its peripheral protection zone; protected-area inventory.",
       "sources": [
-        "pn-hongos"
+        "pn-hongos",
+        "atlas-v3-seta-coliflor-1"
       ],
       "checked_at": "2026-10-27",
       "observation_status": "regional_documented_presence_not_live_sighting",
@@ -7845,7 +10331,23 @@
           "checked_at": "2026-10-27"
         },
         "identification_scope": "orientative_not_diagnostic",
-        "look_is_editorial_guidance": true
+        "look_is_editorial_guidance": true,
+        "habitat": {
+          "es": "Citada en el inventario micológico de los pinares del parque. La ficha mantiene una presencia regional documentada, sin puntos de recolección.",
+          "en": "Listed in the park’s pinewood fungal inventory. This is documented regional presence, without collecting locations."
+        },
+        "references": [
+          {
+            "url": "https://www.parquenacionalsierraguadarrama.es/naturaleza/vegetacion/127-hongos",
+            "publisher": "Parque Nacional de la Sierra de Guadarrama",
+            "checked_at": "2026-10-28",
+            "fields": [
+              "habitat",
+              "documented_presence"
+            ],
+            "scope_note": "Regional forest inventory; not a record of a current observation."
+          }
+        ]
       }
     },
     {
@@ -7866,7 +10368,9 @@
       "documented_area": "Sierra de Guadarrama y zona periférica de protección; inventario del espacio protegido.",
       "documented_area_en": "Sierra de Guadarrama and its peripheral protection zone; protected-area inventory.",
       "sources": [
-        "pn-liquenes"
+        "pn-liquenes",
+        "atlas-v3-evernia-1",
+        "atlas-v3-evernia-2"
       ],
       "checked_at": "2026-10-27",
       "observation_status": "regional_documented_presence_not_live_sighting",
@@ -7874,8 +10378,8 @@
       "model_3d": null,
       "details": {
         "identify": {
-          "es": "Talo ramificado que crece sobre cortezas; hay especies parecidas.",
-          "en": "A branched thallus growing on bark; similar species exist."
+          "es": "Lóbulos aplanados y ramificados, verdosos por arriba y blanquecinos por debajo; el color ayuda a compararlo con otros líquenes.",
+          "en": "Flattened, branching lobes, greenish above and whitish below; colour helps comparisons with other lichens."
         },
         "ecology": {
           "es": "Combina un hongo con un socio fotosintético.",
@@ -7891,7 +10395,32 @@
           "checked_at": "2026-10-27"
         },
         "identification_scope": "orientative_not_diagnostic",
-        "look_is_editorial_guidance": true
+        "look_is_editorial_guidance": true,
+        "habitat": {
+          "es": "Sobre cortezas. El parque destaca sus comunidades en melojares, donde integra la vida que crece sobre el arbolado.",
+          "en": "On bark. The park highlights its communities in Pyrenean-oak woodland, as part of the life growing on trees."
+        },
+        "references": [
+          {
+            "url": "https://www.parquenacionalsierraguadarrama.es/naturaleza/vegetacion/126-liquenes",
+            "publisher": "Parque Nacional de la Sierra de Guadarrama",
+            "checked_at": "2026-10-28",
+            "fields": [
+              "habitat",
+              "ecology",
+              "documented_presence"
+            ]
+          },
+          {
+            "url": "https://italic.units.it/dolichens/?num=959&procedure=taxonpage",
+            "publisher": "Università degli Studi di Trieste — ITALIC / Dolichens",
+            "checked_at": "2026-10-28",
+            "fields": [
+              "identify"
+            ],
+            "scope_note": "Morphology only; Italian distribution is not transferred to Madrid."
+          }
+        ]
       }
     },
     {
@@ -7912,7 +10441,9 @@
       "documented_area": "Sierra de Guadarrama y zona periférica de protección; inventario del espacio protegido.",
       "documented_area_en": "Sierra de Guadarrama and its peripheral protection zone; protected-area inventory.",
       "sources": [
-        "pn-liquenes"
+        "pn-liquenes",
+        "atlas-v3-pseudevernia-1",
+        "atlas-v3-pseudevernia-2"
       ],
       "checked_at": "2026-10-27",
       "observation_status": "regional_documented_presence_not_live_sighting",
@@ -7920,8 +10451,8 @@
       "model_3d": null,
       "details": {
         "identify": {
-          "es": "Talo grisáceo ramificado, asociado a cortezas y ramas.",
-          "en": "A greyish branched thallus associated with bark and branches."
+          "es": "Lóbulos ramificados y grisáceos, con superficie inferior oscura en las partes más viejas. Puede confundirse con otros líquenes de aspecto parecido.",
+          "en": "Branching greyish lobes, with a dark underside on older parts. Similar-looking lichens can be confused with it."
         },
         "ecology": {
           "es": "Forma parte de las pequeñas comunidades que viven sobre los árboles.",
@@ -7937,7 +10468,32 @@
           "checked_at": "2026-10-27"
         },
         "identification_scope": "orientative_not_diagnostic",
-        "look_is_editorial_guidance": true
+        "look_is_editorial_guidance": true,
+        "habitat": {
+          "es": "Crece sobre cortezas y ramas; el parque describe comunidades características en los pinares de pino silvestre.",
+          "en": "It grows on bark and branches; the park describes characteristic communities in Scots-pine woodland."
+        },
+        "references": [
+          {
+            "url": "https://www.parquenacionalsierraguadarrama.es/naturaleza/vegetacion/126-liquenes",
+            "publisher": "Parque Nacional de la Sierra de Guadarrama",
+            "checked_at": "2026-10-28",
+            "fields": [
+              "habitat",
+              "ecology",
+              "documented_presence"
+            ]
+          },
+          {
+            "url": "https://italic.units.it/dolichens/?num=1907&procedure=taxonpage",
+            "publisher": "Università degli Studi di Trieste — ITALIC / Dolichens",
+            "checked_at": "2026-10-28",
+            "fields": [
+              "identify"
+            ],
+            "scope_note": "The detailed source treats var. furfuracea. Shared broad morphology only; no chemical tests or varietal assignment are proposed."
+          }
+        ]
       }
     },
     {
@@ -7997,5 +10553,6 @@
     "Fuentes municipales o gestoras pueden contener datos antiguos. No inventar alerta activa, aforo, temperatura ni apertura.",
     "Las 3D de especies requieren activos licenciados e identificación taxonómica correcta; model_3d se mantiene null, no se ofrecen modelos falsos."
   ],
-  "edition": "2026-10-27-expanded"
+  "edition": "2026-10-27-expanded",
+  "last_editorial_update": "2026-10-28"
 }

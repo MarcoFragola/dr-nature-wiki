@@ -6,7 +6,7 @@
   <title>Dr Nature wiki — Atlas de naturaleza</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preload" as="image" href="assets/landscape/guadarrama-official-poster.jpg">
-  <link rel="stylesheet" href="assets/vendor/maplibre-gl.css"><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="explorer.css"><link rel="stylesheet" href="album.css"><link rel="stylesheet" href="journey.css">
+  <link rel="stylesheet" href="assets/vendor/maplibre-gl.css"><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="explorer.css"><link rel="stylesheet" href="album.css"><link rel="stylesheet" href="journey.css"><link rel="stylesheet" href="map-explorer.css">
   <script src="assets/vendor/lucide.min.js" defer></script><script type="module" src="bootstrap.js"></script>
 </head>
 <body>
@@ -41,6 +41,7 @@
     <div class="scene-location"><span>01 /</span><b data-i18n="sceneTitle">Sierra de Guadarrama</b><span data-i18n="sceneRegion">Madrid y su entorno</span></div>
     <div id="map-error" class="map-error" hidden><i data-lucide="wifi-off"></i><h2 data-i18n="mapUnavailable">No se ha podido cargar el mapa</h2><p data-i18n="mapUnavailableText">Comprueba tu conexión y el soporte WebGL de tu navegador. Las fichas siguen disponibles.</p><button disabled data-init data-action="reload" class="button" data-i18n="retry">Reintentar</button></div>
     <section class="map-topbar" aria-label="Capas de exploración">
+      <button disabled data-init id="list-toggle" class="list-toggle" data-action="toggle-list" aria-label="Mostrar lista de lugares" aria-controls="sidebar" aria-expanded="false"><i data-lucide="list"></i><span>Lista</span></button>
       <div class="category-switch" id="category-switch"></div>
       <button disabled data-init class="filters-button" data-action="filters"><i data-lucide="sliders-horizontal"></i><span data-i18n="filters">Filtros</span><span id="active-filters" hidden></span></button>
     </section>

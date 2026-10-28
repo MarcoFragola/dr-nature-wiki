@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-28",
+  "life_entries": 66,
+  "entries_with_photograph": 66,
+  "new_photographs": 20,
+  "new_habitat_sections": 20,
+  "primary_detail_source_replacements": 6,
+  "additional_field_specific_references": 23,
+  "taxonomic_corrections": [
+    {
+      "id": "pedo-lobo",
+      "path": "scientific_name",
+      "expected": "Lycoperdum perlatum",
+      "value": "Lycoperdon perlatum",
+      "reason": "Genus misspelling. Preserve the stable record id.",
+      "evidence": [
+        {
+          "title": "Lycoperdum perlatum — UAR PatriNat (OFB–MNHN–CNRS–IRD), TAXREF, via GBIF",
+          "url": "https://www.gbif.org/dataset/0e61f8fe-7d25-4f81-ada7-d970bbb2c6d6/taxon/40561",
+          "publisher": "UAR PatriNat (OFB–MNHN–CNRS–IRD), TAXREF, via GBIF",
+          "checked_at": "2026-10-28",
+          "scope_note": "Species account; no precise local sightings inferred."
+        },
+        {
+          "url": "https://www.miteco.gob.es/content/dam/miteco/es/parques-nacionales-oapn/boletin/catalogoactualizadodelosmacromicetesenelparquenacionalmaritimo-terrestre_tcm30-69670.pdf",
+          "publisher": "Revista Catalana de Micologia 37 (2016), MITECO-hosted",
+          "checked_at": "2026-10-28",
+          "fields": [
+            "scientific_name"
+          ],
+          "scope_note": "The species is printed as Lycoperdon perlatum on page 51. This citation supports spelling, not Guadarrama distribution."
+        }
+      ]
+    }
+  ],
+  "no_occurrences_or_sensitive_coordinates_added": true,
+  "limitations": [
+    "This is a field-specific reference review of 13 previously secondary detail sources, not a fresh audit of the 66 complete cards.",
+    "No source in this file creates a new observation, exact coordinate, map pin or sensitive species location. Existing local and regional inventory evidence must remain attached.",
+    "A preferred primary source supports the stated core identification or ecology facts; uncovered qualifiers are explicitly listed and existing references must be retained.",
+    "Academic botanical accounts from other Spanish regions support shared characters, not local presence. Narrower subspecific sources are marked and must not change catalogue identification.",
+    "Verification method distinguishes directly opened sources from exact-taxon passages available through the primary document's indexed text. No inaccessible ArbolApp page is presented as verified.",
+    "No source text or media licence is inferred. This file adds bibliographic links and concise original evidence summaries only; no source photos or long source extracts are copied.",
+    "No medical, consumption or edibility guidance is added. Existing orientative identification and editorial observation caveats remain."
+  ]
+}

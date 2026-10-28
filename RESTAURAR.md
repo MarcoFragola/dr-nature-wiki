@@ -1,6 +1,6 @@
 # Restaurar Dr Nature wiki
 
-Copia privada del código y los datos de la versión 2 publicada en ChatGPT Sites.
+Copia privada del código y los datos de la versión 3 publicada en ChatGPT Sites.
 COPIA_DE_SEGURIDAD.json identifica el commit de origen y los SHA-256 de sus archivos. La regla .gitattributes conserva los bytes y las sumas de comprobación al clonar en otros sistemas.
 
 ## Ejecutar

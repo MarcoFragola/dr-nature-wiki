@@ -40,7 +40,7 @@ export class MapMarkers{
     const center=map.getCenter(),origin=[center.lng,center.lat],zoom=map.getZoom();
     // Exclude remote terrain behind the horizon, even if projection returns a screen point.
     const radius=Math.min(1000,155*2**(9-zoom));
-    const padding=this.padding(),screen={x:Math.min(padding.left,w*.6),y:Math.max(135,padding.top),w:0,h:0};
+    const padding=this.padding(),screen={x:Math.min(padding.left,w*.6),y:Math.max(24,padding.top),w:0,h:0};
     screen.w=Math.max(60,w-screen.x-padding.right);screen.h=Math.max(60,h-screen.y-padding.bottom);
     const project=coordinates=>{
       if(distance(origin,coordinates)>radius)return null;
@@ -63,9 +63,9 @@ export class MapMarkers{
     if(selected)desired.push({...selected,kind:'poi',selected:true});
     for(const g of groups){
       const anchor=g.members.reduce((a,b)=>Math.hypot(a.point.x-g.x,a.point.y-g.y)<Math.hypot(b.point.x-g.x,b.point.y-g.y)?a:b);
-      desired.push(g.members.length===1?{...anchor,kind:'poi'}:{key:'cluster:'+g.members.map(r=>r.key).sort().join('|'),kind:'cluster',coordinates:anchor.coordinates,point:anchor.point,members:g.members,count:g.members.length});
+      desired.push(g.members.length===1?{...anchor,kind:'poi'}:{key:'cluster:'+g.members.map(r=>r.key).sort().join('|'),kind:'cluster',icon:g.members.every(r=>r.icon===anchor.icon)?anchor.icon:'mountain',coordinates:anchor.coordinates,point:anchor.point,members:g.members,count:g.members.length});
     }
-    const occupied=desired.map(r=>({x:r.point.x-26,y:r.point.y-26,w:52,h:52}));
+    const occupied=desired.map(r=>({owner:r.key,x:r.point.x-26,y:r.point.y-26,w:52,h:52}));
     if(this.citiesEnabled)for(const f of this.cities){
       if(zoom<f.properties.minZoom)continue;
       const point=project(f.geometry.coordinates);if(!point)continue;
@@ -75,8 +75,8 @@ export class MapMarkers{
     }
     // Labels are collision checked once, and can always be read with focus or hover.
     for(const r of desired.filter(r=>r.kind==='poi')){
-      const width=Math.min(225,r.label.length*6+20),box={x:r.point.x+25,y:r.point.y-15,w:width,h:30};
-      r.labelVisible=(r.selected||zoom>=11.2)&&box.x+width<w-padding.right&&!occupied.some(b=>intersects(box,b));
+      const width=Math.min(225,r.label.length*6+20),box={x:r.point.x+32,y:r.point.y-15,w:width,h:30};
+      r.labelVisible=(r.selected||zoom>=11.2)&&box.x+width<w-padding.right&&!occupied.some(b=>b.owner!==r.key&&intersects(box,b));
       if(r.labelVisible)occupied.push(box);
     }
     this.onCount?.({symbols:desired.filter(r=>r.kind!=='city').length,records:desired.filter(r=>r.kind!=='city').reduce((sum,r)=>sum+(r.count||1),0)});
@@ -96,7 +96,7 @@ export class MapMarkers{
         node.signature=signature;node.button.replaceChildren();
         const symbol=document.createElement('span');symbol.className='map-feature-symbol';
         if(record.kind==='city')symbol.innerHTML='<svg viewBox="0 0 12 12" aria-hidden="true"><rect x="3" y="3" width="6" height="6" fill="currentColor"/></svg>';
-        else if(record.kind==='cluster')symbol.innerHTML=`${svg('mountain')}<b>+${record.count}</b>`;
+        else if(record.kind==='cluster')symbol.innerHTML=`${svg(record.icon)}<b>+${record.count}</b>`;
         else symbol.innerHTML=svg(record.icon);
         node.button.append(symbol);
         const label=document.createElement('span');label.className='map-feature-label';label.textContent=record.name||record.label||'';node.button.append(label);
@@ -112,6 +112,6 @@ export class MapMarkers{
     if(r.kind==='city')return this.map.flyTo({center:r.coordinates,zoom:Math.max(11.5,this.map.getZoom()+.8),padding:this.padding(),duration:matchMedia('(prefers-reduced-motion: reduce)').matches?0:900});
     if(this.map.getZoom()>=15)return this.onGroup(r.members);
     const box=r.members.reduce((b,p)=>[Math.min(b[0],p.coordinates[0]),Math.min(b[1],p.coordinates[1]),Math.max(b[2],p.coordinates[0]),Math.max(b[3],p.coordinates[1])],[180,90,-180,-90]);
-    this.map.fitBounds([[box[0],box[1]],[box[2],box[3]]],{padding:this.padding(),maxZoom:Math.min(16,this.map.getZoom()+2),duration:matchMedia('(prefers-reduced-motion: reduce)').matches?0:900});
+    this.map.fitBounds([[box[0],box[1]],[box[2],box[3]]],{absolutePadding:true,padding:this.padding(),maxZoom:Math.min(16,this.map.getZoom()+2),duration:matchMedia('(prefers-reduced-motion: reduce)').matches?0:900});
   }
 }

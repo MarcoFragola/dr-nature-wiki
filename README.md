@@ -1,6 +1,6 @@
 # Dr Nature wiki
 
-Atlas visual de naturaleza de Madrid, Castilla y León y Castilla-La Mancha.
+Atlas visual de naturaleza de Madrid, Castilla y León y Castilla-La Mancha, con una selección editorial del Valle del Jerte. La colección cartográfica se clasifica por las tres primeras comunidades; no es un inventario completo de Extremadura.
 Sitio: https://dr-nature-wiki.cannes2.chatgpt.site
 
 ## Ejecutar y comprobar
@@ -21,7 +21,7 @@ Explorar el mapa abre la herramienta a pantalla completa. Permite desplazar, gir
 
 ## Catálogo
 
-55 lugares naturales y centros de interpretación, 57 itinerarios y visitas, y 66 fichas de vida. Hay 8 trazados oficiales con 3.274 coordenadas. Las demás rutas conservan ficha y fuente sin geometría inventada. Se han añadido 40 fotografías respecto a la entrega original; hay 84 registros de crédito,37 lugares y46 especies con foto asociada. La fotografía de los lobos es una contribución de Marco, desde su original de mayor calidad.
+55 lugares naturales y centros de interpretación, 66 itinerarios y visitas, y 66 fichas de vida, todas con fotografía. Hay 22 trazados oficiales con 6.670 coordenadas. Las demás rutas conservan ficha y fuente sin geometría inventada. Se han añadido 20 fotografías en esta revisión; hay 104 registros de crédito, 37 lugares y 66 fichas de vida con foto asociada. Las fotografías de lobos y cerezos son contribuciones de Marco, desde sus originales.
 
 Las fichas conectan rutas, agua, hábitats, especies y preparación de la visita. Las presencias regionales no se presentan como avistamientos. No se incorporan modelos 3D de especies sin taxón, autor y licencia verificados; se utilizan paneles fotográficos documentados.
 
@@ -97,3 +97,8 @@ El inventario cartográfico incluye 80.510 registros oficiales: tramos de cursos
 Los enlaces directos `#place/…`, `#route/…` y `#natural/…` abren su ficha al entrar o recargar. Los identificadores oficiales con dos puntos se decodifican sin truncarlos. Comprobación: `node --test scripts/test-entry-route.mjs`. La revisión se prepara para sustituir el Site existente con la misma audiencia privada.
 
 Las 338 piezas de geometría se distribuyen como `.geojson.gz` sin pérdida. El navegador descomprime únicamente las solicitadas; cada pieza conserva el SHA-256 del JSON original y la validación vuelve a comprobar todas las coordenadas y registros. Preparación: `python scripts/compress_geography.py`. La descarga de una ficha sigue generando GeoJSON normal.
+
+
+## Revisión 3 · 28/10/2026
+
+Portada aprobada por Marco y conservada. El mapa adapta la cámara al espacio real de sus paneles; las fichas móviles se pueden ampliar o contraer. El Atlas conserva filtros y conecta las fichas ilustradas con la referencia nacional MITECO. Las rutas muestran la edición del GPX y explican las medidas distintas de la ficha actual; la cobertura de ida y la accesibilidad no se deducen. Ver docs/verificacion.md y data/route-import-report.json en dist/.

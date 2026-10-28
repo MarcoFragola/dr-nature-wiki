@@ -1,13 +1,13 @@
 {
   "project": "Dr Nature wiki",
   "published_site": "https://dr-nature-wiki.cannes2.chatgpt.site",
-  "site_version": 2,
-  "published_source_commit": "7cc6a4d5822825a150bb97d5510cbc8625a4d68c",
-  "snapshot_utc": "2026-10-27T23:01:49.745297+00:00",
-  "files": 695,
-  "total_bytes": 165343737,
+  "site_version": 3,
+  "published_source_commit": "288dde276f53cbc92f4e741b7723e193677e8629",
+  "snapshot_utc": "2026-10-28T09:42:49.912835+00:00",
+  "files": 749,
+  "total_bytes": 171858795,
   "verification": "Every file byte matches the published working copy; source Git blob matches exactly or after verified Windows CRLF checkout normalization. SHA-256 records preserve exact deployed bytes.",
-  "windows_checkout_normalized_files": 51,
+  "windows_checkout_normalized_files": 67,
   "manifest": [
     {
       "path": ".gitignore",
@@ -32,37 +32,37 @@
     },
     {
       "path": "README.md",
-      "bytes": 9181,
-      "sha256": "a5faffb8a8b4ba5c41b0808e164d740dc5b2e2043bedd0076402355996302d58",
-      "published_git_blob": "d1c2c0f339eb840dd4a4a9f14b07570588b5a2d3",
+      "bytes": 9856,
+      "sha256": "08267be4e93e342384de60633056e96cb00790e8de687698fd2c8e0b100e9bb7",
+      "published_git_blob": "ccc9e97a7d53e05d7c126c41330cd34fac1f9156",
       "git_checkout_crlf": true
     },
     {
       "path": "data/catalogue.sqlite",
-      "bytes": 716800,
-      "sha256": "bc3748158282547f078c6afca1da4eddae5c32ecd8b16e44855cb3119a866e0c",
-      "published_git_blob": "6a9082f309d562388938ae85fc1227bb215d198f",
+      "bytes": 1150976,
+      "sha256": "8b0cbd15b0b04fc86f71ed77e292d539c1f10b2ea1dbc29c62eb9cd0012f8910",
+      "published_git_blob": "276b717408954f698d8e1364c16efc67505c18b9",
       "git_checkout_crlf": false
     },
     {
       "path": "dist/album.css",
-      "bytes": 25286,
-      "sha256": "091b3c5791173482f0b3094b089f8a9b6426020a3079b267ffdc34342cdd732a",
-      "published_git_blob": "6c4af8da8083a1cc21cb25e6ea3f5d31948d01ee",
+      "bytes": 26007,
+      "sha256": "9828bb804f9d32c839bfb06b9dec7e4430f63cbfa2cb171c6b2dde6c84dc3374",
+      "published_git_blob": "af9428ff8f812f40734561300d3240a955eaf7f4",
       "git_checkout_crlf": true
     },
     {
       "path": "dist/album.js",
-      "bytes": 21794,
-      "sha256": "e5dcdc1deed82b8e0b4645b178c67af9531984173df38915159e6a07e0a762ce",
-      "published_git_blob": "6ca42f8c8daf5c2b3f7ca274c387f846fa50868d",
+      "bytes": 23201,
+      "sha256": "7468ecc6d5d4533e27353d52cde77c8e127181fbdcea82a23e0e87c145aa8de4",
+      "published_git_blob": "2b061a89efd31269a9140d3ce725da18efa5e277",
       "git_checkout_crlf": true
     },
     {
       "path": "dist/app.js",
-      "bytes": 112973,
-      "sha256": "0779f3d09ecb4ecb89cc544d2c210bc82e2771a6046c5f509989b544e4ffddc9",
-      "published_git_blob": "97e68eb0e43f04b8a82e5afe0bf6ab5a7f35fca2",
+      "bytes": 120076,
+      "sha256": "0642fb4a28f286e97f6fabd0ba265fbecae70773bd37ca157db5518bbbbf9729",
+      "published_git_blob": "45141edfffa07563b0af03115c1b19927fa297b3",
       "git_checkout_crlf": true
     },
     {
@@ -136,6 +136,13 @@
       "git_checkout_crlf": false
     },
     {
+      "path": "dist/assets/photos/arlequin.webp",
+      "bytes": 177362,
+      "sha256": "d6e7ae9acfb81880c7f2279f95b7be8c0983dcedbe05d25f98dd42a83a8bf8b3",
+      "published_git_blob": "4b5c28ae9b82fd9c5c79eb61b74058d1820f5483",
+      "git_checkout_crlf": false
+    },
+    {
       "path": "dist/assets/photos/armeria-cespitosa.jpg",
       "bytes": 178093,
       "sha256": "fb1418ebaa68c9ab96ad3698b115a38312a44c569c7c7a9b458e889fa5b2c7ed",
@@ -196,6 +203,13 @@
       "bytes": 350493,
       "sha256": "69e5dfb1e7bad1a392515f7861e8c2cdb0e572a7d94b74d2abd0d4a92501f72b",
       "published_git_blob": "9f1a49effd943cb11cf1211e38971ee1705370dd",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/assets/photos/carbonero-comun.webp",
+      "bytes": 125436,
+      "sha256": "af52f099fc9d26d153013076f7690264e8a74fca3e7c6b4b29821da4c8bb515e",
+      "published_git_blob": "c6316e767710f1391c45867496eceafec921f1b4",
       "git_checkout_crlf": false
     },
     {
@@ -304,6 +318,34 @@
       "git_checkout_crlf": false
     },
     {
+      "path": "dist/assets/photos/escobon.webp",
+      "bytes": 623468,
+      "sha256": "8cbfd13983df33b840a235511e7cea6be679e8afe21bba095d1f1646eb7ea061",
+      "published_git_blob": "0b9c0ba574623f190c7d096e0a664c47c2e8f597",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/assets/photos/evernia.webp",
+      "bytes": 159786,
+      "sha256": "e93f64a2d1985e5445f6065e06df2439bda742eefe6f15ade64733b909f6c71e",
+      "published_git_blob": "f18d30184c5edfa8df5d62c00387d078ea3b1cd8",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/assets/photos/focha-comun.webp",
+      "bytes": 121798,
+      "sha256": "f6cf4b17234e873b6aa1716087cf8efeb7be0b52aec9bf26ae64a35d33d033d2",
+      "published_git_blob": "740b75257f2f5be0f0df3ca2e238338674732b8d",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/assets/photos/fresno-hoja-estrecha.webp",
+      "bytes": 401694,
+      "sha256": "30682c2f982294b2e4226cc1352d8f41480b0752afafb98fbdd38fe9644fbcaf",
+      "published_git_blob": "cc77b735cb771d25678df05dd90d467cafcaf11d",
+      "git_checkout_crlf": false
+    },
+    {
       "path": "dist/assets/photos/fuenfria.jpg",
       "bytes": 249492,
       "sha256": "430b8262d3bca74803ee1d07ce1204197af36bcfb1f17ee35d4ffe6b5d682daf",
@@ -325,6 +367,27 @@
       "git_checkout_crlf": false
     },
     {
+      "path": "dist/assets/photos/gallipato.webp",
+      "bytes": 280088,
+      "sha256": "bacc158cbf47ada53fcfa80735f8adf37908612c3e05118a2c3da34ef0089532",
+      "published_git_blob": "8bcb1c7ccc5fd325694cef3fb428aba1628018c8",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/assets/photos/garduna.webp",
+      "bytes": 354322,
+      "sha256": "da4a464474eddaed3f57e0b6c0875c8055dcdf387171a1ce70afb7416fae6f79",
+      "published_git_blob": "ea838ba520087df2428d65949a31009dd6e03dc2",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/assets/photos/gran-pavon.webp",
+      "bytes": 155224,
+      "sha256": "3b2694a15befb66e0a58fd6ad04fec2e9071b6b0b151a3e344f7116c33f7954c",
+      "published_git_blob": "eaaec8a4f5426f5c7ee9fea2a6c1e1e3088fccdd",
+      "git_checkout_crlf": false
+    },
+    {
       "path": "dist/assets/photos/gredos.jpg",
       "bytes": 342774,
       "sha256": "6b56bde9d0c5385e1fc3cb2c5ea5bd6faaa641b8663223e404c5e0866276855f",
@@ -343,6 +406,13 @@
       "bytes": 312460,
       "sha256": "709eb57737f9c90606b8bd1cd55ba64e9583765b16130ad83119358850bf7115",
       "published_git_blob": "6022dcd46cfd37b028ee4d35c2d21dc012adc78b",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/assets/photos/helecho-comun.webp",
+      "bytes": 510878,
+      "sha256": "e50206ceb4b4e47ee0627d15a9ad81870d300d140d732a6d2121a07be8059e75",
+      "published_git_blob": "269bd611ff385f45e4daa0f925cfc479c99379e1",
       "git_checkout_crlf": false
     },
     {
@@ -409,6 +479,13 @@
       "git_checkout_crlf": false
     },
     {
+      "path": "dist/assets/photos/liron-careto.webp",
+      "bytes": 173936,
+      "sha256": "73247affa5ca40d91cfdf8ec798160031eedf76dbdd9ae02c11267a6f3916364",
+      "published_git_blob": "add711a47f581fa019badbb6a76b7ed5d4b4928d",
+      "git_checkout_crlf": false
+    },
+    {
       "path": "dist/assets/photos/mariposa-apolo.jpg",
       "bytes": 481649,
       "sha256": "d50d8bd3757e91ace81a3ed6e808cbfd1964824dad47532fce8c589d577e81e0",
@@ -465,10 +542,24 @@
       "git_checkout_crlf": false
     },
     {
+      "path": "dist/assets/photos/niscalo.webp",
+      "bytes": 163070,
+      "sha256": "91f7a1e4aa06cc4a919b57e32b32cac199c2e38faeeaf279e8c9b517133f7e1f",
+      "published_git_blob": "096dbdb92be43a6ed8fd25b7e0c266b23bb9f8d9",
+      "git_checkout_crlf": false
+    },
+    {
       "path": "dist/assets/photos/nutria.jpg",
       "bytes": 202964,
       "sha256": "39d17717a360adc4985a31aeb88cce7c0a3cb32b11c16be8968018dba630fd7d",
       "published_git_blob": "762b33107757e338fb1b9a5852f848e384384c1e",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/assets/photos/pedo-lobo.webp",
+      "bytes": 102440,
+      "sha256": "a4053ad8f69981f31a0c20e8c8f01a3d5f6622dad475a00e2d498a28e938c3b7",
+      "published_git_blob": "375e39a17bb2d60e200f8a74c67664e37a8e701c",
       "git_checkout_crlf": false
     },
     {
@@ -500,10 +591,24 @@
       "git_checkout_crlf": false
     },
     {
+      "path": "dist/assets/photos/pico-picapinos.webp",
+      "bytes": 165144,
+      "sha256": "502ad7bab02faf27b0d106f4e108b507babbbf4a6785fb71ac3c5798b9f06f2d",
+      "published_git_blob": "c8861cc0309181c7983623a6f3eac270b1172b0a",
+      "git_checkout_crlf": false
+    },
+    {
       "path": "dist/assets/photos/piorno.jpg",
       "bytes": 426999,
       "sha256": "9987c44a45036197f14884d5914ddd6d94b6af0432501b1e5db54e37fbc4e28c",
       "published_git_blob": "79993430f87a208fcabe564dfbfad348995bc4a8",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/assets/photos/pseudevernia.webp",
+      "bytes": 140116,
+      "sha256": "03b0477076ead93f6399b8f4241a12e964f08c7a27b2c7184ce727979c8da30a",
+      "published_git_blob": "2eac0415fae88ccb02369c983955496c431401c2",
       "git_checkout_crlf": false
     },
     {
@@ -521,10 +626,24 @@
       "git_checkout_crlf": false
     },
     {
+      "path": "dist/assets/photos/quirocefalo.webp",
+      "bytes": 173116,
+      "sha256": "40f36d95762dc5de9693630d9925d468604001fdaae7654fe9878ecf68f9a03d",
+      "published_git_blob": "6382ee905168075ade3a961b5228f07cc6da58c2",
+      "git_checkout_crlf": false
+    },
+    {
       "path": "dist/assets/photos/rana-patilarga.jpg",
       "bytes": 228990,
       "sha256": "5dce2a6640952e3eeade907b5bd194f14e16999244a82f5c37b3c170b6198120",
       "published_git_blob": "3e166fe1a74329eea3da302cf8ff71e20b8ba8c3",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/assets/photos/raton-campo.webp",
+      "bytes": 284592,
+      "sha256": "3debcba70e97a4b09cdd9f601df84d0206b629289571253044e36f074742ce0c",
+      "published_git_blob": "23fd411a74fc50ddccf8d0dab14a4fb11216a713",
       "git_checkout_crlf": false
     },
     {
@@ -612,10 +731,31 @@
       "git_checkout_crlf": false
     },
     {
+      "path": "dist/assets/photos/sapo-corredor.webp",
+      "bytes": 366670,
+      "sha256": "3704127c9d25f55adb6681046884d1c23c3ae9478071d4694667d7fb4ced3480",
+      "published_git_blob": "4515c415fa50c51d76de10bcf7d923554656a2e3",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/assets/photos/sapo-partero.webp",
+      "bytes": 214380,
+      "sha256": "54b0e13a60dab709009a0b4da1761a67c2a1215ef435d0acdd62e9715921b98e",
+      "published_git_blob": "31e406f5fa1fb2a849ac2755decbcc020f9cdc77",
+      "git_checkout_crlf": false
+    },
+    {
       "path": "dist/assets/photos/scots-pine.jpg",
       "bytes": 885950,
       "sha256": "aa8236bd40240932b10ef0ee24a762986f35d4e25f1449aa041f37297675b3e5",
       "published_git_blob": "f5379bc2fdaf6dd8bdd30005b19621eb2ea40ebd",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/assets/photos/seta-coliflor.webp",
+      "bytes": 495362,
+      "sha256": "247b49f9067eb6aa84123394d00c4b17cee8a0da6da56f17613ba38acc995a37",
+      "published_git_blob": "52f8128b2fd5aa2ed3d41596b7c61fd8f60aa2b5",
       "git_checkout_crlf": false
     },
     {
@@ -746,16 +886,23 @@
     },
     {
       "path": "dist/data/asset-map.json",
-      "bytes": 8010,
-      "sha256": "e5309c9e4cdb47f3d07be40aed9cf66f20dd226eb6b40e2a5c0291a14a279396",
-      "published_git_blob": "b15b934c264f5cde5889f0bff511c908e3cac85f",
+      "bytes": 11032,
+      "sha256": "3854b9fe799de72c169e71b975d9a66978e45edfe3bdd9cbe3020c8d9e1e973d",
+      "published_git_blob": "00a02d5052ae97e9483bd4bdfe36e324afc7b0d6",
+      "git_checkout_crlf": true
+    },
+    {
+      "path": "dist/data/atlas-enrichment-report.json",
+      "bytes": 2814,
+      "sha256": "c06e068951434df4c3d3c6eadff54006cecbab830cec1b2ce3624009bb1e65ac",
+      "published_git_blob": "e0d395f094a13eaeb2534339c48c261bc0f8093d",
       "git_checkout_crlf": true
     },
     {
       "path": "dist/data/attribution.json",
-      "bytes": 99351,
-      "sha256": "e6b6f5c4fa7019fe7e2606199c42c0c674342d9709d84bcfb6874d8cdc122232",
-      "published_git_blob": "b103ef9347f21de63ed25bc676a6d2419edfc92f",
+      "bytes": 122187,
+      "sha256": "cdbc2e884a51296205a0c838859e13f0c6e78cf6907fe392275b7212f98caea0",
+      "published_git_blob": "d98e334b574ee8b00d1856efc9e21278a20b17ca",
       "git_checkout_crlf": true
     },
     {
@@ -1383,9 +1530,9 @@
     },
     {
       "path": "dist/data/catalogue.json",
-      "bytes": 312855,
-      "sha256": "cd2211926ccf3fe5a34aea4606a471746871bf27e007f6bfa1ed904796d1eafd",
-      "published_git_blob": "f5656a2be0b92f9e747a8c395c4e08979974a7a2",
+      "bytes": 454313,
+      "sha256": "771881ba2743059ca28977c7d2444d3cab13eb992f2bcc662de2511c3d4f5486",
+      "published_git_blob": "424a8a002d4f4b89a8397ccdc1044cf47d79474f",
       "git_checkout_crlf": true
     },
     {
@@ -3804,6 +3951,13 @@
       "git_checkout_crlf": true
     },
     {
+      "path": "dist/data/route-import-report.json",
+      "bytes": 4298,
+      "sha256": "dda51500587bb990c8f0c1e21248572147b62f46600b5816f5b30e6ce7f92b75",
+      "published_git_blob": "9d8bbe97085677e7d616625de1ed2bbc7c2f8696",
+      "git_checkout_crlf": true
+    },
+    {
       "path": "dist/data/species-relations.json",
       "bytes": 23987,
       "sha256": "01d897903176f31147df9fa7cad9f2825fd6158045532cfa67cef9b8a0dff74c",
@@ -4399,6 +4553,20 @@
       "git_checkout_crlf": false
     },
     {
+      "path": "dist/data/tracks/barranca-circular-cnig.geojson",
+      "bytes": 23261,
+      "sha256": "46e2e9a75959522f6e8dd14a6939ca4bb03877d89c268e6837dabc9d7b04d64d",
+      "published_git_blob": "220f2ec3dab71a4be491bb53d50d2e3593506ba4",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/tracks/barranca-circular-cnig.gpx",
+      "bytes": 55177,
+      "sha256": "ce9946410481b1a79252095a1362de4c54c656175a44fbd96f48abaf48dc18c8",
+      "published_git_blob": "663dfcd9ec8e927a036e99a154144956e420b1fb",
+      "git_checkout_crlf": true
+    },
+    {
       "path": "dist/data/tracks/camino-schmid.geojson",
       "bytes": 39135,
       "sha256": "b007ee68de634f4694bab81a583e2107bd250ac07a66ba25190eee473bf7510f",
@@ -4441,6 +4609,62 @@
       "git_checkout_crlf": false
     },
     {
+      "path": "dist/data/tracks/daimiel-isla-pan.geojson",
+      "bytes": 8528,
+      "sha256": "03cf6843b2cb9a7463806edd6793046599152b2802c80d8a4d5cf3e26581957c",
+      "published_git_blob": "5d8fae97c87fa5340c0930ccecdacc7244c732a3",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/tracks/daimiel-isla-pan.gpx",
+      "bytes": 23781,
+      "sha256": "6dad3a8f3bdecab8d88e405d87cafb5413eb315e2276995b9cfc91c6a24c599d",
+      "published_git_blob": "b83f47c25c0a84c129307747fbe2649526d531eb",
+      "git_checkout_crlf": true
+    },
+    {
+      "path": "dist/data/tracks/daimiel-laguna-permanente.geojson",
+      "bytes": 6492,
+      "sha256": "400ace9977b853f05aec71eb6311d62e0249a6d1c8fe4199669f33325a6ebc53",
+      "published_git_blob": "10f9fb3ef6cd1e9756f1a536183dd299b9f3d5aa",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/tracks/daimiel-laguna-permanente.gpx",
+      "bytes": 16845,
+      "sha256": "2cd15ffb4e52cc6b25ac0eb3f0cd387f7dddac931e2fa7f9f46ebba386796bd8",
+      "published_git_blob": "31dcaf8e6513ef07e5cfe8939343b8a228c8a5b8",
+      "git_checkout_crlf": true
+    },
+    {
+      "path": "dist/data/tracks/daimiel-molemocho.geojson",
+      "bytes": 4164,
+      "sha256": "4c938c537ecb357324d4538a6b0b6573e02cfb75ab4fbfaff5d43d30d98af0ee",
+      "published_git_blob": "0d434a59ed677ff7e88763b427dacbeaad4574fe",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/tracks/daimiel-molemocho.gpx",
+      "bytes": 10851,
+      "sha256": "c1ae3d92e548549a26091384d2a199508245618af22079424f6c27562eb68c3e",
+      "published_git_blob": "b9c782ed468244b1f4094cf132c52b99123f22c2",
+      "git_checkout_crlf": true
+    },
+    {
+      "path": "dist/data/tracks/daimiel-prado-ancho.geojson",
+      "bytes": 7645,
+      "sha256": "6af11294c5a810a2cf08d73e1da9f77bfc5605f0584ce33b103509cc10fe34c0",
+      "published_git_blob": "d36f6c09b5712e50f987434aff56fbfab237a296",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/tracks/daimiel-prado-ancho.gpx",
+      "bytes": 19622,
+      "sha256": "450259257dbd3b821331175e0b01ab1d3ea40d78175b2ddc4bc774cd7d4a86dc",
+      "published_git_blob": "d99cca97b9b2896bb5c6370f09cf7df9ec1ca2be",
+      "git_checkout_crlf": true
+    },
+    {
       "path": "dist/data/tracks/ecosistemas.geojson",
       "bytes": 2450,
       "sha256": "b89f93faaebf9381825f3dd8dc9bcf4b2344f77fd2c1bb601976b0ecc212cb60",
@@ -4453,6 +4677,104 @@
       "sha256": "585f8774f96c8c9f40022d468e5dcdf69251f2c125ca8f3d053a32128971895f",
       "published_git_blob": "79731ab150ee56a0f1352cdc9480d987b02a8f09",
       "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/tracks/fuenfria-camino-agua.geojson",
+      "bytes": 12872,
+      "sha256": "2b7d9de4e52f4d8dcbaaf9954d644c5f4a0947a516d8da2cda8e0cf294e57dc8",
+      "published_git_blob": "3529735089f91eadfea68c1fa13e79022b4ab213",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/tracks/fuenfria-camino-agua.gpx",
+      "bytes": 31629,
+      "sha256": "5c6bffb5ebffc2a182f3268fce44ee0be0d26f6ead9c9761ab8ca03be9b02b46",
+      "published_git_blob": "52ece68bbce525feeb8193d1229c6c27d5f2b2a7",
+      "git_checkout_crlf": true
+    },
+    {
+      "path": "dist/data/tracks/fuenfria-miradores.geojson",
+      "bytes": 24926,
+      "sha256": "146697f3f00f0fd994973d60b3b661a1f67e907ce635894065da7cdb7464717a",
+      "published_git_blob": "ff51c56fdf5a4230041ecd1a2ad39c82ef825992",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/tracks/fuenfria-miradores.gpx",
+      "bytes": 60259,
+      "sha256": "8d38ca9347bed3b38d47a9b9092a6f4bebe8da2b8e7b7c835fa81ac45d0a02be",
+      "published_git_blob": "e7fb25ce8b703307a4fcf3d342b5bc3b8d6b7449",
+      "git_checkout_crlf": true
+    },
+    {
+      "path": "dist/data/tracks/fuenfria-puricelli.geojson",
+      "bytes": 10686,
+      "sha256": "fad2429acca369ce0d7cc8a1a0bc23f9447425d9e7cc00621a2e00eb711f5029",
+      "published_git_blob": "c6de2228f889cefca782e7a870c9ffce4f6da406",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/tracks/fuenfria-puricelli.gpx",
+      "bytes": 25368,
+      "sha256": "330943bb64a0aed376439157e1ea279c102b225fd9ee623f99d4033bdfd711cb",
+      "published_git_blob": "50fef07cc0368233022d7f8e994f89f52296693a",
+      "git_checkout_crlf": true
+    },
+    {
+      "path": "dist/data/tracks/navafria-chorro-clasica.geojson",
+      "bytes": 4919,
+      "sha256": "e732cd31c01742706c12930bf287829e942772a25b6a57e2019d6dd4d93e3bba",
+      "published_git_blob": "92322b0acd29a422d868689f76686e0fb6ca344f",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/tracks/navafria-chorro-clasica.gpx",
+      "bytes": 11786,
+      "sha256": "7eba6c81c07d8a6e35cd1870815301560b73bf3be6d6430fbb3bef209dc5dc70",
+      "published_git_blob": "703954323b4f22370636343bcc884027f4005ff7",
+      "git_checkout_crlf": true
+    },
+    {
+      "path": "dist/data/tracks/navafria-chorro-puerto.geojson",
+      "bytes": 18711,
+      "sha256": "110c51024b7b0d468fddf5342c42b9c34f2c7fbee0fdc48465652446d461bf05",
+      "published_git_blob": "a6ff1b1fa61c1bc56cfa9285e82abadc9cfe5c5c",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/tracks/navafria-chorro-puerto.gpx",
+      "bytes": 45449,
+      "sha256": "26a7f2894317a944764e371c86aaef3d33362d034f3716a2fa4d44cf1d09582b",
+      "published_git_blob": "275c234c043ccc34dcecde2bba055c5991665a33",
+      "git_checkout_crlf": true
+    },
+    {
+      "path": "dist/data/tracks/navafria-nevero.geojson",
+      "bytes": 18189,
+      "sha256": "c36599ab559caad37734ddf23dc290b18afa494053d1648d824e277186906773",
+      "published_git_blob": "233f982d4f07d35eea6fd9a59682b978ee5d3fcb",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/tracks/navafria-nevero.gpx",
+      "bytes": 44001,
+      "sha256": "a5e73237a970004da7ce766034db07cba8acdf6ff9aa914b2dedee009db65b75",
+      "published_git_blob": "c16ed807a72cf7b193ebb1e10d82dfc473547263",
+      "git_checkout_crlf": true
+    },
+    {
+      "path": "dist/data/tracks/paular-ermita-santa-ana.geojson",
+      "bytes": 14885,
+      "sha256": "2e93c17d444da34f0ca5909e3d0a24b506b211025000dd6b42321e4f3d58081f",
+      "published_git_blob": "03ecc536e3d9c99a5c09f1c4cd99d366a667b8bf",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/tracks/paular-ermita-santa-ana.gpx",
+      "bytes": 35453,
+      "sha256": "c04126d3fa8ab92d5a05e748b08bc79da7fd6bf3334193dd762293cfee89ed1e",
+      "published_git_blob": "c65d88a30fc60464a53808fd58d86cd0652e1544",
+      "git_checkout_crlf": true
     },
     {
       "path": "dist/data/tracks/pedriza-tolmo.geojson",
@@ -4469,6 +4791,20 @@
       "git_checkout_crlf": false
     },
     {
+      "path": "dist/data/tracks/penalara-cumbre.geojson",
+      "bytes": 25123,
+      "sha256": "773201bfcb152136eac780c66f3a824eb7c20f3408b151df091b6ed522b39d93",
+      "published_git_blob": "f30c319d53e1c79518edbb78c56c97bd889761d5",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/tracks/penalara-cumbre.gpx",
+      "bytes": 60394,
+      "sha256": "e81523c3c43f84f816c1a0682db1d90626f3fc0ed3c7fd40b99699c98a462f20",
+      "published_git_blob": "cc269727717bb3cad61de25ca5402994280eaf1d",
+      "git_checkout_crlf": true
+    },
+    {
       "path": "dist/data/tracks/penalara-zabala.geojson",
       "bytes": 9140,
       "sha256": "46b2a4189acc05bd1162a7e4c228510bbac0e592d057ac488fab335ceaf0672e",
@@ -4480,6 +4816,20 @@
       "bytes": 40821,
       "sha256": "038cc1d31a5d23c5da0029d133ec72522baac352112440cfb7b9a84246d91528",
       "published_git_blob": "0cdd63f75095c7627b2f54be2655ac34c7294c67",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/tracks/taravilla-poveda.geojson",
+      "bytes": 11821,
+      "sha256": "dad5a2572bf2a2100b929cdf8498d09063aa68a4cd08c6a0f4684f64e43e6292",
+      "published_git_blob": "2bd9f19ba54f55cade73d30d2383f29ffd021538",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/tracks/taravilla-poveda.gpx",
+      "bytes": 55225,
+      "sha256": "23db71e54d6e24d2edd97858d49e995433167d681b051e495a26aec3661214bb",
+      "published_git_blob": "c8001029961153198742087aeba841eb20c335c6",
       "git_checkout_crlf": false
     },
     {
@@ -4540,9 +4890,9 @@
     },
     {
       "path": "dist/index.html",
-      "bytes": 16051,
-      "sha256": "76a09b4c3779b0099ed233a987d2dd1cd382c308d0bd39959722664eb69743d3",
-      "published_git_blob": "38903ae76e3a2681e6068a3055727e24737eb9cf",
+      "bytes": 16333,
+      "sha256": "88af119cf43728a47fad284020939492a6187c5875fee1cc0c7990e7924a5a5b",
+      "published_git_blob": "b6ffff7970b65f4f204c1becbff945cae90c118c",
       "git_checkout_crlf": true
     },
     {
@@ -4560,10 +4910,24 @@
       "git_checkout_crlf": true
     },
     {
+      "path": "dist/map-explorer.css",
+      "bytes": 12881,
+      "sha256": "0ae62093be8fecf556b4b9c68880ea82da9e2618e31f61687b418d5a29bbc3b3",
+      "published_git_blob": "39db0b48d06e9e0fcb07260b75c3dbd9647d9221",
+      "git_checkout_crlf": true
+    },
+    {
+      "path": "dist/map-layout.js",
+      "bytes": 1286,
+      "sha256": "4062e0c4a484ffb5da538d1a728c7d949418fdedeb89fad98836db75a2853bd9",
+      "published_git_blob": "3bec566aa776d45046eea955fb20451489e48f20",
+      "git_checkout_crlf": false
+    },
+    {
       "path": "dist/map-markers.js",
-      "bytes": 8980,
-      "sha256": "47c00ed224980e35d0b78b0be50c1082632b328fc79d5d81648403e569c8c33f",
-      "published_git_blob": "b188dfe41c0d884ecd111fd3cd4683d7ae97ca20",
+      "bytes": 9099,
+      "sha256": "7b5ce193e60cab87ffebf8ec397f0f05ba94706f1e729f94cec138548bdb348b",
+      "published_git_blob": "795d06bcdc1b172c75feefc5a0e1a486fc189d1f",
       "git_checkout_crlf": true
     },
     {
@@ -4687,9 +5051,9 @@
     },
     {
       "path": "docs/verificacion.md",
-      "bytes": 3396,
-      "sha256": "12d179c2e2151bde2378e7a894a4e061803d40f05e458799a3775ccf9bf2ba9b",
-      "published_git_blob": "b52e96fc3680d19883628d945a8bd8927341f2c1",
+      "bytes": 4594,
+      "sha256": "b5c3b267bf4271eec8c79228daf7874628fea6f84b516566857a4e61e7a3f845",
+      "published_git_blob": "6688b03b3d1b7f00f649a8fb24a3a96b8304eadf",
       "git_checkout_crlf": true
     },
     {
@@ -4743,9 +5107,9 @@
     },
     {
       "path": "scripts/check.mjs",
-      "bytes": 1452,
-      "sha256": "1b13245ec8662a66cfbc392c00da84e209ecaf2a1de336360526291a706691e9",
-      "published_git_blob": "424020315ee46313f28e05035bb89f3cb0b62023",
+      "bytes": 1473,
+      "sha256": "7aa2c441f298280103446c19397a55430a6a014dba5655f4aa6c4842a7fd20d4",
+      "published_git_blob": "13ad0b2d09f59f1e1039fece6d8bc61a6985fad3",
       "git_checkout_crlf": true
     },
     {
@@ -4826,6 +5190,13 @@
       "git_checkout_crlf": true
     },
     {
+      "path": "scripts/test-album-search.mjs",
+      "bytes": 1213,
+      "sha256": "b8f6a61d77784b754eff19b70c389530870745e4a76dd239419b9e58b741c8a2",
+      "published_git_blob": "4f99b7fd4b3d17fead4699c51ee3ad9dce23dbc0",
+      "git_checkout_crlf": false
+    },
+    {
       "path": "scripts/test-entry-route.mjs",
       "bytes": 1050,
       "sha256": "6ff9162b187f88504f60f88445154b010b4f3b9a796790164df3b422dc25d756",
@@ -4837,6 +5208,13 @@
       "bytes": 1269,
       "sha256": "94f8a593c6334a4333e042dba24df6efe894490a33b60d44f7b86647149479d6",
       "published_git_blob": "f51019a6ab8e4a997b96ba70eed2c44ccd816a77",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "scripts/test-map-layout.mjs",
+      "bytes": 1720,
+      "sha256": "5d9f969fbf77e0f5b783223d39d4ecfb713face7f5a4a1dccec12397c56144aa",
+      "published_git_blob": "135f3ddf3c70510c11e70b71a749a19ad93653c6",
       "git_checkout_crlf": false
     },
     {
@@ -4855,9 +5233,9 @@
     },
     {
       "path": "scripts/validate_data.py",
-      "bytes": 4083,
-      "sha256": "8116ffab276029029d047626d7bc2b62be348f0078f6cb90fdbff216f16898f6",
-      "published_git_blob": "e8663512970937a4dc0ad3d51e91cf234281b220",
+      "bytes": 4967,
+      "sha256": "645435872e8b38a560a8c121ba646b322bc134b3b8bd262d42ecb5272b1e729d",
+      "published_git_blob": "03b90698e7759b6757a9d8480074482dd7229a66",
       "git_checkout_crlf": true
     },
     {

@@ -1,0 +1,97 @@
+{
+  "checked_at": "2026-10-28",
+  "official_track_count": 22,
+  "new_tracks": [
+    {
+      "id": "penalara-cumbre",
+      "points": 425,
+      "sha256": "e81523c3c43f84f816c1a0682db1d90626f3fc0ed3c7fd40b99699c98a462f20",
+      "source": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110390"
+    },
+    {
+      "id": "fuenfria-camino-agua",
+      "points": 214,
+      "sha256": "5c6bffb5ebffc2a182f3268fce44ee0be0d26f6ead9c9761ab8ca03be9b02b46",
+      "source": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110390"
+    },
+    {
+      "id": "fuenfria-puricelli",
+      "points": 176,
+      "sha256": "330943bb64a0aed376439157e1ea279c102b225fd9ee623f99d4033bdfd711cb",
+      "source": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110390"
+    },
+    {
+      "id": "fuenfria-miradores",
+      "points": 421,
+      "sha256": "8d38ca9347bed3b38d47a9b9092a6f4bebe8da2b8e7b7c835fa81ac45d0a02be",
+      "source": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110390"
+    },
+    {
+      "id": "navafria-chorro-puerto",
+      "points": 312,
+      "sha256": "26a7f2894317a944764e371c86aaef3d33362d034f3716a2fa4d44cf1d09582b",
+      "source": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110390"
+    },
+    {
+      "id": "barranca-circular-cnig",
+      "points": 391,
+      "sha256": "ce9946410481b1a79252095a1362de4c54c656175a44fbd96f48abaf48dc18c8",
+      "source": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110390"
+    },
+    {
+      "id": "paular-ermita-santa-ana",
+      "points": 246,
+      "sha256": "c04126d3fa8ab92d5a05e748b08bc79da7fd6bf3334193dd762293cfee89ed1e",
+      "source": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110390"
+    },
+    {
+      "id": "navafria-nevero",
+      "points": 304,
+      "sha256": "a5e73237a970004da7ce766034db07cba8acdf6ff9aa914b2dedee009db65b75",
+      "source": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110390"
+    },
+    {
+      "id": "navafria-chorro-clasica",
+      "points": 76,
+      "sha256": "7eba6c81c07d8a6e35cd1870815301560b73bf3be6d6430fbb3bef209dc5dc70",
+      "source": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110390"
+    },
+    {
+      "id": "daimiel-prado-ancho",
+      "points": 125,
+      "sha256": "450259257dbd3b821331175e0b01ab1d3ea40d78175b2ddc4bc774cd7d4a86dc",
+      "source": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110392"
+    },
+    {
+      "id": "daimiel-molemocho",
+      "points": 65,
+      "sha256": "c1ae3d92e548549a26091384d2a199508245618af22079424f6c27562eb68c3e",
+      "source": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110392"
+    },
+    {
+      "id": "daimiel-isla-pan",
+      "points": 140,
+      "sha256": "6dad3a8f3bdecab8d88e405d87cafb5413eb315e2276995b9cfc91c6a24c599d",
+      "source": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110392"
+    },
+    {
+      "id": "daimiel-laguna-permanente",
+      "points": 105,
+      "sha256": "2cd15ffb4e52cc6b25ac0eb3f0cd387f7dddac931e2fa7f9f46ebba386796bd8",
+      "source": "https://centrodedescargas.cnig.es/CentroDescargasRWS/rest/descargarArchivo/usuarioMovil/10110392"
+    },
+    {
+      "id": "taravilla-poveda",
+      "points": 396,
+      "sha256": "23db71e54d6e24d2edd97858d49e995433167d681b051e495a26aec3661214bb",
+      "source": "https://medionatural.castillalamancha.es/sites/default/files/kml/rg-pnat-08-salto-de-poveda.gpx"
+    }
+  ],
+  "deferred": [
+    {
+      "id": "horcajo-circular",
+      "reason": "Official GPX is an rte (planned route), not a recorded trk. The existing source-linked card remains without invented geometry."
+    }
+  ],
+  "scope": "Original GPX retained without coordinate edits; source metrics and variants distinguished. Not live access or field-condition verification."
+}

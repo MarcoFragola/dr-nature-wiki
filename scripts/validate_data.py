@@ -53,7 +53,20 @@ for group,items in assets.items():
         file=item['file'];assert (dist/'assets/photos'/file).is_file(),file
         credit=next((c for c in credits if c['file']==file),None)
         assert credit and credit['author'] and credit['source_url'] and credit['license'],file
-assert track_count==8
+coverage=json.loads((dist/'data/route-import-report.json').read_text(encoding='utf-8'))
+assert track_count==coverage['official_track_count']==22
+import hashlib,xml.etree.ElementTree as ET
+for r in routes.values():
+    if r['geometry_status']!='official_track':continue
+    assert r['gpx_path']==f"data/tracks/{r['id']}.gpx"
+    assert r['geojson_path']==f"data/tracks/{r['id']}.geojson"
+    if r.get('track_provenance'):
+        assert hashlib.sha256((dist/r['gpx_path']).read_bytes()).hexdigest()==r['track_provenance']['sha256']
+        xml=ET.fromstring((dist/r['gpx_path']).read_bytes())
+        assert any(x.tag.endswith('}trk') for x in xml.iter())
+        assert r['track_provenance']['license']['license_url']
+        if r['id'] in ['daimiel-isla-pan','daimiel-laguna-permanente','daimiel-prado-ancho']:
+            assert r['wheelchair_verified'] is None and not r['family_official']
 assert len(places)>=53 and len(routes)>=55 and len(species)>=65
 for item in [*places.values(), *species.values()]:
     assert item['summary']['es'] and item['summary']['en']

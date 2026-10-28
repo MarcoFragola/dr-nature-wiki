@@ -333,6 +333,126 @@
     "lobo-iberico": {
       "asset_id": "centro-lobo-marco",
       "file": "centro-lobo-marco.webp"
+    },
+    "carbonero-comun": {
+      "asset_id": "atlas-v3-carbonero-comun",
+      "file": "carbonero-comun.webp",
+      "width": 1280,
+      "height": 783
+    },
+    "pico-picapinos": {
+      "asset_id": "atlas-v3-pico-picapinos",
+      "file": "pico-picapinos.webp",
+      "width": 1280,
+      "height": 853
+    },
+    "focha-comun": {
+      "asset_id": "atlas-v3-focha-comun",
+      "file": "focha-comun.webp",
+      "width": 1280,
+      "height": 853
+    },
+    "garduna": {
+      "asset_id": "atlas-v3-garduna",
+      "file": "garduna.webp",
+      "width": 1280,
+      "height": 853
+    },
+    "liron-careto": {
+      "asset_id": "atlas-v3-liron-careto",
+      "file": "liron-careto.webp",
+      "width": 682,
+      "height": 1024
+    },
+    "raton-campo": {
+      "asset_id": "atlas-v3-raton-campo",
+      "file": "raton-campo.webp",
+      "width": 1280,
+      "height": 720
+    },
+    "gallipato": {
+      "asset_id": "atlas-v3-gallipato",
+      "file": "gallipato.webp",
+      "width": 1280,
+      "height": 775
+    },
+    "sapo-partero": {
+      "asset_id": "atlas-v3-sapo-partero",
+      "file": "sapo-partero.webp",
+      "width": 1242,
+      "height": 948
+    },
+    "sapo-corredor": {
+      "asset_id": "atlas-v3-sapo-corredor",
+      "file": "sapo-corredor.webp",
+      "width": 1280,
+      "height": 904
+    },
+    "arlequin": {
+      "asset_id": "atlas-v3-arlequin",
+      "file": "arlequin.webp",
+      "width": 1280,
+      "height": 853
+    },
+    "gran-pavon": {
+      "asset_id": "atlas-v3-gran-pavon",
+      "file": "gran-pavon.webp",
+      "width": 1280,
+      "height": 960
+    },
+    "quirocefalo": {
+      "asset_id": "atlas-v3-quirocefalo",
+      "file": "quirocefalo.webp",
+      "width": 1280,
+      "height": 854
+    },
+    "fresno-hoja-estrecha": {
+      "asset_id": "atlas-v3-fresno-hoja-estrecha",
+      "file": "fresno-hoja-estrecha.webp",
+      "width": 1280,
+      "height": 960
+    },
+    "helecho-comun": {
+      "asset_id": "atlas-v3-helecho-comun",
+      "file": "helecho-comun.webp",
+      "width": 933,
+      "height": 1280
+    },
+    "escobon": {
+      "asset_id": "atlas-v3-escobon",
+      "file": "escobon.webp",
+      "width": 960,
+      "height": 1280
+    },
+    "niscalo": {
+      "asset_id": "atlas-v3-niscalo",
+      "file": "niscalo.webp",
+      "width": 1280,
+      "height": 1050
+    },
+    "pedo-lobo": {
+      "asset_id": "atlas-v3-pedo-lobo",
+      "file": "pedo-lobo.webp",
+      "width": 800,
+      "height": 600
+    },
+    "seta-coliflor": {
+      "asset_id": "atlas-v3-seta-coliflor",
+      "file": "seta-coliflor.webp",
+      "width": 1280,
+      "height": 800
+    },
+    "evernia": {
+      "asset_id": "atlas-v3-evernia",
+      "file": "evernia.webp",
+      "width": 1280,
+      "height": 860
+    },
+    "pseudevernia": {
+      "asset_id": "atlas-v3-pseudevernia",
+      "file": "pseudevernia.webp",
+      "width": 640,
+      "height": 425
     }
   }
 }

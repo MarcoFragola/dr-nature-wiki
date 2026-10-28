@@ -1,40 +1,44 @@
-# Verificación de la edición ampliada
+# Verificación · revisión 3 · 28/10/2026
 
-Fecha: 27/10/2026. Pruebas en la vista local servida por Node y el navegador integrado.
+La portada geográfica aprobada por Marco se conserva. Esta revisión actúa sobre el mapa de exploración, las fichas, el Atlas y los trazados.
 
-## Comprobado
+## Datos comprobados
 
-- Sintaxis de app.js, i18n.js, landscape.js y terrain-fallback.js correcta.
-- Catálogo: 53 lugares, 55 rutas, 65 especies, 128 fuentes y 8 trazados oficiales con 3.274 coordenadas. IDs, relaciones, referencias, archivos y créditos comprobados.
-- SQLite reconstruida a partir del catálogo: integrity_check correcto, sin errores de claves foráneas; 675.840 bytes. Es una exportación, no un servidor conectado.
-- Fondo final WebP cargado, 1672 × 941 px y 471.716 bytes. Los nombres y la interfaz son capas de la web.
-- Cámara del paisaje: zoom mediante botones (1 → 1,30), restablecimiento con Inicio (1,00), enfoque al seleccionar Peñalara y apertura/cierre de fichas.
-- Búsqueda global de Ruidera, sus tres rutas y los itinerarios de Cotos; salto de un lugar fuera de la escena al Mapa real.
-- Mapa real: carga de ortofoto y elevación, estado PNOA/IGN ×1,5 y visualización del GPX oficial Cotos–Zona del Zabala. Su perfil se identifica como no disponible al faltar cotas.
-- Filtros combinados de Madrid, bicicleta, máximo 3 km y accesibilidad: estado sin resultados; restablecimiento a 53 lugares.
-- Guardar Peñalara y conservar el favorito tras recarga; retirada posterior del favorito de prueba.
-- Menú móvil, navegación al atlas, cambio ES/EN, 65 fichas y búsqueda de Aquila adalberti. Fotografía, créditos, taxón, ecología, rasgos y ámbito documental visibles en inglés.
-- Tema claro y oscuro; contraste de los paneles revisado visualmente.
-- Portada y filtros a 390 × 844 px y vista de escritorio. El documento móvil mide 390 px de ancho y no presenta desbordamiento horizontal. Se corrigieron solapamientos de filtros y controles.
-- 40 fotografías nuevas descargadas y decodificadas: 18 lugares y 22 especies, con archivo exacto, autor y licencia. Hay 35 lugares y 45 especies con fotografía asociada. Las demás fichas muestran expresamente la imagen pendiente.
-- Capturas guardadas en capturas/. La referencia inicial se conserva en referencias/.
+- 55 lugares, 66 itinerarios/visitas y 66 fichas de vida. Todas las fichas de vida tienen fotografía; 37 lugares tienen foto asociada. Los restantes indican la imagen pendiente.
+- 22 GPX oficiales, con 6.670 coordenadas: 14 incorporados en esta revisión. Los originales nuevos conservan su SHA-256 y sus segmentos; no se completan retornos ni caminos por inferencia.
+- 104 registros de crédito. Las 20 imágenes nuevas conservan autor, archivo de origen, licencia y huella; se entregan en WebP para la web. La foto del gallipato identifica su contexto de acuario.
+- Corrección de Lycoperdon perlatum, hábitats ampliados en 20 fichas y referencias científicas adicionales. Las referencias generales de una especie no se convierten en avistamientos locales.
+- 69.244 taxones nacionales MITECO y 80.510 elementos cartográficos oficiales. Se mantienen sus fragmentos y carga bajo demanda. La clasificación cartográfica cubre Madrid, Castilla y León y Castilla-La Mancha; se explica la cobertura pendiente al filtrar Extremadura.
+- Validación de referencias, rutas y licencias; geometrías IGN y malla de terreno; identificadores, compresión y metadatos geográficos. SQLite reconstruida con integridad y claves foráneas correctas.
 
-## Límites
+## Uso comprobado en navegador
 
-La vista Paisaje es una ilustración generada, no un modelo topográfico validado. Sus puntos son posiciones de composición; coordenadas y trazados pertenecen al Mapa real. El mapa necesita Internet y disponibilidad de los servicios.
+- Apertura de fichas y lista del mapa, cierre de lista sin salir del mapa, cámara ajustada al panel real. Repetir el encuadre regional conserva el mismo zoom: no acumula relleno de cámara.
+- Ficha móvil ampliable/contraíble a 375 × 812 y disposición horizontal a 844 × 390. La ficha permanece dentro del viewport y no genera desbordamiento horizontal.
+- Atlas móvil: 24 tarjetas por página, fotografía y galería sin desbordamiento horizontal a 375 px. Los filtros y el inventario nacional conservan su función.
+- Gallipato: imagen cargada, cuatro bloques de lectura y contexto fotográfico. Su botón de referencia encuentra Pleurodeles waltl en MITECO.
+- Búsqueda nacional «quercuz» con filtro de plantas: devuelve 22 nombres parecidos e indica expresamente que no hay coincidencia exacta.
+- Enlace directo al espacio Sierra Norte de Guadarrama: ficha y geometría oficial cargadas. Se prueba el mismo identificador codificado del informe anterior del usuario.
+- Navafría: muestra 8,2 km solo de ida y distingue la ficha actual de 16,4 km. Taravilla: GPX, perfil y condiciones del gestor, incluida la reserva estacional y la discrepancia de tiempo publicada.
+- Favorito de ruta conservado tras recarga; favorito de prueba retirado y retirada confirmada tras recarga. Los demás favoritos no se borran.
+- Sin errores nuevos de consola en estas comprobaciones.
 
-Las 47 rutas sin GPX no dibujan un recorrido inventado. Métricas desconocidas siguen siendo null. No se revisaron senderos sobre el terreno, avisos en directo ni todas las combinaciones posibles de filtros.
+## Pruebas automatizadas
 
-La alternativa de relieve por software procede de la edición inicial. Esta revisión no repitió todas sus condiciones de fallo. No se ejecutó una auditoría formal WCAG, un lector de pantalla real ni pruebas físicas en iOS/Android. La importación/exportación GPX y los borradores se conservan, pero no se repitió su batería completa en esta revisión.
-
-## Publicación
-
-Esta edición está disponible localmente. La subida al sitio existente fue rechazada por la revisión automática al considerar insuficiente la autorización explícita del destino/publicación. No se volvió a intentar por otra vía ni se modificó la audiencia. La publicación queda pendiente de autorización de Marco.
-
-## Repetir
+20 pruebas: dirección del arrastre derecho, conservación de controles nativos y recuperación; enlaces directos; entrega geográfica gzip y respuestas erróneas; cámara/paneles en escritorio, móvil y horizontal; búsqueda exacta y aproximada del inventario con filtro y caché.
 
 ```sh
+node --test scripts/test-right-drag.mjs scripts/test-entry-route.mjs scripts/test-geographic-delivery.mjs scripts/test-map-layout.mjs scripts/test-album-search.mjs
 npm run check
 npm run database
-npm start
 ```
+
+## Alcance
+
+No es una revisión de campo ni de avisos en tiempo real. Las fichas Daimiel distinguen las medidas de CNIG y MITECO; no se conserva una etiqueta de accesibilidad para el GPX completo sin respaldo. Horcajo conserva su ficha enlazada: el archivo oficial es una ruta planificada rte, no se presenta como track registrado.
+
+La wiki ilustrada es una selección editorial, no una ficha fotográfica de cada taxón nacional. Los modelos 3D de especies y la ampliación exhaustiva por hábitats siguen pendientes. No se declara una auditoría formal WCAG, lector de pantalla, ni pruebas físicas iOS/Android. La batería completa de importación/exportación GPX y borradores no se repite en esta revisión. Los controles respetan el movimiento reducido existente; no se ha alterado la preferencia del sistema.
+
+## Publicación y recuperación
+
+Se publica en el Site existente conservando su acceso privado. La identificación exacta del despliegue está en PUBLICACION.json de la carpeta principal. La copia del código se conserva en el repositorio privado MarcoFragola/dr-nature-wiki; cada entrega se identifica por etiqueta y por su manifiesto de recuperación.
