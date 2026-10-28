@@ -11,7 +11,7 @@ npm run check
 npm run database
 ```
 
-Abre http://127.0.0.1:8080/. En Windows también puedes usar ../abrir-web.cmd. No requiere instalar paquetes ni claves de API para navegar. Python3 permite validar los datos y exportar la SQLite; el lanzador reconoce el runtime de la aplicación de escritorio o una instalación normal de Python.
+Abre http://127.0.0.1:8080/. En Windows también puedes usar ../abrir-web.cmd. No requiere instalar paquetes ni claves de API para navegar. Python3, numpy y Pillow permiten validar los datos y exportar la SQLite; el lanzador reconoce el runtime de la aplicación de escritorio o una instalación normal de Python.
 
 ## Experiencia
 
@@ -102,3 +102,7 @@ Las 338 piezas de geometría se distribuyen como `.geojson.gz` sin pérdida. El 
 ## Revisión 3 · 28/10/2026
 
 Portada aprobada por Marco y conservada. El mapa adapta la cámara al espacio real de sus paneles; las fichas móviles se pueden ampliar o contraer. El Atlas conserva filtros y conecta las fichas ilustradas con la referencia nacional MITECO. Las rutas muestran la edición del GPX y explican las medidas distintas de la ficha actual; la cobertura de ida y la accesibilidad no se deducen. Ver docs/verificacion.md y data/route-import-report.json en dist/.
+
+## Revisión 4 · demostración de ruta
+
+Del mapa al sendero utiliza un relieve local IGN (~13 m de muestreo efectivo, escala vertical natural) y una ortofoto oficial PNOA2023 continua para su encuadre. Su GPX original, puntos y datos permiten entender los tres pasos y abrir la ficha en el mapa real. La portada aprobada se conserva. Metadatos en dist/data/route-lesson/.

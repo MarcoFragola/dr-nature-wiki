@@ -1,13 +1,13 @@
 {
   "project": "Dr Nature wiki",
   "published_site": "https://dr-nature-wiki.cannes2.chatgpt.site",
-  "site_version": 3,
-  "published_source_commit": "288dde276f53cbc92f4e741b7723e193677e8629",
-  "snapshot_utc": "2026-10-28T09:42:49.912835+00:00",
-  "files": 749,
-  "total_bytes": 171858795,
+  "site_version": 4,
+  "published_source_commit": "98570df784666600bf9143f2cb2278a02edec70f",
+  "snapshot_utc": "2026-10-28T10:38:16.227357+00:00",
+  "files": 849,
+  "total_bytes": 182791536,
   "verification": "Every file byte matches the published working copy; source Git blob matches exactly or after verified Windows CRLF checkout normalization. SHA-256 records preserve exact deployed bytes.",
-  "windows_checkout_normalized_files": 67,
+  "windows_checkout_normalized_files": 71,
   "manifest": [
     {
       "path": ".gitignore",
@@ -32,9 +32,9 @@
     },
     {
       "path": "README.md",
-      "bytes": 9856,
-      "sha256": "08267be4e93e342384de60633056e96cb00790e8de687698fd2c8e0b100e9bb7",
-      "published_git_blob": "ccc9e97a7d53e05d7c126c41330cd34fac1f9156",
+      "bytes": 10251,
+      "sha256": "caaf10777fb160df30170cb59093693ada6adc124f6a4e20f17fa0fab75965f4",
+      "published_git_blob": "7988b4ecbf9d9ac7e89b8981b37868d7d79eddf0",
       "git_checkout_crlf": true
     },
     {
@@ -3958,6 +3958,671 @@
       "git_checkout_crlf": true
     },
     {
+      "path": "dist/data/route-lesson/cotos-pnoa.jpg",
+      "bytes": 1295052,
+      "sha256": "0fd11eba6ec39b5388f7b9d12009afc9282e6ebe947136c7c7f694884ff880be",
+      "published_git_blob": "aef75d29a524c76d478eda61ff47e9c016aae760",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/cotos-wcs.tif",
+      "bytes": 2099618,
+      "sha256": "d100037843179858087576893877504bd9929dbfdd0b584208d0a07b5a8a9a7b",
+      "published_git_blob": "baada2ebe15fd31d370500e4d74abad599a5cb5d",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/metadata.json",
+      "bytes": 23566,
+      "sha256": "72931f813fd7fc0b235890e7b73988a24e441a404dcf14208adf1851ef1d601e",
+      "published_git_blob": "c53df9e61203ff5b8d1c745e02ca3f445b08e964",
+      "git_checkout_crlf": true
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/11/1001/768.png",
+      "bytes": 49625,
+      "sha256": "ae54b32c5e055d8669d1424120fdad123aab36bd5842404f39cd019ba35c40e3",
+      "published_git_blob": "f163a0b5eee13ceed881a5ed9fc5d8d28a83eb9c",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/11/1001/769.png",
+      "bytes": 76543,
+      "sha256": "9da7fa094beb45e60393096a0bd83d324b4aa6bc937a5139e643c74615be7147",
+      "published_git_blob": "2f1b26fd37712fa24eba715390f34d27096a0fa7",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/12/2002/1537.png",
+      "bytes": 88093,
+      "sha256": "36a0bf7a2683bbff22b811af4c23e85bd0228c7155b7941b2e92a85a5ed8b777",
+      "published_git_blob": "8ede6810c53c9b6d53b644e7f36a5bb598410eda",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/12/2002/1538.png",
+      "bytes": 124855,
+      "sha256": "18e27bb62a5b67cfb3129eaf495587b418fe125d7fc2776f6b5c8f0de26cbd6b",
+      "published_git_blob": "ae896c1025f9c313f62dbf4a8a530a64e2f9b623",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/12/2002/1539.png",
+      "bytes": 12834,
+      "sha256": "71c5096584a18ef603fb34d754440cd993a8ff6d390bfcfb3ad69b6bce329b46",
+      "published_git_blob": "a3ad6afb16a11d7b9fbd51bd5028bfa2201603fe",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/12/2003/1537.png",
+      "bytes": 87748,
+      "sha256": "dd5c7c80aed743c7f769ace68246c238abefec4958468fd006b84cd79a603d52",
+      "published_git_blob": "48af6573092cf314ad079d6dd0ab969d267a65e0",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/12/2003/1538.png",
+      "bytes": 126804,
+      "sha256": "224db5d6e9e5a6fd66acd31bc510ac373ff72183bb543bf16adfc7f4091e361e",
+      "published_git_blob": "af28cbb6e781a2cce560e0431eba6f805cf05d9d",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/12/2003/1539.png",
+      "bytes": 12785,
+      "sha256": "bc9ae0b3dce51c82307d2c7ead136a1f4c0b1634369e742bfc5c09d0e9541445",
+      "published_git_blob": "4e6c0e05bad9783610618422327441638d2da2a6",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/13/4004/3074.png",
+      "bytes": 42624,
+      "sha256": "c719fb1247381b968fe8d09f5edb736a94b4d0bc36863a105f77cf5a779ff96f",
+      "published_git_blob": "46af042b3f50120c51c9927a8ce7efd88162d349",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/13/4004/3075.png",
+      "bytes": 94979,
+      "sha256": "f43eccb2fc1e0f4be8091ea1fc555b1d88b3c479402c2a7ba01f4b031b320c62",
+      "published_git_blob": "a9703c84159f149090e271711c6566fc07dd56eb",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/13/4004/3076.png",
+      "bytes": 100011,
+      "sha256": "2e11deb96d67606420bdb201eccc3ac6d7ec8858317ed8bce67da2b6ba153a8c",
+      "published_git_blob": "296234e8f57c58a1b9b23f0fd03bfd534fab0760",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/13/4004/3077.png",
+      "bytes": 102415,
+      "sha256": "db008d59f6064bdd42d90a869952bab3b273a14efee3ac2230e41dd1573a3b40",
+      "published_git_blob": "ce67efafcbd472fc206bd1ecc66c59c2f1f8fc96",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/13/4004/3078.png",
+      "bytes": 19752,
+      "sha256": "23ba4ae0a6ac2821c3bdb6b4be18a4679c6bf25369e02d4c7b630e20ecb3a87b",
+      "published_git_blob": "e9175ea5298be00d7aa75d1a8a19cfc44b3767f1",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/13/4005/3074.png",
+      "bytes": 56482,
+      "sha256": "f552a8ebaf95b92206a3e594bffa92552b1e958118c6d9380058c3ca4eb1b14a",
+      "published_git_blob": "30f2993aa25d4f7196d1f8096c67383e289787a3",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/13/4005/3075.png",
+      "bytes": 119953,
+      "sha256": "bbb481acca30cad03d544bf09d5e9ed218705b2125bef517c1a8c5fc0796a7e2",
+      "published_git_blob": "592967df3c8f087f216d707d501f7d6a4b5230b2",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/13/4005/3076.png",
+      "bytes": 124327,
+      "sha256": "9ca401409b142009feec1b7b095fd25fd5a574d8e9e31623deee3dfe65397a3b",
+      "published_git_blob": "d331e62570313e23d613f579bc8c9ec13346f91c",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/13/4005/3077.png",
+      "bytes": 122052,
+      "sha256": "3ac99a0c7d79c619a9bd32cb03b377957ebe81f8e2f7e69b2597c276e02ab5da",
+      "published_git_blob": "986c5c0d3682bbd575e047216721ebed51001035",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/13/4005/3078.png",
+      "bytes": 22986,
+      "sha256": "1b2e3f4f5b7fc0532692c641411220dfd63467a6f1f1e730de0793a336e40793",
+      "published_git_blob": "80cee1432844d71ba6809396243aa0632ac4c7e8",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/13/4006/3074.png",
+      "bytes": 55506,
+      "sha256": "b9ac1b5311a6704d1404821f9d2770bc6226d51c4ef7d70dc54611ccf4e63408",
+      "published_git_blob": "adc70ca8502e7777ad1a61f0bc990ffb7013ff43",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/13/4006/3075.png",
+      "bytes": 121592,
+      "sha256": "444834e29d43d324ed6962c8035dd6fc04241444ba2f4245dcde8ace1cdbaed6",
+      "published_git_blob": "cad88c2b2f6b7a7eb92f095f3c7a66be428ca7d4",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/13/4006/3076.png",
+      "bytes": 125170,
+      "sha256": "bac712773bd41d9b75efac02ea7ca83b33c7353b87ef003357d0ff73d5c2a1a4",
+      "published_git_blob": "bac09c2e5d256802df997257da10356b2f9570c7",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/13/4006/3077.png",
+      "bytes": 124943,
+      "sha256": "1e905381111de141ccd4cd5b60b0cf0b0a1e95212cff472eb80804771518c325",
+      "published_git_blob": "48d4217f48bbfa7319c9895217de18936a36be03",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/13/4006/3078.png",
+      "bytes": 23156,
+      "sha256": "b3a6c78c9662ab14b50f87505524080b9a9092be59c4f66efb72bc4554214d52",
+      "published_git_blob": "6e0c0919ba1a5abec5fa521f343969d071771520",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/13/4007/3074.png",
+      "bytes": 40536,
+      "sha256": "d64e38fc9ca6b9ffcd4478ee6741d9bd8e9df8f13621f88d62829d9d560a38b3",
+      "published_git_blob": "cd8aaca384684a16db784f59b80cf956dbe10c54",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/13/4007/3075.png",
+      "bytes": 92516,
+      "sha256": "c317d25367de92f39c5077bd36e5870a02024d9f5e32b42cedc9201c14a29f37",
+      "published_git_blob": "596471afa03864161339b9dfd13bae82d7326cdf",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/13/4007/3076.png",
+      "bytes": 102330,
+      "sha256": "46643483d0032b1e58d487d9c58a3229cf4a304cd9cd3cca4a7b180a7ba343c5",
+      "published_git_blob": "4415ea09bf11668e028400ed4be3f12b6d64bb30",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/13/4007/3077.png",
+      "bytes": 104002,
+      "sha256": "5abda4cbe0604550298632055a5d3cdd15021009761dceef68d8ce1d8f921b28",
+      "published_git_blob": "ecafbb482183a24ac7c5621a2dde431926e1c4ba",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/13/4007/3078.png",
+      "bytes": 19969,
+      "sha256": "bb99b2b3e6822249a37370591bac454cd141a3fd6c8ce1464aac15c98e19c951",
+      "published_git_blob": "6db91dca6410afc0305fd511487f20e5928df15f",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8008/6149.png",
+      "bytes": 53581,
+      "sha256": "21321d9960dc72a425c7915f232856646dd7c04a1c80bfbfe6d3b0306f8b1ecf",
+      "published_git_blob": "d2fc3eadb65e60f0a26ed0ca85bd66547f69c50f",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8008/6150.png",
+      "bytes": 55536,
+      "sha256": "80a6de7f90be2cd1f6e456bab86c26defd03c80309b34d5fcb147cd113f3f5bd",
+      "published_git_blob": "d907ec62a5355aae2729b9c1706ab25939eb7ed7",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8008/6151.png",
+      "bytes": 60992,
+      "sha256": "bc71007c6cbbff812e75617abf68c4179702b4cc0d24b938611b2f8fd2c82b41",
+      "published_git_blob": "bf76e7ea447d2d51ec28383fd8d27382795f8e34",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8008/6152.png",
+      "bytes": 65809,
+      "sha256": "1d6d8d28e294ca69a30f798eb232e86bab144e94804afa5ae4cde2582e7365b0",
+      "published_git_blob": "7a12fcac39b00aba8c205d4a2aaf1fbdd6390ba2",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8008/6153.png",
+      "bytes": 64150,
+      "sha256": "36fc448154dbf97cb4d562b54cd3800a29241a7d097c74c8591d1bf2a2c9d87b",
+      "published_git_blob": "7ec80cdd0c45dc36e1a15fb691a784215005bf65",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8008/6154.png",
+      "bytes": 67712,
+      "sha256": "b5700f9f94ff95f030ab54cb947d529fb9fac66720d7085c67d10fceb9293188",
+      "published_git_blob": "86d90c45506b2f1fafbc76f54b1688a5f4c88d43",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8008/6155.png",
+      "bytes": 70136,
+      "sha256": "758eeb63e1c615a5003825866e898d92761b850b404f7343591f31220488bd95",
+      "published_git_blob": "ec298ed0dc627fc6f1afad5a7119be0a912eb70e",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8008/6156.png",
+      "bytes": 26617,
+      "sha256": "e1ee2c983a710795a3f884cfebae55b8b6b31569323cf30a1fd37262d28ad0be",
+      "published_git_blob": "295a3534df9c3aa4b1b4facd9699a53ea6e80d7c",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8009/6149.png",
+      "bytes": 77223,
+      "sha256": "f41cf473dafb908c5573ea6b18d9976f69fbd854409eb56d7ca58f6145b298d0",
+      "published_git_blob": "249957f1fd3841a03f8a708368ef9fa9fcc050ba",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8009/6150.png",
+      "bytes": 91921,
+      "sha256": "b4af5db14c28431bc2baa852d311677fdb59ed5072de1b98991ae6a000931287",
+      "published_git_blob": "1968ebfcd8893885081deb7e331403cc15461730",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8009/6151.png",
+      "bytes": 95822,
+      "sha256": "fd4a6eaf9976949e98d053f99d088605fa53bbd5a2d2b3d4716c40007a012084",
+      "published_git_blob": "1a89c324b4d89bbd6aff162c22d711b9e91dbfce",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8009/6152.png",
+      "bytes": 102447,
+      "sha256": "6442a1bec04d1f0b28b8b4ea4e9d273df281cc460583c57aa4cc5a5ec42ba4e0",
+      "published_git_blob": "adc130550191a2b21f681a3d3d489e0ab7496f2e",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8009/6153.png",
+      "bytes": 100917,
+      "sha256": "4b01d7f17f5e3d77839c2e9dcab88f8aaf80874031aced3d09773133e769e84e",
+      "published_git_blob": "080cb12b4ecc38c34e578d28688f16e2e9d45698",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8009/6154.png",
+      "bytes": 99752,
+      "sha256": "af028dee152902492a21511dea5876349223957f2f454f6bf18d70d827dbb838",
+      "published_git_blob": "353c2ba32476c29a365f7314c978fe168a546b60",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8009/6155.png",
+      "bytes": 106553,
+      "sha256": "d211c260b799e4e702f8c3f73a8742b89c7067eb974f912a585e81ed96a51ef1",
+      "published_git_blob": "283b4b2891a878ae127fd450485bdd97cdcdd92d",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8009/6156.png",
+      "bytes": 36422,
+      "sha256": "b6d3376720d93c208fc3efa6a0586663d8db2027069f088f63b42096b3a6b782",
+      "published_git_blob": "84846fd067a33929e39ee3511b8ff181ca9eb48b",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8010/6149.png",
+      "bytes": 89811,
+      "sha256": "7a488af1158eb9d1a4b565a748d039eb6f6930a47dea6ce3771f8d53dfb8e8d6",
+      "published_git_blob": "db5a864d6032ad0ea3c13aed3ccc309694257a08",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8010/6150.png",
+      "bytes": 98213,
+      "sha256": "b3d513a0bbcf929926346fe1b679f6585ac85e061902efbab708edfc65d704e5",
+      "published_git_blob": "c19e43c6a0041577abe252eb49dc12fbece2b033",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8010/6151.png",
+      "bytes": 99087,
+      "sha256": "6c3d0194e7c3229a6ffb046da9ec57c83407c37907f0ab4fe3250094ea3877dd",
+      "published_git_blob": "f267eb7b4895dc1bf1d5d9011356dea3049e8b4a",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8010/6152.png",
+      "bytes": 105471,
+      "sha256": "a941b7a8e1f6a28fb85d2d6819f65af5d3ec8bef855dc8ccf3bd0abd113f3e81",
+      "published_git_blob": "c4f761abdbc7c3922e33b1fae5f47afc8818a771",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8010/6153.png",
+      "bytes": 101163,
+      "sha256": "d333004988eaa0ee6358db18c738848985ef0a16fa343f5bd7fb139f87403afc",
+      "published_git_blob": "e8a24dac8ec82e3a0a4345ef3a8500ff3cbdddef",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8010/6154.png",
+      "bytes": 100583,
+      "sha256": "7b948f62705f3f3a1cf4d364ab3ef61ef01180b76f82bccfc303bbc3152ea249",
+      "published_git_blob": "2021039903aff8199bc7a665e341cd525ede2f12",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8010/6155.png",
+      "bytes": 102441,
+      "sha256": "65135cab5966421ae0dc5067521499c9676b682f7ea72e127236a925f00491d1",
+      "published_git_blob": "e56d50fc694e24a81ab9f1d915175a14585b839f",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8010/6156.png",
+      "bytes": 37619,
+      "sha256": "88bc058db9631547d280db0ffb6f2ebef10cf613e703a1777f5a85bc0cc3c888",
+      "published_git_blob": "dc2f58bcf2dde1ffeddfe155c0d442b6d877d8fa",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8011/6149.png",
+      "bytes": 89678,
+      "sha256": "0beceed2fe808f533cb3ba392a8001f5c0616a2a6e97b3849733db8848584865",
+      "published_git_blob": "9a4188808478d3a4b5f594e90f3234946db1415d",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8011/6150.png",
+      "bytes": 96634,
+      "sha256": "52be212a335e49c9a220a7a4a48aee72f01af5358ff6064cb098201f7d556b5f",
+      "published_git_blob": "da81dc27054f99250b18628ec9f9de6c093bb2e1",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8011/6151.png",
+      "bytes": 99059,
+      "sha256": "01d40d0d9cf1978932acc88236b0c13025564eb35f68573b1a98da5e106db398",
+      "published_git_blob": "632302f27cb3d2ae25466ac5d48bd9017aa3c63e",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8011/6152.png",
+      "bytes": 102308,
+      "sha256": "7f26f1563fc88c0dc694fd66ce2789c72abaed20719c3fea7c185c6a765498c0",
+      "published_git_blob": "e71cbcf52cf2ab8de5c3010b7b23067c4b25cc7a",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8011/6153.png",
+      "bytes": 102776,
+      "sha256": "045cf94859972527a5b2542d137a45d9246b15c390790c7f24811cddae105afe",
+      "published_git_blob": "7a66a0745c20da0c3eb9dbaf42479821416c4c0a",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8011/6154.png",
+      "bytes": 99713,
+      "sha256": "834e2ef48689bdf7b0a911cbaa08159594bd966e3b2c1ea2dabd9789380b0cf5",
+      "published_git_blob": "6bd94b39029217434b31326bbf2d2050d2b52577",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8011/6155.png",
+      "bytes": 103470,
+      "sha256": "7877b6521279f0d26a3f8e04e7c1f00174391fa211b022fd1ee11f1d4064fc9f",
+      "published_git_blob": "41b9f3b2b57df29b34ba8642ae88a42353645733",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8011/6156.png",
+      "bytes": 34995,
+      "sha256": "53cbfa8f1896d9472b1f6e2de71d0e45674a72bc0a5f40371cc7cbcaa4f258ad",
+      "published_git_blob": "ec30b26426e6c7d40afdeca5b7ad6f6a699331fe",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8012/6149.png",
+      "bytes": 86385,
+      "sha256": "6e694677f411d853185c608e354c69ac6c137a2148f8b5bd3899fd23fd4207c4",
+      "published_git_blob": "97c7a5c69197d874b3fc66945b1c6ade0065b8a7",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8012/6150.png",
+      "bytes": 94298,
+      "sha256": "5141a9d56c0730f91387b1f27c03558fb1f12f0b79419c161183047718b4e1a1",
+      "published_git_blob": "f896bf227670a9b26076f57dcd0c2a8dcbcb1fc6",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8012/6151.png",
+      "bytes": 104139,
+      "sha256": "99e5b710b64c8e233265a929a022b9189e6747aadaf83ba7921a1e4793a2f8b9",
+      "published_git_blob": "14db113f4f023a1c2d42623390c129672f46f43b",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8012/6152.png",
+      "bytes": 104860,
+      "sha256": "bb4fc8a5553b65dd6a8d3e9c7bdb3eac8739fcc859853246173e0dc48503dcd4",
+      "published_git_blob": "3ffaba79d147206f14ed7b4bb6bea4cb718d4eed",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8012/6153.png",
+      "bytes": 102366,
+      "sha256": "83db1b0d0f8de60eed2b1a9c9827e4bbeef65b8d50d24f318d70cab6e1aa6053",
+      "published_git_blob": "9c4a14b2765ae94beaddb1e41a74b72f3e089b28",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8012/6154.png",
+      "bytes": 103402,
+      "sha256": "7f862be33deff209895adc5b8a5a18240bc9f2ed28e5816b277717853006780f",
+      "published_git_blob": "6c7373dc7d4f0cd5c3f04ecdc98698e0d62d5ca3",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8012/6155.png",
+      "bytes": 106014,
+      "sha256": "ecc738bb040bbb5422ccffda33e2ac1613fa1595cc5454eb3a88a7379ca1627e",
+      "published_git_blob": "0c7a9391ff397f33e914c6bd1c0ca2143a9c2f34",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8012/6156.png",
+      "bytes": 37123,
+      "sha256": "4338749cee9b8950408a3c098a8215f8a320f8fb71ea9a3079569a981021f6f7",
+      "published_git_blob": "9c40c5e857c8f362f9bec7048c53981794c32d9e",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8013/6149.png",
+      "bytes": 90811,
+      "sha256": "8e3498eeb8e1cbbbda2bde776e98f7030daf930c7885c4854ca227bba7f2fabb",
+      "published_git_blob": "5a85b55f9cb287ebcf4083b42ccb9d0c38d2dd56",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8013/6150.png",
+      "bytes": 102188,
+      "sha256": "82c8fa42e218bbfe24891a20ce66ab969a7e02dacb5690daca76cb7534c9de36",
+      "published_git_blob": "ac5d5ea0868a9cf046dd1e7747a16bc05c86a0a8",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8013/6151.png",
+      "bytes": 101783,
+      "sha256": "ddb0674ef21f654e7365c58dc67c6ce3cd29a51e272713906f022aef5ae5916a",
+      "published_git_blob": "9e380a87ac9bec6582ff202793364ca90efe6b44",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8013/6152.png",
+      "bytes": 103707,
+      "sha256": "f539165940dbc692749c87f274035a7e7a65b48eaeb97ed438c948f77dda8ff7",
+      "published_git_blob": "78b53b1b6192e5f35eab03408495d41bc9ae238e",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8013/6153.png",
+      "bytes": 104704,
+      "sha256": "978f9d5047ff460b6135da6886893847cc71eeab583e64847553d36d3636b9ba",
+      "published_git_blob": "1f5d0c2aa08000a9260127c2479f9ab54c814c49",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8013/6154.png",
+      "bytes": 99715,
+      "sha256": "e399112927cc940906a61e1ccfb83465835c3d2a34ba710a2f7d25cc9ea6a982",
+      "published_git_blob": "8bb0d3f6a543b000d886d15c9a560816d92d9950",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8013/6155.png",
+      "bytes": 107672,
+      "sha256": "0da58ec40e4f6c8705cbc37a5236709f732520d9913958aec538e7b31997493e",
+      "published_git_blob": "6fbc83d8e8fc499fbd19a80068d939c77b5bc843",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8013/6156.png",
+      "bytes": 37219,
+      "sha256": "4817e6824e54a9f125a22ac24ebc0499539517fc6f14542c2152a377cfd8b083",
+      "published_git_blob": "5a85cca167ef2c1d4f386877ac3e89f526f718ec",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8014/6149.png",
+      "bytes": 80497,
+      "sha256": "e73ff437326d37cbed2311e9cd7e5033b74213b7948df7e36f1e7df11023c62e",
+      "published_git_blob": "c50eb85a495cdca118ebb0c7044a33fab313c08f",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8014/6150.png",
+      "bytes": 81867,
+      "sha256": "995c386c93cb8ede791549e4e6a2efa9c1c9810a6cc103018dc55ad9f6fb3264",
+      "published_git_blob": "e0ad9595ac59098eb38b3c24b91f90260c7343a8",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8014/6151.png",
+      "bytes": 94540,
+      "sha256": "acc183bd0835e0f66c5b5c685d5ce85ac9b42ad0c1df596ef3dd0bfc1563471e",
+      "published_git_blob": "26d32987afe7bb5a8339da072d4d26f36f286d31",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8014/6152.png",
+      "bytes": 101233,
+      "sha256": "92f6d813e7c288e357e01dcf9c47614b4dd0d2dbc0dbbe85c80b18b5021bf96f",
+      "published_git_blob": "567122430f2071ba7c18eb58ded2b2c168686fcf",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8014/6153.png",
+      "bytes": 103876,
+      "sha256": "c50a44aabf08798566298c16f3b1b0eac3499df2c6a03c19bfc1559a4b14deb6",
+      "published_git_blob": "a7117aedb43f82448af1600cc4eb3aad97139d93",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8014/6154.png",
+      "bytes": 99110,
+      "sha256": "2bcb1639342a9267be2f8c05aa2424ad7f30b6da951ea77bb7489c55f0d1a37e",
+      "published_git_blob": "aea2093227a80e96752f71663d6a8c0db9ea2528",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8014/6155.png",
+      "bytes": 109914,
+      "sha256": "43e058f4c0c8ecf627ed73d3cbeab603afc4169002efce3fc350492636f8d574",
+      "published_git_blob": "9f83c235b84095fc80616847dd2dad59e9c46c72",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8014/6156.png",
+      "bytes": 39340,
+      "sha256": "0cdc5e7676627308f5f833f1bf3fa8e6f3c96115dd785e6f4808df67889e3d48",
+      "published_git_blob": "51ab7da15a72092a26109d51703e2f8caaba441a",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8015/6149.png",
+      "bytes": 37925,
+      "sha256": "0f26afce0e098d7fd5ceac2d499f5fe2dd45d07bf5f8ebbcb54899d28f43598c",
+      "published_git_blob": "8fd9428a82bd3a78b3ca8d8eb98a277fb6904dd8",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8015/6150.png",
+      "bytes": 52405,
+      "sha256": "f90864a817e0a51576cd04681fae84a571a82a88326209f0a69c9d1187c66a87",
+      "published_git_blob": "54f35ecf1dcc113ea8644c3e138c7a6f7f22d9eb",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8015/6151.png",
+      "bytes": 62909,
+      "sha256": "505c43709b71592440a2e84837ed3257f4a5e8acfc453bea915fe25ea2c0ef6b",
+      "published_git_blob": "2ad923c4263629251d82d71c6f672049f56a4a0e",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8015/6152.png",
+      "bytes": 67587,
+      "sha256": "41f96661c8a34ae470ffc64a5507467768643fbd51732876f50e5cd4180af304",
+      "published_git_blob": "0d525d767227ecefed50f2adf5850fed087bcd78",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8015/6153.png",
+      "bytes": 67129,
+      "sha256": "bdfa296bf809d61c9fc9980b8d0fe0b4d17a4dc3de8bf2c69a6dee1bed743942",
+      "published_git_blob": "c52ec23a70eb41abbb3bc319c93fea1697d9f204",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8015/6154.png",
+      "bytes": 66029,
+      "sha256": "25a5e4465ce24755ffda1e714746b56f3fa5c86c2c3c337a1ff826db9f58713e",
+      "published_git_blob": "d3d7e0ed36729b380efee3a9026a1f83e12fc8d2",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8015/6155.png",
+      "bytes": 74320,
+      "sha256": "3ecda6ea4975c2d6cb2137f4654c9d9ec8b46b16ff1bf01fb708e3374f23ae4a",
+      "published_git_blob": "c770146f2a9814c1a485a4e81faa85d0ca9d6c6a",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/data/route-lesson/tiles/14/8015/6156.png",
+      "bytes": 26201,
+      "sha256": "73794ef4bb5905c275f23a152f6ca99afad3c7c5dfbca447f7197322ef84f23e",
+      "published_git_blob": "c843f91fba8eb653c53368ead5083d9134e136a5",
+      "git_checkout_crlf": false
+    },
+    {
       "path": "dist/data/species-relations.json",
       "bytes": 23987,
       "sha256": "01d897903176f31147df9fa7cad9f2825fd6158045532cfa67cef9b8a0dff74c",
@@ -4890,23 +5555,23 @@
     },
     {
       "path": "dist/index.html",
-      "bytes": 16333,
-      "sha256": "88af119cf43728a47fad284020939492a6187c5875fee1cc0c7990e7924a5a5b",
-      "published_git_blob": "b6ffff7970b65f4f204c1becbff945cae90c118c",
+      "bytes": 18438,
+      "sha256": "acc978522f8f8794e771d3ae27037759060e342a9e27f6b3db3a0f53450287aa",
+      "published_git_blob": "8981c894e7d18f6109db9c160ce16bda071647cb",
       "git_checkout_crlf": true
     },
     {
       "path": "dist/journey.css",
-      "bytes": 19980,
-      "sha256": "1e2c2d86cd8cc6cca28b58c7d989e69da29ab400f71e93e978d1fb623311e46b",
-      "published_git_blob": "0df2b12de00c27e18bd5926e32de2502c1e818b3",
+      "bytes": 26948,
+      "sha256": "bc969f37eff526a7a43c3c9f42d9d696f228ef982048b58966ec28e0534afe0a",
+      "published_git_blob": "3f2ae5210b0246565c49d51ca387f70c118ac08f",
       "git_checkout_crlf": true
     },
     {
       "path": "dist/journey.js",
-      "bytes": 12780,
-      "sha256": "4a839f33728bb2de13815cb600bd14f38ce803356e044aeb721a8a6643a0260f",
-      "published_git_blob": "dbe5b28ecbcfa204c3ad6a74afc7ccde3cc8aeff",
+      "bytes": 11469,
+      "sha256": "0421bb4c1ca1ac9ea184095fc524813708c1c9f0fc432129ee34132bf9f835b8",
+      "published_git_blob": "652bc0b8783f6fe718c4e48e7f2e7f9feae64f7e",
       "git_checkout_crlf": true
     },
     {
@@ -4936,6 +5601,20 @@
       "sha256": "5f6a5056163a4b056e5db801333f62a65834905841979c06863d1ca076b6e129",
       "published_git_blob": "c5558ea109a63f58cbceb61978a6befc8788f28e",
       "git_checkout_crlf": false
+    },
+    {
+      "path": "dist/route-lesson-model.js",
+      "bytes": 1744,
+      "sha256": "c2888a0e266a8d4780e0156dc4f87d2b558fd591ac37bbe17c22a3f17a415f50",
+      "published_git_blob": "5abf906853958a5a8173d1f7813e63d506047ddc",
+      "git_checkout_crlf": true
+    },
+    {
+      "path": "dist/route-lesson.js",
+      "bytes": 6902,
+      "sha256": "f2fe6ce06fcd38ed0d6717857b3a23a5413c26e639a794df343e90483c0220ee",
+      "published_git_blob": "4db431d6fd4ad957fe6c300b23d6b32a1633469d",
+      "git_checkout_crlf": true
     },
     {
       "path": "dist/search.js",
@@ -5051,9 +5730,9 @@
     },
     {
       "path": "docs/verificacion.md",
-      "bytes": 4594,
-      "sha256": "b5c3b267bf4271eec8c79228daf7874628fea6f84b516566857a4e61e7a3f845",
-      "published_git_blob": "6688b03b3d1b7f00f649a8fb24a3a96b8304eadf",
+      "bytes": 6480,
+      "sha256": "c0e6aa2608bd3f14552921c089a08dd306987cddd758e1599b2892d634254e47",
+      "published_git_blob": "91b19c1c8a2796fbd88a301d506c937b226166c0",
       "git_checkout_crlf": true
     },
     {
@@ -5107,9 +5786,9 @@
     },
     {
       "path": "scripts/check.mjs",
-      "bytes": 1473,
-      "sha256": "7aa2c441f298280103446c19397a55430a6a014dba5655f4aa6c4842a7fd20d4",
-      "published_git_blob": "13ad0b2d09f59f1e1039fece6d8bc61a6985fad3",
+      "bytes": 1525,
+      "sha256": "f18d42e57d4b9a52283eab84f230a41131de67ffb3214280b21701ccad30687e",
+      "published_git_blob": "60688d50d92ce29671fb1c8de2e713990858b412",
       "git_checkout_crlf": true
     },
     {
@@ -5169,6 +5848,13 @@
       "git_checkout_crlf": true
     },
     {
+      "path": "scripts/prepare_route_terrain.py",
+      "bytes": 7733,
+      "sha256": "8c12fc30630fffd434d955423b057fccb5159d100b38b25b78570a39d360c8ec",
+      "published_git_blob": "1324cd6bc4b16082c1967ea0edc00a399246c2b5",
+      "git_checkout_crlf": true
+    },
+    {
       "path": "scripts/prepare_species_relations.py",
       "bytes": 2210,
       "sha256": "380545ca52f34b4b2bc7c5480252c9f92134ec2512b0ec025b793e2a59c09bca",
@@ -5225,6 +5911,13 @@
       "git_checkout_crlf": true
     },
     {
+      "path": "scripts/test-route-lesson.mjs",
+      "bytes": 1457,
+      "sha256": "a650c4ca04b7ca91bca626382f374e94f13d0cd4bd0126bf8b796fff6cecd710",
+      "published_git_blob": "1f31f3337aa42249008415835703ba0835df6527",
+      "git_checkout_crlf": false
+    },
+    {
       "path": "scripts/validate_atlas.py",
       "bytes": 2044,
       "sha256": "1cbf49dc6341d6b56f3238d2929af1ae5dc1faa47c9add4c7570564eb31dd4cd",
@@ -5233,9 +5926,9 @@
     },
     {
       "path": "scripts/validate_data.py",
-      "bytes": 4967,
-      "sha256": "645435872e8b38a560a8c121ba646b322bc134b3b8bd262d42ecb5272b1e729d",
-      "published_git_blob": "03b90698e7759b6757a9d8480074482dd7229a66",
+      "bytes": 5051,
+      "sha256": "77a4cdedcb68287a91d9cafeb839d2870fa709291ac5d57391a52cd3ba59dab1",
+      "published_git_blob": "b37e5d948608c94e799096939d5ea5c3e3fdbfe6",
       "git_checkout_crlf": true
     },
     {
@@ -5250,6 +5943,13 @@
       "bytes": 1723,
       "sha256": "d3ea507322305a83b6c05391faa686394718f3a9e3aa8cee82db49efb35471fc",
       "published_git_blob": "10da0592a9cf25e5223d741242daa4959ca8b68f",
+      "git_checkout_crlf": false
+    },
+    {
+      "path": "scripts/validate_route_lesson.py",
+      "bytes": 2023,
+      "sha256": "e90c0fbbbeb0395d01246944f5eb790469a6bbe5a622f6d08453cff4008f1ac4",
+      "published_git_blob": "f6010ba6d02ac7eab5924432d2368beebc9397d5",
       "git_checkout_crlf": false
     }
   ]

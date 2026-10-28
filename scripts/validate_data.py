@@ -89,3 +89,5 @@ for r in relations['records']:
     assert all(k in sources for k in r['source_ids'])
 
 runpy.run_path(str(root/'scripts/validate_geographic_reference.py'),run_name='__main__')
+
+runpy.run_path(str(root/'scripts/validate_route_lesson.py'),run_name='__main__')

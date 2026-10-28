@@ -17,7 +17,7 @@ export function runPython(script){
 
 if(process.argv.includes('--database'))runPython('scripts/build_database.py');
 else{
-  for(const file of ['dist/app.js','dist/bootstrap.js','dist/map-markers.js','dist/map-layout.js','dist/album.js','dist/search.js','dist/right-drag.js','dist/entry-route.js','dist/geography.js','dist/i18n.js','dist/cover.js','dist/journey.js','dist/terrain-intro.js','dist/boundaries.js','dist/cinematic-cover.js','dist/terrain-fallback.js']){
+  for(const file of ['dist/app.js','dist/bootstrap.js','dist/map-markers.js','dist/map-layout.js','dist/route-lesson.js','dist/route-lesson-model.js','dist/album.js','dist/search.js','dist/right-drag.js','dist/entry-route.js','dist/geography.js','dist/i18n.js','dist/cover.js','dist/journey.js','dist/terrain-intro.js','dist/boundaries.js','dist/cinematic-cover.js','dist/terrain-fallback.js']){
     const result=spawnSync(process.execPath,['--check',file],{stdio:'inherit'});
     if(result.status!==0)process.exit(result.status??1);
   }

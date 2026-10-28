@@ -42,3 +42,16 @@ La wiki ilustrada es una selección editorial, no una ficha fotográfica de cada
 ## Publicación y recuperación
 
 Se publica en el Site existente conservando su acceso privado. La identificación exacta del despliegue está en PUBLICACION.json de la carpeta principal. La copia del código se conserva en el repositorio privado MarcoFragola/dr-nature-wiki; cada entrega se identifica por etiqueta y por su manifiesto de recuperación.
+
+
+## Revisión 4 · demostración «Del mapa al sendero» · 28/10/2026
+
+La sección explica tres acciones: leer el relieve, consultar el recorrido y preparar la visita. Sus pasos son botones nativos; el scroll cambia suavemente la cámara en escritorio, y en pantallas compactas la selección se hace con los botones sin forzar el scroll. Se conserva la alternativa de movimiento reducido.
+
+Se sustituye exclusivamente el relieve de la demostración por un recorte local IGN WCS con muestreo efectivo de unos 13 m y alturas sin realce. La portada mantiene su DEM, su cámara y sus fuentes. Se retira la frontera administrativa de esta escena para no confundirla con el sendero.
+
+La inspección de la imagen PNOA actual confirmó un empalme fotográfico de color que, en perspectiva, parecía una pared. La escena usa un recorte georreferenciado de la capa oficial PNOA2023 y una cámara que encuadra la ruta dentro de una zona fotográfica consistente. No se inventan montañas ni se retocan píxeles de la ortofoto. Datos, URL y SHA-256 en dist/data/route-lesson/metadata.json; preparación reproducible en scripts/prepare_route_terrain.py.
+
+El GPX de Cotos–Zona del Zabala permanece intacto. Sus puntos de inicio/regreso y destino se señalan sobre la geometría, y los datos de la ficha oficial (4,7 km totales, 1 h 45 min, +279 m) quedan debajo del mapa. El GPX no contiene cotas; el DEM de la escena no se presenta como un perfil de altitud medido del archivo. La ficha actual del parque se contrastó el 28/10/2026.
+
+Comprobaciones: tres nuevas pruebas de geometría, segmentos y cámara con movimiento reducido; validación SHA-256 de GeoTIFF, imagen y 92 teselas locales; alturas finitas y cobertura de toda la ruta. Revisión visual de escritorio y móvil de 375 px, posición de etiquetas y paso al mapa real. Sin revisión de campo ni condiciones en directo.

@@ -1,10 +1,10 @@
 import {TerrainIntro} from './terrain-intro.js';
-import {installBoundaries} from './boundaries.js';
+import {mountRouteLesson} from './route-lesson.js';
 import {mountCinematicCover} from './cinematic-cover.js';
 
 const text={
-  es:{atlasLabel:'ATLAS DE NATURALEZA',introLine:'Relieve. Caminos. Vida natural.',scrollEnter:'Desliza para entrar',independent:'Un atlas independiente',aboutKicker:'EL TERRITORIO, CON CONTEXTO',aboutTitle:'Un atlas de naturaleza.',aboutCopy:'Elige un lugar y entiende lo que lo rodea: sus caminos, el relieve, el agua y la vida que alberga.',aboutMore:'Madrid y sus comunidades vecinas, con escapadas invitadas como el Valle del Jerte. Lugares y visitas documentados, con acceso directo al mapa y a sus fuentes.',naturalPlaces:'espacios naturales',documentedTrails:'rutas documentadas',species:'fichas de vida',seeTerritory:'Ver el territorio',methodKicker:'CÓMO RECORRER EL ATLAS',methodTitle:'Del mapa<br>al sendero.',step1Title:'Mira el terreno',step1Copy:'Gira, inclina y acércate al relieve real. Los límites se dibujan con datos oficiales del IGN.',step2Title:'Lee la ruta',step2Copy:'Consulta distancia, desnivel y dificultad publicada. Las rutas con GPX conservan el trazado original.',step3Title:'Prepara tu salida',step3Copy:'Guarda lugares en tu cuaderno. Revisa accesos, restricciones y fuentes antes de ir.',openThisTrail:'Abrir esta ruta en el mapa',lifeKicker:'MÁS ALLÁ DEL PAISAJE',lifeTitle:'Fauna, flora<br>y ecosistemas.',lifeCopy:'Rasgos, hábitats y el papel de cada especie. Un inventario documentado, sin promesas de avistamiento.',wildlife:'FAUNA',eagle:'Águila imperial ibérica',plants:'FLORA',oak:'Cerezos en flor',meetSpecies:'Abrir el atlas natural',endKicker:'TU SIGUIENTE LUGAR',endTitle:'Elige por dónde empezar.',enterMap:'Entrar en el mapa',endCopy:'Puedes explorar sin cuenta. Tu cuaderno se guarda en este navegador.',sourcesCredits:'Fuentes y créditos',backTop:'Volver arriba ↑',mapLoading:'Cargando relieve real…',mapPhoto:'Vista fotográfica · abre el mapa para explorar'},
-  en:{atlasLabel:'AN ATLAS OF NATURE',introLine:'Terrain. Trails. Natural life.',scrollEnter:'Scroll to enter',independent:'An independent atlas',aboutKicker:'THE LANDSCAPE, IN CONTEXT',aboutTitle:'An atlas of nature.',aboutCopy:'A mountain range, a forest, a lake. Dr Nature connects the landscape with its trails, water and the species that belong to it.',aboutMore:'Madrid and its two neighbouring regions, through a documented selection. Every entry retains its sources.',naturalPlaces:'natural places',documentedTrails:'documented trails',species:'life entries',seeTerritory:'Explore the territory',methodKicker:'HOW TO EXPLORE THE ATLAS',methodTitle:'From the map<br>to the trail.',step1Title:'Look at the terrain',step1Copy:'Rotate, tilt and get closer to real terrain. Boundaries use official IGN vector data.',step2Title:'Read the trail',step2Copy:'Check published distance, ascent and difficulty. Trails with a GPX retain the original geometry.',step3Title:'Prepare your visit',step3Copy:'Save places in your notebook. Review access, restrictions and sources before setting out.',openThisTrail:'Open this trail on the map',lifeKicker:'BEYOND THE LANDSCAPE',lifeTitle:'Wildlife, plants<br>and ecosystems.',lifeCopy:'Traits, habitats and the role of each species. A documented inventory, with no promise of sightings.',wildlife:'WILDLIFE',eagle:'Spanish imperial eagle',plants:'PLANTS',oak:'Cherry blossom',meetSpecies:'Open the nature atlas',endKicker:'YOUR NEXT PLACE',endTitle:'Choose where to begin.',enterMap:'Enter the map',endCopy:'Explore without an account. Your notebook stays in this browser.',sourcesCredits:'Sources and credits',backTop:'Back to top ↑',mapLoading:'Loading real terrain…',mapPhoto:'Photographic view · open the map to explore'}
+  es:{atlasLabel:'ATLAS DE NATURALEZA',introLine:'Relieve. Caminos. Vida natural.',scrollEnter:'Desliza para entrar',independent:'Un atlas independiente',aboutKicker:'EL TERRITORIO, CON CONTEXTO',aboutTitle:'Un atlas de naturaleza.',aboutCopy:'Elige un lugar y entiende lo que lo rodea: sus caminos, el relieve, el agua y la vida que alberga.',aboutMore:'Madrid y sus comunidades vecinas, con escapadas invitadas como el Valle del Jerte. Lugares y visitas documentados, con acceso directo al mapa y a sus fuentes.',naturalPlaces:'espacios naturales',documentedTrails:'rutas documentadas',species:'fichas de vida',seeTerritory:'Ver el territorio',methodKicker:'CÓMO RECORRER EL ATLAS',methodTitle:'Del mapa<br>al sendero.',step1Title:'Mira el terreno',step1Copy:'Observa las laderas y el circo de Peñalara. Este relieve conserva las alturas reales del IGN.',step2Title:'Lee la ruta',step2Copy:'Sigue el GPX de Cotos a la zona del Zabala y de vuelta al inicio. Comprueba distancia, tiempo y dificultad.',step3Title:'Prepara tu salida',step3Copy:'Abre la ficha, revisa cupos y meteorología y guarda la ruta en tu cuaderno antes de ir.',methodIntro:'Del relieve a los datos de la ruta, y de ahí a los preparativos de tu visita.',methodRouteName:'Cotos — Zona del Zabala',methodScope:'Ida y vuelta · Sierra de Guadarrama',methodTime:'Tiempo',methodAscent:'Desnivel',methodDistance:'Distancia total',methodSource:'Ficha del Parque Nacional',openThisTrail:'Abrir la ruta y sus detalles',lifeKicker:'MÁS ALLÁ DEL PAISAJE',lifeTitle:'Fauna, flora<br>y ecosistemas.',lifeCopy:'Rasgos, hábitats y el papel de cada especie. Un inventario documentado, sin promesas de avistamiento.',wildlife:'FAUNA',eagle:'Águila imperial ibérica',plants:'FLORA',oak:'Cerezos en flor',meetSpecies:'Abrir el atlas natural',endKicker:'TU SIGUIENTE LUGAR',endTitle:'Elige por dónde empezar.',enterMap:'Entrar en el mapa',endCopy:'Puedes explorar sin cuenta. Tu cuaderno se guarda en este navegador.',sourcesCredits:'Fuentes y créditos',backTop:'Volver arriba ↑',mapLoading:'Cargando relieve real…',mapPhoto:'Vista fotográfica · abre el mapa para explorar'},
+  en:{atlasLabel:'AN ATLAS OF NATURE',introLine:'Terrain. Trails. Natural life.',scrollEnter:'Scroll to enter',independent:'An independent atlas',aboutKicker:'THE LANDSCAPE, IN CONTEXT',aboutTitle:'An atlas of nature.',aboutCopy:'A mountain range, a forest, a lake. Dr Nature connects the landscape with its trails, water and the species that belong to it.',aboutMore:'Madrid and its two neighbouring regions, through a documented selection. Every entry retains its sources.',naturalPlaces:'natural places',documentedTrails:'documented trails',species:'life entries',seeTerritory:'Explore the territory',methodKicker:'HOW TO EXPLORE THE ATLAS',methodTitle:'From the map<br>to the trail.',step1Title:'Look at the terrain',step1Copy:'Read Peñalara’s slopes and glacial cirque. This terrain retains the official IGN elevations.',step2Title:'Read the trail',step2Copy:'Follow the GPX from Cotos to the Zabala area and back. Check distance, time and difficulty.',step3Title:'Prepare your visit',step3Copy:'Open the entry, check access quotas and weather, and save the trail in your notebook before setting out.',methodIntro:'From the terrain to trail information, then to the preparations for your visit.',methodRouteName:'Cotos — Zabala area',methodScope:'Out and back · Sierra de Guadarrama',methodTime:'Time',methodAscent:'Ascent',methodDistance:'Total distance',methodSource:'National Park description',openThisTrail:'Open the trail and its details',lifeKicker:'BEYOND THE LANDSCAPE',lifeTitle:'Wildlife, plants<br>and ecosystems.',lifeCopy:'Traits, habitats and the role of each species. A documented inventory, with no promise of sightings.',wildlife:'WILDLIFE',eagle:'Spanish imperial eagle',plants:'PLANTS',oak:'Cherry blossom',meetSpecies:'Open the nature atlas',endKicker:'YOUR NEXT PLACE',endTitle:'Choose where to begin.',enterMap:'Enter the map',endCopy:'Explore without an account. Your notebook stays in this browser.',sourcesCredits:'Sources and credits',backTop:'Back to top ↑',mapLoading:'Loading real terrain…',mapPhoto:'Photographic view · open the map to explore'}
 };
 const clamp=(v,a=0,b=1)=>Math.max(a,Math.min(b,v));
 
@@ -16,8 +16,9 @@ export function mountJourney({catalogue,lang='es'}){
   const canvas=document.querySelector('#intro-terrain');
   const terrain=new TerrainIntro(canvas);
   const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
-  let currentLang=lang,mapOpen=false,frame=0,methodMap=null,methodMapReady=false,methodVisible=false;
-  let methodProgress=0,routeCoordinates=[],mapRequested=false,cinematic=null,coverRequested=false,coverVisible=false;
+  let currentLang=lang,mapOpen=false,frame=0,methodVisible=false;
+  let methodProgress=0,cinematic=null,coverRequested=false,coverVisible=false;
+  const lesson=mountRouteLesson({host:document.querySelector('#story-real-map'),lang,reduced});
 
   document.body.classList.add('js-story');
   const reveal=new IntersectionObserver(entries=>entries.forEach(e=>{
@@ -26,8 +27,17 @@ export function mountJourney({catalogue,lang='es'}){
   document.querySelectorAll('[data-reveal]').forEach(el=>reveal.observe(el));
 
   for(const step of steps){
-    const go=()=>{const i=Number(step.dataset.step),top=method.getBoundingClientRect().top+scrollY;window.scrollTo({top:top+(method.offsetHeight-innerHeight)*(i+.3)/3,behavior:reduced?'instant':'smooth'});};
-    step.addEventListener('click',go);step.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();go();}});
+    step.addEventListener('click',()=>{
+      const i=Number(step.dataset.step),progress=(i+.5)/3;
+      if(!reduced&&innerWidth>900&&innerHeight>650){
+        const top=method.getBoundingClientRect().top+scrollY;
+        window.scrollTo({top:top+Math.max(0,method.offsetHeight-innerHeight)*progress,behavior:'smooth'});
+      }else{
+        methodProgress=progress;
+        steps.forEach((button,index)=>{button.classList.toggle('active',index===i);button.setAttribute('aria-pressed',String(index===i));});
+        lesson.setProgress(progress,i,true);
+      }
+    });
   }
 
   async function initCinematicCover(){
@@ -48,49 +58,21 @@ export function mountJourney({catalogue,lang='es'}){
     const images=document.querySelectorAll('.story-content img');
     const alts=currentLang==='es'?['Lobos en semilibertad en el Centro del Lobo Ibérico. Fotografía de Marco.','Águila imperial ibérica','Cerezos en flor en el Valle del Jerte, fotografía aportada por Marco']:['Wolves in a managed enclosure at the Iberian Wolf Centre. Photograph by Marco.','Spanish imperial eagle','Cherry blossom in Valle del Jerte, photograph supplied by Marco'];
     images.forEach((img,i)=>{if(alts[i])img.alt=alts[i];});
-    document.querySelector('#story-real-map').setAttribute('aria-label',currentLang==='es'?'Relieve real y trazado oficial Cotos–Zabala':'Real terrain and official Cotos–Zabala trail');
-  }
-
-  function updateMethodCamera(){
-    if(!methodMapReady||!methodVisible||mapOpen||!routeCoordinates.length)return;
-    const p=reduced?.3:methodProgress;
-    const index=clamp(p*.8+.08)*(routeCoordinates.length-1),i=Math.floor(index),t=index-i;
-    const a=routeCoordinates[i],b=routeCoordinates[Math.min(i+1,routeCoordinates.length-1)];
-    const center=[a[0]+(b[0]-a[0])*t,a[1]+(b[1]-a[1])*t];
-    methodMap.jumpTo({center,zoom:13.05+p*.35,pitch:45+p*7,bearing:-25+p*33});
-  }
-
-  async function initMethodMap(){
-    if(mapRequested)return;mapRequested=true;
-    const host=document.querySelector('#story-real-map'),credit=document.querySelector('.method-map-credit');
-    credit.textContent=text[currentLang].mapLoading;
-    try{
-      const response=await fetch('data/tracks/penalara-zabala.geojson');if(!response.ok)throw Error('Track unavailable');
-      const feature=await response.json();
-      const getCoords=f=>f.type==='Feature'?getCoords(f.geometry):f.type==='FeatureCollection'?f.features.flatMap(getCoords):f.type==='LineString'?f.coordinates:f.type==='MultiLineString'?f.coordinates.flat():[];
-      routeCoordinates=getCoords(feature);
-      const tiles='https://www.ign.es/wmts/pnoa-ma?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=OI.OrthoimageCoverage&STYLE=default&FORMAT=image/jpeg&TILEMATRIXSET=GoogleMapsCompatible&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}';
-      methodMap=new maplibregl.Map({container:host,interactive:false,terrainSkirtLength:'none',attributionControl:false,center:routeCoordinates[0],zoom:12.5,pitch:59,bearing:-22,maxPitch:70,canvasContextAttributes:{antialias:true},style:{version:8,sources:{aerial:{type:'raster',tiles:[tiles],tileSize:256,maxzoom:19},elevation:{type:'raster-dem',tiles:['data/terrain/tiles/{z}/{x}/{y}.png'],tileSize:256,encoding:'terrarium',minzoom:6,maxzoom:10,bounds:[-4.9,39.65,-2.75,41.45]}},layers:[{id:'background',type:'background',paint:{'background-color':'#132a23'}},{id:'imagery',type:'raster',source:'aerial',paint:{'raster-saturation':-.35,'raster-brightness-max':.75,'raster-contrast':.12}}],terrain:{source:'elevation',exaggeration:1.5}}});
-      methodMap.on('load',()=>{
-        methodMapReady=true;
-        methodMap.addSource('story-official-trail',{type:'geojson',data:feature});
-        methodMap.addLayer({id:'story-trail-shadow',type:'line',source:'story-official-trail',paint:{'line-color':'#06150e','line-width':7,'line-opacity':.8}});
-        methodMap.addLayer({id:'story-trail',type:'line',source:'story-official-trail',layout:{'line-cap':'round','line-join':'round'},paint:{'line-color':'#e6efcb','line-width':3,'line-opacity':1}});
-        void installBoundaries(methodMap);updateMethodCamera();
-      });
-      methodMap.on('sourcedata',e=>{if(e.sourceId==='aerial'&&e.sourceDataType==='content')credit.textContent='PNOA / IGN · MDT IGN ~180 m · ×1,5 · GPX PNSG';});
-      new ResizeObserver(()=>methodMap?.resize()).observe(host);
-    }catch(error){
-      credit.textContent=text[currentLang].mapPhoto;
-      if(!methodMapReady){methodMap?.remove();methodMap=null;host.replaceChildren();}
-      console.warn('Story terrain:',error.message);
+    document.querySelector('#story-real-map').setAttribute('aria-label',currentLang==='es'?'Relieve local IGN y GPX oficial de Cotos a la zona del Zabala, ida y vuelta':'Local IGN terrain and official out-and-back GPX from Cotos to the Zabala area');
+    lesson.setLanguage(currentLang);
+    document.querySelector('.method-steps').setAttribute('aria-label',currentLang==='es'?'Pasos para explorar':'Steps for exploring');
+    const example=catalogue.routes.find(route=>route.id==='penalara-zabala'),number=new Intl.NumberFormat(currentLang,{maximumFractionDigits:1});
+    if(example){
+      document.querySelector('[data-method-fact=distance]').innerHTML=`${number.format(example.distance_km)} <span>km</span>`;
+      document.querySelector('[data-method-fact=duration]').innerHTML=`${Math.floor(example.duration_minutes/60)} h ${example.duration_minutes%60} <span>min</span>`;
+      document.querySelector('[data-method-fact=ascent]').innerHTML=example.ascent_m===null?'—':`+${number.format(example.ascent_m)} <span>m</span>`;
     }
   }
 
   const visibility=new IntersectionObserver(entries=>entries.forEach(e=>{
     if(e.target===introSection)terrain.setVisible(e.isIntersecting&&!mapOpen);
     if(e.target===atlas){coverVisible=e.isIntersecting;if(coverVisible)void initCinematicCover();cinematic?.setVisible(coverVisible&&!mapOpen);}
-    if(e.target===method){methodVisible=e.isIntersecting;if(methodVisible){void initMethodMap();updateMethodCamera();}}
+    if(e.target===method){methodVisible=e.isIntersecting;lesson.setVisible(methodVisible&&!mapOpen);}
   }),{rootMargin:'180px 0px'});
   visibility.observe(introSection);visibility.observe(atlas);visibility.observe(method);
 
@@ -103,14 +85,14 @@ export function mountJourney({catalogue,lang='es'}){
     const a=atlas.getBoundingClientRect(),hud=reduced?1:clamp((vh-a.top)/(vh*.75));
     atlas.style.setProperty('--hud-opacity',hud);
     const m=method.getBoundingClientRect();
-    methodProgress=clamp(-m.top/Math.max(1,method.offsetHeight-vh));
+    if(!reduced&&innerWidth>900&&innerHeight>650)methodProgress=clamp(-m.top/Math.max(1,method.offsetHeight-vh));
     method.style.setProperty('--method-progress',reduced?1:methodProgress);
-    const active=Math.min(2,Math.floor(methodProgress*3));steps.forEach((s,i)=>s.classList.toggle('active',i===active||reduced));
+    const active=Math.min(2,Math.floor(methodProgress*3));steps.forEach((s,i)=>{s.classList.toggle('active',i===active);s.setAttribute('aria-pressed',String(i===active));});
     if(!reduced)document.querySelectorAll('[data-parallax]').forEach(el=>{
       const r=el.getBoundingClientRect();
       if(r.top<vh&&r.bottom>0)el.style.setProperty('--photo-offset',`${(clamp((vh-r.top)/(vh+r.height))-.5)*60}px`);
     });
-    updateMethodCamera();
+    lesson.setProgress(methodProgress,active);
   }
   function schedule(){if(!frame)frame=requestAnimationFrame(draw);}
   window.addEventListener('scroll',schedule,{passive:true});window.addEventListener('resize',schedule);
@@ -121,8 +103,8 @@ export function mountJourney({catalogue,lang='es'}){
   schedule();
   return {
     setLanguage,
-    openMap(){mapOpen=true;document.body.classList.add('map-active');terrain.setVisible(false);cinematic?.setVisible(false);methodMap?.stop();},
-    closeMap(){mapOpen=false;document.body.classList.remove('map-active');atlas.scrollIntoView({behavior:'instant',block:'start'});cinematic?.setVisible(true);cinematic?.resize();schedule();},
-    destroy(){terrain.destroy();cinematic?.destroy();methodMap?.remove();visibility.disconnect();reveal.disconnect();window.removeEventListener('scroll',schedule);window.removeEventListener('resize',schedule);if(frame)cancelAnimationFrame(frame);}
+    openMap(){mapOpen=true;document.body.classList.add('map-active');terrain.setVisible(false);cinematic?.setVisible(false);lesson.setVisible(false);},
+    closeMap(){mapOpen=false;document.body.classList.remove('map-active');atlas.scrollIntoView({behavior:'instant',block:'start'});cinematic?.setVisible(true);cinematic?.resize();lesson.setVisible(methodVisible);schedule();},
+    destroy(){terrain.destroy();cinematic?.destroy();lesson.destroy();visibility.disconnect();reveal.disconnect();window.removeEventListener('scroll',schedule);window.removeEventListener('resize',schedule);if(frame)cancelAnimationFrame(frame);}
   };
 }

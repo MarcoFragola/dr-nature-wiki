@@ -1,6 +1,6 @@
 # Restaurar Dr Nature wiki
 
-Copia privada del código y los datos de la versión 3 publicada en ChatGPT Sites.
+Copia privada del código y los datos de la versión 4 publicada en ChatGPT Sites.
 COPIA_DE_SEGURIDAD.json identifica el commit de origen y los SHA-256 de sus archivos. La regla .gitattributes conserva los bytes y las sumas de comprobación al clonar en otros sistemas.
 
 ## Ejecutar
@@ -11,7 +11,7 @@ Con Node.js instalado, abre una terminal en esta carpeta y ejecuta:
 npm start
 ```
 
-Abre http://127.0.0.1:8080/. La web no necesita paquetes de npm ni claves API para navegar. Python 3 permite ejecutar `npm run check` y `npm run database`.
+Abre http://127.0.0.1:8080/. La web no necesita paquetes de npm ni claves API para navegar. Python 3 con numpy y Pillow permite ejecutar `npm run check` y `npm run database`.
 
 ## Alcance
 

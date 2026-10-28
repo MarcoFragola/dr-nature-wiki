@@ -73,3 +73,56 @@ body:not(.exploring) .scene-location,body:not(.exploring) .view-switch,.hero-sec
 @media(max-width:1000px){.method-sticky{gap:4%;grid-template-columns:minmax(260px,.8fr) minmax(0,1.2fr)}.method-steps p{font-size:11px}.method-map-caption{align-items:flex-start;flex-direction:column;gap:5px}.wolf-photo .photo-caption strong{font-size:21px}}
 @media(max-width:700px){.story-about{padding:65px 6%;gap:32px;min-height:0}.wolf-photo{height:70svh;min-height:440px;max-height:650px}.story-about h2{font-size:42px}.wolf-photo .photo-caption{left:20px;right:20px;bottom:20px}.wolf-photo .photo-caption strong{font-size:24px}.story-method{height:auto;min-height:0}.method-sticky{position:relative;display:flex;padding:65px 6%;height:auto;min-height:0;gap:27px}.method-copy h2{font-size:41px;margin-bottom:24px}.method-steps li{opacity:1;padding:17px 0}.method-steps p{font-size:12px;max-width:none}.method-visual{width:100%}.method-map-frame{height:55svh;min-height:350px}.method-map-caption{flex-direction:row;align-items:center;font-size:11px}.method-map-caption>span:last-child{font-size:9px}.method-map-credit{font-size:7px}.method-steps li.active{padding-left:12px}}
 @media(prefers-reduced-motion:reduce){.story-method{height:auto;min-height:0}.method-sticky{position:relative}}
+
+/* A local route lesson. The approved cover above keeps its own art direction. */
+.story-method{height:175svh;min-height:1100px}
+.method-sticky{height:100svh;min-height:660px;padding:34px 5%;grid-template-columns:minmax(0,.85fr) minmax(0,1.25fr);gap:6%}
+.method-copy{min-width:0}.method-copy h2{font-size:clamp(38px,4.2vw,60px);margin-bottom:18px}
+.story-content .method-intro{font-size:13px;line-height:1.7;color:#b7c6b9;margin-bottom:23px;max-width:355px}
+.method-steps{border-top:1px solid #bdcbb22e;gap:0}
+.method-steps li,.method-steps li.active{display:block;border:0;padding:0;opacity:1;background:none;cursor:default}
+.method-steps button{display:flex;align-items:flex-start;width:100%;gap:17px;min-height:90px;border:0;border-bottom:1px solid #bdcbb22e;border-left:2px solid transparent;border-radius:0;padding:17px 10px 17px 10px;background:transparent;color:#a8baa9;text-align:left;opacity:.72;transition:background .2s,opacity .2s}
+.method-steps button>span:first-child{font-size:11px;line-height:1.6;padding-top:1px;color:#c3d4b2}
+.method-steps button.active{opacity:1;background:#d5eca408;border-left-color:#d5eca4}
+.method-steps button:hover{opacity:1;background:#d5eca409}.method-steps button:focus-visible{outline:2px solid #d5eca4;outline-offset:3px}
+.method-step-copy{display:flex;flex-direction:column;gap:7px}.method-step-copy strong{font-size:15px;line-height:1.4;font-weight:600;color:#edf2e7}
+.method-step-copy>span{font-size:12px;line-height:1.65;max-width:335px}
+.method-visual{margin:0;min-width:0;width:100%;transform:none!important}
+.method-map-frame{height:clamp(280px,45svh,510px);min-height:0;border-radius:10px 10px 0 0;border:1px solid #bcd0b32b;background:#142b24;isolation:isolate}
+#story-real-map{background:none}
+.method-map-frame .maplibregl-canvas-container,.method-map-frame .maplibregl-marker{opacity:0;transition:opacity .35s}
+.method-map-frame[data-state=ready] .maplibregl-canvas-container,.method-map-frame[data-state=ready] .maplibregl-marker{opacity:1}
+.method-map-topline{padding:17px 20px;font-size:9px;letter-spacing:1.4px;background:linear-gradient(#061810e0,transparent);pointer-events:none}
+.method-scene-caption{position:absolute;left:0;right:0;bottom:0;z-index:2;padding:29px 20px 15px;background:linear-gradient(transparent,#081b16ed);pointer-events:none}
+#method-scene-status{font-size:10px;letter-spacing:.8px;color:#e7efda}
+.story-content #method-scene-description{font-size:11px;line-height:1.55;color:#bdcdbb;max-width:none;margin:6px 0 0;text-wrap:pretty}
+.method-route-card{padding:17px 20px 13px;background:#10221d;border:1px solid #bcd0b32b;border-top:0;border-radius:0 0 10px 10px}
+.method-route-heading{display:flex;justify-content:space-between;gap:15px;align-items:center}
+.method-route-heading h3{font-size:17px;line-height:1.4;letter-spacing:-.3px;font-weight:500;color:#f1f3e9;margin:0}
+.story-content .method-route-heading p{font-size:11px;line-height:1.6;margin:5px 0 0;color:#a5baa9;max-width:none}
+.method-route-heading>svg{height:24px;width:24px;color:#c7ddb3;stroke-width:1.2;flex-shrink:0}
+.method-route-facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:15px 0 12px;padding:14px 0 0;border-top:1px solid #bdcbb226}
+.method-route-facts dt{font-size:10px;color:#a7bda9;line-height:1.5}.method-route-facts dd{margin:4px 0 0;font-size:19px;color:#eef3e3;line-height:1.4;letter-spacing:-.3px}
+.method-route-facts dd span{font-size:11px;color:#b7c8b4;letter-spacing:0}
+.method-source-row{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;font-size:9px;color:#91aa96;line-height:1.6}
+.method-source-row a{color:#c5d9b8;text-decoration:underline;text-underline-offset:3px;padding:6px 0}
+.story-content .method-map-credit{position:static;margin:7px 0 0;max-width:none;font-size:8px;line-height:1.5;color:#91aa96;text-shadow:none;letter-spacing:0}
+.method-visual>.story-link{font-size:12px;min-height:48px;margin-top:5px}
+.lesson-pin{display:flex;align-items:center;gap:7px;padding-bottom:7px;pointer-events:none;white-space:nowrap;filter:drop-shadow(0 1px 4px #000b)}
+.lesson-pin b{display:grid;place-items:center;width:20px;height:20px;border-radius:50%;background:#e4f1b4;color:#14291c;border:2px solid #203d2b;font-size:10px}
+.lesson-pin span{padding:5px 8px;border:1px solid #c5d9b873;border-radius:5px;background:#0c211de8;font-size:10px;color:#eef5e4;line-height:1.4}
+.lesson-start{flex-direction:row-reverse;transform-origin:center bottom}.lesson-turn b{background:#eff3e7}
+.method-map-frame[data-state=unavailable] .method-scene-caption{padding-top:100px}.method-map-frame[data-state=unavailable] #method-scene-status{font-size:13px;letter-spacing:0;line-height:1.7}
+@media(max-width:1050px){.method-sticky{gap:4%;padding-left:4%;padding-right:4%}.method-step-copy>span{font-size:11px}.method-route-heading h3{font-size:16px}}
+@media(max-width:900px),(max-height:650px){.story-method{height:auto;min-height:0}.method-sticky{position:relative;display:grid;grid-template-columns:minmax(0,1fr);height:auto;min-height:0;padding:60px 6%;gap:30px}.method-copy h2{font-size:42px}.story-content .method-intro{max-width:570px;font-size:14px}.method-step-copy>span{max-width:none;font-size:13px}.method-steps button{min-height:85px}.method-map-frame{height:clamp(300px,52svh,460px)}.method-route-heading h3{font-size:18px}.method-source-row{font-size:10px}.method-map-topline{font-size:9px}.method-source-row a{min-height:44px;display:flex;align-items:center}.method-visual>.story-link{font-size:13px}}
+@media(max-width:430px){.method-sticky{padding:52px 6%;gap:26px}.method-copy h2{font-size:39px}.method-steps button{gap:12px;padding:16px 8px}.method-map-frame{height:380px;max-height:57svh;min-height:300px}.method-route-card{padding:16px}.method-route-facts{gap:8px}.method-route-facts dd{font-size:18px}.method-route-heading h3{font-size:16px}.method-map-topline{font-size:8px;letter-spacing:.8px;padding:16px}.method-scene-caption{padding-left:16px;padding-right:16px}.lesson-pin span{font-size:9px;padding:4px 6px}.lesson-pin b{width:18px;height:18px;font-size:9px}.method-route-facts dt{font-size:9px}}
+@media(prefers-reduced-motion:reduce){.story-method{height:auto;min-height:0}.method-sticky{position:relative}.method-steps button,.method-map-frame .maplibregl-canvas-container,.method-map-frame .maplibregl-marker{transition:none}}
+
+/* Keep the complete local surface in view; pin centres coincide with GPX points. */
+@media(min-width:901px) and (min-height:651px){.method-map-frame{height:clamp(320px,52svh,500px)}}
+.lesson-pin{position:absolute;width:0;height:0;padding:0;display:block;filter:drop-shadow(0 1px 3px #000a)}
+.lesson-pin b{position:absolute;left:0;top:0;transform:translate(-50%,-50%)}
+.lesson-pin span{position:absolute;top:-11px;left:16px}
+.lesson-start span{left:auto;right:16px}
+
+@media(max-width:430px){.lesson-start span{right:auto;left:14px}}
