@@ -14,22 +14,11 @@ Usaría **GPT‑6 Astra, High o Extra High**, para decisiones difíciles de arqu
 
 Fuente oficial: https://learn.chatgpt.com/docs/models . No necesitas una API de IA en la web publicada para que los visitantes exploren mapas y fichas: el proyecto entregado no hace inferencias ni consume una clave de OpenAI.
 
-## Recomendación de alojamiento
+## Alojamiento actual
 
-Para esta edición estática elegiría **GitHub para versionar el código y Cloudflare Pages para servir `dist/`**. GitHub Pages es una alternativa estática. No hace falta contratar una máquina permanente para esta versión. Antes de elegir plan, revisa los límites actuales, tráfico, condiciones comerciales y condiciones de los proveedores de cartografía. No se garantiza coste cero de un producto ampliado.
+El código está en [GitHub](https://github.com/MarcoFragola/dr-nature-wiki) y la web pública está en [Netlify](https://dr-nature-wiki.netlify.app/). La carpeta `dist/` contiene el sitio estático listo para publicar.
 
-1. Crea un repositorio propio y sube el código completo, sin claves, GPX personales ni archivos `.env`. El ZIP entregado no contiene credenciales.
-2. Conecta ese repositorio a Cloudflare Pages, selecciona un proyecto estático y la carpeta de salida `dist`. No se necesita compilación; si la interfaz exige un comando, utiliza un comando inocuo como `exit 0`, según la documentación vigente.
-3. Abre la URL generada y comprueba teselas, fuentes, rutas, idioma, favoritos e importación GPX en un navegador con WebGL y en móvil.
-4. Añade un dominio propio desde el panel del alojamiento y configura DNS/HTTPS según sus instrucciones. Esta entrega no compra un dominio ni crea una cuenta en esos proveedores.
-5. Mantén cambios por commits, revisión de contenido, copias de seguridad y fecha de consulta. Para recibir público amplio, revisa límites y continuidad de los servicios de mapas; un servicio público de teselas no equivale a una garantía de disponibilidad.
-
-Documentación de alojamiento:
-
-- Cloudflare Pages, HTML estático: https://developers.cloudflare.com/pages/framework-guides/deploy-anything/
-- GitHub Pages: https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages
-
-El despliegue privado de Sites que acompaña esta entrega permite revisar el resultado. Un repositorio de Sites no es tu cuenta de GitHub; el ZIP te permite llevarte el proyecto y crear allí su historial.
+Para actualizar la web, sube `dist/` a la sección de despliegues del [proyecto de Netlify](https://app.netlify.com/projects/dr-nature-wiki/deploys). Después abre el sitio y comprueba el mapa, las rutas y la vista móvil.
 
 ## Hacia una base de conocimiento extensa
 

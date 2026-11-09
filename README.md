@@ -31,6 +31,10 @@ node --test scripts/test-*.mjs
 
 La comprobación de datos utiliza Python 3 con NumPy y Pillow. La carpeta `dist/` contiene la versión lista para publicar en Netlify. `data/catalogue.sqlite` es una exportación de consulta y `scripts/` contiene las herramientas de preparación y validación.
 
+## Publicación en Netlify
+
+Para actualizar el sitio, sube `dist/` a [los despliegues del proyecto](https://app.netlify.com/projects/dr-nature-wiki/deploys). La publicación actual es manual y el sitio estático viene preparado en esa carpeta.
+
 ## Créditos y licencias
 
 El [código usa la licencia MIT](LICENSE). Las fotografías, la cartografía y los GPX conservan las licencias y créditos de sus fuentes. Consulta los [créditos fotográficos](docs/creditos-fotografias.md), la [procedencia cartográfica](docs/geografia.md) y los [metadatos de la demostración de Cotos](dist/data/route-lesson/metadata.json).

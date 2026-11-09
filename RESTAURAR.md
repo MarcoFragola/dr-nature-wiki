@@ -1,6 +1,6 @@
 # Restaurar Dr Nature wiki
 
-Copia privada del código y los datos de la versión 4 publicada en ChatGPT Sites.
+La etiqueta `site-v4` conserva la copia histórica del código y los datos. La rama `main` documenta la publicación actual en Netlify.
 COPIA_DE_SEGURIDAD.json identifica el commit de origen y los SHA-256 de sus archivos. La regla .gitattributes conserva los bytes y las sumas de comprobación al clonar en otros sistemas.
 
 ## Ejecutar
@@ -19,4 +19,4 @@ Incluye código, fotografías y créditos, cartografía IGN/MITECO, inventario n
 
 El cuaderno personal se guarda en el navegador y se exporta desde la web; no forma parte del código. La cartografía remota depende de sus proveedores.
 
-.openai/hosting.json identifica el Site original y no contiene credenciales. Esta copia no configura publicación automática ni GitHub Pages.
+La web se publica desde `dist/` mediante una carga manual en el [proyecto de Netlify](https://app.netlify.com/projects/dr-nature-wiki/deploys). La referencia histórica de `COPIA_DE_SEGURIDAD.json` corresponde a la etiqueta `site-v4`.
